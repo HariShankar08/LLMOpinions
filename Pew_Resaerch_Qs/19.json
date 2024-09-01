@@ -1,0 +1,32 @@
+{
+  "main_question": "Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Completely agree"
+    },
+    {
+      "id": 2,
+      "text": "Mostly agree"
+    },
+    {
+      "id": 3,
+      "text": "Mostly disagree"
+    },
+    {
+      "id": 3,
+      "text": "Completely disagree"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

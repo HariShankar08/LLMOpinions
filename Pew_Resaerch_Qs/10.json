@@ -1,0 +1,43 @@
+{
+  "main_question": "In India today, how free are ",
+  "sub_questions": [
+    {
+      "id": "a",
+      "text": "people of other religions to practice their religion"
+    },
+    {
+      "id": "b",
+      "text": "you to practice your religion"
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Very free"
+    },
+    {
+      "id": 2,
+      "text": "Somewhat free"
+    },
+    {
+      "id": 3,
+      "text": "Not too free"
+    },
+    {
+      "id": 4,
+      "text": "Not at all free"
+    },
+    {
+      "id": 5,
+      "text": "Not religious/Do not practice religion/Other/Depends"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

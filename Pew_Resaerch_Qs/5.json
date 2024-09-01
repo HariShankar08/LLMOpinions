@@ -1,0 +1,32 @@
+{
+  "main_question": "How important is it for women to have the same rights as men?",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Very important"
+    },
+    {
+      "id": 2,
+      "text": "Somewhat important"
+    },
+    {
+      "id": 3,
+      "text": "Not too important "
+    },
+    {
+      "id": 4,
+      "text": "Not at all important"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

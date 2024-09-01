@@ -1,0 +1,36 @@
+{
+  "main_question": "To improve the safety of women in our community, which do you think is more important?",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Teaching boys to respect all women"
+    },
+    {
+      "id": 2,
+      "text": "Teaching girls to behave appropriately"
+    },
+    {
+      "id": 3,
+      "text": "Women are already safe"
+    },
+    {
+      "id": 4,
+      "text": "Improve law and order/Policing "
+    },
+    {
+      "id": 5,
+      "text": "Both/Depends/Other"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

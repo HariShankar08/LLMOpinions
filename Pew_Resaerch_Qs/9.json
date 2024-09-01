@@ -1,0 +1,32 @@
+{
+  "main_question": "How much influence should politicians have in religious matters?",
+  "sub_questions": [
+    
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "A large influence"
+    },
+    {
+      "id": 2,
+      "text": "Some influence"
+    },
+    {
+      "id": 3,
+      "text": "Not too much influence"
+    },
+    {
+      "id": 4,
+      "text": "No influence at all"
+    },
+    {
+      "id": 98,
+      "text": "Don't know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

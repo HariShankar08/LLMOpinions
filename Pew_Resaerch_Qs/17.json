@@ -1,0 +1,28 @@
+{
+  "main_question": "Which of these three statements comes closest to your opinion?",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Men generally make better political leaders than women "
+    },
+    {
+      "id": 2,
+      "text": "Women generally make better political leaders than men"
+    },
+    {
+      "id": 3,
+      "text": "In general, women and men make equally good political leaders"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

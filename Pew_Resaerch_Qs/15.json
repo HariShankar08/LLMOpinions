@@ -1,0 +1,39 @@
+{
+  "main_question": "Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  ",
+  "sub_questions": [
+    {
+      "id": "a",
+      "text": "A wife must always obey her husband"
+    },
+    {
+      "id": "b",
+      "text": "When there are few jobs, men should have more rights to a job than women"
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Completely agree"
+    },
+    {
+      "id": 2,
+      "text": "Mostly agree"
+    },
+    {
+      "id": 3,
+      "text": "Mostly disagree"
+    },
+    {
+      "id": 4,
+      "text": "Completely disagree "
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "main_question": "Do you think having an abortion should be ...",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Legal in all cases"
+    },
+    {
+      "id": 2,
+      "text": "Legal in most cases"
+    },
+    {
+      "id": 3,
+      "text": "Illegal in most cases "
+    },
+    {
+      "id": 4,
+      "text": "Illegal in all cases"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

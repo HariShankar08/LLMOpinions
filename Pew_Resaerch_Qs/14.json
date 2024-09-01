@@ -1,0 +1,43 @@
+{
+  "main_question": "In a family, who should be primarily responsible for ",
+  "sub_questions": [
+    {
+      "id": "a",
+      "text": "earning money"
+    },
+    {
+      "id": "b",
+      "text": "taking care of children"
+    },
+    {
+      "id": "c",
+      "text": "making decisions about expenses"
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Men"
+    },
+    {
+      "id": 2,
+      "text": "Women"
+    },
+    {
+      "id": 3,
+      "text": "Both"
+    },
+    {
+      "id": 4,
+      "text": "Depends/Other "
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

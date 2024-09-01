@@ -1,0 +1,43 @@
+{
+  "main_question": "How often, if at all, do you follow the news?",
+  "sub_questions": [
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Every day"
+    },
+    {
+      "id": 2,
+      "text": "More than once a week"
+    },
+    {
+      "id": 3,
+      "text": "Once a week"
+    },
+    {
+      "id": 4,
+      "text": "Once or twice a month"
+    },
+    {
+      "id": 5,
+      "text": "A few times a year"
+    },
+    {
+      "id": 6,
+      "text": "Seldom"
+    },
+    {
+      "id": 7,
+      "text": "Never"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

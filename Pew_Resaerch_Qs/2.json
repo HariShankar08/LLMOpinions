@@ -1,0 +1,43 @@
+{
+  "main_question": "How have you been getting the news?",
+  "sub_questions": [
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Television"
+    },
+    {
+      "id": 2,
+      "text": "Newspapers or magazines"
+    },
+    {
+      "id": 3,
+      "text": "Radio"
+    },
+    {
+      "id": 4,
+      "text": "Internet"
+    },
+    {
+      "id": 5,
+      "text": "Social media (Facebook, Twitter, WhatsApp)"
+    },
+    {
+      "id": 6,
+      "text": "Word of mouth, family, friends"
+    },
+    {
+      "id": 7,
+      "text": "Other"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

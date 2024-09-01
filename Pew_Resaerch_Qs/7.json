@@ -1,0 +1,24 @@
+{
+  "main_question": "Some feel that we should rely on a democratic form of government to solve our country’s problems. Others feel that we should rely on a leader with a strong hand to solve our country’s problems. Which comes closer to your opinion?",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Democratic form of government"
+    },
+    {
+      "id": 2,
+      "text": "Leader with a strong hand"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

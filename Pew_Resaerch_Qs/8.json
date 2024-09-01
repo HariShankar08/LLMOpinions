@@ -1,0 +1,67 @@
+{
+  "main_question": "Just your impression, in India today, is there a lot of discrimination against ",
+  "sub_questions": [
+    {
+      "id": "a",
+      "text": "Hindus"
+    },
+    {
+      "id": "b",
+      "text": "Muslims"
+    },
+    {
+      "id": "c",
+      "text": "Christians"
+    },
+    {
+      "id": "d",
+      "text": "Sikhs"
+    },
+    {
+      "id": "e",
+      "text": "Buddhists"
+    },
+    {
+      "id": "f",
+      "text": "Jains"
+    },
+    {
+      "id": "g",
+      "text": "Members of Scheduled Castes"
+    },
+    {
+      "id": "h",
+      "text": "Members of Scheduled Tribes"
+    },
+    {
+       "id": "i",
+      "text": "Members of Other Backward Classes"
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Very big problem"
+    },
+    {
+      "id": 2,
+      "text": "Moderately big problem"
+    },
+    {
+      "id": 3,
+      "text": "Small problem"
+    },
+    {
+      "id": 4,
+      "text": "Not a problem at all"
+    },
+    {
+      "id": 98,
+      "text": "Don't know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}

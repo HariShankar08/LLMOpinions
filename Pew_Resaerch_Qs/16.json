@@ -1,0 +1,32 @@
+{
+  "main_question": "In your opinion, who should have a greater right to parents’ inheritance?",
+  "sub_questions": [
+
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "text": "Sons"
+    },
+    {
+      "id": 2,
+      "text": "Daughters"
+    },
+    {
+      "id": 3,
+      "text": "Both should have equal rights"
+    },
+    {
+      "id": 4,
+      "text": "Other/Neither/Depends"
+    },
+    {
+      "id": 98,
+      "text": "Don’t know"
+    },
+    {
+      "id": 99,
+      "text": "Refused"
+    }
+  ]
+}
