@@ -1,0 +1,13 @@
+
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2485495805740356, '2': -1.373549461364746, '3': -1.6079245805740356, '4': -2.045424461364746, '98': -5.521986961364746, '99': -4.857924461364746}
+===

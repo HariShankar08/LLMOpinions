@@ -1,0 +1,12 @@
+
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1110602617263794, '2': -2.048560380935669, '3': -1.4235602617263794, '98': -3.876685380935669, '99': -4.23606014251709}
+===

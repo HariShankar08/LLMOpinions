@@ -1,0 +1,75 @@
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.123054027557373, '2': -2.396491527557373, '3': -2.591804027557373, '4': -2.232429027557373, '5': -2.865241527557373, '98': -3.677741527557373, '99': -3.255866527557373}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1338502168655396, '2': -2.00103759765625, '3': -2.35260009765625, '4': -2.21978759765625, '5': -2.82135009765625, '98': -3.69635009765625, '99': -3.50103759765625}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1329532861709595, '2': -2.039203405380249, '3': -2.25014066696167, '4': -2.05482816696167, '5': -2.64076566696167, '98': -3.96889066696167, '99': -3.82045316696167}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0790722370147705, '2': -2.1884472370147705, '3': -2.1103222370147705, '4': -1.704072117805481, '5': -2.6728222370147705, '98': -4.102509498596191, '99': -3.5556347370147705}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.190656304359436, '2': -2.0187814235687256, '3': -2.3625314235687256, '4': -2.0812814235687256, '5': -2.5812814235687256, '98': -3.3937814235687256, '99': -3.7609689235687256}
+===

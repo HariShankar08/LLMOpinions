@@ -1,0 +1,16 @@
+
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.8512367010116577, '2': -1.8199867010116577, '3': -1.6012367010116577, '4': -2.163736581802368, '5': -2.1168618202209473, '6': -2.7262368202209473, '7': -2.944986581802368, '98': -4.984049320220947, '99': -4.507486820220947}
+===

@@ -1,0 +1,12 @@
+
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0098931789398193, '2': -1.0333306789398193, '3': -1.8380181789398193}
+===

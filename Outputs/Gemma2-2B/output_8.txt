@@ -1,0 +1,126 @@
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4999325275421143, '2': -1.8733036518096924, '3': -2.073920488357544, '4': -2.465502977371216}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.5668612718582153, '2': -1.8993102312088013, '3': -2.160946846008301, '4': -2.445286750793457}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.5680594444274902, '2': -1.9371790885925293, '3': -2.2385592460632324, '4': -2.393123149871826}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4885172843933105, '2': -1.744412899017334, '3': -2.058541774749756, '4': -2.4204115867614746}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.394554615020752, '2': -1.7478909492492676, '3': -2.2322640419006348, '4': -2.55967378616333}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4915424585342407, '2': -1.8854728937149048, '3': -2.193011999130249, '4': -2.376756191253662}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4406815767288208, '2': -1.88942551612854, '3': -2.308677911758423, '4': -2.6254522800445557}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.461152195930481, '2': -1.9812214374542236, '3': -2.3563740253448486, '4': -2.625666856765747}
+===
+
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.452452301979065, '2': -1.768267273902893, '3': -2.173290967941284, '4': -2.6026179790496826}
+===

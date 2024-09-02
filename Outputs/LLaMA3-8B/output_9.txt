@@ -1,0 +1,13 @@
+
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.7968437671661377, '2': -1.2655937671661377, '3': -1.3437187671661377, '4': -1.7030937671661377, '98': -4.984343528747559, '99': -4.171843528747559}
+===

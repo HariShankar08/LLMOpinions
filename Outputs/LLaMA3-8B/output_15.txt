@@ -1,0 +1,28 @@
+
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.276155710220337, '2': -1.7449055910110474, '3': -1.807405710220337, '4': -1.5417805910110474, '98': -4.244905471801758, '99': -3.010530710220337}
+===
+
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4877560138702393, '2': -1.6596310138702393, '3': -1.7221310138702393, '4': -1.6283808946609497, '98': -4.22213077545166, '99': -2.7924435138702393}
+===

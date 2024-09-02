@@ -1,0 +1,28 @@
+
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4548654556274414, '2': -1.9392404556274414, '3': -1.9548654556274414, '4': -2.5329904556274414, '98': -3.7829904556274414, '99': -3.6501779556274414}
+===
+
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.8484004735946655, '2': -2.035900592803955, '3': -2.207775592803955, '4': -2.614025592803955, '98': -3.918712854385376, '99': -3.840587854385376}
+===

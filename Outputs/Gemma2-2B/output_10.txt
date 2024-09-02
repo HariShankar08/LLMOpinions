@@ -1,0 +1,30 @@
+
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.593455195426941, '2': -1.7946043014526367, '3': -2.2187986373901367, '4': -2.406094551086426, '5': -2.647791862487793}
+===
+
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4945605993270874, '2': -1.860573172569275, '3': -2.2972395420074463, '4': -2.452873468399048, '5': -2.6735708713531494}
+===

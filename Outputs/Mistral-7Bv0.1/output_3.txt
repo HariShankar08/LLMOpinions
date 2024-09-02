@@ -1,0 +1,75 @@
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8108280897140503, '2': -1.5295780897140503, '3': -2.33426570892334, '4': -2.8577029705047607, '5': -2.6936404705047607}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8453642725944519, '2': -1.5953643321990967, '3': -2.4000518321990967, '4': -2.9625518321990967, '5': -2.6578643321990967}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9599993824958801, '2': -1.413124442100525, '3': -2.0459368228912354, '4': -2.5146868228912354, '5': -2.5537493228912354}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.756596028804779, '2': -1.6862834692001343, '3': -2.412846088409424, '4': -2.717533588409424, '5': -2.756596088409424}
+===
+
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9673243761062622, '2': -1.2016994953155518, '3': -2.0610742568969727, '4': -2.4829492568969727, '5': -2.6626369953155518}
+===

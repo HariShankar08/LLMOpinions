@@ -1,0 +1,13 @@
+
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1825660467147827, '2': -0.9247535467147827, '3': -2.088815927505493, '4': -2.307565927505493}
+===

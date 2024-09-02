@@ -1,0 +1,30 @@
+
+
+
+Question: How important is it to stop women in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6546472311019897, '2': -2.2499287128448486, '3': -2.5742790699005127, '4': -2.6622653007507324, '5': -2.925635576248169}
+===
+
+
+
+Question: How important is it to stop women in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6287553310394287, '2': -2.3413102626800537, '3': -2.6882362365722656, '4': -2.782356023788452, '5': -3.018897771835327}
+===
