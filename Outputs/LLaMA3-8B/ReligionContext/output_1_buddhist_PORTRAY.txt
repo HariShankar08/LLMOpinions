@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7936999797821045, '2': -2.2233874797821045, '3': -2.0515124797821045, '4': -2.5749499797821045, '5': -2.6530752182006836, '6': -2.6140124797821045, '7': -2.5827624797821045, '98': -3.3796374797821045, '99': -3.7936999797821045}
+===

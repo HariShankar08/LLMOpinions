@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7711756229400635, '2': -1.7555506229400635, '3': -1.818050503730774, '4': -2.0836756229400635, '98': -4.130550384521484, '99': -3.9430506229400635}
+===

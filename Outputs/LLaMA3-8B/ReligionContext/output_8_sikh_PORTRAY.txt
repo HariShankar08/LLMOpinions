@@ -1,0 +1,144 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.8645371794700623, '2': -2.278599739074707, '3': -2.677037239074707, '4': -1.833287239074707, '98': -3.434849739074707, '99': -4.130162239074707}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3655402660369873, '2': -1.9124152660369873, '3': -1.9749152660369873, '4': -1.8342902660369873, '98': -3.5061652660369873, '99': -3.7874152660369873}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4078023433685303, '2': -2.0406148433685303, '3': -2.1031148433685303, '4': -1.7671773433685303, '98': -3.1499898433685303, '99': -3.4859273433685303}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1927516460418701, '2': -2.10681414604187, '3': -2.23181414604187, '4': -1.8177515268325806, '98': -3.16931414604187, '99': -3.58337664604187}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.194991111755371, '2': -1.913741111755371, '3': -2.116866111755371, '4': -1.8199909925460815, '98': -3.484053611755371, '99': -3.741866111755371}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4221174716949463, '2': -2.0705549716949463, '3': -2.1018049716949463, '4': -1.7033674716949463, '98': -3.0549299716949463, '99': -3.5158674716949463}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1514525413513184, '2': -1.7295775413513184, '3': -1.760827660560608, '4': -1.917077660560608, '98': -4.268640041351318, '99': -4.143640041351318}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1191186904907227, '2': -1.6659936904907227, '3': -1.7597436904907227, '4': -1.9628686904907227, '98': -3.9550561904907227, '99': -4.236306190490723}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3217816352844238, '2': -1.6655315160751343, '3': -1.7905315160751343, '4': -1.8374066352844238, '98': -4.204594135284424, '99': -4.329594135284424}
+===

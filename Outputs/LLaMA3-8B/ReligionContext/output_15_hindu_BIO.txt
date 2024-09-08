@@ -1,0 +1,34 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3016486167907715, '2': -1.7547736167907715, '3': -1.942273497581482, '4': -1.3172736167907715, '98': -3.5516486167907715, '99': -3.0672736167907715}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.143629789352417, '2': -1.596754789352417, '3': -1.956129789352417, '4': -1.721754789352417, '98': -3.424879789352417, '99': -3.096754789352417}
+===

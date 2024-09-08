@@ -1,0 +1,42 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.202106475830078, '2': -2.155231475830078, '3': -1.7177313566207886, '4': -0.6708564162254333, '98': -4.748981475830078, '99': -3.748981475830078}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4919086694717407, '2': -1.6325336694717407, '3': -1.4450336694717407, '4': -1.3825336694717407, '98': -4.351283550262451, '99': -3.6794087886810303}
+===

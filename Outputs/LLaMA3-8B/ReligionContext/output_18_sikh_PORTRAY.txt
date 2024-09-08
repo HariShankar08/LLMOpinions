@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.120277762413025, '2': -1.6515278816223145, '3': -1.823402762413025, '98': -3.7530903816223145, '99': -4.1046528816223145}
+===

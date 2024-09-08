@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6440695524215698, '2': -2.2456319332122803, '3': -2.1284444332122803, '4': -2.6050069332122803, '5': -2.7143819332122803, '6': -2.6753196716308594, '7': -2.5659444332122803, '98': -3.3862569332122803, '99': -3.7925069332122803}
+===

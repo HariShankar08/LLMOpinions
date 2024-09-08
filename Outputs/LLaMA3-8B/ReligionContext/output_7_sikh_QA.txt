@@ -1,0 +1,22 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 4
+
+
+Question: Some feel that we should rely on a democratic form of government to solve our country’s problems. Others feel that we should rely on a leader with a strong hand to solve our country’s problems. Which comes closer to your opinion?
+1: Democratic form of government
+2: Leader with a strong hand
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.37072813510894775, '2': -1.8707281351089478, '98': -3.339478015899658, '99': -3.417603015899658}
+===

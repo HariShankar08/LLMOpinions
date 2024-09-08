@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.308554768562317, '2': -2.6601171493530273, '3': -1.988242268562317, '4': -1.917929768562317, '98': -4.371054649353027, '99': -4.433554649353027}
+===

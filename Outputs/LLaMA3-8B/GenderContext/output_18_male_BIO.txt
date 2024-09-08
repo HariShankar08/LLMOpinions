@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0814028978347778, '2': -1.3157778978347778, '3': -1.4564028978347778, '98': -3.3157780170440674, '99': -3.2689027786254883}
+===

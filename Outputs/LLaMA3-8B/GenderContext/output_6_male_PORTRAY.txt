@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1193692684173584, '2': -1.4006192684173584, '3': -2.0099942684173584, '4': -2.3849942684173584, '98': -4.213119029998779, '99': -4.486556529998779}
+===

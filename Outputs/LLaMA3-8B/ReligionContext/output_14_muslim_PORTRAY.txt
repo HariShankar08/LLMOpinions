@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1172553300857544, '2': -1.9766303300857544, '3': -1.6641302108764648, '4': -1.8203803300857544, '98': -3.570380210876465, '99': -4.218817710876465}
+===
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5542380809783936, '2': -1.5698630809783936, '3': -1.4604880809783936, '4': -1.788612961769104, '98': -3.6479880809783936, '99': -4.1245503425598145}
+===
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.522621512413025, '2': -1.663246512413025, '3': -1.4913713932037354, '4': -1.5694963932037354, '98': -3.5773088932037354, '99': -3.8741841316223145}
+===

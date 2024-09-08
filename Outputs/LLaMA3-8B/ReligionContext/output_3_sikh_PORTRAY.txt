@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.126404881477356, '2': -2.4076547622680664, '3': -2.7123422622680664, '4': -2.6498425006866455, '5': -3.2357797622680664, '98': -3.0873422622680664, '99': -2.9779672622680664}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0226032733917236, '2': -2.1319782733917236, '3': -2.4991657733917236, '4': -2.5226032733917236, '5': -3.1085407733917236, '98': -3.3272907733917236, '99': -3.4913532733917236}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.071461796760559, '2': -2.2277119159698486, '3': -2.4933366775512695, '4': -2.4386491775512695, '5': -3.0167741775512695, '98': -3.2355241775512695, '99': -3.5714616775512695}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.093969702720642, '2': -2.3908445835113525, '3': -2.5236573219299316, '4': -2.2658445835113525, '5': -3.0080323219299316, '98': -3.1642820835113525, '99': -3.3986573219299316}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0435864925384521, '2': -2.254523992538452, '3': -2.723273992538452, '4': -2.606086492538452, '5': -3.129523992538452, '98': -3.043586492538452, '99': -3.770148992538452}
+===

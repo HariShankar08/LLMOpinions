@@ -1,0 +1,51 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3893766403198242, '2': -1.5768766403198242, '3': -1.3893766403198242, '4': -1.6237516403198242, '98': -3.170626640319824, '99': -3.826876640319824}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7769863605499268, '2': -1.3551113605499268, '3': -1.2769863605499268, '4': -1.5426114797592163, '98': -3.4801113605499268, '99': -4.183236598968506}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.746673345565796, '2': -1.590423345565796, '3': -1.309173345565796, '4': -1.356048345565796, '98': -3.418548345565796, '99': -3.574798345565796}
+===

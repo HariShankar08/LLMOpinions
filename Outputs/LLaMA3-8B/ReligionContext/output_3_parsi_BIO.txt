@@ -1,0 +1,90 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.19502854347229, '2': -1.7262786626815796, '3': -1.66377854347229, '4': -1.9762786626815796, '5': -2.22627854347229, '98': -4.179403781890869, '99': -4.116903305053711}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9337232708930969, '2': -1.7462232112884521, '3': -1.8243483304977417, '4': -2.183723211288452, '5': -2.386848211288452, '98': -4.371222972869873, '99': -4.464973449707031}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9192918539047241, '2': -1.8255418539047241, '3': -1.7942918539047241, '4': -2.0755417346954346, '5': -2.4192917346954346, '98': -4.481791973114014, '99': -4.7864789962768555}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0263251066207886, '2': -1.8232001066207886, '3': -1.6825751066207886, '4': -1.9482001066207886, '5': -2.401324987411499, '98': -4.416950225830078, '99': -4.479450225830078}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9769200086593628, '2': -1.7425450086593628, '3': -1.8050450086593628, '4': -2.0237948894500732, '5': -2.4925448894500732, '98': -4.180045127868652, '99': -4.742545127868652}
+===

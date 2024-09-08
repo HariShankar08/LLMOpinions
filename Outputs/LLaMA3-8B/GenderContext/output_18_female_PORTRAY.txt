@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1075541973114014, '2': -1.4825541973114014, '3': -1.5763041973114014, '98': -3.5919291973114014, '99': -3.9591166973114014}
+===

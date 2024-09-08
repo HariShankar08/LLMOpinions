@@ -1,0 +1,50 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 4
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.947619616985321, '2': -1.5882445573806763, '3': -1.4944945573806763, '4': -2.494494676589966, '98': -4.244494438171387, '99': -3.947619676589966}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 4
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1283342838287354, '2': -1.6127091646194458, '3': -1.3314592838287354, '4': -2.2220842838287354, '98': -4.0345845222473145, '99': -3.8002092838287354}
+===

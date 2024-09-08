@@ -1,0 +1,225 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.746572732925415, '2': -1.277822732925415, '3': -1.605947732925415, '4': -1.621572732925415, '98': -3.371572732925415, '99': -3.449697732925415}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4528756141662598, '2': -1.2028754949569702, '3': -1.7028756141662598, '4': -1.9685004949569702, '98': -3.6716253757476807, '99': -3.4372506141662598}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.5812212228775024, '2': -1.2687212228775024, '3': -1.5499712228775024, '4': -1.799971342086792, '98': -3.721846342086792, '99': -3.331221103668213}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.8309255838394165, '2': -1.190300703048706, '3': -1.487175703048706, '4': -1.7840505838394165, '98': -3.393425703048706, '99': -3.487175703048706}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.7407565116882324, '2': -1.2095063924789429, '3': -1.5063813924789429, '4': -1.7251315116882324, '98': -3.6313815116882324, '99': -3.7720065116882324}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.7628566026687622, '2': -1.5284816026687622, '3': -1.5284816026687622, '4': -1.5909816026687622, '98': -2.7159814834594727, '99': -3.6534814834594727}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.0998947620391846, '2': -1.3498947620391846, '3': -1.7561447620391846, '4': -2.2092697620391846, '98': -4.0686445236206055, '99': -3.6780197620391846}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4798367023468018, '2': -1.1204617023468018, '3': -1.7142115831375122, '4': -2.1829617023468018, '98': -3.6048367023468018, '99': -3.4642117023468018}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.952108383178711, '2': -1.045858383178711, '3': -1.498983383178711, '4': -1.811483383178711, '98': -3.952108383178711, '99': -3.639608383178711}
+===

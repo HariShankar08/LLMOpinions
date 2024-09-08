@@ -1,0 +1,25 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3981636762619019, '2': -2.2575385570526123, '3': -2.0075385570526123, '4': -1.2731636762619019, '5': -1.8669135570526123, '98': -4.945038795471191, '99': -3.6794135570526123}
+===

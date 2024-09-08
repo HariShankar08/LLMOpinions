@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.249236822128296, '2': -2.577361822128296, '3': -1.827361822128296, '4': -1.983611822128296, '98': -4.710174083709717, '99': -4.811736583709717}
+===

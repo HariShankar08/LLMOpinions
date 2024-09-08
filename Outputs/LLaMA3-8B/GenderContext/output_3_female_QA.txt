@@ -1,0 +1,110 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3447470664978027, '2': -1.4072471857070923, '3': -1.7509971857070923, '4': -1.9541220664978027, '5': -2.3291220664978027, '98': -4.329122066497803, '99': -3.8291220664978027}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1183215379714966, '2': -1.3214465379714966, '3': -1.8058215379714966, '4': -2.165196418762207, '5': -2.743321418762207, '98': -4.493321418762207, '99': -4.196446418762207}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1836025714874268, '2': -1.4961024522781372, '3': -1.6523525714874268, '4': -1.9336025714874268, '5': -2.6679775714874268, '98': -4.246102333068848, '99': -4.105477333068848}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1150646209716797, '2': -1.4900646209716797, '3': -1.7400646209716797, '4': -1.8806896209716797, '5': -2.8181896209716797, '98': -4.56818962097168, '99': -4.13068962097168}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7782373428344727, '2': -1.6376123428344727, '3': -2.0751123428344727, '4': -2.2001123428344727, '5': -3.0594873428344727, '98': -4.403237342834473, '99': -4.278237342834473}
+===

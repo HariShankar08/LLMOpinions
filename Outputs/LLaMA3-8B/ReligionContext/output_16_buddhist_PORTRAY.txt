@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5875781774520874, '2': -2.337578296661377, '3': -1.5250781774520874, '4': -1.8688281774520874, '98': -4.587578296661377, '99': -4.298515796661377}
+===

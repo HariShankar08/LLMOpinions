@@ -1,0 +1,44 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How important is it to stop men in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1380592584609985, '2': -1.653684377670288, '3': -1.7786842584609985, '4': -2.169309377670288, '5': -2.247434377670288, '98': -3.966184377670288, '99': -3.747434377670288}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How important is it to stop men in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4533430337905884, '2': -1.6095930337905884, '3': -1.5002180337905884, '4': -2.047092914581299, '5': -2.031468152999878, '98': -4.375217914581299, '99': -4.047092914581299}
+===

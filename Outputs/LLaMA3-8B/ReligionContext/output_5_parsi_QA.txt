@@ -1,0 +1,24 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 7
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3783586025238037, '2': -1.2221084833145142, '3': -1.4564834833145142, '4': -2.0502336025238037, '98': -4.472108364105225, '99': -3.5189836025238037}
+===

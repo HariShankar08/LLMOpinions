@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.419246792793274, '2': -2.5129969120025635, '3': -1.8645594120025635, '4': -1.997371792793274, '98': -4.208309173583984, '99': -4.247371673583984}
+===

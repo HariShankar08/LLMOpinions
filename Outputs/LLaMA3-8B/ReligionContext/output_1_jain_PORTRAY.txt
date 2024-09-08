@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7455366849899292, '2': -2.1361618041992188, '3': -1.9174116849899292, '4': -2.4642868041992188, '5': -2.5814740657806396, '6': -2.6986618041992188, '7': -2.6439743041992188, '98': -3.6517868041992188, '99': -3.9564740657806396}
+===

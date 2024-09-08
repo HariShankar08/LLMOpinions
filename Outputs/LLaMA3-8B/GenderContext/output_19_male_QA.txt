@@ -1,0 +1,20 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 1
+
+
+Question: Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+3: Completely disagree
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8117560744285583, '2': -1.4055060148239136, '3': -1.8430061340332031, '98': -4.280506134033203, '99': -4.139881134033203}
+===

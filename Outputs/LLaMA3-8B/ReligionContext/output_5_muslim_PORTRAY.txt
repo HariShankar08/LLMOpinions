@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4845095872879028, '2': -1.8907595872879028, '3': -2.0079469680786133, '4': -2.1329469680786133, '98': -4.031384468078613, '99': -4.179821968078613}
+===

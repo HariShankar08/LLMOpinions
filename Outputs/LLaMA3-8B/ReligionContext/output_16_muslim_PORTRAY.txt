@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2056002616882324, '2': -2.5806002616882324, '3': -2.0337252616882324, '4': -2.1118502616882324, '98': -4.479037761688232, '99': -4.604037761688232}
+===

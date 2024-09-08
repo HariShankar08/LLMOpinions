@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4627652168273926, '2': -1.3065152168273926, '3': -1.4315152168273926, '4': -1.7752652168273926, '98': -3.9471402168273926, '99': -3.5721402168273926}
+===

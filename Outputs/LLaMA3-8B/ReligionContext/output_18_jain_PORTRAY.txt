@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2349369525909424, '2': -1.5005619525909424, '3': -1.6099369525909424, '98': -3.6802494525909424, '99': -3.9771244525909424}
+===

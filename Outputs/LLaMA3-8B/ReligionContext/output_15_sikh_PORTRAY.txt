@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1580737829208374, '2': -2.033073663711548, '3': -2.267448902130127, '4': -2.079948902130127, '98': -3.540886402130127, '99': -3.423698663711548}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4720289707183838, '2': -1.8157789707183838, '3': -1.9485914707183838, '4': -1.9954663515090942, '98': -3.636091470718384, '99': -3.222028970718384}
+===

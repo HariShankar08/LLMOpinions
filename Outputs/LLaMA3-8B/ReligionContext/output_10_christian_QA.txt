@@ -1,0 +1,52 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 3
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.110059380531311, '2': -1.797559380531311, '3': -1.922559380531311, '4': -1.656934380531311, '5': -2.1100594997406006, '98': -5.4069342613220215, '99': -4.7350592613220215}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 3
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9170950055122375, '2': -1.9483450651168823, '3': -1.8702200651168823, '4': -1.8077200651168823, '5': -2.307720184326172, '98': -5.620220184326172, '99': -5.104595184326172}
+===

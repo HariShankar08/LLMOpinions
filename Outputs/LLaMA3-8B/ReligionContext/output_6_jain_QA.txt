@@ -1,0 +1,24 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 6
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5121440887451172, '2': -1.2308939695358276, '3': -1.4808940887451172, '4': -2.152769088745117, '98': -3.262144088745117, '99': -3.309019088745117}
+===

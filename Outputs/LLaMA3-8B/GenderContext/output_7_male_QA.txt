@@ -1,0 +1,18 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 1
+
+
+Question: Some feel that we should rely on a democratic form of government to solve our country’s problems. Others feel that we should rely on a leader with a strong hand to solve our country’s problems. Which comes closer to your opinion?
+1: Democratic form of government
+2: Leader with a strong hand
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.42706000804901123, '2': -1.6614350080490112, '98': -3.536435127258301, '99': -3.302060127258301}
+===

@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Buddhist.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7341881394386292, '2': -1.437313199043274, '3': -1.7185630798339844, '98': -3.9060630798339844, '99': -3.7810630798339844}
+===

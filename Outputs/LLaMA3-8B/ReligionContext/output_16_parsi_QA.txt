@@ -1,0 +1,24 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 7
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.0437183380126953, '2': -2.2468433380126953, '3': -0.7468432188034058, '4': -1.6687182188034058, '98': -4.074968338012695, '99': -3.153093099594116}
+===

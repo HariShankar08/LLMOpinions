@@ -1,0 +1,34 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.842119574546814, '2': -1.732744574546814, '3': -1.717119574546814, '4': -2.0452444553375244, '98': -3.7952444553375244, '99': -4.1702446937561035}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9309818148612976, '2': -1.6341067552566528, '3': -1.7278567552566528, '4': -1.9622318744659424, '98': -3.8059818744659424, '99': -4.196606636047363}
+===

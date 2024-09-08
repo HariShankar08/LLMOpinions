@@ -1,0 +1,20 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.7346611022949219, '2': -1.5002862215042114, '3': -1.1877862215042114, '4': -1.9065362215042114, '98': -3.640911102294922, '99': -2.672161102294922}
+===

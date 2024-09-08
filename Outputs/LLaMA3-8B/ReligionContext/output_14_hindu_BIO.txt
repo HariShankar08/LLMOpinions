@@ -1,0 +1,51 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4063245058059692, '2': -1.5469495058059692, '3': -1.3750745058059692, '4': -1.6250745058059692, '98': -3.3594493865966797, '99': -3.8438243865966797}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7482662200927734, '2': -1.3576412200927734, '3': -1.2638912200927734, '4': -1.5451412200927734, '98': -3.8576412200927734, '99': -4.232641220092773}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7671242952346802, '2': -1.5483742952346802, '3': -1.2827494144439697, '4': -1.3764994144439697, '98': -3.6421244144439697, '99': -3.6421244144439697}
+===

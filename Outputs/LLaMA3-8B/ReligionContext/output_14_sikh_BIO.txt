@@ -1,0 +1,51 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3383233547210693, '2': -1.6039483547210693, '3': -1.3383233547210693, '4': -1.6664483547210693, '98': -3.5258233547210693, '99': -3.8851983547210693}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6580944061279297, '2': -1.4393444061279297, '3': -1.2205944061279297, '4': -1.5487194061279297, '98': -4.12684440612793, '99': -4.29871940612793}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7189072370529175, '2': -1.5939072370529175, '3': -1.2501572370529175, '4': -1.4064072370529175, '98': -3.703282117843628, '99': -3.640782356262207}
+===

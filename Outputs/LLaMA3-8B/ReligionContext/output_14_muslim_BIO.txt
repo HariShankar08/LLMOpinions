@@ -1,0 +1,51 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.129744529724121, '2': -1.645369529724121, '3': -1.489119529724121, '4': -1.785994529724121, '98': -3.535994529724121, '99': -3.739119529724121}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5596376657485962, '2': -1.3877626657485962, '3': -1.2940126657485962, '4': -1.6690125465393066, '98': -3.9190125465393066, '99': -4.028387546539307}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5043680667877197, '2': -1.5824930667877197, '3': -1.3637430667877197, '4': -1.5512430667877197, '98': -3.4262430667877197, '99': -3.4262430667877197}
+===

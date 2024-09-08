@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2181473970413208, '2': -1.7962723970413208, '3': -1.3900223970413208, '4': -1.8431473970413208, '98': -3.7025222778320312, '99': -4.390022277832031}
+===
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5472214221954346, '2': -1.4378465414047241, '3': -1.4065965414047241, '4': -1.8128465414047241, '98': -3.8206589221954346, '99': -4.281596660614014}
+===
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5161350965499878, '2': -1.5786350965499878, '3': -1.4536350965499878, '4': -1.5630100965499878, '98': -3.6723852157592773, '99': -3.9614474773406982}
+===

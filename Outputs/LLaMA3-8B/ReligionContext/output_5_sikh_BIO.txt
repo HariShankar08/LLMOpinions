@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7828855514526367, '2': -1.7203855514526367, '3': -1.7360105514526367, '4': -2.0797605514526367, '98': -4.486010551452637, '99': -4.454760551452637}
+===

@@ -1,0 +1,52 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 4
+
+
+Question: How important is it to stop men in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.279513955116272, '2': -1.717013955116272, '3': -1.435763955116272, '4': -2.1232638359069824, '5': -2.3888890743255615, '98': -4.467013835906982, '99': -3.6857638359069824}
+===
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 4
+
+
+Question: How important is it to stop men in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.538007140159607, '2': -1.6786322593688965, '3': -1.288007140159607, '4': -2.0380072593688965, '5': -2.2098822593688965, '98': -4.8192572593688965, '99': -3.8817572593688965}
+===

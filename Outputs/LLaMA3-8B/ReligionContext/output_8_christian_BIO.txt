@@ -1,0 +1,153 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.310411810874939, '2': -1.607286810874939, '3': -1.513536810874939, '4': -1.607286810874939, '98': -3.4666619300842285, '99': -3.6854116916656494}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.269000768661499, '2': -1.659625768661499, '3': -1.487750768661499, '4': -1.675250768661499, '98': -3.722125768661499, '99': -3.769000768661499}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2325068712234497, '2': -1.6231319904327393, '3': -1.4512568712234497, '4': -1.7168818712234497, '98': -3.5762569904327393, '99': -3.8575069904327393}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.37945556640625, '2': -1.62945556640625, '3': -1.48883056640625, '4': -1.56695556640625, '98': -3.33258056640625, '99': -3.55133056640625}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.252586841583252, '2': -1.627586841583252, '3': -1.627586841583252, '4': -1.674461841583252, '98': -3.190086841583252, '99': -3.408836841583252}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1563366651535034, '2': -1.7188366651535034, '3': -1.6407116651535034, '4': -1.687586784362793, '98': -3.312586784362793, '99': -3.406336784362793}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9469295740127563, '2': -1.6188045740127563, '3': -1.6656795740127563, '4': -1.9625545740127563, '98': -3.915679454803467, '99': -3.915679454803467}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9173712730407715, '2': -1.589246392250061, '3': -1.7298712730407715, '4': -2.0267462730407715, '98': -3.8704962730407715, '99': -3.8392462730407715}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2720688581466675, '2': -1.4283188581466675, '3': -1.5064438581466675, '4': -1.787693738937378, '98': -3.881443738937378, '99': -3.772068738937378}
+===

@@ -1,0 +1,51 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7158437967300415, '2': -1.7783437967300415, '3': -1.856468677520752, '4': -2.325218915939331, '98': -3.637718677520752, '99': -3.965843915939331}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0081868171691895, '2': -1.4769368171691895, '3': -1.6175618171691895, '4': -2.0550618171691895, '98': -3.8519368171691895, '99': -4.1644368171691895}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.924714982509613, '2': -1.6747150421142578, '3': -1.6590900421142578, '4': -2.080965042114258, '98': -3.440340042114258, '99': -3.690340042114258}
+===

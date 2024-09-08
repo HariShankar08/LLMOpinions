@@ -1,0 +1,20 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 1
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4882121086120605, '2': -2.1913371086120605, '3': -0.7538371086120605, '4': -2.2225871086120605, '98': -4.5038371086120605, '99': -3.3944621086120605}
+===

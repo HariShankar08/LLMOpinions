@@ -1,0 +1,27 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 7
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.642674207687378, '2': -2.173924207687378, '3': -2.064549207687378, '4': -2.033299207687378, '5': -1.611424207687378, '6': -2.502049207687378, '7': -2.470799207687378, '98': -4.377048969268799, '99': -4.564548969268799}
+===

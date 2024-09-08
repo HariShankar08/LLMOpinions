@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1854075193405151, '2': -2.3025951385498047, '3': -2.5369699001312256, '4': -2.4354076385498047, '5': -2.1541576385498047, '98': -3.7479074001312256, '99': -4.060407638549805}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3788785934448242, '2': -2.183566093444824, '3': -2.371066093444824, '4': -2.355441093444824, '5': -2.027316093444824, '98': -3.910128593444824, '99': -4.058566093444824}
+===

@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+3: Completely disagree
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8578791618347168, '2': -1.5297541618347168, '3': -1.6391291618347168, '98': -3.311004161834717, '99': -3.686004161834717}
+===

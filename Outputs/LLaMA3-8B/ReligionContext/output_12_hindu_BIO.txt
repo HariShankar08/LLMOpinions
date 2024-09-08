@@ -1,0 +1,36 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9660695195198059, '2': -1.8879444599151611, '3': -1.9191944599151611, '4': -2.278569459915161, '5': -2.044194459915161, '98': -4.16919469833374, '99': -3.872319459915161}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.13097083568573, '2': -1.78722083568573, '3': -1.78722083568573, '4': -2.1465957164764404, '5': -1.9747207164764404, '98': -4.4434709548950195, '99': -3.8340957164764404}
+===

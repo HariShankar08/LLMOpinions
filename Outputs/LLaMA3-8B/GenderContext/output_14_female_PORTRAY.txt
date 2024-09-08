@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0818501710891724, '2': -1.3474751710891724, '3': -1.7849751710891724, '4': -2.066225051879883, '98': -3.675600051879883, '99': -4.409975051879883}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4630323648452759, '2': -1.0724073648452759, '3': -1.8536573648452759, '4': -1.9942823648452759, '98': -3.3380322456359863, '99': -4.408344745635986}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3932584524154663, '2': -1.3463834524154663, '3': -1.6588833332061768, '4': -1.7057584524154663, '98': -3.3463833332061768, '99': -4.119821071624756}
+===

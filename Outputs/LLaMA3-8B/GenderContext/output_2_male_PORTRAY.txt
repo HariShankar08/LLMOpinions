@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4300140142440796, '2': -2.351889133453369, '3': -2.27376389503479, '4': -2.164389133453369, '5': -1.8362640142440796, '6': -2.46126389503479, '7': -3.07845139503479, '98': -4.187826633453369, '99': -4.836264133453369}
+===

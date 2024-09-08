@@ -1,0 +1,16 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2529313564300537, '2': -2.0966813564300537, '3': -2.2841813564300537, '4': -2.3935563564300537, '5': -2.5654313564300537, '98': -4.245119094848633, '99': -4.182619094848633}
+===

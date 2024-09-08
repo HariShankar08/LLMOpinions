@@ -1,0 +1,24 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 6
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.840223789215088, '2': -1.5589736700057983, '3': -1.090223789215088, '4': -1.918348789215088, '98': -3.402723789215088, '99': -2.887098789215088}
+===

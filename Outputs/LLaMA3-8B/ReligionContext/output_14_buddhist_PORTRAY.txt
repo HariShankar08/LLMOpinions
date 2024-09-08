@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3580868244171143, '2': -1.7643368244171143, '3': -1.4518368244171143, '4': -1.6080868244171143, '98': -3.8112118244171143, '99': -4.412774085998535}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6189746856689453, '2': -1.4939746856689453, '3': -1.3845996856689453, '4': -1.6970996856689453, '98': -3.8611621856689453, '99': -4.447099685668945}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5676414966583252, '2': -1.6457666158676147, '3': -1.5051416158676147, '4': -1.4738914966583252, '98': -3.559828996658325, '99': -4.083266735076904}
+===

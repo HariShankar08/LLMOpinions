@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.420967936515808, '2': -1.4990930557250977, '3': -2.0928430557250977, '4': -2.0928430557250977, '98': -3.7334680557250977, '99': -3.8115928173065186}
+===

@@ -1,0 +1,27 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 3
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4093812704086304, '2': -1.8000062704086304, '3': -1.8312562704086304, '4': -2.471881151199341, '5': -2.37813138961792, '6': -2.471881151199341, '7': -2.362506151199341, '98': -4.69063138961792, '99': -4.03438138961792}
+===

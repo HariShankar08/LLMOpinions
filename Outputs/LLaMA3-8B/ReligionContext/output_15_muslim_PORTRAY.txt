@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0891858339309692, '2': -2.190748453140259, '3': -2.4407482147216797, '4': -2.261060953140259, '98': -3.5579357147216797, '99': -3.5032482147216797}
+===
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3795477151870728, '2': -1.9498602151870728, '3': -2.1998603343963623, '4': -2.2779853343963623, '98': -3.6529853343963623, '99': -3.449860095977783}
+===

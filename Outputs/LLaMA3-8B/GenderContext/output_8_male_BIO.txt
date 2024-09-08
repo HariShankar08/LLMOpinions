@@ -1,0 +1,153 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2681828737258911, '2': -1.6900578737258911, '3': -1.5025578737258911, '4': -1.6431828737258911, '98': -3.3463079929351807, '99': -3.6119329929351807}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2318814992904663, '2': -1.6693814992904663, '3': -1.4818816184997559, '4': -1.7162564992904663, '98': -3.685006618499756, '99': -3.950631618499756}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2596186399459839, '2': -1.6658686399459839, '3': -1.4158686399459839, '4': -1.6502436399459839, '98': -3.8221187591552734, '99': -3.9158685207366943}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.360298752784729, '2': -1.672798752784729, '3': -1.454048752784729, '4': -1.563423752784729, '98': -3.4384238719940186, '99': -3.6415488719940186}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2563257217407227, '2': -1.6625758409500122, '3': -1.5688257217407227, '4': -1.6625758409500122, '98': -3.1938257217407227, '99': -3.5063257217407227}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.0797151327133179, '2': -1.7047151327133179, '3': -1.6265901327133179, '4': -1.7672151327133179, '98': -3.4703402519226074, '99': -3.5640902519226074}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9033723473548889, '2': -1.6689974069595337, '3': -1.7158722877502441, '4': -1.9502472877502441, '98': -3.825247287750244, '99': -3.981497287750244}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.8881533741950989, '2': -1.6537784337997437, '3': -1.7787784337997437, '4': -1.9819034337997437, '98': -3.731903314590454, '99': -3.888153553009033}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2652965784072876, '2': -1.4840465784072876, '3': -1.4840465784072876, '4': -1.7809216976165771, '98': -3.765296459197998, '99': -3.702796697616577}
+===

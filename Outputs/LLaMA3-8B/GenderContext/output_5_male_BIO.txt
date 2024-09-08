@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9602634310722351, '2': -1.7258883714675903, '3': -1.5383884906768799, '4': -2.03838849067688, '98': -3.67901349067688, '99': -4.085263252258301}
+===

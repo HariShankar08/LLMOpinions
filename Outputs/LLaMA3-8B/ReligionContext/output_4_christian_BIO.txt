@@ -1,0 +1,17 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6458390951156616, '2': -2.333338975906372, '3': -2.458338975906372, '4': -2.348963975906372, '5': -2.098964214324951, '98': -4.872401714324951, '99': -5.356776714324951}
+===

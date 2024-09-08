@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2528026103973389, '2': -1.7684277296066284, '3': -1.5965526103973389, '4': -1.8778026103973389, '98': -4.377802848815918, '99': -4.65123987197876}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4996038675308228, '2': -1.6714789867401123, '3': -1.4839788675308228, '4': -1.8121038675308228, '98': -4.343353748321533, '99': -4.515228748321533}
+===

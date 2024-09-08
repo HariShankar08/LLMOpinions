@@ -1,0 +1,90 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1695233583450317, '2': -1.6851483583450317, '3': -1.6851483583450317, '4': -1.9507732391357422, '5': -2.263273239135742, '98': -4.544523239135742, '99': -4.232023239135742}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9286938309669495, '2': -1.7880688905715942, '3': -1.8818188905715942, '4': -2.1318187713623047, '5': -2.334944009780884, '98': -4.475568771362305, '99': -4.397443771362305}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9780110120773315, '2': -1.7436360120773315, '3': -1.7905110120773315, '4': -2.040510892868042, '5': -2.337385892868042, '98': -4.728011131286621, '99': -4.876448631286621}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0103492736816406, '2': -1.7915992736816406, '3': -1.7290992736816406, '4': -1.9478492736816406, '5': -2.3072242736816406, '98': -4.775974273681641, '99': -4.744724273681641}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9572915434837341, '2': -1.7229164838790894, '3': -1.847916603088379, '4': -1.9729164838790894, '5': -2.441666603088379, '98': -4.676041603088379, '99': -5.082291603088379}
+===

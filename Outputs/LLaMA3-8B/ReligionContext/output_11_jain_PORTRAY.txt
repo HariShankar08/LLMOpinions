@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2969847917556763, '2': -1.8751099109649658, '3': -1.7501097917556763, '4': -1.9844847917556763, '98': -3.6563596725463867, '99': -3.796984910964966}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5745189189910889, '2': -1.7932689189910889, '3': -1.6526439189910889, '4': -1.9651440382003784, '98': -3.730768918991089, '99': -3.847956418991089}
+===

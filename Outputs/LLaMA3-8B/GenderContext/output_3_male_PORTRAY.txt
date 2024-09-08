@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0095441341400146, '2': -2.1970441341400146, '3': -2.4626691341400146, '4': -2.4470441341400146, '5': -3.2204816341400146, '98': -3.2439191341400146, '99': -3.0720441341400146}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9255397319793701, '2': -2.06616473197937, '3': -2.42553973197937, '4': -2.44116473197937, '5': -3.17553973197937, '98': -3.40210223197937, '99': -3.53491473197937}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9925686120986938, '2': -2.0706937313079834, '3': -2.3206937313079834, '4': -2.3363184928894043, '5': -3.0238187313079834, '98': -3.3363187313079834, '99': -3.6488184928894043}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0542519092559814, '2': -2.1480019092559814, '3': -2.1323769092559814, '4': -2.0542519092559814, '5': -2.9136269092559814, '98': -3.4526891708374023, '99': -3.5933144092559814}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9840286374092102, '2': -2.0465285778045654, '3': -2.4996535778045654, '4': -2.4371535778045654, '5': -3.1559035778045654, '98': -3.1637160778045654, '99': -3.7887160778045654}
+===

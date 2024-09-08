@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.5210541486740112, '2': -1.2085541486740112, '3': -1.3960541486740112, '4': -1.7866791486740112, '98': -4.427304267883301, '99': -3.7866790294647217}
+===

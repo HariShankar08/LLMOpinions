@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.605259895324707, '2': -2.550572395324707, '3': -2.464634895324707, '4': -2.152134895324707, '5': -1.870884895324707, '6': -2.409947395324707, '7': -2.878697395324707, '98': -3.956822395324707, '99': -4.331822395324707}
+===

@@ -1,0 +1,36 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.346670389175415, '2': -1.5341705083847046, '3': -1.627920389175415, '4': -1.940420389175415, '5': -1.9716702699661255, '98': -4.721670627593994, '99': -4.784170150756836}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2975410223007202, '2': -1.6881660223007202, '3': -1.6412909030914307, '4': -1.9225409030914307, '5': -1.8912909030914307, '98': -4.51629114151001, '99': -5.00066614151001}
+===

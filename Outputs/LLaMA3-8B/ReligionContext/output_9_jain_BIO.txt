@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.6918835639953613, '2': -1.1918835639953613, '3': -1.3637585639953613, '4': -1.7075086832046509, '98': -4.441883563995361, '99': -3.5200085639953613}
+===

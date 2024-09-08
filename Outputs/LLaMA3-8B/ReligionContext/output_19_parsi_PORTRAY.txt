@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+3: Completely disagree
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5125662088394165, '2': -1.8641287088394165, '3': -1.9266287088394165, '98': -3.153191328048706, '99': -3.848503828048706}
+===

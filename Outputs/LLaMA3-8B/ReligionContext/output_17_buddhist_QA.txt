@@ -1,0 +1,23 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 5
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6687239408493042, '2': -2.1530990600585938, '3': -0.621849000453949, '98': -3.6374740600585938, '99': -3.0124740600585938}
+===

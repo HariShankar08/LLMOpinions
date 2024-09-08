@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2484326362609863, '2': -1.8265577554702759, '3': -2.6781201362609863, '4': -2.2328076362609863, '98': -3.4593701362609863, '99': -3.8031201362609863}
+===

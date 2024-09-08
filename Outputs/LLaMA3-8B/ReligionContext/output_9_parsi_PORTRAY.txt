@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3957515954971313, '2': -1.5520015954971313, '3': -2.278564214706421, '4': -2.083251714706421, '98': -3.481689214706421, '99': -3.872313976287842}
+===

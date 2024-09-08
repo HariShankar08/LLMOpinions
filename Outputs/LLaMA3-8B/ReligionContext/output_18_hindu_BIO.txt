@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6282122731208801, '2': -1.565712332725525, '3': -1.846962332725525, '98': -4.0188374519348145, '99': -3.8313372135162354}
+===

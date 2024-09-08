@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5245386362075806, '2': -2.04016375541687, '3': -2.00891375541687, '4': -2.35266375541687, '5': -2.087038516998291, '6': -2.165163516998291, '7': -2.35266375541687, '98': -3.85266375541687, '99': -4.040163516998291}
+===

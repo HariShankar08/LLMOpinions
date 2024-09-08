@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.492384910583496, '2': -1.8048847913742065, '3': -1.8517597913742065, '4': -2.023634910583496, '98': -4.203322410583496, '99': -4.226759910583496}
+===

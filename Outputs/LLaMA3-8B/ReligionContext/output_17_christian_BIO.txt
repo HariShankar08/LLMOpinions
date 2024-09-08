@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.418311357498169, '2': -2.355811357498169, '3': -0.527686357498169, '98': -4.215186595916748, '99': -4.012061595916748}
+===

@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8226200342178345, '2': -1.3226200342178345, '3': -1.9632450342178345, '4': -2.556995153427124, '98': -3.900744915008545, '99': -4.260119915008545}
+===

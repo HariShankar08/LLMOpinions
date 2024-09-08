@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1379399299621582, '2': -1.5598148107528687, '3': -2.059814929962158, '4': -2.184814929962158, '98': -3.942627429962158, '99': -5.036377429962158}
+===

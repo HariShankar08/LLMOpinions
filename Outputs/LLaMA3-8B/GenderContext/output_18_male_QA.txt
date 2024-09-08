@@ -1,0 +1,19 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 1
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0073716640472412, '2': -1.2886217832565308, '3': -1.7104967832565308, '98': -3.476121664047241, '99': -3.101121664047241}
+===

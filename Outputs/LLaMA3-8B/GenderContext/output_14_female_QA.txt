@@ -1,0 +1,63 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0072665214538574, '2': -1.3353915214538574, '3': -1.4603915214538574, '4': -2.3978915214538574, '98': -4.726016521453857, '99': -4.507266521453857}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.8145219087600708, '2': -0.783271849155426, '3': -1.5176469087600708, '4': -2.2832717895507812, '98': -4.517646789550781, '99': -4.283271789550781}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7434706687927246, '2': -1.1340956687927246, '3': -1.212220549583435, '4': -1.9465956687927246, '98': -4.384095668792725, '99': -3.9778456687927246}
+===

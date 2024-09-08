@@ -1,0 +1,44 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3898167610168457, '2': -1.3429417610168457, '3': -1.6398168802261353, '4': -1.6554417610168457, '5': -2.7804417610168457, '98': -5.139816761016846, '99': -4.655441761016846}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.093583583831787, '2': -1.515458583831787, '3': -1.7498337030410767, '4': -1.781083583831787, '5': -2.749833583831787, '98': -5.171708583831787, '99': -4.937333583831787}
+===

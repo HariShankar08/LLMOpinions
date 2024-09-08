@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+3: Completely disagree
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9715723395347595, '2': -1.4871973991394043, '3': -1.4871973991394043, '98': -3.1278223991394043, '99': -3.4871973991394043}
+===

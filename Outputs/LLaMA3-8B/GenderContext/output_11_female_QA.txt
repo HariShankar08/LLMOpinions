@@ -1,0 +1,42 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9141003489494324, '2': -1.5547252893447876, '3': -1.7422252893447876, '4': -2.367225408554077, '98': -3.929725408554077, '99': -3.414100408554077}
+===
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8648784756660461, '2': -1.583628535270691, '3': -1.786753535270691, '4': -2.2555034160614014, '98': -4.0836286544799805, '99': -3.7555034160614014}
+===

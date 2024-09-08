@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.9216573238372803, '2': -2.6872823238372803, '3': -2.6247825622558594, '4': -2.1404073238372803, '5': -1.8747824430465698, '6': -1.3747824430465698, '7': -2.5466575622558594, '98': -3.4997823238372803, '99': -4.484157562255859}
+===

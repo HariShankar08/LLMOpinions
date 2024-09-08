@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.708990454673767, '2': -2.4589905738830566, '3': -0.6152405142784119, '4': -1.927740454673767, '98': -4.443365573883057, '99': -4.490240573883057}
+===

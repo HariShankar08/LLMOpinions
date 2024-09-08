@@ -1,0 +1,13 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: Some feel that we should rely on a democratic form of government to solve our country’s problems. Others feel that we should rely on a leader with a strong hand to solve our country’s problems. Which comes closer to your opinion?
+1: Democratic form of government
+2: Leader with a strong hand
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7378262281417847, '2': -1.3315761089324951, '98': -4.386263847351074, '99': -4.347201347351074}
+===

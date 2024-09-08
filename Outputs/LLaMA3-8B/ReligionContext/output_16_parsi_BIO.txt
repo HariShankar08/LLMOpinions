@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.8299148082733154, '2': -2.4549148082733154, '3': -0.5799148082733154, '4': -1.861164927482605, '98': -4.6580400466918945, '99': -4.5174150466918945}
+===

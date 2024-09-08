@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.489660620689392, '2': -1.708410620689392, '3': -1.692785620689392, '4': -2.0052855014801025, '98': -4.145910739898682, '99': -4.169348239898682}
+===

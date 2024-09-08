@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6137133836746216, '2': -1.566838264465332, '3': -1.8324633836746216, '98': -4.223088264465332, '99': -4.051213264465332}
+===

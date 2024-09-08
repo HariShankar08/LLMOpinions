@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.250332236289978, '2': -1.734707236289978, '3': -1.547207236289978, '4': -1.687832236289978, '98': -3.5940823554992676, '99': -4.336269855499268}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4844645261764526, '2': -1.468839406967163, '3': -1.5157145261764526, '4': -1.765714406967163, '98': -3.640714406967163, '99': -4.265714645385742}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.494834303855896, '2': -1.619834303855896, '3': -1.526084303855896, '4': -1.526084303855896, '98': -3.4323341846466064, '99': -4.0104594230651855}
+===

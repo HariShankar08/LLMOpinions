@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2450649738311768, '2': -1.9169399738311768, '3': -1.9325649738311768, '4': -2.0731899738311768, '98': -4.065377712249756, '99': -4.174752712249756}
+===
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5174689292907715, '2': -1.7674689292907715, '3': -1.736218810081482, '4': -1.939343810081482, '98': -4.0955939292907715, '99': -4.1112189292907715}
+===

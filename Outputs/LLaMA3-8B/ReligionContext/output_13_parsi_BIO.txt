@@ -1,0 +1,36 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9436662793159485, '2': -1.8967913389205933, '3': -1.9749163389205933, '4': -2.271791458129883, '5': -1.9436662197113037, '98': -4.224916458129883, '99': -4.162416458129883}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0860791206359863, '2': -1.8360791206359863, '3': -1.8673291206359863, '4': -2.1329541206359863, '5': -1.8829541206359863, '98': -4.336079120635986, '99': -4.054829120635986}
+===

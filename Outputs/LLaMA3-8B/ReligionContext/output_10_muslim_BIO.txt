@@ -1,0 +1,36 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2135754823684692, '2': -1.4635753631591797, '3': -1.6979503631591797, '4': -2.0417003631591797, '5': -2.1823253631591797, '98': -4.97920036315918, '99': -4.68232536315918}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0923128128051758, '2': -1.6079378128051758, '3': -1.7016876935958862, '4': -1.9516878128051758, '5': -2.357937812805176, '98': -5.248562812805176, '99': -5.186062812805176}
+===

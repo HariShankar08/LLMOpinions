@@ -1,0 +1,90 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1480509042739868, '2': -1.7418009042739868, '3': -1.6949259042739868, '4': -2.0543010234832764, '5': -2.3043010234832764, '98': -4.273050785064697, '99': -3.9449257850646973}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9106684923171997, '2': -1.8012934923171997, '3': -1.8637934923171997, '4': -2.2387936115264893, '5': -2.41066837310791, '98': -4.34816837310791, '99': -4.22316837310791}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.904013454914093, '2': -1.8415135145187378, '3': -1.8102635145187378, '4': -2.1383883953094482, '5': -2.4508883953094482, '98': -4.513388633728027, '99': -4.591513633728027}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9824666380882263, '2': -1.873091697692871, '3': -1.748091697692871, '4': -2.013716697692871, '5': -2.404341697692871, '98': -4.404341697692871, '99': -4.263716697692871}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9164170026779175, '2': -1.791417121887207, '3': -1.8695420026779175, '4': -2.103916883468628, '5': -2.541417121887207, '98': -4.205479621887207, '99': -4.642979621887207}
+===

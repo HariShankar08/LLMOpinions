@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.672499656677246, '2': -1.141249656677246, '3': -1.375624656677246, '4': -1.750624656677246, '98': -4.344374656677246, '99': -3.766249656677246}
+===

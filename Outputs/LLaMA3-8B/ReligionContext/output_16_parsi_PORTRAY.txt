@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2079393863677979, '2': -2.582939386367798, '3': -1.9110643863677979, '4': -1.8641892671585083, '98': -4.098564147949219, '99': -4.426689624786377}
+===

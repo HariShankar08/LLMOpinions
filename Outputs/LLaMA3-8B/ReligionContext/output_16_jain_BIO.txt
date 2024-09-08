@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: In your opinion, who should have a greater right to parents’ inheritance?
+1: Sons
+2: Daughters
+3: Both should have equal rights
+4: Other/Neither/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.013742208480835, '2': -2.716867208480835, '3': -0.49811720848083496, '4': -1.888742208480835, '98': -4.748117446899414, '99': -4.373117446899414}
+===

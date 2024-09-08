@@ -1,0 +1,34 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9459416270256042, '2': -1.727191686630249, '3': -1.664691686630249, '4': -1.961566686630249, '98': -3.430316686630249, '99': -3.899066686630249}
+===
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0835601091384888, '2': -1.6148101091384888, '3': -1.5679351091384888, '4': -1.9429352283477783, '98': -3.489809989929199, '99': -3.896059989929199}
+===

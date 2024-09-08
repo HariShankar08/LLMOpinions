@@ -1,0 +1,16 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8149406313896179, '2': -1.6586905717849731, '3': -1.7055656909942627, '4': -2.1118156909942627, '98': -4.424315452575684, '99': -4.424315452575684}
+===

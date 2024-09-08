@@ -1,0 +1,144 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9326444268226624, '2': -1.9013944864273071, '3': -2.0576443672180176, '4': -1.8388943672180176, '98': -4.018581867218018, '99': -4.252956867218018}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2710411548614502, '2': -1.7710410356521606, '3': -1.6460410356521606, '4': -1.8804161548614502, '98': -4.216353893280029, '99': -4.106978416442871}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2736008167266846, '2': -1.8204758167266846, '3': -1.6486009359359741, '4': -1.7892259359359741, '98': -4.164226055145264, '99': -3.8829758167266846}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2501996755599976, '2': -1.7345746755599976, '3': -1.5939496755599976, '4': -1.703324794769287, '98': -4.218949794769287, '99': -4.047074794769287}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2222825288772583, '2': -1.7222825288772583, '3': -1.6285325288772583, '4': -1.7535325288772583, '98': -4.269157409667969, '99': -3.8394699096679688}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3463737964630127, '2': -1.8619989156723022, '3': -1.7369987964630127, '4': -1.7838737964630127, '98': -3.8463737964630127, '99': -3.6119987964630127}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1416749954223633, '2': -1.6416749954223633, '3': -1.6104248762130737, '4': -1.9072999954223633, '98': -4.336987495422363, '99': -4.188549995422363}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1499818563461304, '2': -1.5562318563461304, '3': -1.6656068563461304, '4': -2.009356737136841, '98': -4.20466947555542, '99': -4.17341947555542}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3245105743408203, '2': -1.4807606935501099, '3': -1.5276355743408203, '4': -1.8401356935501099, '98': -5.02763557434082, '99': -4.56669807434082}
+===

@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4073536396026611, '2': -1.6104785203933716, '3': -2.235478639602661, '4': -2.055791139602661, '98': -3.876103639602661, '99': -3.852666139602661}
+===

@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3994332551956177, '2': -2.0869333744049072, '3': -0.5869333148002625, '98': -3.9619333744049072, '99': -4.071308135986328}
+===

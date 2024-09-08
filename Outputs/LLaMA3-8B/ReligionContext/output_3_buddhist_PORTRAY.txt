@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2051606178283691, '2': -2.533285617828369, '3': -2.837973117828369, '4': -2.744223117828369, '5': -3.353598117828369, '98': -3.009848117828369, '99': -2.916098117828369}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1253423690795898, '2': -2.18002986907959, '3': -2.45346736907959, '4': -2.47690486907959, '5': -3.07846736907959, '98': -3.35190486907959, '99': -3.38315486907959}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.191824197769165, '2': -2.363699197769165, '3': -2.590261697769165, '4': -2.512136697769165, '5': -3.105886697769165, '98': -3.215261697769165, '99': -3.426199197769165}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.222449779510498, '2': -2.581824779510498, '3': -2.714637279510498, '4': -2.441199779510498, '5': -3.136512279510498, '98': -3.034949779510498, '99': -3.167762279510498}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1361638307571411, '2': -2.3705389499664307, '3': -2.7611637115478516, '4': -2.6596012115478516, '5': -3.2455387115478516, '98': -3.0033512115478516, '99': -3.6283512115478516}
+===

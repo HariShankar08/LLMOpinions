@@ -1,0 +1,21 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3445336818695068, '2': -2.1726584434509277, '3': -1.9539085626602173, '4': -1.3289085626602173, '5': -1.8757835626602173, '98': -4.375783443450928, '99': -4.157033443450928}
+===

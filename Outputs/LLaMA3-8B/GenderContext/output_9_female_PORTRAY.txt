@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.460349678993225, '2': -1.429099678993225, '3': -1.772849678993225, '4': -1.8353497982025146, '98': -4.1322245597839355, '99': -3.7181622982025146}
+===

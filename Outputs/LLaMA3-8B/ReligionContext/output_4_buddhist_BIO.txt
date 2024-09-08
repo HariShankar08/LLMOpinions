@@ -1,0 +1,17 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Buddhist.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6755197048187256, '2': -2.2848947048187256, '3': -2.4567697048187256, '4': -2.3473947048187256, '5': -2.0192697048187256, '98': -4.769269943237305, '99': -5.253644943237305}
+===

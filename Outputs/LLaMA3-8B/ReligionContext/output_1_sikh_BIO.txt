@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4238524436950684, '2': -1.9238524436950684, '3': -1.9863524436950684, '4': -2.4082274436950684, '5': -2.1738524436950684, '6': -2.2676022052764893, '7': -2.4238524436950684, '98': -4.080102443695068, '99': -4.345727443695068}
+===

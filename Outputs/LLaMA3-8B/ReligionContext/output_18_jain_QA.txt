@@ -1,0 +1,23 @@
+
+
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Some Other Religion
+Answer: 6
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2333765029907227, '2': -0.9208765625953674, '3': -1.5615015029907227, '98': -4.170876502990723, '99': -3.7646265029907227}
+===

@@ -1,0 +1,144 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9659073948860168, '2': -1.8877824544906616, '3': -2.028407335281372, '4': -1.8565324544906616, '98': -3.864344835281372, '99': -4.200282573699951}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2993800640106201, '2': -1.7681300640106201, '3': -1.6587551832199097, '4': -1.9087551832199097, '98': -3.99469256401062, '99': -4.057192802429199}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3307667970657349, '2': -1.8307667970657349, '3': -1.6901419162750244, '4': -1.7682667970657349, '98': -3.8932669162750244, '99': -3.8307669162750244}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2682889699935913, '2': -1.7370388507843018, '3': -1.6120389699935913, '4': -1.7214139699935913, '98': -3.9948513507843018, '99': -3.9948513507843018}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2172235250473022, '2': -1.7328485250473022, '3': -1.6703485250473022, '4': -1.7640985250473022, '98': -4.092223644256592, '99': -3.8734734058380127}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4019070863723755, '2': -1.8862820863723755, '3': -1.7300320863723755, '4': -1.7456570863723755, '98': -3.644094705581665, '99': -3.636282205581665}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1281328201293945, '2': -1.6750078201293945, '3': -1.6437578201293945, '4': -1.9406328201293945, '98': -4.2296953201293945, '99': -4.1437578201293945}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1361908912658691, '2': -1.5893158912658691, '3': -1.6830658912658691, '4': -2.042440891265869, '98': -4.050253391265869, '99': -4.120565891265869}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.327204942703247, '2': -1.4834550619125366, '3': -1.545954942703247, '4': -1.889704942703247, '98': -4.811580181121826, '99': -4.491267204284668}
+===

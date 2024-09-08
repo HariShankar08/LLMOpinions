@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0951133966445923, '2': -2.181051015853882, '3': -2.368551015853882, '4': -2.1185507774353027, '98': -3.470113515853882, '99': -3.431051015853882}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4244859218597412, '2': -1.8932358026504517, '3': -1.9479233026504517, '4': -2.018235683441162, '98': -3.651048421859741, '99': -3.385423421859741}
+===

@@ -1,0 +1,23 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 1
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1545953750610352, '2': -1.9202203750610352, '3': -2.154595375061035, '4': -2.623345375061035, '5': -2.607720375061035, '6': -2.404595375061035, '7': -2.232720375061035, '98': -4.732720375061035, '99': -3.732720375061035}
+===

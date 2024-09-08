@@ -1,0 +1,15 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7436621785163879, '2': -1.4155372381210327, '3': -1.6967871189117432, '98': -3.899912118911743, '99': -3.837412118911743}
+===

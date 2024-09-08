@@ -1,0 +1,153 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4096481800079346, '2': -1.7065232992172241, '3': -1.5658981800079346, '4': -1.4565231800079346, '98': -3.1596481800079346, '99': -3.4252731800079346}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3686996698379517, '2': -1.7124496698379517, '3': -1.5561996698379517, '4': -1.5249496698379517, '98': -3.415574789047241, '99': -3.462449789047241}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4275847673416138, '2': -1.7244597673416138, '3': -1.4900847673416138, '4': -1.4744597673416138, '98': -3.2244598865509033, '99': -3.4275848865509033}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.4768083095550537, '2': -1.7424333095550537, '3': -1.5705584287643433, '4': -1.4143084287643433, '98': -3.0080583095550537, '99': -3.2736833095550537}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2942184209823608, '2': -1.6692184209823608, '3': -1.6848434209823608, '4': -1.5598434209823608, '98': -3.1223433017730713, '99': -3.2629685401916504}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9678701162338257, '2': -1.7803701162338257, '3': -1.7334951162338257, '4': -1.7334951162338257, '98': -3.686619997024536, '99': -3.6084952354431152}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.0345176458358765, '2': -1.6438926458358765, '3': -1.6907676458358765, '4': -1.7376426458358765, '98': -3.675142765045166, '99': -3.753267526626587}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9823862910270691, '2': -1.5917613506317139, '3': -1.7480112314224243, '4': -1.8573863506317139, '98': -3.685511350631714, '99': -3.685511350631714}
+===
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3385734558105469, '2': -1.5104484558105469, '3': -1.5416984558105469, '4': -1.5729485750198364, '98': -3.760448455810547, '99': -3.619823455810547}
+===

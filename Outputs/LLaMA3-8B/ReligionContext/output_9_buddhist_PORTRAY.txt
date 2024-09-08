@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.5936003923416138, '2': -1.6092253923416138, '3': -2.1092255115509033, '4': -1.9686003923416138, '98': -3.7420380115509033, '99': -3.7732880115509033}
+===

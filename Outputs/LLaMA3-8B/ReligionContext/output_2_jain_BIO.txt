@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Jain.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.8793717622756958, '2': -2.6137466430664062, '3': -2.5668718814849854, '4': -2.1762468814849854, '5': -1.9731217622756958, '6': -1.4106217622756958, '7': -2.4106216430664062, '98': -3.6137468814849854, '99': -4.293434143066406}
+===

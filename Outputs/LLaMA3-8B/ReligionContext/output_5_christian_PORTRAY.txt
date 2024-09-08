@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4617795944213867, '2': -1.8055295944213867, '3': -1.8211545944213867, '4': -2.0555295944213867, '98': -4.086779594421387, '99': -4.219592094421387}
+===

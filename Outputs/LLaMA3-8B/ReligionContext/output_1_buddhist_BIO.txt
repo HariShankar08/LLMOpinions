@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Buddhist.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.479835867881775, '2': -1.948585867881775, '3': -1.979835867881775, '4': -2.3704609870910645, '5': -2.1517109870910645, '6': -2.2298359870910645, '7': -2.4485859870910645, '98': -3.9642109870910645, '99': -4.1985859870910645}
+===
