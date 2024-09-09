@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4432018995285034, '2': -2.0256662368774414, '3': -2.517094612121582, '4': -2.352806806564331}
+===

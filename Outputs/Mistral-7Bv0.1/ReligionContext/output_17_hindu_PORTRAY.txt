@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.485427737236023, '2': -0.7510526776313782, '3': -1.7432401180267334}
+===

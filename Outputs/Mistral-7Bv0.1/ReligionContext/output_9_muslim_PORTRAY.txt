@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How much influence should politicians have in religious matters?
+1: A large influence
+2: Some influence
+3: Not too much influence
+4: No influence at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.78708016872406, '2': -1.0761425495147705, '3': -1.37301766872406, '4': -2.0761425495147705}
+===

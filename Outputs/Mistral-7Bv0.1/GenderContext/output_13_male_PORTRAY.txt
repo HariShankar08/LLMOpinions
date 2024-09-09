@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6555474400520325, '2': -1.6555474996566772, '3': -2.4602348804473877, '4': -3.2961723804473877, '5': -2.983672618865967}
+===
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7612612843513489, '2': -1.7065738439559937, '3': -1.987823724746704, '4': -2.808136224746704, '5': -2.972198724746704}
+===

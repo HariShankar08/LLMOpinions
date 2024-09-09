@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.230432391166687, '2': -1.9179322719573975, '3': -1.410119891166687, '4': -3.3319947719573975}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.651315927505493, '2': -1.7919408082962036, '3': -0.9716283082962036, '4': -2.909128189086914}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.367638111114502, '2': -1.891075611114502, '3': -1.070763111114502, '4': -2.937950611114502}
+===

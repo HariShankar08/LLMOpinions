@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0636459589004517, '2': -1.071458339691162, '3': -2.024583339691162, '4': -2.555833339691162}
+===

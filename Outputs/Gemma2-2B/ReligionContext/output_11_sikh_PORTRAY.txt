@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3711966276168823, '2': -2.233407974243164, '3': -2.9127652645111084, '4': -3.02463698387146}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.676810383796692, '2': -2.076464891433716, '3': -2.4650793075561523, '4': -2.833207368850708}
+===

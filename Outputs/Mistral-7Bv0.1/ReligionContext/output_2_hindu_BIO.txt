@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5625462532043457, '2': -1.9687962532043457, '3': -2.3359837532043457, '4': -1.5469212532043457, '5': -2.3047337532043457, '6': -2.2266087532043457, '7': -2.4453587532043457}
+===

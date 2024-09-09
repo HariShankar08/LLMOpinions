@@ -1,0 +1,19 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: Which of these three statements comes closest to your opinion?
+1: Men generally make better political leaders than women 
+2: Women generally make better political leaders than men
+3: In general, women and men make equally good political leaders
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2829995155334473, '2': -0.974327564239502, '3': -1.1777596473693848}
+===

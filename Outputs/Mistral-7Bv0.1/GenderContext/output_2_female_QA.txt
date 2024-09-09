@@ -1,0 +1,23 @@
+
+
+Question: What is your gender?
+1. Male
+2. Female
+3. Other
+4. Prefer not to say
+Answer: 2
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.450312852859497, '2': -1.5831252336502075, '3': -2.637812614440918, '4': -1.3331252336502075, '5': -1.9190627336502075, '6': -2.286250352859497, '7': -2.364375352859497}
+===

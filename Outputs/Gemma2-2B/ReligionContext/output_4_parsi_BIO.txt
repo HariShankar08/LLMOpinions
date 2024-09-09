@@ -1,0 +1,17 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9296998381614685, '2': -1.3614816665649414, '3': -1.8836220502853394, '4': -3.1560564041137695, '5': -3.5122251510620117}
+===

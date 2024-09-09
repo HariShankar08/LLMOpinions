@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.9590352773666382, '2': -1.6699727773666382, '3': -1.7637227773666382, '4': -1.0918477773666382}
+===
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5000587701797485, '2': -1.5859962701797485, '3': -1.890683889389038, '4': -1.539121389389038}
+===

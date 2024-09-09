@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1298562288284302, '2': -1.6290894746780396, '3': -2.47784423828125, '4': -2.6796092987060547}
+===

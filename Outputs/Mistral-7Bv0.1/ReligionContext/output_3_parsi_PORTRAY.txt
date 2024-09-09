@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.042029619216919, '2': -1.3467170000076294, '3': -2.026404619216919, '4': -2.573279619216919, '5': -2.659217119216919}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9521546959877014, '2': -1.4599672555923462, '3': -2.1318421363830566, '4': -2.7177796363830566, '5': -2.8271546363830566}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9714279770851135, '2': -1.4167405366897583, '3': -2.0964279174804688, '4': -2.6042404174804688, '5': -2.7995529174804688}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7854328155517578, '2': -1.6057453155517578, '3': -2.316682815551758, '4': -2.715120315551758, '5': -2.886995315551758}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7089656591415405, '2': -1.3886531591415405, '3': -2.38084077835083, '4': -2.927715539932251, '5': -3.154278039932251}
+===

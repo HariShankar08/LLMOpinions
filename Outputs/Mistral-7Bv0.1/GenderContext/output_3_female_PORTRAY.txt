@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9003615975379944, '2': -1.3612990379333496, '3': -2.1191115379333496, '4': -2.6191117763519287, '5': -2.8222365379333496}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8133861422538757, '2': -1.5321362018585205, '3': -2.2430737018585205, '4': -2.7665112018585205, '5': -2.9461987018585205}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8482918739318848, '2': -1.5514168739318848, '3': -2.1451668739318848, '4': -2.5279793739318848, '5': -2.9107918739318848}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7473146319389343, '2': -1.5988770723342896, '3': -2.286377191543579, '4': -2.645752191543579, '5': -2.950439691543579}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.5640127062797546, '2': -1.7515126466751099, '3': -2.5562002658843994, '4': -3.0093252658843994, '5': -3.0796377658843994}
+===

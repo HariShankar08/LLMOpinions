@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1207817792892456, '2': -2.214531660079956, '3': -2.128594160079956, '4': -2.245781660079956, '5': -2.644219160079956, '6': -2.886406660079956, '7': -2.956719160079956}
+===

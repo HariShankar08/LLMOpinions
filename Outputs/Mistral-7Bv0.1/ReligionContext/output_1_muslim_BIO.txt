@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9945886135101318, '2': -1.2133384943008423, '3': -2.041463613510132, '4': -2.908651113510132, '5': -2.916463613510132, '6': -3.228963613510132, '7': -3.400838613510132}
+===

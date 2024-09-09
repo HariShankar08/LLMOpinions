@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.623462200164795, '2': -1.7119613885879517, '3': -2.419604778289795, '4': -2.7510316371917725, '5': -2.801814556121826}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6698416471481323, '2': -1.6892852783203125, '3': -2.2074546813964844, '4': -2.47149658203125, '5': -2.637880325317383}
+===

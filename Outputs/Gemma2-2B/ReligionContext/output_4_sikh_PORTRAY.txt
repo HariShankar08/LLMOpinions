@@ -1,0 +1,16 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1370012760162354, '2': -1.6495460271835327, '3': -2.2488367557525635, '4': -2.950378656387329, '5': -3.2060434818267822}
+===

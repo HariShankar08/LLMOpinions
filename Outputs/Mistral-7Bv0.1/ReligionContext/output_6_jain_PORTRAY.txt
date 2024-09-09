@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: Do you think having an abortion should be ...
+1: Legal in all cases
+2: Legal in most cases
+3: Illegal in most cases 
+4: Illegal in all cases
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1441720724105835, '2': -1.0660470724105835, '3': -1.9801095724105835, '4': -2.433234691619873}
+===

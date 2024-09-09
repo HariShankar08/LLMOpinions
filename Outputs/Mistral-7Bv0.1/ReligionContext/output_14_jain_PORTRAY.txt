@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3120489120483398, '2': -1.7104864120483398, '3': -1.3667364120483398, '4': -3.02298641204834}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.329698085784912, '2': -1.5953229665756226, '3': -1.095323085784912, '4': -2.696885585784912}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.399454355239868, '2': -1.7510168552398682, '3': -1.0478918552398682, '4': -2.665079355239868}
+===

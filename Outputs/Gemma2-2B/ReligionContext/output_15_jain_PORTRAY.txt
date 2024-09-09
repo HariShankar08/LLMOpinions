@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6398919820785522, '2': -2.2603087425231934, '3': -2.972144603729248, '4': -3.2748866081237793}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.630865216255188, '2': -1.8706361055374146, '3': -2.6838552951812744, '4': -2.903491973876953}
+===

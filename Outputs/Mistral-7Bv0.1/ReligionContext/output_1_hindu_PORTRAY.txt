@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1459174156188965, '2': -1.2396674156188965, '3': -2.3099799156188965, '4': -2.9896674156188965, '5': -3.0131049156188965, '6': -3.0599799156188965, '7': -2.7787299156188965}
+===

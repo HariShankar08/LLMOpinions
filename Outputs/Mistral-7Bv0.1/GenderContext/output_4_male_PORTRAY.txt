@@ -1,0 +1,16 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: To improve the safety of women in our community, which do you think is more important?
+1: Teaching boys to respect all women
+2: Teaching girls to behave appropriately
+3: Women are already safe
+4: Improve law and order/Policing 
+5: Both/Depends/Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6490161418914795, '2': -1.9380786418914795, '3': -3.0474536418914795, '4': -3.4927661418914795, '5': -2.1021411418914795}
+===

@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Christian.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.230531930923462, '2': -1.944702386856079, '3': -2.1208441257476807, '4': -2.269014596939087, '5': -2.354719400405884, '6': -2.469026803970337, '7': -2.694824457168579}
+===

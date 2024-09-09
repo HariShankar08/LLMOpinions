@@ -1,0 +1,85 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+a: Unemployment
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9432627558708191, '2': -1.3729501962661743, '3': -2.076075315475464, '4': -2.716700315475464, '5': -2.841700315475464}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+b: Crime
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8511050343513489, '2': -1.6011050939559937, '3': -2.280792474746704, '4': -2.952667474746704, '5': -2.882354974746704}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+c: Communal violence
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8387438058853149, '2': -1.549681305885315, '3': -2.1668689250946045, '4': -2.7215561866760254, '5': -2.9246811866760254}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+d: Corruption
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7504519820213318, '2': -1.7035770416259766, '3': -2.3520145416259766, '4': -2.8129520416259766, '5': -2.9457645416259766}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a ...
+e: Violence against women
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+5: Don’t know
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7584582567214966, '2': -1.3990832567214966, '3': -2.242833375930786, '4': -2.852208375930786, '5': -3.008458375930786}
+===

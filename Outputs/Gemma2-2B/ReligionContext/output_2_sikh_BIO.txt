@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Sikh.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1408064365386963, '2': -2.2207624912261963, '3': -2.4926092624664307, '4': -2.1608831882476807, '5': -2.1806108951568604, '6': -2.166717529296875, '7': -2.6877501010894775}
+===

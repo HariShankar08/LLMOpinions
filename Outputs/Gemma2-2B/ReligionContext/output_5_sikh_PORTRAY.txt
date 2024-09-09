@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3497997522354126, '2': -1.558658242225647, '3': -2.345079183578491, '4': -2.5657403469085693}
+===

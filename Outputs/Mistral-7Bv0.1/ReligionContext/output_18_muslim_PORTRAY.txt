@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.6694810390472412, '2': -1.2397935390472412, '3': -2.513231039047241}
+===

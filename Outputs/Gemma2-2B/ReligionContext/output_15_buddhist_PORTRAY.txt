@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.480808973312378, '2': -2.1210849285125732, '3': -2.8771350383758545, '4': -3.1329848766326904}
+===
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.4963968992233276, '2': -1.7198179960250854, '3': -2.56345534324646, '4': -2.8661556243896484}
+===

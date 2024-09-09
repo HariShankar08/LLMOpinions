@@ -1,0 +1,15 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is it for women to have the same rights as men?
+1: Very important
+2: Somewhat important
+3: Not too important 
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.22530750930309296, '2': -2.7018699645996094, '3': -3.5768699645996094, '4': -4.264369964599609}
+===

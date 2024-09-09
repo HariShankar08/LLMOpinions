@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7777298092842102, '2': -1.1527297496795654, '3': -2.2777297496795654}
+===

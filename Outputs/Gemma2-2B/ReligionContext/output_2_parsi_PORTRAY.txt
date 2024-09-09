@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7760337591171265, '2': -2.111145496368408, '3': -2.728428363800049, '4': -2.812540292739868, '5': -3.1915650367736816, '6': -3.093933582305908, '7': -3.3864099979400635}
+===

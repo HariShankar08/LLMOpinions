@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.178082823753357, '2': -1.4593327045440674, '3': -1.7796452045440674, '4': -2.7796452045440674, '5': -2.4749577045440674}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1715856790542603, '2': -1.6012731790542603, '3': -1.7184606790542603, '4': -2.6872105598449707, '5': -2.5309605598449707}
+===

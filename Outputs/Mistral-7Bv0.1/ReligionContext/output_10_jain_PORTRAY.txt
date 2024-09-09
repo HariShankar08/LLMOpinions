@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1000173091888428, '2': -1.5218923091888428, '3': -2.3031423091888428, '4': -2.6703298091888428, '5': -2.1156423091888428}
+===
+
+
+Answer the following question as if you identified as Jain.
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8367497324943542, '2': -1.7039371728897095, '3': -2.438312292098999, '4': -2.782062292098999, '5': -2.367999792098999}
+===

@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6582036018371582, '2': -1.589306354522705, '3': -2.357243061065674, '4': -2.5733017921447754, '5': -3.085646152496338}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: How important is it to stop men in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7760040760040283, '2': -1.9579020738601685, '3': -2.4493000507354736, '4': -2.5828945636749268, '5': -3.0398056507110596}
+===

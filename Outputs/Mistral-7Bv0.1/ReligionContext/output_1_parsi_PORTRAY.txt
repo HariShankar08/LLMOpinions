@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.003513216972351, '2': -1.159763216972351, '3': -2.3941380977630615, '4': -3.2457008361816406, '5': -3.3160130977630615, '6': -3.4332005977630615, '7': -3.1910130977630615}
+===

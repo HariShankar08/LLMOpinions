@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0696040391921997, '2': -1.2336665391921997, '3': -1.8508541584014893, '4': -2.60866641998291}
+===
+
+
+Answer the following question as if you identified as Female.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.5850728750228882, '2': -1.5616353750228882, '3': -2.4600729942321777, '4': -3.2335104942321777}
+===

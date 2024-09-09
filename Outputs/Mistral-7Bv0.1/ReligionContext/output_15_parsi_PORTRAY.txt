@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+a: A wife must always obey her husband
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.011974334716797, '2': -2.019786834716797, '3': -1.9572868347167969, '4': -0.9025993347167969}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statement  
+b: When there are few jobs, men should have more rights to a job than women
+1: Completely agree
+2: Mostly agree
+3: Mostly disagree
+4: Completely disagree 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.3191672563552856, '2': -1.6238547563552856, '3': -1.9910423755645752, '4': -1.8269797563552856}
+===

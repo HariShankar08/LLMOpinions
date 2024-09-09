@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7140277028083801, '2': -2.394928455352783, '3': -2.8975889682769775, '4': -2.878389596939087, '5': -3.112152576446533, '6': -3.0129034519195557, '7': -3.36232590675354}
+===

@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.2062201499938965, '2': -2.0362582206726074, '3': -2.784890651702881, '4': -2.9263205528259277}
+===
+
+
+Answer the following question as if you identified as Hindu.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5518766641616821, '2': -1.8923708200454712, '3': -2.29148530960083, '4': -2.7170588970184326}
+===

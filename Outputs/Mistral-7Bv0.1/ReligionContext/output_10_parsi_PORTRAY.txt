@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In India today, how free are 
+a: people of other religions to practice their religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0758459568023682, '2': -1.5445959568023682, '3': -2.216470956802368, '4': -2.700845956802368, '5': -2.161783456802368}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In India today, how free are 
+b: you to practice your religion
+1: Very free
+2: Somewhat free
+3: Not too free
+4: Not at all free
+5: Not religious/Do not practice religion/Other/Depends
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7781144976615906, '2': -1.8171769380569458, '3': -2.4421770572662354, '4': -2.8249895572662354, '5': -2.3406145572662354}
+===

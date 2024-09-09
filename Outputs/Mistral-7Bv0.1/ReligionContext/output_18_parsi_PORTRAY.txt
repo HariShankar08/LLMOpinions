@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.6312528848648071, '2': -1.0062528848648071, '3': -1.3578153848648071}
+===

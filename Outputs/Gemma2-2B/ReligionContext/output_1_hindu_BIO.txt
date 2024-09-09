@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Hindu.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.200606346130371, '2': -1.9953278303146362, '3': -2.1420412063598633, '4': -2.273634910583496, '5': -2.3419981002807617, '6': -2.4094038009643555, '7': -2.68466854095459}
+===

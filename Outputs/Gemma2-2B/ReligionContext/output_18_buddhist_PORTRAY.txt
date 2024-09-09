@@ -1,0 +1,14 @@
+
+
+Answer the following question as if you identified as Buddhist.
+
+
+Question: How important is religion in your life?
+1: Very important
+2: Somewhat important
+3: Not too important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7874482870101929, '2': -1.8239586353302002, '3': -2.488626003265381}
+===

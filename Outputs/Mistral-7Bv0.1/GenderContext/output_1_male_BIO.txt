@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Male.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.917165994644165, '2': -1.307790994644165, '3': -2.065603494644165, '4': -2.885915994644165, '5': -2.878103494644165, '6': -3.331228494644165, '7': -3.432790994644165}
+===

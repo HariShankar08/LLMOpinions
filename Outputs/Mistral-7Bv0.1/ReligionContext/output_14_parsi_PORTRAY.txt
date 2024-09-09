@@ -1,0 +1,48 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+a: earning money
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9180446267127991, '2': -2.2305445671081543, '3': -2.0196070671081543, '4': -3.7696070671081543}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+b: taking care of children
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -2.0027413368225098, '2': -1.6511788368225098, '3': -1.3464913368225098, '4': -2.9636788368225098}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: In a family, who should be primarily responsible for 
+c: making decisions about expenses
+1: Men
+2: Women
+3: Both
+4: Depends/Other 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.7847967147827148, '2': -1.9254217147827148, '3': -1.4488592147827148, '4': -3.034796714782715}
+===

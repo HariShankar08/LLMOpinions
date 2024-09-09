@@ -1,0 +1,34 @@
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+a: caste
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.116945505142212, '2': -1.538820505142212, '3': -2.023195505142212, '4': -2.913820505142212, '5': -2.468508005142212}
+===
+
+
+Answer the following question as if you identified as Parsi.
+
+
+Question: How important is it to stop women in your community from marrying into another 
+b: religion
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+5: It depends 
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9792084693908691, '2': -1.6901459693908691, '3': -2.104208469390869, '4': -2.862020969390869, '5': -2.705770969390869}
+===

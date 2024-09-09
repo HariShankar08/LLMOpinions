@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your gender and then answer some questions.
+Description: I identify as Female.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.9722604751586914, '2': -2.0131425857543945, '3': -2.4656076431274414, '4': -2.5603246688842773, '5': -2.5073347091674805, '6': -2.7167062759399414, '7': -3.0315942764282227}
+===

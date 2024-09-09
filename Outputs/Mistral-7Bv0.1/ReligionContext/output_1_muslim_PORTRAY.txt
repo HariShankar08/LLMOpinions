@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.1485472917556763, '2': -1.1016722917556763, '3': -2.2891721725463867, '4': -3.0313596725463867, '5': -3.1407346725463867, '6': -3.1485471725463867, '7': -3.0469846725463867}
+===

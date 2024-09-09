@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Male.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7400449514389038, '2': -2.6901848316192627, '3': -3.290280818939209, '4': -3.2954745292663574, '5': -3.6223349571228027, '6': -3.2827162742614746, '7': -3.3727715015411377}
+===

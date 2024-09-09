@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Parsi.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.130985140800476, '2': -1.240360140800476, '3': -1.8966100215911865, '4': -2.8028600215911865, '5': -2.7950475215911865, '6': -3.0606725215911865, '7': -3.1934850215911865}
+===

@@ -1,0 +1,144 @@
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+a: Hindus
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2971900701522827, '2': -1.3518775701522827, '3': -1.6409399509429932, '4': -2.492502450942993}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+b: Muslims
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9860776662826538, '2': -1.3923276662826538, '3': -1.7907651662826538, '4': -2.6579527854919434}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+c: Christians
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.1239655017852783, '2': -1.3817780017852783, '3': -1.6395906209945679, '4': -2.4755280017852783}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+d: Sikhs
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.0845130681991577, '2': -1.3657630681991577, '3': -1.7329504489898682, '4': -2.693887948989868}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+e: Buddhists
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.3462285995483398, '2': -1.3462285995483398, '3': -1.5181035995483398, '4': -2.40872859954834}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+f: Jains
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.2626029253005981, '2': -1.3719779253005981, '3': -1.6532279253005981, '4': -2.3876028060913086}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+g: Members of Scheduled Castes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -0.9965317249298096, '2': -1.4027817249298096, '3': -1.7699692249298096, '4': -2.6996567249298096}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+h: Members of Scheduled Tribes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.0430575609207153, '2': -1.4102450609207153, '3': -1.7071199417114258, '4': -2.753995180130005}
+===
+
+
+Answer the following question as if you identified as Sikh.
+
+
+Question: Just your impression, in India today, is there a lot of discrimination against 
+i: Members of Other Backward Classes
+1: Very big problem
+2: Moderately big problem
+3: Small problem
+4: Not a problem at all
+98: Don't know
+99: Refused
+Answer: 
+{'1': -1.196096420288086, '2': -1.289846420288086, '3': -1.7195338010787964, '4': -2.485158920288086}
+===

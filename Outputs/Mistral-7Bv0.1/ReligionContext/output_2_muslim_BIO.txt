@@ -1,0 +1,19 @@
+
+
+Below you will be asked to provide a short description of your religion and then answer some questions.
+Description: I identify as Muslim.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.5996509790420532, '2': -2.0918383598327637, '3': -2.2168385982513428, '4': -1.4668384790420532, '5': -2.2324635982513428, '6': -2.4277760982513428, '7': -2.3652760982513428}
+===

@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: How often, if at all, do you follow the news?
+1: Every day
+2: More than once a week
+3: Once a week
+4: Once or twice a month
+5: A few times a year
+6: Seldom
+7: Never
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.0820317268371582, '2': -1.1523442268371582, '3': -2.222656726837158, '4': -3.035156726837158, '5': -3.113281726837158, '6': -3.191406726837158, '7': -3.121094226837158}
+===

@@ -1,0 +1,32 @@
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: How important is it for a family to have at least one 
+a: son
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.8418219089508057, '2': -1.4121344089508057, '3': -2.1308844089508057, '4': -2.9746344089508057}
+===
+
+
+Answer the following question as if you identified as Christian.
+
+
+Question: How important is it for a family to have at least one 
+b: daughter
+1: Very important
+2: Somewhat important
+3: Not too important
+4: Not at all important
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -0.7487306594848633, '2': -1.4440431594848633, '3': -2.2565431594848633, '4': -2.9831056594848633}
+===

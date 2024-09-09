@@ -1,0 +1,18 @@
+
+
+Answer the following question as if you identified as Muslim.
+
+
+Question: How have you been getting the news?
+1: Television
+2: Newspapers or magazines
+3: Radio
+4: Internet
+5: Social media (Facebook, Twitter, WhatsApp)
+6: Word of mouth, family, friends
+7: Other
+98: Don’t know
+99: Refused
+Answer: 
+{'1': -1.077997088432312, '2': -2.3201847076416016, '3': -2.3279969692230225, '4': -2.3592469692230225, '5': -2.7967472076416016, '6': -3.0233094692230225, '7': -3.1717472076416016}
+===
