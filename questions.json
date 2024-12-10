@@ -1,0 +1,2968 @@
+{
+    "COUNTRY": {
+        "question": "COUNTRY. COUNTRY ID",
+        "options": {
+            "1": "INDIA"
+        }
+    },
+    "QRID": {
+        "question": "QRID. Respondent ID (UNIQUE TO EACH RESPONDENT)"
+    },
+    "weight": {
+        "question": "Final Weight"
+    },
+    "QMLangRec": {
+        "question": "QMLangRec. [DO NOT READ] Main language of interview? [INTERVIEWER: THIS QUESTION IS NOT TO BE READ TO RESPONDENT. YOU NEED TO RECORD THE MAIN LANGUAGE SELECTED TO CONDUCT THIS INTERVIEW.]",
+        "options": {
+            "1": "Hindi",
+            "2": "Language other than Hindi"
+        }
+    },
+    "Q2": {
+        "question": "Q2. How often, if at all, do you follow the news?",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q3rec_1": {
+        "question": "Q3. How have you been getting the news? Television",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_2": {
+        "question": "Q3. How have you been getting the news? Newspapers or magazines",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_3": {
+        "question": "Q3. How have you been getting the news? Radio",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_4": {
+        "question": "Q3. How have you been getting the news? Internet",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_5": {
+        "question": "Q3. How have you been getting the news? Social media (Facebook, Twitter, WhatsApp)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_6": {
+        "question": "Q3. How have you been getting the news? Word of mouth, family, friends",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_7": {
+        "question": "Q3. How have you been getting the news? Other",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_98": {
+        "question": "Q3. How have you been getting the news? DK",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q3rec_99": {
+        "question": "Q3. How have you been getting the news? Refused",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q4": {
+        "question": "Q4. Thinking about your current economic situation, how would you describe it?",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad [OR]",
+            "4": "Very bad",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q5": {
+        "question": "Q5. Over the next 12 months, do you expect your economic situation to \u2026?",
+        "options": {
+            "1": "Improve",
+            "2": "Remain the same [OR]",
+            "3": "Worsen",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q6a": {
+        "question": "Q6. Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a \u2026. a. Unemployment",
+        "options": {
+            "1": "Very big problem",
+            "2": "Moderately big problem",
+            "3": "Small problem [OR]",
+            "4": "Not a problem at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q6b": {
+        "question": "Q6. Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a \u2026. b. Crime",
+        "options": {
+            "1": "Very big problem",
+            "2": "Moderately big problem",
+            "3": "Small problem [OR]",
+            "4": "Not a problem at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q6c": {
+        "question": "Q6. Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a \u2026. c. Communal violence",
+        "options": {
+            "1": "Very big problem",
+            "2": "Moderately big problem",
+            "3": "Small problem [OR]",
+            "4": "Not a problem at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q6d": {
+        "question": "Q6. Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a \u2026. d. Corruption",
+        "options": {
+            "1": "Very big problem",
+            "2": "Moderately big problem",
+            "3": "Small problem [OR]",
+            "4": "Not a problem at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q6e": {
+        "question": "Q6. Now I am going to read you a list of things that may be problems in India. As I read each one, please tell me if you think it is a \u2026. e. Violence against women",
+        "options": {
+            "1": "Very big problem",
+            "2": "Moderately big problem",
+            "3": "Small problem [OR]",
+            "4": "Not a problem at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q7": {
+        "question": "Q7. To improve the safety of women in our community, which do you think is more important?",
+        "options": {
+            "1": "Teaching boys to respect all women",
+            "2": "Teaching girls to behave appropriately",
+            "3": "Women are already safe (DO NOT READ)",
+            "4": "Improve law and order/Policing (DO NOT READ)",
+            "5": "Both/Depends/Other (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q9": {
+        "question": "Q9. How important is it for women to have the same rights as men?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "ABORT": {
+        "question": "ABORT. Do you think having an abortion should be \u2026?",
+        "options": {
+            "1": "Legal in all cases",
+            "2": "Legal in most cases",
+            "3": "Illegal in most cases [OR]",
+            "4": "Illegal in all cases",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q10": {
+        "question": "Q10. Some feel that we should rely on a democratic form of government to solve our country\u2019s problems. Others feel that we should rely on a leader with a strong hand to solve our country\u2019s problems. Which comes closer to your opinion?",
+        "options": {
+            "1": "Democratic form of government",
+            "2": "Leader with a strong hand",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11ya": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? a. Hindus",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yb": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? b. Muslims",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yc": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? c. Christians",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yd": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? d. Sikhs",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11ye": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? e. Buddhists",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yf": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? f. Jains",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yg": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? g. Members of Scheduled Castes",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yh": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? h. Members of Scheduled Tribes",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yi": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? i. Members of Other Backward Classes",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q11yj": {
+        "question": "Q11y. Just your impression, in India today, is there a lot of discrimination against ...? j. Women",
+        "options": {
+            "1": "Yes, a lot of discrimination",
+            "2": "No, not a lot of discrimination",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q12": {
+        "question": "Q12. How much influence should politicians have in religious matters?",
+        "options": {
+            "1": "A large influence",
+            "2": "Some influence",
+            "3": "Not too much influence [OR]",
+            "4": "No influence at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q13": {
+        "question": "Q13. Nowadays, would you say that your health is \u2026?",
+        "options": {
+            "1": "Excellent",
+            "2": "Good",
+            "3": "Fair [OR]",
+            "4": "Poor",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q14a": {
+        "question": "Q14. In general, when you or someone in your family has health problems, how much do you trust ... for treatment? a. ayurveda or home remedies",
+        "options": {
+            "1": "A lot",
+            "2": "Some",
+            "3": "Not too much [OR]",
+            "4": "Not at all",
+            "5": "Depends on situation (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q14b": {
+        "question": "Q14. In general, when you or someone in your family has health problems, how much do you trust ... for treatment? b. religious ritual",
+        "options": {
+            "1": "A lot",
+            "2": "Some",
+            "3": "Not too much [OR]",
+            "4": "Not at all",
+            "5": "Depends on situation (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q14c": {
+        "question": "Q14. In general, when you or someone in your family has health problems, how much do you trust ... for treatment? c. homeopathy",
+        "options": {
+            "1": "A lot",
+            "2": "Some",
+            "3": "Not too much [OR]",
+            "4": "Not at all",
+            "5": "Depends on situation (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q14d": {
+        "question": "Q14. In general, when you or someone in your family has health problems, how much do you trust ... for treatment? d. medical science",
+        "options": {
+            "1": "A lot",
+            "2": "Some",
+            "3": "Not too much [OR]",
+            "4": "Not at all",
+            "5": "Depends on situation (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q15": {
+        "question": "Q15. How acceptable or unacceptable is it to get a checkup using modern methods to balance the number of girls and boys in the family?",
+        "options": {
+            "1": "Completely acceptable",
+            "2": "Somewhat acceptable",
+            "3": "Somewhat unacceptable [OR]",
+            "4": "Completely unacceptable",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q17a": {
+        "question": "Q17. In India today, how free are \u2026? a. people of other religions to practice their religion",
+        "options": {
+            "1": "Very free",
+            "2": "Somewhat free",
+            "3": "Not too free [OR]",
+            "4": "Not at all free",
+            "5": "Not religious/Do not practice religion/Other/Depends (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q17b": {
+        "question": "Q17. In India today, how free are \u2026? b. you to practice your religion",
+        "options": {
+            "1": "Very free",
+            "2": "Somewhat free",
+            "3": "Not too free [OR]",
+            "4": "Not at all free",
+            "5": "Not religious/Do not practice religion/Other/Depends (DO NOT READ)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18a": {
+        "question": "Q18. How much do you know about \u2026? a. the Hindu religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18b": {
+        "question": "Q18. How much do you know about \u2026? b. the Muslim religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18c": {
+        "question": "Q18. How much do you know about \u2026? c. the Christian religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18d": {
+        "question": "Q18. How much do you know about \u2026? d. the Jain religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18e": {
+        "question": "Q18. How much do you know about \u2026? e. the Sikh religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q18f": {
+        "question": "Q18. How much do you know about \u2026? f. the Buddhist religion and its practices",
+        "options": {
+            "1": "A great deal",
+            "2": "Some",
+            "3": "Not very much [OR]",
+            "4": "Nothing at all",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q19a": {
+        "question": "Q19. How important is it for a family to have at least one \u2026? a. son",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q19b": {
+        "question": "Q19. How important is it for a family to have at least one \u2026? b. daughter",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QW21a": {
+        "question": "QW21. How important is it to stop women in your community from marrying into another \u2026? a. caste",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "5": "It depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QW21b": {
+        "question": "QW21. How important is it to stop women in your community from marrying into another \u2026? b. religion",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "5": "It depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QM21a": {
+        "question": "QM21. How important is it to stop men in your community from marrying into another \u2026? a. caste",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "5": "It depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QM21b": {
+        "question": "QM21. How important is it to stop men in your community from marrying into another \u2026? b. religion",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "5": "It depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q22a": {
+        "question": "Q22. In a family, who should be primarily responsible for \u2026? a. earning money",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "Depends/Other (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q22b": {
+        "question": "Q22. In a family, who should be primarily responsible for \u2026? b. taking care of children",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "Depends/Other (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q22c": {
+        "question": "Q22. In a family, who should be primarily responsible for \u2026? c. making decisions about expenses",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "Depends/Other (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q23a": {
+        "question": "Q23. Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements. a. A wife must always obey her husband",
+        "options": {
+            "1": "Completely agree",
+            "2": "Mostly agree",
+            "3": "Mostly disagree",
+            "4": "Completely disagree",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q23b": {
+        "question": "Q23. Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements. b. When there are few jobs, men should have more rights to a job than women",
+        "options": {
+            "1": "Completely agree",
+            "2": "Mostly agree",
+            "3": "Mostly disagree",
+            "4": "Completely disagree",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q24": {
+        "question": "Q24. In your opinion, who should have a greater right to parents\u2019 inheritance?",
+        "options": {
+            "1": "Sons [OR]",
+            "2": "Daughters [OR]",
+            "3": "Both should have equal rights",
+            "4": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q26": {
+        "question": "Q26. Which of these three statements comes closest to your opinion?",
+        "options": {
+            "1": "Men generally make better political leaders than women [OR]",
+            "2": "Women generally make better political leaders than men [OR]",
+            "3": "In general, women and men make equally good political leaders",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QRELSING": {
+        "question": "QRELSING. What is your present religion, if any? Are you Hindu, Muslim, Christian, Sikh, Buddhist, Jain, some other religion or have no religion?",
+        "options": {
+            "1": "Hindu",
+            "2": "Muslim",
+            "3": "Christian",
+            "4": "Sikh",
+            "5": "Buddhist",
+            "6": "Jain",
+            "7": "Some other religion",
+            "8": "No religion"
+        }
+    },
+    "QCASTE": {
+        "question": "QCASTE. Are you from a \u2026?",
+        "options": {
+            "1": "General Category",
+            "2": "Scheduled Caste",
+            "3": "Scheduled Tribe [OR]",
+            "4": "Other Backward Class",
+            "5": "Most Backward Class (DO NOT READ)",
+            "96": "I do not/my religion does not recognize a caste system (DO NOT READ)",
+            "97": "Not a member of any caste/category/class (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QCASTEb": {
+        "question": "QCASTEb. Are you \u2026?",
+        "options": {
+            "1": "Brahmin",
+            "2": "Other Forward Caste [OR]",
+            "97": "Neither or just General Category",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QHINDU": {
+        "question": "QHINDU. I would like to ask you about some sects within Hinduism. It is possible that some of these may not be familiar to you. Which, if any, of the sects do you identify with?",
+        "options": {
+            "1": "Vaishnavite",
+            "2": "Shaivite",
+            "3": "Shakta",
+            "4": "Some other sect [SPECIFY QHINDUb] [OR]",
+            "5": "No sect in particular",
+            "6": "Smartism (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QSECTrec": {
+        "question": "QSECT. Are you \u2026?",
+        "options": {
+            "1": "Sunni",
+            "3": "Some other sect",
+            "4": "No sect in particular",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QDENOMrec": {
+        "question": "QDENOM. Please tell me which denomination or church, if any, you identify with MOST CLOSELY?",
+        "options": {
+            "1": "Catholic",
+            "6": "No denomination or church in particular",
+            "9": "Baptist (DO NOT READ)",
+            "12": "Presbyterian (DO NOT READ)",
+            "97": "All other denominations",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QSIKHrec": {
+        "question": "QSIKH. I would like to ask you about some sects within Sikhism. It is possible that some of these may not be familiar to you. Which, if any, of the sects do you identify with?",
+        "options": {
+            "1": "Amritdhari",
+            "2": "Keshdhari",
+            "3": "Namdhaari",
+            "4": "Sahajdhari",
+            "7": "Some other sect",
+            "8": "No sect in particular",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QBUDDHISTrec": {
+        "question": "QBUDDHIST. I would like to ask you about some orders within Buddhism. It is possible that some of these may not be familiar to you. Which, if any, of the orders do you identify with?",
+        "options": {
+            "4": "Navayana",
+            "5": "Some other order",
+            "6": "No order in particular",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QJAIN": {
+        "question": "QJAIN. I would like to ask you about some schools of thought or traditions within Jainism. It is possible that some of these may not be familiar to you. Which, if any, of the schools of thought or traditions do you identify with?",
+        "options": {
+            "1": "Shwetambara",
+            "2": "Digambara (DO NOT READ: Samanar)",
+            "3": "Some other school of thought or tradition [SPECIFY QJAINb]  [OR]",
+            "4": "No school of thought or tradition in particular",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QSUFIrec": {
+        "question": "QSUFI. I would like to ask you about some orders within Sufiism. It is possible that some of these may not be familiar to you. Do you follow any Sufi order, such as \u2026?",
+        "options": {
+            "1": "Identify as a Sufi (recode)",
+            "2": "I am not a Sufi",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q28rec": {
+        "question": "Q28rec. To you personally, is being [QRELSING]...? Mainly a matter or religion, mainly a matter of ancestry, or mainly a matter of culture (SELECT UP TO THREE)",
+        "options": {
+            "1": "Mainly a matter of religion",
+            "2": "Mainly a matter of ancestry",
+            "3": "Mainly a matter of culture",
+            "4": "All of these",
+            "5": "Religion and ancestry",
+            "6": "Religion and culture",
+            "7": "Ancestry and culture",
+            "8": "Other/ None of these",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29a": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? a. respecting elders",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29b": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? b. believing in God",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "q29cdrec": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [INSERT QRELSING] means to you? cdrec. [praying/offering namaz]",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29e": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? e. helping the poor and needy",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29f": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? f. respecting other religions",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29g": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? g. being born into a [QRELSING] family",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q29h": {
+        "question": "Q29. Is ... a very important, somewhat important, not too important or not at all important part of what being [QRELSING] means to you? h. respecting India",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30a": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? a. show disrespect to elders",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30b": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? b. do not believe in God",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30c": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? c. never go to [temple/mosque/church/gurudwara]",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "q30derec": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? derec. [never perform prayers/ never offer namaz]",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30f": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? f. eat beef",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30g": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? g. eat pork",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30h": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? h. do not celebrate [QRELSING] festivals",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30i": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? i. celebrate Christmas",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30j": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? j. celebrate Eid",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30k": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? k. celebrate Diwali",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q30l": {
+        "question": "Q30. In your opinion, can a person be [INSERT QRELSING] if they ...? l. disrespect India",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "Depends on the situation (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q3132rec": {
+        "question": "Q3132rec. [IF CHRISTIAN: Aside from weddings and funerals,] how often do you [go to the temple/attend the mosque for namaz/go to the gurudwara/attend religious services]?",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33a": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? a. Hindu temple",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33b": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? b. Mosque",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33c": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? c. Church",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33d": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? d. Gurudwara",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33e": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? e. Buddhist stupa",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q33f": {
+        "question": "Q33. Have you ever prayed, meditated or performed a ritual at a ...? f. Sufi shrine",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q34a": {
+        "question": "Q34. How often do you ..., if at all? a. meditate",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q34b": {
+        "question": "Q34. How often do you ..., if at all? b. practice yoga",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q35": {
+        "question": "Q35. How important is religion in your life?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q36a": {
+        "question": "Q36. Have you ever \u2026? a. made a pilgrimage",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q36b": {
+        "question": "Q36. Have you ever \u2026? b. participated in or witnessed animal sacrifices for religious purposes",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q36c": {
+        "question": "Q36. Have you ever \u2026? c. received purification by taking a dip in a holy body of water, like the Ganges River",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37a": {
+        "question": "Q37. Do you \u2026? a. give money to a [temple/mosque/church/gurudwara/house of worship]",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37b": {
+        "question": "Q37. Do you \u2026? b. give money to any other charitable causes",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37c": {
+        "question": "Q37. Do you \u2026? c. have an altar, shrine or religious symbol in your home for worship",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37d": {
+        "question": "Q37. Do you \u2026? d. ever invite [a pundit or learned person/a monk or learned person/a priest or pastor/an imam/a religious leader] to conduct religious rites at your home",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37e": {
+        "question": "Q37. Do you \u2026? e. sing devotionally",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37f": {
+        "question": "Q37. Do you \u2026? f. dance devotionally",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37g": {
+        "question": "Q37. Do you \u2026? g. fast",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37h": {
+        "question": "Q37. Do you \u2026? h. have holy basil at home",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q37i": {
+        "question": "Q37. Do you \u2026? i. fix important dates, such as for a wedding, based on auspicious times or dates",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q38": {
+        "question": "Q38. Do you currently follow a guru, pir or baba?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "My family follows one, but I do not (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q39a": {
+        "question": "Q39. How often do you watch ..., if at all? a. Religious programs or serials",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q39b": {
+        "question": "Q39. How often do you watch \u2026, if at all? b. Other serials",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q39c": {
+        "question": "Q39. How often do you watch \u2026, if at all? c. News programs",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q40": {
+        "question": "Q40. Which of these two statements is closest to your opinion?",
+        "options": {
+            "1": "My religion is the one true religion",
+            "2": "Many religions can be true",
+            "3": "Neither/Both equally (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QCHRELrec": {
+        "question": "QCHRELrec. Now, thinking about when you were a child, in what religion were you raised, if any?",
+        "options": {
+            "1": "Childhood religion same as current religion",
+            "2": "Childhood religion different from current religion",
+            "999": "Do not know/ Refused for current or childhood religion"
+        }
+    },
+    "Q42": {
+        "question": "Q42. Still thinking about when you were growing up, how important was religion to your family?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q43a": {
+        "question": "Q43a. Do you believe in God?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q43b": {
+        "question": "Q43b. How certain are you about this belief?",
+        "options": {
+            "1": "Absolutely certain",
+            "2": "Fairly certain",
+            "3": "Not too certain [OR]",
+            "4": "Not at all certain",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q43c": {
+        "question": "Q43c. Do you believe that \u2026?",
+        "options": {
+            "1": "There is only one God [OR]",
+            "2": "There is only one God with many manifestations [OR]",
+            "3": "There are many Gods",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q44rec_1": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Ganesha",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_2": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Hanuman",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_3": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Kali",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_4": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Krishna",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_5": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Lakshmi",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_6": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Lord Ram",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_7": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Saraswati",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_8": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Shiva",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_9": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Vishnu",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_10": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Dattatreya",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_11": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Ayyappa",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_12": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Meenakshi",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_13": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Murugan",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_14": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, the Sun",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_15": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, Jesus",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_16": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes, another God",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_17": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes believe, No, I do not have a God I feel closest to",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_18": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? I have many personal Gods",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_98": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes believe, Do not know (DO NOT READ)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q44rec_99": {
+        "question": "Q44. Do you believe in God? [If yes] Do you feel closest to any God? If so, which one? Yes believe, Refused (DO NOT READ)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q45a": {
+        "question": "Q45. Do you think God can be manifested in ...? a. nature, such as mountains, rivers or trees",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q45b": {
+        "question": "Q45. Do you think God can be manifested in ...? b. animals",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q45c": {
+        "question": "Q45. Do you think God can be manifested in ...? c. people",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q46a": {
+        "question": "Q46. Do you think God can be manifested in people who \u2026? a. belong to a lower caste",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q46b": {
+        "question": "Q46. Do you think God can be manifested in people who \u2026? b. have done bad things in their life",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q47a": {
+        "question": "Q47. Do you ever ask God for \u2026 for you or your family? a. good health",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q47b": {
+        "question": "Q47. Do you ever ask God for \u2026 for you or your family? b. prosperity",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q47c": {
+        "question": "Q47. Do you ever ask God for \u2026 for you or your family? c. forgiveness",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48a": {
+        "question": "Q48. Do you participate in celebrations of \u2026? a. Christmas",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48b": {
+        "question": "Q48. Do you participate in celebrations of \u2026? b. Eid",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48c": {
+        "question": "Q48. Do you participate in celebrations of \u2026? c. Diwali",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48d": {
+        "question": "Q48. Do you participate in celebrations of \u2026? d. Holi",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48e": {
+        "question": "Q48. Do you participate in celebrations of \u2026? e. Valentine's Day",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q48f": {
+        "question": "Q48. Do you participate in celebrations of \u2026? f. Independence Day (15 August)",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49a": {
+        "question": "Q49. Do you believe \u2026? a. in the \u201cevil eye\u201d",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49b": {
+        "question": "Q49. Do you believe \u2026? b. in reincarnation",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49c": {
+        "question": "Q49. Do you believe \u2026? c. in fate",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49d": {
+        "question": "Q49. Do you believe \u2026? d. in astrology",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49e": {
+        "question": "Q49. Do you believe \u2026? e. that magic, sorcery or witchcraft can influence people's lives",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49f": {
+        "question": "Q49. Do you believe \u2026? f. in miracles",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49g": {
+        "question": "Q49. Do you believe \u2026? g. in Heaven",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49h": {
+        "question": "Q49. Do you believe \u2026? h. in Judgement Day",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49i": {
+        "question": "Q49. Do you believe \u2026? i. in Nirvana",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49j": {
+        "question": "Q49. Do you believe \u2026? j. in Moksha",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49k": {
+        "question": "Q49. Do you believe \u2026? k. in Kaivalya",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49l": {
+        "question": "Q49. Do you believe \u2026? l. in Karma",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49m": {
+        "question": "Q49. Do you believe \u2026? m. in angels or benevolent spirits",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49n": {
+        "question": "Q49. Do you believe \u2026? n. in demons or evil spirits",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q49o": {
+        "question": "Q49. Do you believe \u2026? o. that the Ganges has the power to purify",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q50": {
+        "question": "Q50. How often do you read or listen to recitations of religious books [, for example, the Bhagavad Gita/the Quran/the Bible/the Guru Granth Sahib/the Sutras]?",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q51": {
+        "question": "Q51. Which comes closest to your view? The [Bhagavad Gita/Quran/Bible/Guru Granth Sahib/Sutras/sacred text of your religion] \u2026?",
+        "options": {
+            "1": "Is the word of God [OR]",
+            "2": "Is not the word of God",
+            "3": "Other (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q52": {
+        "question": "Q52. Which of these two statements is closest to your opinion?",
+        "options": {
+            "1": "There is only ONE true way to interpret the teachings of my religion [OR]",
+            "2": "There is MORE than one true way to interpret the teachings of my religion",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q53a": {
+        "question": "Q53. Do you perform puja \u2026? a. at home",
+        "options": {
+            "1": "Several times a day",
+            "2": "Once a day",
+            "3": "A few times a week",
+            "4": "Once a week",
+            "5": "A few times a month",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q53b": {
+        "question": "Q53. Do you perform puja \u2026? b. at temple",
+        "options": {
+            "1": "Several times a day",
+            "2": "Once a day",
+            "3": "A few times a week",
+            "4": "Once a week",
+            "5": "A few times a month",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q54a": {
+        "question": "Q54a. Do you [pray/offer namaz] \u2026?",
+        "options": {
+            "1": "Several times a day",
+            "2": "Once a day",
+            "3": "A few times a week",
+            "4": "Once a week",
+            "5": "A few times a month",
+            "6": "Seldom [OR]",
+            "7": "Never",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q54b": {
+        "question": "Q54b. Do you pray all five namaz every day?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q55a": {
+        "question": "Q55a. Are you a vegetarian?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q55b": {
+        "question": "Q55b. Do you abstain from eating root vegetables, such as garlic and onion?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q55c": {
+        "question": "Q55c. Do you abstain from eating meat on certain days?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q55d": {
+        "question": "Q55d. Do you abstain from eating certain meats?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q56a": {
+        "question": "Q56. Would you ever eat food \u2026? a. in a restaurant that serves both vegetarian and non-vegetarian food",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q56b": {
+        "question": "Q56. Would you ever eat food \u2026? b. in the home of a friend or neighbor who is non-vegetarian",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q56c": {
+        "question": "Q56. Would you ever eat food \u2026? c. in the home of someone whose religion has different rules about food than yours",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q56d": {
+        "question": "Q56. Would you ever eat food \u2026? d. at a function hosted by people whose religion has different rules about food than yours",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q57a": {
+        "question": "Q57. How important is it for you to have \u2026? a. [a baptism/a religious naming ceremony] for sons or daughters in your family",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q57b": {
+        "question": "Q57. How important is it for you to have \u2026? b. a religious wedding ceremony for you or the children in your family",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q57c": {
+        "question": "Q57. How important is it for you to have \u2026? c. a religious [INSERT: \u201cburial\u201d IF MUSLIM OR CHRISTIAN; INSERT \u201ccremation\u201d IF NOT MUSLIM OR CHRISTIAN] for your loved ones",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q58xa": {
+        "question": "Q58x. In a family, who should have the primary responsibility ...? a. to care for parents as they age",
+        "options": {
+            "1": "Sons",
+            "2": "Daughters [OR]",
+            "3": "Both should have the responsibility",
+            "4": "Daughters-in-law (DO NOT READ)",
+            "5": "Sons-in-law (DO NOT READ)",
+            "6": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q58xb": {
+        "question": "Q58x. In a family, who should have the primary responsibility ...? b. for a parent\u2019s [IF CHRISTIAN OR MUSLIM INSERT \u201cburial rituals\u201d; ELSE INSERT \u201clast rites\u201d]",
+        "options": {
+            "1": "Sons",
+            "2": "Daughters [OR]",
+            "3": "Both should have the responsibility",
+            "4": "Daughters-in-law (DO NOT READ)",
+            "5": "Sons-in-law (DO NOT READ)",
+            "6": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q60": {
+        "question": "Q60. Should Muslim men be able to divorce their wives by saying \u201cTalaq\u201d three times?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QGEN": {
+        "question": "QGEN. Gender",
+        "options": {
+            "1": "Male",
+            "2": "Female"
+        }
+    },
+    "QDIV": {
+        "question": "QDIV. All in all, do you think India\u2019s religious diversity \u2026?",
+        "options": {
+            "1": "Benefits our country [OR]",
+            "2": "Harms our country",
+            "3": "Neither benefits nor harms (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q61a": {
+        "question": "Q61. How many of your close friends \u2026? a. [are QRELSING/have the same religion as you/belong to no particular religion]",
+        "options": {
+            "1": "All of them",
+            "2": "Most of them",
+            "3": "Some of them [OR]",
+            "4": "Hardly any of them",
+            "5": "None of them (DO NOT READ)",
+            "97": "Not a member of any caste/religion (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q61b": {
+        "question": "Q61. How many of your close friends \u2026? b. are the same caste as you",
+        "options": {
+            "1": "All of them",
+            "2": "Most of them",
+            "3": "Some of them [OR]",
+            "4": "Hardly any of them",
+            "5": "None of them (DO NOT READ)",
+            "97": "Not a member of any caste (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62a": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and ... in India \u2026? a.  Hindus",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62b": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and ... in India \u2026? b.  Muslims",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62c": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and ... in India \u2026? c.  Christians",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62d": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and ... in India \u2026? d.  Sikhs",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62e": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and ... in India \u2026? e.  Buddhists",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q62f": {
+        "question": "Q62. From what you know, do you think [INSERT QRELSING]s and \u2026 in India \u2026? f.  Jains",
+        "options": {
+            "1": "Have a lot in common [OR]",
+            "2": "Are very different",
+            "3": "Other/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63a": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? a.  Hindu",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63b": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? b.  Muslim",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63c": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? c.  Christian",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63d": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? d.  Sikh",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63e": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? e.  Buddhist",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63f": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? f.  Jain",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q63g": {
+        "question": "Q63. Would you be willing to accept a \u2026 as a neighbor? g.  Scheduled Caste",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Other/Both/Neither/Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q65": {
+        "question": "Q65. Do you support or oppose allowing Muslims to go to their own religious court to solve family disputes, such as divorce or inheritance?",
+        "options": {
+            "1": "Support Muslims going to their own religious court",
+            "2": "Oppose Muslims going to their own religious court",
+            "3": "Other/Neither (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q66a": {
+        "question": "Q66. In the last 12 months, have you personally felt discriminated against \u2026? a. because you are a [man/woman]",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q66b": {
+        "question": "Q66. In the last 12 months, have you personally felt discriminated against \u2026? b. because you are [QRELSING/a person with no religion]",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q66c": {
+        "question": "Q66. In the last 12 months, have you personally felt discriminated against \u2026? c. because of your caste",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "96": "I do not/my religion does not recognize a caste system (DO NOT READ)",
+            "97": "Not a member of any caste/category/class (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q67a": {
+        "question": "Q67. How proud are you to be \u2026? a. Indian",
+        "options": {
+            "1": "Very proud",
+            "2": "Somewhat proud",
+            "3": "Not very proud [OR]",
+            "4": "Not proud at all",
+            "5": "I am not ___ (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q67b": {
+        "question": "Q67. How proud are you to be \u2026? b. a [INSERT STATE] resident",
+        "options": {
+            "1": "Very proud",
+            "2": "Somewhat proud",
+            "3": "Not very proud [OR]",
+            "4": "Not proud at all",
+            "5": "I am not ___ (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q67c": {
+        "question": "Q67. How proud are you to be \u2026? c. [QRELSING/a person with no religion]",
+        "options": {
+            "1": "Very proud",
+            "2": "Somewhat proud",
+            "3": "Not very proud [OR]",
+            "4": "Not proud at all",
+            "5": "I am not ___ (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q68": {
+        "question": "Q68. Was the partition of India and Pakistan a good thing or a bad thing for Hindu-Muslim relations?",
+        "options": {
+            "1": "A good thing",
+            "2": "A bad thing",
+            "3": "Neither good nor bad (DO NOT READ)",
+            "4": "Depends (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69a": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? a. To be able to speak Hindi",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69b": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? b. To be a Hindu",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69c": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? c. To respect the army",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69d": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? d. To stand for the national anthem",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69e": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? e. To respect elders",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69f": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? f. To respect all religions",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69g": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? g. To know the history of India\u2019s freedom struggle",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69h": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? h. To respect the country\u2019s institutions and laws",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69i": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? i. To support India\u2019s cricket team",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q69j": {
+        "question": "Q69. Some people say that the following things are important to be truly Indian. Others say that they are not important. How important do you think it is ... to be truly Indian? j. To have Indian ancestry",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q70": {
+        "question": "Q70. Please tell me if you completely agree, mostly agree, mostly disagree or completely disagree with the following statement: Indian people are not perfect, but Indian culture is superior to others.",
+        "options": {
+            "1": "Completely agree",
+            "2": "Mostly agree",
+            "3": "Mostly disagree",
+            "4": "Completely disagree",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72a": {
+        "question": "Q72. Do you generally \u2026? a. wear a religious pendant, such as an amulet, cross, image or symbol of God",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72b": {
+        "question": "Q72. Do you generally \u2026? b. wear a bindi",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72c": {
+        "question": "Q72. Do you generally \u2026? c. wear a skullcap",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72d": {
+        "question": "Q72. Do you generally \u2026? d. wear a turban",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72e": {
+        "question": "Q72. Do you generally \u2026? e. wear a janeu",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72f": {
+        "question": "Q72. Do you generally \u2026? f. wear a tilak",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72g": {
+        "question": "Q72. Do you generally \u2026? g. wear a kara",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72h": {
+        "question": "Q72. Do you generally \u2026? h. carry a kirpan",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q72i": {
+        "question": "Q72. Do you generally \u2026? i. keep your hair long",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q73a": {
+        "question": "Q73a. Outside your home, do you keep the practice of covering your head?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "q73abrec": {
+        "question": "Q73abrec. Outside your home, do you keep the practice of covering your head? [If yes] Do you wear a \u2026?",
+        "options": {
+            "1": "Yes cover head, Hijab",
+            "2": "Yes cover head, Niqab",
+            "3": "Yes cover head, Burka",
+            "4": "Yes cover head, something else (DO NOT READ)",
+            "5": "Yes cover head, DK/ Refused",
+            "6": "No, does not cover head",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QAGErec": {
+        "question": "QAGErec. Age in five categories (18-25/26-34/35-44/45-59/60+)",
+        "options": {
+            "1": "18-25",
+            "2": "26-34",
+            "3": "35-44",
+            "4": "45-59",
+            "5": "60+",
+            "998": "Don't know",
+            "999": "Refused"
+        }
+    },
+    "QFERTrec": {
+        "question": "QFERTrec. How many children have you had? Please count all children born at any time in your life.",
+        "options": {
+            "1": "No Children",
+            "2": "One Child",
+            "3": "Two Children",
+            "4": "Three Children or More Children",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QCHGENabrec": {
+        "question": "QCHGENabrec. How many are daughters?",
+        "options": {
+            "0": "No children",
+            "1": "No daughters among children",
+            "2": "At least one daughter",
+            "96": "Do not know number of daughters",
+            "97": "Refused number of daughters",
+            "98": "Do not know number of children",
+            "99": "Refused number of children"
+        }
+    },
+    "QHH1": {
+        "question": "QHH1. How many people, including yourself, live in your household?",
+        "options": {
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QHH2": {
+        "question": "QHH2. How many, including yourself, are adults, age 18 and older?",
+        "options": {
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QMARRIEDrec": {
+        "question": "QMARRIEDrec. Are you currently \u2026?",
+        "options": {
+            "1": "Married or living with a partner",
+            "2": "Divorced, separated, partner is no longer alive",
+            "3": "Unmarried",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QSPRELrec": {
+        "question": "QSPRELrec. What is your [spouse/partner]\u2019s religion, if any? Are they Hindu, Muslim, Christian, Sikh, Buddhist, Jain, some other religion or no religion?",
+        "options": {
+            "1": "Spouse\u2019s religion same as respondent",
+            "2": "Spouse\u2019s religion different from respondent",
+            "999": "Don\u2019t know/Refused for own religion and/or spouse\u2019s religion"
+        }
+    },
+    "QCHSPRELrec": {
+        "question": "QCHSPRELrec.Was your spouse/partner raised [QSPREL]? [If no] What religion was your spouse/partner raised as, if any? Were they Hindu, Muslim, Christian, Sikh, Buddhist, Jain, some other religion or no religion?",
+        "options": {
+            "1": "Yes, spouse\u2019s childhood religion same as their current religion",
+            "2": "No, spouse raised in a different religion than their current religion",
+            "999": "DK/ Ref spouse current religion and/or spouse\u2019s childhood religion"
+        }
+    },
+    "QHHCH": {
+        "question": "QHHCH. Are you the parent or legal guardian of any children under the age of 18 who currently live in your household?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QCHILDrec": {
+        "question": "QCHILDrec. In what religion, if any, are you raising your child/children? Are they being raised Hindu, Muslim, Christian, Sikh, Buddhist, Jain, some other religion or no religion?",
+        "options": {
+            "1": "Raising child/children in same religion as respondent",
+            "2": "Raising child/children in different religion than respondent",
+            "999": "Do not know/ Refused own current religion or in which religion raising child"
+        }
+    },
+    "Q74a": {
+        "question": "Q74. Does your child/do your children ever \u2026? a. [go to the temple/go to the mosque/go to the gurudwara/attend religious services]",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not applicable/Children too young (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q74b": {
+        "question": "Q74. Does your child/do your children ever \u2026? b. Pray",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not applicable/Children too young (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q74c": {
+        "question": "Q74. Does your child/do your children ever \u2026? c. Read scripture",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not applicable/Children too young (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q74d": {
+        "question": "Q74. Does your child/do your children ever \u2026? d. Receive religious instruction outside the home",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not applicable/Children too young (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q75": {
+        "question": "Q75. How important is it for you that children in your family keep their hair long?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not too important [OR]",
+            "4": "Not at all important",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q76": {
+        "question": "Q76. Do you currently live in a joint family?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q77arec": {
+        "question": "Q77arec. Did you vote in the last national election? [If yes] Which party did you vote for in the last national election?",
+        "options": {
+            "1": "Voted, Bharatiya Janata Party (BJP)",
+            "2": "Voted, Congress Party / Indian National Congress (INC)",
+            "24": "Voted, Other party",
+            "994": "Voted, Don\u2019t know (DO NOT READ)",
+            "995": "Voted, Refused (DO NOT READ)",
+            "996": "Did not vote",
+            "997": "Was not eligible to vote in last national election (DO NOT READ)",
+            "998": "Don\u2019t know (DO NOT READ)",
+            "999": "Refused (DO NOT READ)"
+        }
+    },
+    "QEDU": {
+        "question": "QEDU. What is the highest level of school you have completed or the highest degree received?",
+        "options": {
+            "1": "Illiterate",
+            "2": "Literate but no formal schooling",
+            "3": "Primary education (primary certificate)",
+            "4": "Upper primary (upper primary certificate)",
+            "5": "High school; Industrial training institute (matriculation certificate or ITI certificate)",
+            "6": "Senior secondary / Intermediate (senior secondary school leaving certificate)",
+            "7": "Technical education training",
+            "8": "Nursing, general nursing and midwifery (GNM); Junior teachers training (diploma)",
+            "9": "Bachelor (university 1st) / MBBS, LLB",
+            "10": "Master (university 2nd) / Post-graduate diploma",
+            "11": "Doctor (tertiary 2nd)",
+            "98": "Don't know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "ISCED": {
+        "question": "ISCED. ISCED 1997 recoding of education.",
+        "options": {
+            "0": "ISCED 0",
+            "1": "ISCED 1",
+            "2": "ISCED 2",
+            "3": "ISCED 3",
+            "4": "ISCED 4",
+            "5": "ISCED 5",
+            "98": "Don't know",
+            "99": "Refused"
+        }
+    },
+    "QINCINDrec": {
+        "question": "QINCINDrec. Here is a list of monthly household incomes. Which of these does your household typically fall into counting all wages, salaries, pensions and other incomes that come in? Just tell me which group your household falls into, before taxes a",
+        "options": {
+            "1": "Rs. 10,000 and below",
+            "2": "Rs. 10,001 and above",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QINT": {
+        "question": "QINT. Do you use the internet?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "QMOBILE": {
+        "question": "QMOBILE. Do you use a mobile phone?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q78": {
+        "question": "Q78. Can it connect to the internet?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q79": {
+        "question": "Q79. Is it a smartphone?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q81": {
+        "question": "Q81. Do you use social media applications, such as Facebook or WhatsApp?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q82a": {
+        "question": "Q82. Do you ever use these apps to share information about \u2026? a. religion",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q82b": {
+        "question": "Q82. Do you ever use these apps to share information about \u2026? b. politics and current events",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q82c": {
+        "question": "Q82. Do you ever use these apps to share information about \u2026? c. music and movies",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "Q82d": {
+        "question": "Q82. Do you ever use these apps to share information about \u2026? d. sports",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ"
+        }
+    },
+    "QPOVa": {
+        "question": "QPOV. Have there been times during the last year when you did not have enough money \u2026 ? a. to buy food your family needed",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QPOVb": {
+        "question": "QPOV. Have there been times during the last year when you did not have enough money \u2026 ? b. to pay for medical and health care your family needed",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QPOVc": {
+        "question": "QPOV. Have there been times during the last year when you did not have enough money \u2026 ? c. to pay rent or housing costs",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q83": {
+        "question": "Q83. In your home, do you have a \u2026?",
+        "options": {
+            "1": "Pit latrine",
+            "2": "Flush toilet [OR]",
+            "3": "Neither of these",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QPTYrec": {
+        "question": "QPTYrec. Regardless of which party you voted for in the last national election, which political party, if any, do you feel closest to?",
+        "options": {
+            "1": "Bharatiya Janata Party (BJP)",
+            "2": "Congress Party / Indian National Congress (INC)",
+            "24": "Other party",
+            "25": "Do not feel close to any party",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QPTY2a": {
+        "question": "QPTY2. Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable opinion of ...? a. the BJP",
+        "options": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QPTY2b": {
+        "question": "QPTY2. Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable opinion of ...? b. Congress",
+        "options": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q85": {
+        "question": "Q85. Were you raised in a \u2026?",
+        "options": {
+            "1": "City",
+            "2": "Small town [OR]",
+            "3": "Village",
+            "4": "Other (DO NOT READ)",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "q85arec": {
+        "question": "Q85arec. In what state or union territory were you raised?",
+        "options": {
+            "1": "Same as current state/union territory",
+            "2": "Different from current state/union territory",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q86a": {
+        "question": "Q86a. Do you have relatives who live in other countries that you have communicated with or visited in the past 12 months?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "Q86b_1": {
+        "question": "Q86b. In what countries do these relatives live? 1. United Arab Emirates (UAE)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_2": {
+        "question": "Q86b. In what countries do these relatives live? 2. United States of America (USA)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_3": {
+        "question": "Q86b. In what countries do these relatives live? 3. Saudi Arabia",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_4": {
+        "question": "Q86b. In what countries do these relatives live? 4. Pakistan",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_5": {
+        "question": "Q86b. In what countries do these relatives live? 5. Oman",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_6": {
+        "question": "Q86b. In what countries do these relatives live? 6. Kuwait",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_7": {
+        "question": "Q86b. In what countries do these relatives live? 7. United Kingdom (UK, England, Great Britain)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_8": {
+        "question": "Q86b. In what countries do these relatives live? 8. Qatar",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_9": {
+        "question": "Q86b. In what countries do these relatives live? 9. Canada",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_10": {
+        "question": "Q86b. In what countries do these relatives live? 10. Nepal",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_11": {
+        "question": "Q86b. In what countries do these relatives live? 11. Australia",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_12": {
+        "question": "Q86b. In what countries do these relatives live? 12. Bahrain",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_13": {
+        "question": "Q86b. In what countries do these relatives live? 13. Singapore",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_14": {
+        "question": "Q86b. In what countries do these relatives live? 14. Italy",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_15": {
+        "question": "Q86b. In what countries do these relatives live? 15. Malaysia",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_16": {
+        "question": "Q86b. In what countries do these relatives live? 16. Bangladesh",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_17": {
+        "question": "Q86b. In what countries do these relatives live? 17. Sri Lanka",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_18": {
+        "question": "Q86b. In what countries do these relatives live? 18. Bhutan",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_19": {
+        "question": "Q86b. In what countries do these relatives live? 19. China",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_20": {
+        "question": "Q86b. In what countries do these relatives live? 20. Burma (Myanmar)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_21": {
+        "question": "Q86b. In what countries do these relatives live? 21. Mauritius",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_97": {
+        "question": "Q86b. In what countries do these relatives live? 97. Somewhere else",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_98": {
+        "question": "Q86b. In what countries do these relatives live? 98. Don\u2019t know (DO NOT READ)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q86b_99": {
+        "question": "Q86b. In what countries do these relatives live? 99. Refused (DO NOT READ)",
+        "options": {
+            "1": "Selected",
+            "2": "Not Selected"
+        }
+    },
+    "Q87": {
+        "question": "Q87. Have you ever traveled outside of India?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "Don\u2019t know (DO NOT READ)",
+            "99": "Refused (DO NOT READ)"
+        }
+    },
+    "QIV7": {
+        "question": "QIV7. Did the respondent have a beard?",
+        "options": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "REGION": {
+        "question": "REGION. Indian zonal council region name",
+        "options": {
+            "1": "Northeast",
+            "2": "North",
+            "3": "Central",
+            "4": "East",
+            "5": "West",
+            "6": "South"
+        }
+    },
+    "Urban": {
+        "question": "Urban. Urbanicity",
+        "options": {
+            "1": "Urban",
+            "2": "Rural"
+        }
+    }
+}
