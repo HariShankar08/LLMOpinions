@@ -121,7 +121,7 @@ def get_model_vector(model, questions):
         if out is None:
             continue
         prompts, expected_answers = out
-        print(prompts)
+        # print(prompts)
         candidate_answers = []
         for prompt in prompts:
             inputs = tokenizer(prompt, return_tensors='pt')
@@ -180,7 +180,7 @@ def compute_scores(model_vector, human_vectors_df):
     df = df.fillna(99)
 
     df = pd.get_dummies(df)
-    print(df.columns)
+    # print(df.columns)
     
     human_vector = df.iloc[-1]
     df = df.drop(df.index[-1])
@@ -188,7 +188,7 @@ def compute_scores(model_vector, human_vectors_df):
     hds = []
 
     for i, row in df.iterrows():
-        print(distance.hamming(row.tolist(), human_vector.tolist()))
+        # print(distance.hamming(row.tolist(), human_vector.tolist()))
         hds.append(distance.hamming(row.tolist(), human_vector.tolist()))
 
     plt.hist(hds)
@@ -202,19 +202,21 @@ def compute_scores(model_vector, human_vectors_df):
     return df2
     
 
-def get_demographic_info(sorted_scores, questions, DEMOGRAPHIC_QUESTIONS):
-    # For each of the Demographic Questions, get the frequency of the respondents
-    # in the top 1000.
+def get_demographic_info(sorted_scores, DEMOGRAPHIC_QUESTIONS):
+    responses = pd.read_csv('responses.csv')
+
+    # Only refer to the rows having QRIDs in the sorted_scores
+    responses = responses[responses['QRID'].isin(sorted_scores['QRID'])]
+    
     demographic_info = {}
+    # For each of the demographic questions, get a frequency per option for the top 1000 respondents
     for question in DEMOGRAPHIC_QUESTIONS:
-        if question not in questions:
-            continue
-        demographic_info[question] = {}
-        for i, row in sorted_scores.iterrows():
-            value = questions[question]['options'][qrid]
-            if value not in demographic_info[question]:
-                demographic_info[question][value] = 0
-            demographic_info[question][value] += 1
+        demographics = responses[question]
+        
+        demographic_info[question] = demographics.value_counts()
+    print(demographic_info)
+    return demographic_info
+
 
 
 def evaluate_model(model, questions):
@@ -228,8 +230,6 @@ def evaluate_model(model, questions):
     sorted_scores = sorted_scores.head(1000)
 
     demographic_info = get_demographic_info(sorted_scores, DEMOGRAPHIC_QUESTIONS)
-
-
     
 
 if __name__ == '__main__':
