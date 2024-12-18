@@ -17,15 +17,17 @@ import pandas as pd
 from scipy.spatial import distance
 from matplotlib import pyplot as plt
 import re
+from parrot import Parrot
+
+import argparse
 
 
 login(token='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')
 
-cols = ['Q2', 'Q6a', 'Q6b', 'Q6c', 'Q6d', 'Q6e', 'Q7', 'Q9', 'ABORT', 'Q10', 
-            'Q11ya', 'Q11yb', 'Q11yc', 'Q11yd', 'Q11ye', 'Q11yf', 'Q11yg', 'Q11yh',
-            'Q11yi', 'Q12', 'Q17a', 'Q17b', 'Q19a', 'Q19b', 'QW21a', 'QW21b', 'QM21a',
-            'QM21b', 'Q22a', 'Q22b', 'Q22c', 'Q23a', 'Q23b', 'Q24', 'Q26', 'Q35', 'Q70']
-    
+paraphraser = Parrot(model_tag="prithivida/parrot_paraphraser_on_T5") 
+
+torch.manual_seed(42)
+
 
 SKIP_QUESTIONS = ['Q44rec_12', 'Q86b_3', 'Q44rec_99', 'Q86b_21', 'Q86b_8', 'QSECTrec',
                    'Q3rec_7', 'Q86b_6', 'QSUFIrec', 'Q86b_16', 'Q44rec_6', 'Q44rec_14', 'QCHGENabrec',
@@ -36,7 +38,7 @@ SKIP_QUESTIONS = ['Q44rec_12', 'Q86b_3', 'Q44rec_99', 'Q86b_21', 'Q86b_8', 'QSEC
                            'COUNTRY', 'Q44rec_10', 'Q86b_99', 'q29cdrec', 'Q86b_4', 'Q86b_98', 'Q86b_12', 'Q86b_14',
                              'Q44rec_17', 'Q86b_9', 'QSPRELrec', 'Q3rec_2', 'QPTYrec', 'QCHILDrec', 'Q44rec_13', 'Q86b_5',
                                'QDENOMrec', 'Q86b_97', 'q30derec', 'Q44rec_18', 'Q3rec_6', 'Q86b_10', 'Q3rec_1', 'Q3rec_3',
-                                 'Q44rec_3', 'Q86b_13', 'Q44rec_98', 'Q44rec_16', 'QINCINDrec', 'QIV7', 'QHH1', 'QHH2']
+                                 'Q44rec_3', 'Q86b_13', 'Q44rec_98', 'Q44rec_16', 'QINCINDrec', 'QIV7', 'QHH1', 'QHH2', 'Q28rec', 'q29cdrec']
 
 DEMOGRAPHIC_QUESTIONS = ['QMLangRec',
  'QSECTrec',
@@ -66,12 +68,17 @@ DEMOGRAPHIC_QUESTIONS = ['QMLangRec',
  'REGION'
 ]
 
-def get_paraphrased_prompts(prompt):
+def get_paraphrased_prompts(prompt, n=5):
     # TODO: Currently, function to return list with the prompt itself.
-    return [prompt]
+    paraphrases = paraphraser.augment(prompt)
+    if paraphrases is not None:
+        paraphrases = paraphrases[:n]
+    else:
+        paraphrases = []
+    return [prompt, *paraphrases]
 
 
-def make_prompt(question, questions):
+def make_prompt(question, questions, steer):
     if 'question' not in questions[question] or 'options' not in questions[question]:
         print(f'Question {question} is missing question or options')
         return None
@@ -80,10 +87,10 @@ def make_prompt(question, questions):
     
     prompt = questions[question]['question']
     _, prompt = prompt.split('.', maxsplit=1)
-    prompt = f'Question: {prompt}'
-    
-    
     paraphrased_prompts = get_paraphrased_prompts(prompt)
+
+    paraphrased_prompts = [f'Question: {prompt}' for prompt in paraphrased_prompts]
+    
     options = questions[question]['options']
 
     prompts = []
@@ -100,10 +107,31 @@ def make_prompt(question, questions):
         p += '\nAnswer: '
         prompts.append(p)
 
+    if steer is not None:
+        bio_prompt = f"\nBelow you will be asked to provide a short description of your religion and then answer some questions.\nDescription: I identify as {steer.strip().title()}\n"
+        portray_prompt = f"\nAnswer the following question as though you identified as {steer.strip().title()}\n"
+        qna_options = {'hindu': 1, 'muslim': 2, 'christian': 3, 'sikh': 4, 'buddhist': 5, 'jain': 6, 'parsi': 7}
+        qna_prompt = f'''
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Other
+Answer: {qna_options.get(steer.strip().lower()), 8}        
+'''
+        steer_prompts = []
+        for prompt in prompts:
+            steer_prompts.extend([f'{bio_prompt}\n{prompt}', f'{portray_prompt}\n{prompt}', f'{qna_prompt}\n{prompt}'])
+        return steer_prompts, expected_answers
+
     return prompts, expected_answers
 
 
-def get_model_vector(model, questions):
+def get_model_vector(model, questions, steer):
     tokenizer = AutoTokenizer.from_pretrained(model)
     model = AutoModelForCausalLM.from_pretrained(model)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -117,7 +145,7 @@ def get_model_vector(model, questions):
     for question in tqdm(questions):
         if question in DEMOGRAPHIC_QUESTIONS or question in SKIP_QUESTIONS:
             continue
-        out = make_prompt(question, questions)
+        out = make_prompt(question, questions, steer)
         if out is None:
             continue
         prompts, expected_answers = out
@@ -152,6 +180,7 @@ def get_model_vector(model, questions):
             candidate_answers.append(max(distribution, key=distribution.get))
 
         # Fill the model vector with the most common answer
+        print(candidate_answers)
         model_vector[question] = max(set(candidate_answers), key=candidate_answers.count)
         print(f'Question: {question}, Answer: {model_vector[question]}')
     return model_vector
@@ -160,12 +189,7 @@ def get_model_vector(model, questions):
 def get_human_vectors(questions):
     df = pd.read_csv('responses.csv')
     cols = [q for q in questions.keys() if q not in SKIP_QUESTIONS and q not in DEMOGRAPHIC_QUESTIONS]
-    human_vectors = {}
-    
-    # Make QRID the index.
-    # df = df.set_index('QRID')
     df = df[cols]
-    # df = df.set_index('QRID')
     
     return df
 
@@ -176,6 +200,8 @@ def compute_scores(model_vector, human_vectors_df):
     # Drop the QRID column
     df = df.drop('QRID', axis=1)
     
+    df = pd.concat([df, pd.DataFrame([model_vector])], ignore_index=True)
+
     df = df.replace(' ', 99)
     df = df.fillna(99)
 
@@ -190,9 +216,6 @@ def compute_scores(model_vector, human_vectors_df):
     for i, row in df.iterrows():
         # print(distance.hamming(row.tolist(), human_vector.tolist()))
         hds.append(distance.hamming(row.tolist(), human_vector.tolist()))
-
-    plt.hist(hds)
-    plt.savefig('hist.png')
 
 
     # Add a column to the dataframe that stores the hamming distance between the model vector and the human vector
@@ -218,9 +241,29 @@ def get_demographic_info(sorted_scores, DEMOGRAPHIC_QUESTIONS):
     return demographic_info
 
 
+def get_demographic_distances(model_vector):
+    df = pd.read_csv('responses.csv')
 
-def evaluate_model(model, questions):
-    model_vector = get_model_vector(model, questions)
+    demographics = df['QRELSING'].unique()
+    for demographic in demographics:
+        # Get the subset of the dataframe where the demographic is the same as the model vector
+        subset = df[df['QRELSING'] == demographic]
+        # Only use the columns that are in the model vector
+        keys = ['QRID', *model_vector.keys()]
+        subset = subset[keys]
+
+        # Get the scores for the subset
+        scores = compute_scores(model_vector, subset)
+
+        # Report the mean and median of the scores
+        print(f'Demographic: {demographic}')
+        print(f'Mean: {scores["Hamming Distance"].mean()}')
+        print(f'Median: {scores["Hamming Distance"].median()}')
+        print('\n\n')
+
+
+def evaluate_model(model, questions, steer):
+    model_vector = get_model_vector(model, questions, steer)
     human_vectors = get_human_vectors(questions)  # Dictionary - {QRID: vector}
     
     scores_df = compute_scores(model_vector, human_vectors)
@@ -230,13 +273,24 @@ def evaluate_model(model, questions):
     sorted_scores = sorted_scores.head(1000)
 
     demographic_info = get_demographic_info(sorted_scores, DEMOGRAPHIC_QUESTIONS)
-    
+
+    demographic_distances = get_demographic_distances(model_vector)
+
+parser = argparse.ArgumentParser(description='Evaluate a model on the survey questions')
+parser.add_argument('--model', type=str, help='Model to evaluate', required=True)
+parser.add_argument('--steer', type=str, help='Demographic/religion to portray')
+
 
 if __name__ == '__main__':
+    args = parser.parse_args()
+
+    model = args.model
+    steer = args.steer
+
+
     with open('questions.json', 'r') as f:
         questions = json.load(f)
 
     # questions = {k:v for k, v in questions.items() if k in cols}    
 
-    model = 'meta-llama/Llama-3.2-1B'
-    evaluate_model(model, questions)
+    evaluate_model(model, questions, steer)
