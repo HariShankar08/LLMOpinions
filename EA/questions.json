@@ -1,0 +1,1573 @@
+{
+    "QRID": {
+        "question": "QRID. Respondent ID (UNIQUE TO EACH RESPONDENT)"
+    },
+    "weight": {
+        "question": "Final weight"
+    },
+    "SurveyPublic": {
+        "question": "Survey Public ID",
+        "options": {
+            "1": "Hong Kong",
+            "2": "Japan",
+            "4": "Korea",
+            "5": "Taiwan",
+            "6": "Vietnam"
+        }
+    },
+    "DEMONYM": {
+        "question": "DEMONYM.",
+        "options": {
+            "1": "Hong Konger",
+            "2": "Japanese",
+            "4": "Korean",
+            "5": "Taiwanese",
+            "6": "Vietnamese"
+        }
+    },
+    "Q1": {
+        "question": "Q1. Overall, are you satisfied, dissatisfied, or neither satisfied nor dissatisfied with the way things are going in [SURVEY PUBLIC] today?",
+        "options": {
+            "1": "Satisfied",
+            "2": "Dissatisfied",
+            "3": "Neither satisfied nor dissatisfied",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q2a": {
+        "question": "Q2a. In a family, who should be primarily responsible for the following activities? a. Earning money",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "(DO NOT READ) Depends/Other",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q2b": {
+        "question": "Q2b. In a family, who should be primarily responsible for the following activities? b. Taking care of children",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "(DO NOT READ) Depends/Other",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q2c": {
+        "question": "Q2c. In a family, who should be primarily responsible for the following activities? c. Making decisions about expenses",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "(DO NOT READ) Depends/Other",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q2d": {
+        "question": "Q2d. In a family, who should be primarily responsible for the following activities? d. Taking care of aging family members",
+        "options": {
+            "1": "Men",
+            "2": "Women [OR]",
+            "3": "Both",
+            "4": "(DO NOT READ) Depends/Other",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q3": {
+        "question": "Q3. Which of these statements comes closest to your opinion even if neither is exactly right?",
+        "options": {
+            "1": "Women have an obligation to society to bear children",
+            "2": "Women should decide for themselves whether or not to bear children",
+            "3": "(DO NOT READ) Other/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q4": {
+        "question": "Q4. Which of these three statements comes closest to your opinion?",
+        "options": {
+            "1": "Men generally make better political leaders than women",
+            "2": "Women generally make better political leaders than men",
+            "3": "In general, women and men make equally good political leaders",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QLEGAL": {
+        "question": "QLEGAL. Do you strongly favor, somewhat favor, somewhat oppose or strongly oppose allowing gays and lesbians to marry legally?",
+        "options": {
+            "1": "Strongly favor",
+            "2": "Somewhat favor",
+            "3": "Somewhat oppose",
+            "4": "Strongly oppose",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q5a": {
+        "question": "Q5a. I'd like your opinion about some possible international concerns for [SURVEY PUBLIC]. Do you think that each of the following is a major threat, a minor threat, or not a threat to [SURVEY PUBLIC]? a. the United States' power and influence",
+        "options": {
+            "1": "Major threat",
+            "2": "Minor threat",
+            "3": "Not a threat",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q5b": {
+        "question": "Q5b. I'd like your opinion about some possible international concerns for [SURVEY PUBLIC]. Do you think that each of the following is a major threat, a minor threat, or not a threat to [SURVEY PUBLIC]? b. North Korea's nuclear weapons program",
+        "options": {
+            "1": "Major threat",
+            "2": "Minor threat",
+            "3": "Not a threat",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q5c": {
+        "question": "Q5c. I'd like your opinion about some possible international concerns for [SURVEY PUBLIC]. Do you think that each of the following is a major threat, a minor threat, or not a threat to [SURVEY PUBLIC]? c. Russia's power and influence",
+        "options": {
+            "1": "Major threat",
+            "2": "Minor threat",
+            "3": "Not a threat",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q5d": {
+        "question": "Q5d. I'd like your opinion about some possible international concerns for [SURVEY PUBLIC]. Do you think that each of the following is a major threat, a minor threat, or not a threat to [SURVEY PUBLIC]? d. China's power and influence",
+        "options": {
+            "1": "Major threat",
+            "2": "Minor threat",
+            "3": "Not a threat",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QCURREL": {
+        "question": "QCURREL. What is your religion, if any?",
+        "options": {
+            "1": "Buddhist",
+            "2": "Catholic, Protestant or other Christian",
+            "3": "Muslim",
+            "4": "Shinto [ASK IN JAPAN]",
+            "5": "Daoist",
+            "6": "Confucian",
+            "7": "Local religions/ Indigenous religions",
+            "8": "No religion [OR]",
+            "9": "Some other religion [SPECIFY IN QCURRELb]",
+            "10": "(DO NOT READ) Combination of religions",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6a": {
+        "question": "Q6a. Do you feel a personal connection to each of the following ways of life, or not? a. The Buddhist way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6b": {
+        "question": "Q6b. Do you feel a personal connection to each of the following ways of life, or not? b. The Christian way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6c": {
+        "question": "Q6c. Do you feel a personal connection to each of the following ways of life, or not? c. The Shinto way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6d": {
+        "question": "Q6d. Do you feel a personal connection to each of the following ways of life, or not? d. The Daoist way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6e": {
+        "question": "Q6e. Do you feel a personal connection to each of the following ways of life, or not? e. The Confucian way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q6f": {
+        "question": "Q6f. Do you feel a personal connection to each of the following ways of life, or not? f. Local religions'/ Indigenous religions' way of life",
+        "options": {
+            "1": "Yes, I do",
+            "2": "No, I do not",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QBORN": {
+        "question": "QBORN. Would you describe yourself as a born-again or evangelical Christian?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q7a": {
+        "question": "Q7a. Just based on what you know, do you think each of the following descriptions fits Buddhism, or not? a. Buddhism is a family tradition one must follow",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q7b": {
+        "question": "Q7b. Just based on what you know, do you think each of the following descriptions fits Buddhism, or not? b. Buddhism is an ethnicity one is born into",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q7c": {
+        "question": "Q7c. Just based on what you know, do you think each of the following descriptions fits Buddhism, or not? c. Buddhism is a culture one is part of",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q7d": {
+        "question": "Q7d. Just based on what you know, do you think each of the following descriptions fits Buddhism, or not? d. Buddhism is a set of ethical teachings to guide actions",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q7e": {
+        "question": "Q7e. Just based on what you know, do you think each of the following descriptions fits Buddhism, or not? e. Buddhism is a religion one chooses to follow",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8a": {
+        "question": "Q8a. In your opinion, can a person be truly Buddhist if they do each of the following things? a. do not respect elders",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8b": {
+        "question": "Q8b. In your opinion, can a person be truly Buddhist if they do each of the following things? b. do not respect [SURVEY PUBLIC]",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8c": {
+        "question": "Q8c. In your opinion, can a person be truly Buddhist if they do each of the following things? c. do not respect deities or spirits",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8d": {
+        "question": "Q8d. In your opinion, can a person be truly Buddhist if they do each of the following things? d. never go to temple or pagoda",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8e": {
+        "question": "Q8e. In your opinion, can a person be truly Buddhist if they do each of the following things? e. do not pray",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8f": {
+        "question": "Q8f. In your opinion, can a person be truly Buddhist if they do each of the following things? f. drink alcohol",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8g": {
+        "question": "Q8g. In your opinion, can a person be truly Buddhist if they do each of the following things? g. celebrate the Christian festival of Christmas",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8h": {
+        "question": "Q8h. In your opinion, can a person be truly Buddhist if they do each of the following things? h. celebrate the Muslim festival of Eid",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8i": {
+        "question": "Q8i. In your opinion, can a person be truly Buddhist if they do each of the following things? i. make offerings to or worship ancestors",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8j": {
+        "question": "Q8j. In your opinion, can a person be truly Buddhist if they do each of the following things? j. do not believe in the afterlife",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q8k": {
+        "question": "Q8k. In your opinion, can a person be truly Buddhist if they do each of the following things? k. do not have a Buddhist funeral",
+        "options": {
+            "1": "Yes, can be",
+            "2": "No, cannot be",
+            "97": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q9": {
+        "question": "Q9. How important is religion in your life, if at all?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q10": {
+        "question": "Q10. Do you believe in god, or not?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q11": {
+        "question": "Q11. Do you think that there are unseen beings in the world, like deities or spirits?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q12": {
+        "question": "Q12. Which statement comes closer to your view even if neither is exactly right?",
+        "options": {
+            "1": "There is only ONE true religion",
+            "2": "Many religions can be true",
+            "3": "(DO NOT READ) Other/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QCHREL": {
+        "question": "QCHREL. Thinking about when you were a child, in what religion were you raised, if any?",
+        "options": {
+            "1": "Buddhist",
+            "2": "Catholic, Protestant or other Christian",
+            "3": "Muslim",
+            "4": "Shinto [ASK IN JAPAN]",
+            "5": "Daoist",
+            "6": "Confucian",
+            "7": "Local religions/ Indigenous religions",
+            "8": "No religion [OR]",
+            "9": "Some other religion [SPECIFY IN QCHRELb]",
+            "10": "(DO NOT READ) Combination of religions",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q13": {
+        "question": "Q13. Do you think of yourself as primarily Taiwanese, primarily Chinese, or both Taiwanese and Chinese?",
+        "options": {
+            "1": "Primarily Taiwanese",
+            "2": "Primarily Chinese [OR]",
+            "3": "Both Taiwanese and Chinese",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q14": {
+        "question": "Q14. Do you think of yourself as primarily a Hong Konger, primarily Chinese, or both a Hong Konger and Chinese?",
+        "options": {
+            "1": "Primarily a Hong Konger",
+            "2": "Primarily Chinese [OR]",
+            "3": "Both a Hong Konger and Chinese",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q15a": {
+        "question": "Q15a. Thinking about your life overall, would you say you generally go to the following places, or not? a. Shrines",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q15b": {
+        "question": "Q15b. Thinking about your life overall, would you say you generally go to the following places, or not? b. Temples or pagodas",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q15c": {
+        "question": "Q15c. Thinking about your life overall, would you say you generally go to the following places, or not? c. Churches",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q15d": {
+        "question": "Q15d.Thinking about your life overall, would you say you generally go to the following places, or not? d. Monasteries or places for meditation",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESa": {
+        "question": "QFIGURESa. Do you currently pray or offer your respects to each of the following figures, or not? a. Confucius",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESb": {
+        "question": "QFIGURESb. Do you currently pray or offer your respects to each of the following figures, or not? b. Buddha",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESc": {
+        "question": "QFIGURESc. Do you currently pray or offer your respects to each of the following figures, or not? c. Mother Mary",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESd": {
+        "question": "QFIGURESd. Do you currently pray or offer your respects to each of the following figures, or not? d. Guandi or Guangong",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESe": {
+        "question": "QFIGURESe. Do you currently pray or offer your respects to each of the following figures, or not? e. Jesus Christ",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESf": {
+        "question": "QFIGURESf. Do you currently pray or offer your respects to each of the following figures, or not? f. Guanyin, Guanyi Bodhisattva, or Bodhisattva Avalokiteshvara",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESg": {
+        "question": "QFIGURESg. Do you currently pray or offer your respects to each of the following figures, or not? g. Mazu, Goddess of the Sea",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESh": {
+        "question": "QFIGURESh. Do you currently pray or offer your respects to each of the following figures, or not? h. The Kami",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFIGURESi": {
+        "question": "QFIGURESi. Do you currently pray or offer your respects to each of the following figures, or not? i. Dalai Lama",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q16_1": {
+        "question": "Q16. [SELECT ALL] People have different ways of taking care of deceased family members. Which of the following practices does your family do? Cremate your deceased family members",
+        "options": {
+            "1": "Selected",
+            "2": "Not selected"
+        }
+    },
+    "Q16_2": {
+        "question": "Q16. [SELECT ALL] People have different ways of taking care of deceased family members. Which of the following practices does your family do? Bury your deceased family members",
+        "options": {
+            "1": "Selected",
+            "2": "Not selected"
+        }
+    },
+    "Q16_3": {
+        "question": "Q16. [SELECT ALL] People have different ways of taking care of deceased family members. Which of the following practices does your family do? [OR] Follow some other method",
+        "options": {
+            "1": "Selected",
+            "2": "Not selected"
+        }
+    },
+    "Q16_98": {
+        "question": "Q16. [SELECT ALL] People have different ways of taking care of deceased family members. Which of the following practices does your family do? Don't know",
+        "options": {
+            "1": "Selected",
+            "2": "Not selected"
+        }
+    },
+    "Q16_99": {
+        "question": "Q16. [SELECT ALL] People have different ways of taking care of deceased family members. Which of the following practices does your family do? Refused",
+        "options": {
+            "1": "Selected",
+            "2": "Not selected"
+        }
+    },
+    "Q17": {
+        "question": "Q17. Does your family scatter the ashes of deceased family members OR do you keep them at a particular location, like someone's home, a temple or pagoda, or a gravesite?",
+        "options": {
+            "1": "Scatter the ashes",
+            "2": "Keep them at a particular location",
+            "3": "(DO NOT READ) Some other method/Both",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q18": {
+        "question": "Q18. If you were planning the funeral for a family member or a loved one, how important would it be for you to follow traditional funeral rites and rituals?",
+        "options": {
+            "1": "Very important",
+            "2": "Somewhat important",
+            "3": "Not very important [OR]",
+            "4": "Not at all important",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q19": {
+        "question": "Q19. Do you have a family gravesite where the ashes or remains of deceased family members reside?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q20a": {
+        "question": "Q20a. Do you or someone in your household pay money to maintain the family gravesite, or not?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q20b": {
+        "question": "Q20b. Do you or someone in your household look after the family gravesite by sweeping or cleaning it?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q21": {
+        "question": "Q21. How often do you visit the family gravesite, if at all?",
+        "options": {
+            "1": "At least once a month",
+            "2": "A few times a year",
+            "3": "Once a year",
+            "4": "Less often than that [OR]",
+            "5": "Never",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q22a": {
+        "question": "Q22a. In the past 12 months, have you done each of the following activities or rituals to honor or take care of your ancestors, or not? a. Offered food, water or drinks",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q22b": {
+        "question": "Q22b. In the past 12 months, have you done each of the following activities or rituals to honor or take care of your ancestors, or not? b. Offered flowers or lit candles",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q22c": {
+        "question": "Q22c. In the past 12 months, have you done each of the following activities or rituals to honor or take care of your ancestors, or not? c. Burned incense",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q22d": {
+        "question": "Q22d.In the past 12 months, have you done each of the following activities or rituals to honor or take care of your ancestors, or not? d. Offered money or other things they may need in the afterlife",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q23": {
+        "question": "Q23. In the past 12 months, have you told your ancestors about events in your life?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q24a": {
+        "question": "Q24a. Have you ever felt that a spirit of an ancestor has done each of the following, or not? a. Helped you",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q24b": {
+        "question": "Q24b. Have you ever felt that a spirit of an ancestor has done each of the following, or not? b. Punished you",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q24c": {
+        "question": "Q24c. Have you ever felt that a spirit of an ancestor has done each of the following, or not? c. Come to visit you in a dream",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q24d": {
+        "question": "Q24d. Have you ever felt that a spirit of an ancestor has done each of the following, or not? d. Come to be with you in any other form",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q25a": {
+        "question": "Q25a. Do you think each of the following things have their own spirits, or not? a. Mountains, rivers or trees",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q25b": {
+        "question": "Q25b. Do you think each of the following things have their own spirits, or not? b. Certain objects, like crystals, jewels or stones",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q25c": {
+        "question": "Q25c. Do you think each of the following things have their own spirits, or not? c. Houses or other buildings",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q26a": {
+        "question": "Q26a. Thinking about some different kinds of experiences, how often do you have the following experiences? a. Feeling a deep sense of wonder about the universe",
+        "options": {
+            "1": "At least once a week",
+            "2": "Once or twice a month",
+            "3": "Several times a year",
+            "4": "Seldom [OR]",
+            "5": "Never",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q26b": {
+        "question": "Q26b. Thinking about some different kinds of experiences, how often do you have the following experiences? b. Thinking about the meaning and purpose of life",
+        "options": {
+            "1": "At least once a week",
+            "2": "Once or twice a month",
+            "3": "Several times a year",
+            "4": "Seldom [OR]",
+            "5": "Never",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27a": {
+        "question": "Q27a. Do you think each of the following things exists, or not? a. Rebirth",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27b": {
+        "question": "Q27b. Do you think each of the following things exists, or not? b. Fate",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27c": {
+        "question": "Q27c.Do you think each of the following things exists, or not? c. Karma",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27d": {
+        "question": "Q27d. Do you think each of the following things exists, or not? d. Nirvana",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27e": {
+        "question": "Q27e. Do you think each of the following things exists, or not? e. Angels or helpful deities",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27f": {
+        "question": "Q27f. Do you think each of the following things exists, or not? f. Demons or evil deities",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27g": {
+        "question": "Q27g. Do you think each of the following things exists, or not? g. Miracles",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27h": {
+        "question": "Q27h. Do you think each of the following things exists, or not? h. Heaven",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q27i": {
+        "question": "Q27i. Do you think each of the following things exists, or not? i. Hell",
+        "options": {
+            "1": "Yes, exists",
+            "2": "No, does not exist",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q28": {
+        "question": "Q28. How often do you pray, if at all?",
+        "options": {
+            "1": "Several times a day",
+            "2": "Once a day",
+            "3": "A few times a week",
+            "4": "Once a week",
+            "5": "A few times a month",
+            "6": "Less often than that [OR]",
+            "7": "Never",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q29": {
+        "question": "Q29. Is there an altar in your home, or not?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q30": {
+        "question": "Q30. Do you think it is acceptable or unacceptable for a person to try to persuade others to join his or her religion?",
+        "options": {
+            "1": "Acceptable",
+            "2": "Unacceptable",
+            "3": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q31": {
+        "question": "Q31. Do you ever practice meditation, or not?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q33": {
+        "question": "Q33. In the past 12 months, have you had your fortune told, or not?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q35": {
+        "question": "Q35. Which of these two statements is closest to your opinion even if neither is exactly right?",
+        "options": {
+            "1": "[SURVEY PUBLIC] will be better off in the future if it sticks to its traditions and way of life",
+            "2": "[SURVEY PUBLIC] will be better off in the future if it is open to changes regarding its traditions and way of life",
+            "3": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q36": {
+        "question": "Q36. Which of these two statements is closest to your opinion even if neither is exactly right?",
+        "options": {
+            "1": "People should be allowed to speak their opinions publicly even if they upset other people",
+            "2": "Harmony with others is more important than the right to speak one's opinion",
+            "3": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q37": {
+        "question": "Q37. Do you think people who disagree with our government's actions should or should not be able to publicly criticize the government?",
+        "options": {
+            "1": "Yes, should be able to publicly criticize the government",
+            "2": "No, should not be able to publicly criticize the government",
+            "3": "(DO NOT READ) Other/Both/Neither/Depends on situation",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q38a": {
+        "question": "Q38a. Should religious leaders do each of the following things, or not? a. Talk publicly about what politicans or political parties they support",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q38b": {
+        "question": "Q38b. Should religious leaders do each of the following things, or not? b. Be politicians",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q38c": {
+        "question": "Q38c. Should religious leaders do each of the following things, or not? c. Participate in political protests",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q39a": {
+        "question": "Q39a. How well do the following statements describe your views? a. Religion helps society by giving people meaning and purpose in their lives",
+        "options": {
+            "1": "Very well",
+            "2": "Somewhat well",
+            "3": "Not too well [OR]",
+            "4": "Not at all well",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q39b": {
+        "question": "Q39b. How well do the following statements describe your views? b. Religion encourages superstition and illogical thinking in society",
+        "options": {
+            "1": "Very well",
+            "2": "Somewhat well",
+            "3": "Not too well [OR]",
+            "4": "Not at all well",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q39c": {
+        "question": "Q39c. How well do the following statements describe your views? c. Religion gives people guidance so that they do the right thing and treat other people well",
+        "options": {
+            "1": "Very well",
+            "2": "Somewhat well",
+            "3": "Not too well [OR]",
+            "4": "Not at all well",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q39d": {
+        "question": "Q39d. How well do the following statements describe your views? d. Religion encourages violent and extremist thinking among people",
+        "options": {
+            "1": "Very well",
+            "2": "Somewhat well",
+            "3": "Not too well [OR]",
+            "4": "Not at all well",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QABORT": {
+        "question": "QABORT. Do you think having an abortion should be legal in all cases, legal in most cases, illegal in most cases, or illegal in all cases?",
+        "options": {
+            "1": "Legal in all cases",
+            "2": "Legal in most cases",
+            "3": "Illegal in most cases",
+            "4": "Illegal in all cases",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q40a": {
+        "question": "Q40a. Would the following political system be a very good, somewhat good, somewhat bad or very bad way of governing [SURVEY PUBLIC]? a. A system in which two or more political parties contest elections",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad",
+            "4": "Very bad",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q40b": {
+        "question": "Q40b. Would the following political system be a very good, somewhat good, somewhat bad or very bad way of governing [SURVEY PUBLIC]? b. A system in which elections are held with only one party participating",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad",
+            "4": "Very bad",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q40c": {
+        "question": "Q40c. Would the following political system be a very good, somewhat good, somewhat bad or very bad way of governing [SURVEY PUBLIC]? c. A system in which a strong leader can make decisions without interference from parliament or the courts",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad",
+            "4": "Very bad",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q40d": {
+        "question": "Q40d. Would the following political system be a very good, somewhat good, somewhat bad or very bad way of governing [SURVEY PUBLIC]? d. A system in which experts, not elected officials, make decisions according to what they think is best for [SURVEY PUBLIC",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad",
+            "4": "Very bad",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q40e": {
+        "question": "Q40e. Would the following political system be a very good, somewhat good, somewhat bad or very bad way of governing [SURVEY PUBLIC]? e. A system in which the military rules [SURVEY PUBLIC]",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Somewhat bad",
+            "4": "Very bad",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QATTEND": {
+        "question": "QATTEND. Aside from weddings and funerals, how often, if at all, do you go to church?",
+        "options": {
+            "1": "Every day",
+            "2": "More than once a week",
+            "3": "Once a week",
+            "4": "Once or twice a month",
+            "5": "A few times a year",
+            "6": "Less often than that or",
+            "7": "Never",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE": {
+        "question": "QAGE. How old are you?",
+        "options": {
+            "97": "97 or older",
+            "998": "(DO NOT READ) Don't know",
+            "999": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE_NRHKG": {
+        "question": "QAGE_NRHKG. Which of the following age ranges does your age fit?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE_NRJPN": {
+        "question": "QAGE_NRJPN. Which of the following age ranges does your age fit?",
+        "options": {
+            "1": "18-29",
+            "2": "30-44",
+            "3": "45-59",
+            "4": "60-74",
+            "5": "75+",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE_NRKOR": {
+        "question": "QAGE_NRKOR. Which of the following age ranges does your age fit?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE_NRTWNrec": {
+        "question": "QAGE_NRTWN. Which of the following age ranges does your age fit?",
+        "options": {
+            "1": "18-29",
+            "2": "30-44",
+            "3": "45-59",
+            "4": "60-74",
+            "5": "75+",
+            "98": "(DO NOT READ) Do not know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QAGE_NRVNM": {
+        "question": "QAGE_NRVNM. Which of the following age ranges does your age fit?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QETHHKG": {
+        "question": "QETHHKG. What is your ethnicity?",
+        "options": {
+            "1": "Chinese",
+            "97": "Some other ethnicity",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QETHTWN": {
+        "question": "QETHTWN. What is your ethnicity?",
+        "options": {
+            "1": "Han",
+            "2": "Indigenous peoples",
+            "97": "Some other ethnicity",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QETHVNM": {
+        "question": "QETHNVM. What is your ethnicity?",
+        "options": {
+            "1": "Vietnamese/Kinh",
+            "97": "Some other ethnicity",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QFERT": {
+        "question": "QFERT. How many children have you had, if any? Please count all children born at any time in your life.",
+        "options": {
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QHH1": {
+        "question": "QHH1. How many people, including yourself, live in your household?",
+        "options": {
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QHH2": {
+        "question": "QHH2. How many people who live in your household, including yourself, are adults, age 18 and older?",
+        "options": {
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q41": {
+        "question": "Q41. How emotionally attached, if at all, do you feel to the country of China?",
+        "options": {
+            "1": "Very emotionally attached",
+            "2": "Somewhat emotionally attached",
+            "3": "Not very emotionally attached [OR]",
+            "4": "Not at all emotionally attached",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QMARRIED": {
+        "question": "QMARRIED. What is your current marital status?",
+        "options": {
+            "1": "Married",
+            "2": "Divorced",
+            "3": "Separated",
+            "4": "Unmarried/Single [OR]",
+            "5": "Widow/Widower",
+            "6": "(DO NOT READ) Living with a partner",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QEDUHKG": {
+        "question": "QEDUHKG. What is the highest level of school you have completed or the highest degree you have received?",
+        "options": {
+            "1": "No formal schooling (Kindergarten)",
+            "2": "Primary Education (Primary 1 to 6/Grade 1 to 6)",
+            "3": "Lower secondary education (GCE N Level (Form 3))",
+            "4": "Upper secondary education (GCE O Level (Form 5), GCE A Level (Form 7 in old structure), DSE Level (Form 6 in new structu",
+            "5": "Diploma/Advanced certificate/ advanced diploma/DVE (non-tertiary)",
+            "6": "Associate degree or equivalent vocational degree",
+            "7": "University Degree (Bachelor's degree)",
+            "8": "University Postgraduate Degree (Master's degree)",
+            "9": "University Postgraduate Degree (Doctor's degree)",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QEDUJPN": {
+        "question": "QEDUJPN. What is the highest level of school you have completed or the highest degree you have received?",
+        "options": {
+            "1": "No formal schooling (Preschool or Kindergarten)",
+            "2": "Elementary school",
+            "3": "Lower secondary school",
+            "4": "Upper secondary school",
+            "5": "College of technology",
+            "6": "Junior college (associate degree), special training college (diploma or advanced diploma)",
+            "7": "Bachelor's degree",
+            "8": "Master's degree or Juris Doctor",
+            "9": "Doctor's degree",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QEDUKOR": {
+        "question": "QEDUKOR. What is the highest level of school you have completed or the highest degree you have received?",
+        "options": {
+            "1": "No formal schooling/kindergarten",
+            "2": "Incomplete elementary education",
+            "3": "Elementary school",
+            "4": "Middle school",
+            "5": "Vocational high school/Trade high school",
+            "6": "General high school",
+            "7": "Junior college, polytechnic college / associate's degree, college of taxation (2-3 years)",
+            "8": "Bachelor's degree or Korean army (4-6 years)",
+            "9": "Master's degree",
+            "10": "Doctor's degree",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QEDUTWN": {
+        "question": "QEDUTWN. What is the highest level of school you have completed or the highest degree you have received?",
+        "options": {
+            "1": "No formal education (Preschool or Kindergarten)",
+            "2": "Incomplete primary education",
+            "3": "Complete primary education",
+            "4": "Lower secondary school (junior secondary school)",
+            "5": "Secondary vocational school/technical secondary school",
+            "6": "Senior high school",
+            "7": "Junior college/Higher technical & vocational school",
+            "8": "Bachelor (undergraduate)",
+            "9": "Master",
+            "10": "Doctor",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QEDUVNM": {
+        "question": "QEDUVNM. What is the highest level of school you have completed or the highest degree you have received, if any?",
+        "options": {
+            "1": "No formal schooling",
+            "2": "Incomplete primary",
+            "3": "Primary",
+            "4": "Lower secondary education (Lower secondary education certificate)",
+            "5": "Upper secondary, vocational (Vocational education certificate)",
+            "6": "Upper secondary, general (Upper secondary education certificate)",
+            "7": "Professional vocational secondary education diploma)",
+            "8": "Diploma in vocational education",
+            "9": "College diploma (in general education)",
+            "10": "Bachelor's degree",
+            "11": "Master's degree, Graduate diploma",
+            "12": "Doctor's degree (Ph.D.)",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "CHURCHEDUa": {
+        "question": "CHURCHEDUa. At any point during your education, did you attend a school associated with each of the following? a. A Christian or Catholic church",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "CHURCHEDUb": {
+        "question": "CHURCHEDUb. At any point during your education, did you attend a school associated with each of the following? b. A Buddhist organization",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QPTYJPN": {
+        "question": "QPTYJPN. Regardless of which party you voted for in the last national election, which political party, if any, do you feel closest to?",
+        "options": {
+            "1": "(DO NOT READ) Liberal Democratic Party (LDP)",
+            "2": "(DO NOT READ) Komeito (NKP)",
+            "3": "(DO NOT READ) Constitutional Democratic Party (CDP)",
+            "4": "(DO NOT READ) Social Democratic Party (SDP)",
+            "5": "(DO NOT READ) Japan Innovation Party (Ishin)",
+            "6": "(DO NOT READ) Democratic Party for the People (DPP)",
+            "7": "(DO NOT READ) Japanese Communist Party (JCP)",
+            "8": "(DO NOT READ) Sanseito (DIY)",
+            "9": "(DO NOT READ) Reiwa Shinsengumi",
+            "10": "(DO NOT READ) NHK Party (NHK)",
+            "96": "(DO NOT READ) Do not feel close to any party",
+            "97": "(DO NOT READ) Some other party",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QPTYTWN": {
+        "question": "QPTYTWN. Regardless of which party you voted for in the last national election, which political party, if any, do you feel closest to?",
+        "options": {
+            "1": "(DO NOT READ) Democratic Progressive Party (DPP)",
+            "2": "(DO NOT READ) The Kuomintang (KMT)",
+            "3": "(DO NOT READ) Taiwan People's Party (TPP)",
+            "96": "(Do NOT READ) Do not feel close to any party",
+            "97": "(DO NOT READ) Some other party",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q50": {
+        "question": "Q50. Now thinking about your telephone use, is there at least one telephone INSIDE your home that is currently working and is not a mobile phone?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "Q51": {
+        "question": "Q51. Now thinking about your telephone use, do you have a working mobile phone?",
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QZIPHKG": {
+        "question": "QZIPHKG. Please tell me the district you live in.",
+        "options": {
+            "1": "(DO NOT READ) Central and Western",
+            "2": "(DO NOT READ) Wan Chai",
+            "3": "(DO NOT READ) Eastern",
+            "4": "(DO NOT READ) Southern",
+            "5": "(DO NOT READ) Yau Tsim Mong",
+            "6": "(DO NOT READ) Sham Shui Po",
+            "7": "(DO NOT READ) Kowloon City",
+            "8": "(DO NOT READ) Wong Tai Sin",
+            "9": "(DO NOT READ) Kwun Tong",
+            "10": "(DO NOT READ) Kwai Tsing",
+            "11": "(DO NOT READ) Tsuen Wan",
+            "12": "(DO NOT READ) Tuen Mun",
+            "13": "(DO NOT READ) Yuen Long",
+            "14": "(DO NOT READ) North",
+            "15": "(DO NOT READ) Tai Po",
+            "16": "(DO NOT READ) Sha Tin",
+            "17": "(DO NOT READ) Sai Kung",
+            "18": "(DO NOT READ) Islands",
+            "19": "(DO NOT READ) Marine",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QZIPHKG2": {
+        "question": "QZIPHKG2. What region do you live in?",
+        "options": {
+            "1": "(DO NOT READ) Hong Kong Island (HK)",
+            "2": "(DO NOT READ) Kowloon (KLN)",
+            "3": "(DO NOT READ) New Territories (NT)",
+            "4": "(DO NOT READ) Marine",
+            "98": "(DO NOT READ) Don't Know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QZIPJPN2": {
+        "question": "ZIPJPN2. What region do you live in?",
+        "options": {
+            "1": "(DO NOT READ) Hokkaido",
+            "2": "(DO NOT READ) Tohoku",
+            "3": "(DO NOT READ) Kanto",
+            "4": "(DO NOT READ) Chubu",
+            "5": "(DO NOT READ) Kansai",
+            "6": "(DO NOT READ) Chugoku",
+            "7": "(DO NOT READ) Shikoku",
+            "8": "(DO NOT READ) Kyushu (including Okinawa)",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QZIPKOR": {
+        "question": "ZIPKOR. What province do you live in?",
+        "options": {
+            "1": "(DO NOT READ) Seoul",
+            "2": "(DO NOT READ) Busan",
+            "3": "(DO NOT READ) Daegu",
+            "4": "(DO NOT READ) Incheon",
+            "5": "(DO NOT READ) Gwangju",
+            "6": "(DO NOT READ) Daejeon",
+            "7": "(DO NOT READ) Ulsan",
+            "8": "(DO NOT READ) Gyeonggi-do",
+            "9": "(DO NOT READ) Gangwo-do",
+            "10": "(DO NOT READ) Chungcheongbuk-do",
+            "11": "(DO NOT READ) Chungcheongnam-do",
+            "12": "(DO NOT READ) Jeollabuk-do",
+            "13": "(DO NOT READ) Jeollanam-do",
+            "14": "(DO NOT READ) Gyeongsangbuk-do",
+            "15": "(DO NOT READ) Gyeongsangnam-do",
+            "16": "(DO NOT READ) Jeju-do",
+            "17": "(DO NOT READ) Sejong",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "QZIPTWN": {
+        "question": "QZIPTWN. Please tell me the city or county you live in.",
+        "options": {
+            "1": "(DO NOT READ) Chiayi City",
+            "2": "(DO NOT READ) Chiayi County",
+            "3": "(DO NOT READ) Chunghwa County",
+            "4": "(DO NOT READ) Hsinchu City",
+            "5": "(DO NOT READ) Hsinchu County",
+            "6": "(DO NOT READ) Hualien County",
+            "7": "(DO NOT READ) Kaohsiung City",
+            "8": "(DO NOT READ) Keelung City",
+            "9": "(DO NOT READ) Kinmen County",
+            "10": "(DO NOT READ) Lienchiang County",
+            "11": "(DO NOT READ) Miaoli County",
+            "12": "(DO NOT READ) Nantou County",
+            "13": "(DO NOT READ) New Taipei City",
+            "14": "(DO NOT READ) Penghu County",
+            "15": "(DO NOT READ) Pingtung County",
+            "16": "(DO NOT READ) Taichung City",
+            "17": "(DO NOT READ) Tainan City",
+            "18": "(DO NOT READ) Taipei City",
+            "19": "(DO NOT READ) Taitung County",
+            "20": "(DO NOT READ) Taoyuan City",
+            "21": "(DO NOT READ) Yilan County",
+            "22": "(DO NOT READ) Yunlin County",
+            "98": "(DO NOT READ) Don't know",
+            "99": "(DO NOT READ) Refused"
+        }
+    },
+    "VietnamRegion": {
+        "question": "Region in Vietnam",
+        "options": {
+            "1": "Central Highlands",
+            "2": "Mekong River Delta",
+            "3": "Northern Central Area and Central Coastal Areas",
+            "4": "Northern Midland and Mountain Areas",
+            "5": "Red River Delta",
+            "6": "Southeast"
+        }
+    },
+    "GenderRec": {
+        "question": "Gender",
+        "options": {
+            "1": "Man",
+            "2": "Woman",
+            "999": "Other/DK/Ref"
+        }
+    },
+    "Language": {
+        "question": "Language in which interview was conducted",
+        "options": {
+            "1": "Cantonese",
+            "2": "Mandarin (Hong Kong)",
+            "3": "English",
+            "4": "Japanese",
+            "5": "Korean",
+            "6": "Mandarin (Taiwan)",
+            "7": "Hokkien",
+            "8": "Vietnamese"
+        }
+    },
+    "ISCED": {
+        "question": "ISCED. ISCED recode",
+        "options": {
+            "1": "ISCED Level one",
+            "2": "ISCED Level two",
+            "3": "ISCED Level three",
+            "4": "ISCED Level four",
+            "5": "ISCED Level five or above",
+            "98": "Don't know",
+            "99": "Refused"
+        }
+    },
+    "UrbanVietnam": {
+        "question": "Urban. Urbanity in Vietnam",
+        "options": {
+            "1": "Urban",
+            "2": "Rural"
+        }
+    }
+}

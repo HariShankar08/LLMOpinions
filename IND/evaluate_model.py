@@ -9,7 +9,7 @@
 
 
 import json
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from huggingface_hub import login
 import torch
 from tqdm import tqdm
@@ -279,7 +279,6 @@ def evaluate_model(model, questions, steer):
 parser = argparse.ArgumentParser(description='Evaluate a model on the survey questions')
 parser.add_argument('--model', type=str, help='Model to evaluate', required=True)
 parser.add_argument('--steer', type=str, help='Demographic/religion to portray')
-
 
 if __name__ == '__main__':
     args = parser.parse_args()

@@ -1,0 +1,5610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="ddi:codebook:2_5" version="2.5" xsi:schemaLocation="ddi:codebook:2_5 codebook.xsd" xml:lang="en">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>2022 South and Southeast Asia Survey Metadata File</titl>
+        <IDNo agency="Pew Research Center">S0000</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <prodDate date="2024-01-23 10:14:02">2024-01-23 10:14:02 EST</prodDate>
+        <software version="0.18">R package DDIwR</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>2022 South and Southeast Asia Survey Metadata File</titl>
+        <IDNo agency="Pew Research Center">S0000</IDNo>
+      </titlStmt>
+      <distStmt>
+        <distrbtr>Pew Research Center</distrbtr>
+      </distStmt>
+      <holdings URI="http://www.pewresearch.org">Description of the study holdings</holdings>
+    </citation>
+    <stdyInfo>
+      <abstract>Metadata for the Religion in South and Southeast Asia survey conducted by Pew Research Center in 2022</abstract>
+    </stdyInfo>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileName>SEA Religion Public Data - Pew Research Center (All Vars) January 2024.sav</fileName>
+      <fileType>SPSS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="x1TUDSentGbloR87" name="QRID" dcml="0">
+      <labl>QRID. Respondent ID (UNIQUE TO EACH RESPONDENT)</labl>
+      <sumStat type="min">1004209</sumStat>
+      <sumStat type="max">7007956</sumStat>
+      <sumStat type="mean">4245349</sumStat>
+      <sumStat type="medn">5037435</sumStat>
+      <sumStat type="stdev">2134979</sumStat>
+      <varFormat type="numeric">F7.0</varFormat>
+    </var>
+    <var ID="zz1rAHHVIRYD2kJj" name="weight" dcml="15">
+      <labl>Final Weight</labl>
+      <sumStat type="min">0.15052</sumStat>
+      <sumStat type="max">5.190314</sumStat>
+      <sumStat type="mean">1</sumStat>
+      <sumStat type="medn">0.7871437</sumStat>
+      <sumStat type="stdev">0.6989755</sumStat>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="pe5pEuCvVeeqNoPA" name="COUNTRY" dcml="0">
+      <labl>COUNTRY. COUNTRY ID (UNIQUE TO EACH COUNTRY)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Cambodia</labl>
+        <catStat type="freq">1502</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Indonesia</labl>
+        <catStat type="freq">2571</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Malaysia</labl>
+        <catStat type="freq">1999</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Singapore</labl>
+        <catStat type="freq">2036</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Sri Lanka</labl>
+        <catStat type="freq">2510</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Thailand</labl>
+        <catStat type="freq">2504</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="hzBeWSOJyinDm1ml" name="DEMONYM" dcml="0">
+      <labl>DEMONYM. DEMONYM</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Cambodian</labl>
+        <catStat type="freq">1502</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Indonesian</labl>
+        <catStat type="freq">2571</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Malaysian</labl>
+        <catStat type="freq">1999</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Singaporean</labl>
+        <catStat type="freq">2036</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Sri Lankan</labl>
+        <catStat type="freq">2510</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Thai</labl>
+        <catStat type="freq">2504</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="vE006fuElryxHXR8" name="Q1" dcml="0">
+      <labl>Q1. Thinking about your current personal economic situation, how would you describe it?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very good</labl>
+        <catStat type="freq">1098</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat good</labl>
+        <catStat type="freq">7071</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat bad or</labl>
+        <catStat type="freq">3053</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Very bad</labl>
+        <catStat type="freq">1870</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">21</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="umxL6Y7EuMgiDBxm" name="QSPKrec" dcml="0">
+      <labl>QSPKrec. Which of these two statements is closest to your opinion even if neither is exactly right?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>People should be allowed to speak their opinions publicly even if they upset other people</labl>
+        <catStat type="freq">5254</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Harmony with others is more important than the right to speak one's opinion</labl>
+        <catStat type="freq">7611</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">120</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">119</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="aYNEHg7lJMxbwEMj" name="QCRITrec" dcml="0">
+      <labl>QCRITrec. Do you think people who disagree with our government's actions should or should not be able to publicy criticize the government?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, should be able to publicly criticize the government</labl>
+        <catStat type="freq">8008</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, should not be able to publicly criticize the government</labl>
+        <catStat type="freq">3279</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">149</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">150</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">34</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="LPaYhZEdCLV6T3FB" name="QGOVrec" dcml="0">
+      <labl>QGOVrec. Some feel that we should rely on a democatic form of government to solve [COUNTRY]'s problems. Others feel that we should rely on a leader with a strong hand to solve [COUNTRY]'s problems. Which comes closer to your opinion?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Democratic form of government</labl>
+        <catStat type="freq">6543</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Leader with a strong hand</labl>
+        <catStat type="freq">4852</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">189</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">36</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="QfRmpCboPZoJfwP2" name="QCURREL" dcml="0">
+      <labl>QCURREL. [Regardless of how the government records your religion,] what is your religion, if any?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Buddhist</labl>
+        <catStat type="freq">6169</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Muslim</labl>
+        <catStat type="freq">4658</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Christian</labl>
+        <catStat type="freq">989</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Hindu</labl>
+        <catStat type="freq">558</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Chinese traditional religions, such as Dao, Confucian or Chinese local religions [DO NOT READ IN SRI LANKA [COUNTRY≠6]</labl>
+        <catStat type="freq">110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Local beliefs or Indigenous religions [DO NOT READ IN SRI LANKA]</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Some other religion [SPECIFY IN QCURRELb]</labl>
+        <catStat type="freq">77</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>No religion</labl>
+        <catStat type="freq">533</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Svs27q34RRh98sbL" name="Q15a" dcml="0">
+      <labl>Q15a. Just based on what you know, do you think each of the following descriptions fits [RELSYS], or not? a. a family tradition one must follow</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">10086</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2302</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">175</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="cU9zLTngldtZwolx" name="Q15b" dcml="0">
+      <labl>Q15b. Just based on what you know, do you think each of the following descriptions fits [RELSYS], or not? b. an ethnicity one is born into</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">9419</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2624</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">512</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">23</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="jcj4P8q8TdQJ9alg" name="Q15c" dcml="0">
+      <labl>Q15c. Just based on what you know, do you think each of the following descriptions fits [RELSYS], or not? c. a culture one is part of</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">10637</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">1667</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">264</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="aLJj3UaKwlQ5BSDS" name="Q15d" dcml="0">
+      <labl>Q15d. Just based on what you know, do you think each of the following descriptions fits [RELSYS], or not? d. a religion one chooses to follow</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">10750</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">1663</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">150</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="G6YHZcHLT9808Z8X" name="Q25a" dcml="0">
+      <labl>Q25a. In your opinion, can a person be truly [RELSING] if they do each of the following things? a. do not respect elders</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">2363</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">9922</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">121</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">69</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="hj9YUN4tiSQ4tElI" name="Q25b" dcml="0">
+      <labl>Q25b. In your opinion, can a person be truly [RELSING] if they do each of the following things? b. do not respect [COUNTRY]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">2841</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">9336</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">140</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">145</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sGchh4CHqv5rj8aT" name="Q25c" dcml="0">
+      <labl>Q25c. In your opinion, can a person be truly [RELSING] if they do each of the following things? c. do not believe in God</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">569</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">5578</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">36</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="vhUV42kYg8Rr662A" name="Q25d" dcml="0">
+      <labl>Q25d. In your opinion, can a person be truly [RELSING] if they do each of the following things? d. do not respect deities or spirits</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">2607</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">3313</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">127</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">217</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="qrDzfP85K6QFHA1m" name="Q25e" dcml="0">
+      <labl>Q25e. In your opinion, can a person be truly [RELSING] if they do each of the following things? e. never go to [temple, pagoda or dhamma hall/temple/temple/mosque/church”]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">4861</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">7340</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">192</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">77</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="TMGUSfpZo7E3tZRq" name="Q25f" dcml="0">
+      <labl>Q25f. In your opinion, can a person be truly [RELSING] if they do each of the following things? f. do not pray</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">4316</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">7899</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">146</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">115</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="hrO7rJygvv9F0fdl" name="Q25g" dcml="0">
+      <labl>Q25g. In your opinion, can a person be truly [RELSING] if they do each of the following things? g. drink alcohol</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">4496</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">7614</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">261</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">106</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="UU0NR5OaA8i2ivIJ" name="Q25h" dcml="0">
+      <labl>Q25h. In your opinion, can a person be truly [RELSING] if they do each of the following things? h. celebrate the Buddhist festival of [Vesak/Pchum ben]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">1605</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">4595</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">70</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="iAyzqmdyCXJhbKjt" name="Q25i" dcml="0">
+      <labl>Q25i. In your opinion, can a person be truly [RELSING] if they do each of the following things? i. celebrate the Christian festival of Christmas</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">4452</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">6658</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">151</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">222</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="jTo6XI5dyONzyubF" name="Q25j" dcml="0">
+      <labl>Q25j. In your opinion, can a person be truly [RELSING] if they do each of the following things? j. celebrate the Muslim festival of Eid</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">3186</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">4128</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">137</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">364</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ixWTaOUPEcg9JtJd" name="Q25k" dcml="0">
+      <labl>Q25k. In your opinion, can a person be truly [RELSING] if they do each of the following things? k. make offerings to spirits of deceased relatives</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, can be</labl>
+        <catStat type="freq">5611</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, cannot be</labl>
+        <catStat type="freq">4138</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">62</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="KRbUVAVOhJ9WWHQk" name="QATTEND" dcml="0">
+      <labl>QATTEND. [Aside from weddings and funerals,] how often, if at all, do you [go to temple, pagoda or dhamma hall/go to temple/attend mosque/go to church]?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Every day</labl>
+        <catStat type="freq">1530</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>More than once a week</labl>
+        <catStat type="freq">1624</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Once a week</labl>
+        <catStat type="freq">2870</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Once or twice a month</labl>
+        <catStat type="freq">3164</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>A few times a year</labl>
+        <catStat type="freq">2601</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less often than that or</labl>
+        <catStat type="freq">827</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+        <catStat type="freq">487</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="t5cP1j6Vwe0puJ6y" name="Q26a" dcml="0">
+      <labl>Q26a. Do you feel a personal connection to each of the following ways of life, or not? a. The Buddhist way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">7454</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">5565</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">92</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="QfPaS3eaIi5AoNDt" name="Q26b" dcml="0">
+      <labl>Q26b. Do you feel a personal connection to each of the following ways of life, or not? b. The Muslim way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">5972</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">6909</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">230</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="e2iiR9wOE1k9ABgd" name="Q26c" dcml="0">
+      <labl>Q26c. Do you feel a personal connection to each of the following ways of life, or not? c. The Christian way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">3263</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">9623</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">223</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="yiKkSDyk0YyAHa2u" name="Q26d" dcml="0">
+      <labl>Q26d. Do you feel a personal connection to each of the following ways of life, or not? d. The Hindu way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">2278</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">10480</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">353</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ZT0hlIDBTUyBpxyn" name="Q26e" dcml="0">
+      <labl>Q26e. Do you feel a personal connection to each of the following ways of life, or not? e. The Chinese traditional way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">2946</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">7496</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">163</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="hDG5sapms7Xkk0uq" name="Q26f" dcml="0">
+      <labl>Q26f. Do you feel a personal connection to each of the following ways of life, or not? f. Local religions'/indigenous religions' way of life</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, I do</labl>
+        <catStat type="freq">5175</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, I do not</labl>
+        <catStat type="freq">5224</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">202</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="MZ6xAXXQTHk2UxTp" name="Q28" dcml="0">
+      <labl>Q28. How important is religion in your life, if at all?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">9999</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2161</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">639</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">303</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="A82WiRnEu8XEeyZX" name="QGODa" dcml="0">
+      <labl>QGODa. Do you believe in God, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">10074</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2804</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">226</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="WKGZbmT0PCcotmPC" name="QGODb" dcml="0">
+      <labl>QGODb. How certain are you about this belief, if at all?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">1.528688</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">4.24283</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Absolutely certain</labl>
+        <catStat type="freq">7081</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Fairly certain</labl>
+        <catStat type="freq">2522</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very certain or</labl>
+        <catStat type="freq">399</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all certain</labl>
+        <catStat type="freq">53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="RzCXEI5j1IbesTW7" name="QGODc" dcml="0">
+      <labl>QGODc. Do you think that there are unseen beings in the world, like deities or spirits?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">8810</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4014</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">283</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="D9lx5KfPu2eHgbG1" name="QGODd" dcml="0">
+      <labl>QGODd. How certain are you, if at all, about the existence of unseen beings in the world?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">2.281839</sumStat>
+      <sumStat type="medn">2</sumStat>
+      <sumStat type="stdev">6.8329</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Absolutely certain</labl>
+        <catStat type="freq">3357</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Fairly certain</labl>
+        <catStat type="freq">3974</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very certain or</labl>
+        <catStat type="freq">1260</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all certain</labl>
+        <catStat type="freq">175</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">38</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="LW3h8fIwYOOKoK7f" name="Q34" dcml="0">
+      <labl>Q34. Which statement comes closer to your view even if neither is exactly right?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>My religion is the only true religion</labl>
+        <catStat type="freq">7134</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Many religions can be true</labl>
+        <catStat type="freq">5298</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Neither/Depends on situation</labl>
+        <catStat type="freq">69</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="j5VVxVqh2TnCj4CW" name="QCHREL" dcml="0">
+      <labl>QCHREL. Thinking about when you were a child, in what religion were you raised, if any?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Buddhist</labl>
+        <catStat type="freq">6359</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Muslim</labl>
+        <catStat type="freq">4627</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Christian</labl>
+        <catStat type="freq">853</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Hindu</labl>
+        <catStat type="freq">596</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Chinese traditional religions, such as Dao, Confucian or Chinese local religions [DO NOT READ IN SRI LANKA [COUNTRY≠6]</labl>
+        <catStat type="freq">289</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Local beliefs or Indigenous religions [DO NOT READ IN SRI LANKA]</labl>
+        <catStat type="freq">30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Some other religion [SPECIFY IN QCHRELB]</labl>
+        <catStat type="freq">55</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>No religion</labl>
+        <catStat type="freq">293</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="p25Td8yhQLT6Gw8u" name="QFIGURESa" dcml="0">
+      <labl>QFIGURESa. Do you currently pray or offer your respects to each of the following figures, or not? a. Ganesh</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3551</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">9398</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">170</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="vX0zjSTUftxeYUqt" name="QFIGURESb" dcml="0">
+      <labl>QFIGURESb. Do you currently pray or offer your respects to each of the following figures, or not? b. Buddha</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6916</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">6169</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="K6pde7rIgHuOabei" name="QFIGURESc" dcml="0">
+      <labl>QFIGURESc. Do you currently pray or offer your respects to each of the following figures, or not? c. Shiva</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2766</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">10110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">243</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="SQll4d3k7DLFZ0en" name="QFIGURESd" dcml="0">
+      <labl>QFIGURESd. Do you currently pray or offer your respects to each of the following figures, or not? d. Mother Mary</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2495</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">10371</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">252</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="fJbJ5JnN3tN2ROI2" name="QFIGURESe" dcml="0">
+      <labl>QFIGURESe. Do you currently pray or offer your respects to each of the following figures, or not? e. Protector spirits/guardian deities of the area where you live</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6329</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">6693</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">94</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="MRE5OySCgeh0UKmE" name="QFIGURESh" dcml="0">
+      <labl>QFIGURESh. Do you currently pray or offer your respects to each of the following figures, or not? h. Jesus Christ</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3158</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">9862</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">98</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="qspYE44P9fV5adxU" name="QFIGURESi" dcml="0">
+      <labl>QFIGURESi. Do you currently pray or offer your respects to each of the following figures, or not? i. Guanyin, or the Guanyi Bodhisattva</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2145</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">8358</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">105</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="nSRImSAOU27ws8zH" name="QFIGURESj" dcml="0">
+      <labl>QFIGURESj. Do you currently pray or offer your respects to each of the following figures, or not? j. Allah</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6034</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">6909</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">171</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="CuRG4MPEhdK6Ai4z" name="Q38a" dcml="0">
+      <labl>Q38a. If you were planning the funeral for a family member/loved one, how important would it be to...? a. Invite [a monk or learned person/an imam or sheikh/a priest or pastor/a pundit or learned person] to recite sacred texts or preach</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">8860</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2810</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">961</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">444</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">41</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="iOeUoNBnFmvpDM74" name="Q38b" dcml="0">
+      <labl>Q38b. If you were planning the funeral for a family member/loved one, how important would it be to...? b. Offer donations in the name of the deceased relative</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">7504</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">3674</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1300</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">582</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">55</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="T49iNBJibY4NsB5u" name="Q38c" dcml="0">
+      <labl>Q38c. If you were planning the funeral for a family member/loved one, how important would it be to...? c. Set up [a shrine/ an altar] for the deceased relative</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">5639</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2664</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1925</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">2742</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">142</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="THGd8lzA8pZr2915" name="Q38g" dcml="0">
+      <labl>Q38g. If you were planning the funeral for a family member/loved one, how important would it be to...? g. Perform rituals in [temples, pagodas or dhamma halls/mosques/churches] for the soul of the deceased relative</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">7738</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">3061</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1319</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">931</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">55</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="pBQEJtbQ5kooPDeQ" name="Q39a" dcml="0">
+      <labl>Q39a. Do you or someone in your household perform rituals on each of the following occasions, or not? a. On the death anniversary of a deceased loved one</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">9542</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3548</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="j9N2akfmUL1thLlY" name="Q39b" dcml="0">
+      <labl>Q39b. Do you or someone in your household perform rituals on each of the following occasions, or not? b. On other special days</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">8262</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4808</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">46</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sALSJTn0kyilCo4q" name="Q40a" dcml="0">
+      <labl>Q40a. Do you have a family gravesite where the remains of deceased family members reside, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">5531</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">7553</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">36</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="garLhgSIFea0oAS3" name="Q40b" dcml="0">
+      <labl>Q40b. Do you or someone in your household pay money to maintain the family gravesite, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2225</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3241</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">61</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="v8diLTemDPkKRk6T" name="Q40c" dcml="0">
+      <labl>Q40c. Do you or someone in your household look after the family gravesite by sweeping or cleaning it?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">4546</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">967</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="R0Xlfl09kaJ1SnMu" name="Q41b" dcml="0">
+      <labl>Q41b. Do you think each of the following statements is true, or not? b. A person can know the afterlife destination or the destination of rebirth for a deceased family member</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, is true</labl>
+        <catStat type="freq">4136</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, is not true</labl>
+        <catStat type="freq">8292</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">673</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">21</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="mZmgavEsDfRk26uR" name="Q41d" dcml="0">
+      <labl>Q41d. Do you think each of the following statements is true, or not? d. A person can feel the presence of a deceased family member</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, is true</labl>
+        <catStat type="freq">6211</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, is not true</labl>
+        <catStat type="freq">6447</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">448</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="oJBSUwPNqLJDIAU4" name="Q46a" dcml="0">
+      <labl>Q46a. Do you think each of the following things exists, or not? a. evil eye</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">7304</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">5167</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">643</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="gY2QZIxrgRYv9zA8" name="Q46b" dcml="0">
+      <labl>Q46b. Do you think each of the following things exists, or not? b. rebirth</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">6799</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">5690</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">619</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="gUOz9fkJXlxCTkZ0" name="Q46c" dcml="0">
+      <labl>Q46c. Do you think each of the following things exists, or not? c. fate</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">10903</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1962</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">244</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="gWd0H3igNtdPx7d3" name="Q46d" dcml="0">
+      <labl>Q46d. Do you think each of the following things exists, or not? d. spells, curses or other magic influencing people's lives</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">7642</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">5059</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">403</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="z4FksL1zqcOYWhJO" name="Q46e" dcml="0">
+      <labl>Q46e. Do you think each of the following things exists, or not? e. heaven</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">10353</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1924</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">828</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="HnSofCPqehesTrFX" name="Q46f" dcml="0">
+      <labl>Q46f. Do you think each of the following things exists, or not? f. hell</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">10998</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1723</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">391</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Qm6cXPi3TZo4hLNH" name="Q46g" dcml="0">
+      <labl>Q46g. Do you think each of the following things exists, or not? g. Judgement Day</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">5986</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1404</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">265</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="uAb1qRJkRtAFpGIM" name="Q46h" dcml="0">
+      <labl>Q46h. Do you think each of the following things exists, or not? h. Nirvana</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">5214</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1812</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">690</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="zGDpfDM5zi4Johjt" name="Q46i" dcml="0">
+      <labl>Q46i. Do you think each of the following things exists, or not? i. Moksha</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">1070</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">787</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">446</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ZOQWghB1lxHM8aHb" name="Q46j" dcml="0">
+      <labl>Q46j. Do you think each of the following things exists, or not? j. Karma</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">11174</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">1727</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">216</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sxHRvQ9KTrgbSfK8" name="Q46k" dcml="0">
+      <labl>Q46k. Do you think each of the following things exists, or not? k. angels or helpful deities</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">10511</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">2178</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">417</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="HHe58Wm2roFrhD9Z" name="Q46l" dcml="0">
+      <labl>Q46l. Do you think each of the following things exists, or not? l. demons or evil deities</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes, exists</labl>
+        <catStat type="freq">8191</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No, does not exist</labl>
+        <catStat type="freq">4407</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">511</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="fMPUalFRumPIyu1a" name="Q48d" dcml="0">
+      <labl>Q48d. Have you had the following experiences, or not? d. Changed your fate by performing rituals</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3071</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">9939</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">106</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sf1iqRyqzCXiKIVm" name="Q48e" dcml="0">
+      <labl>Q48e. Have you had the following experiences, or not? e. Visited a medium to communicate with a spirit</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">1649</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">11352</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">111</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="BqCnXKmVNbWPOb99" name="Q49a" dcml="0">
+      <labl>Q49a. How often, if at all, do you have each of the following experiences? a. the feeling of being protected by an unseen power</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Every day</labl>
+        <catStat type="freq">1415</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>More than once a week</labl>
+        <catStat type="freq">253</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Once a week</labl>
+        <catStat type="freq">266</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Once or twice a month</labl>
+        <catStat type="freq">485</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>A few times a year</labl>
+        <catStat type="freq">1149</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less often than that or</labl>
+        <catStat type="freq">1350</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+        <catStat type="freq">7953</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">229</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="W8XMHSMwZn1wIdg0" name="Q49b" dcml="0">
+      <labl>Q49b. How often, if at all, do you have each of the following experiences? b. the feeling of being attacked by an unseen power</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Every day</labl>
+        <catStat type="freq">264</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>More than once a week</labl>
+        <catStat type="freq">136</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Once a week</labl>
+        <catStat type="freq">174</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Once or twice a month</labl>
+        <catStat type="freq">291</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>A few times a year</labl>
+        <catStat type="freq">772</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less often than that or</labl>
+        <catStat type="freq">1235</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+        <catStat type="freq">10088</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">148</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="RxwS1H3wvKvI1Etp" name="Q50" dcml="0">
+      <labl>Q50. How often do you pray, if at all?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Several times a day</labl>
+        <catStat type="freq">5273</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Once a day</labl>
+        <catStat type="freq">2863</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>A few times a week</labl>
+        <catStat type="freq">851</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Once a week</labl>
+        <catStat type="freq">1067</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>A few times a month</labl>
+        <catStat type="freq">1114</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less often than that or</labl>
+        <catStat type="freq">1180</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+        <catStat type="freq">761</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="FnaSlWzvBchejMmS" name="Q51" dcml="0">
+      <labl>Q51. Do you pray five salah every day, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3533</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">726</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sejSoBxP7DNnHzJy" name="Q54" dcml="0">
+      <labl>Q54. Is there an altar or shrine in your home, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6015</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">7083</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="QMmOUSO0Orx3V2kM" name="Q57" dcml="0">
+      <labl>Q57. How important is it for you to make merit in your life, if at all?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">1.714434</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">5.949577</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">5556</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">1711</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">294</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">135</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">27</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="dchTmAhRhreNSvxJ" name="Q58b" dcml="0">
+      <labl>Q58b. Do you ever do each of the following practices, or not? b. Practice meditation</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">4482</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">8516</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">120</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="AzKuPjWPLSkKePNX" name="Q58c" dcml="0">
+      <labl>Q58c. Do you ever do each of the following practices, or not? c. Burn incense</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">7095</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">5995</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="AQ7nSI1jO01Sc0Mc" name="Q58d" dcml="0">
+      <labl>Q58d. Do you ever do each of the following practices, or not? d. Do Tai Chi</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">417</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">11353</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">1339</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="s7LdUaCczUcrXanf" name="Q58f" dcml="0">
+      <labl>Q58f. Do you ever do each of the following practices, or not? f. Use special objects for blessings or protection</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3253</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">9808</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">59</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="HP5b6Xg8zFxdbgAJ" name="Q70a" dcml="0">
+      <labl>Q70a. Do you think it is acceptable or unacceptable for a person to do each of the following things? a. Try to persuade others to join his or her religion</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Acceptable</labl>
+        <catStat type="freq">2942</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Unacceptable</labl>
+        <catStat type="freq">9868</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">206</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">93</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="LKRdUQGkdMQTjt4g" name="Q70c" dcml="0">
+      <labl>Q70c. Do you think it is acceptable or unacceptable for a person to do each of the following things? c. Leave [RELSYS] for another religion</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Acceptable</labl>
+        <catStat type="freq">2487</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Unacceptable</labl>
+        <catStat type="freq">9724</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">254</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">106</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="z0qmevyMv4ObHYz0" name="QLEGAL" dcml="0">
+      <labl>QLEGAL. Do you strongly favor, somewhat favor, somewhat oppose or strongly oppose allowing gays and lesbians to marry legally?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Strongly favor</labl>
+        <catStat type="freq">1609</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat favor</labl>
+        <catStat type="freq">2575</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat oppose</labl>
+        <catStat type="freq">1377</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Strongly oppose</labl>
+        <catStat type="freq">7013</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">445</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">103</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="tGvNXLiR8y6KnyFp" name="Q74" dcml="0">
+      <labl>Q74. Overall, do you think having people of many different religions, ethnic groups and cultures makes this country a better place to live, a worse place to live or doesn't make much difference either way?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A better place to live</labl>
+        <catStat type="freq">6174</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A worse place to live</labl>
+        <catStat type="freq">936</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Doesn't make much difference</labl>
+        <catStat type="freq">5678</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">127</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">188</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="cwukzk1ZHzwRUXGl" name="Q75a" dcml="0">
+      <labl>Q75a. Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? a. Buddhism</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very peaceful</labl>
+        <catStat type="freq">6660</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat peaceful</labl>
+        <catStat type="freq">4165</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very peaceful</labl>
+        <catStat type="freq">1152</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all peaceful</labl>
+        <catStat type="freq">515</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">581</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">49</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Uo0GYxzMeZQAjsTB" name="Q75b" dcml="0">
+      <labl>Q75b. Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? b. Islam</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very peaceful</labl>
+        <catStat type="freq">6053</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat peaceful</labl>
+        <catStat type="freq">3549</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very peaceful</labl>
+        <catStat type="freq">1238</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all peaceful</labl>
+        <catStat type="freq">700</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">1542</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">40</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Lo1gZibY0qAUUKRD" name="Q75c" dcml="0">
+      <labl>Q75c. Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? c. Christianity</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very peaceful</labl>
+        <catStat type="freq">4258</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat peaceful</labl>
+        <catStat type="freq">4973</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very peaceful</labl>
+        <catStat type="freq">1433</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all peaceful</labl>
+        <catStat type="freq">781</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">1629</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">48</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="UEFdyaTymzpXJNlX" name="Q75d" dcml="0">
+      <labl>Q75d. Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? d. Hinduism</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very peaceful</labl>
+        <catStat type="freq">3660</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat peaceful</labl>
+        <catStat type="freq">4591</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very peaceful</labl>
+        <catStat type="freq">1531</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all peaceful</labl>
+        <catStat type="freq">933</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">2353</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">54</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="MCVSwEE81tIlXLh5" name="Q78a" dcml="0">
+      <labl>Q78a. Would you be willing to accept each of the following people as neighbors, or not? a. Buddhists</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">5747</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">1146</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">27</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">32</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Yw5Wfk0dWqcZtbqg" name="Q78b" dcml="0">
+      <labl>Q78b. Would you be willing to accept each of the following people as neighbors, or not? b. Muslims</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6611</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">1651</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">73</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">125</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Wnf8cof0b2bHmjU4" name="Q78c" dcml="0">
+      <labl>Q78c. Would you be willing to accept each of the following people as neighbors, or not? c. Christians</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">9765</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2183</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">75</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">107</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ejtglHDOUoFEAagh" name="Q78d" dcml="0">
+      <labl>Q78d. Would you be willing to accept each of the following people as neighbors, or not? d. Hindus</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">9581</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2685</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">77</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">218</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="PesHT0xIiuHwO49H" name="Q78e" dcml="0">
+      <labl>Q78e. Would you be willing to accept each of the following people as neighbors, or not? e. People who practice Chinese traditional religions</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">8304</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2030</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">55</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">107</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ge31TTaHVLdh3fDA" name="Q78f" dcml="0">
+      <labl>Q78f. Would you be willing to accept each of the following people as neighbors, or not? f. People who practice local beliefs/indigenous religions</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">8755</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">1657</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">52</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">123</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="GY3qxY3f6zDPKnt0" name="Q80a" dcml="0">
+      <labl>Q80a. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? a. Buddhism</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">2954</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">1404</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">27</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">176</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="g0bHAbFRNl3K5wIi" name="Q80b" dcml="0">
+      <labl>Q80b. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? b. Islam</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">5367</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">2378</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">156</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">628</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">23</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="tXCCL9ABvju5CrZC" name="Q80c" dcml="0">
+      <labl>Q80c. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? c. Christianity</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">9030</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">3182</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">167</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">716</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">27</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="mc5nxKMqBMD02YG9" name="Q80d" dcml="0">
+      <labl>Q80d. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? d. Hinduism</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">8382</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">3455</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">157</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">1099</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">29</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="wTDQCxN5R5LJgRNq" name="Q80e" dcml="0">
+      <labl>Q80e. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? e. Chinese traditional religions</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">7282</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">2708</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">88</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">516</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="DPhjH5RrSamMDCl7" name="Q80f" dcml="0">
+      <labl>Q80f. Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? f. Local beliefs/indigenous religions</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Compatible</labl>
+        <catStat type="freq">7908</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incompatible</labl>
+        <catStat type="freq">2214</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Both/Neither/Depends on situation</labl>
+        <catStat type="freq">80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">391</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="UALuJ9x6wL0kuvON" name="Q81a" dcml="0">
+      <labl>Q81a. How important, if at all, do you think each is to being truly [DEMONYM]? a. To be able to speak [Khmer/Bahasa Indonesia/Bahasa Malaysia/Mandarin Chinese/Sinhala/Thai]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">9631</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">1891</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">907</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">658</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="EcVCC2N79CvV5mJb" name="Q81b" dcml="0">
+      <labl>Q81b. How important, if at all, do you think each is to being truly [DEMONYM]? b. To be able to speak Tamil</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">2.915139</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">11.18016</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">1369</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">816</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">182</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">109</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">32</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="oebjA5JoPZ6miSIJ" name="Q81c" dcml="0">
+      <labl>Q81c. How important, if at all, do you think each is to being truly [DEMONYM]? c. To be able to speak Singlish</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">381</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">581</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">602</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">458</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="UVUfS1nhFMRJATNl" name="Q81d" dcml="0">
+      <labl>Q81d. How important, if at all, do you think each is to being truly [DEMONYM]? d. To be [Buddhist/Muslim]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">8311</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">1849</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1380</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">1449</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">112</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">21</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sivp3QndUCwEo63A" name="Q81e" dcml="0">
+      <labl>Q81e. How important, if at all, do you think each is to being truly [DEMONYM]? e. To respect [COUNTRY]'s institutions and laws</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">11159</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">1575</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">225</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">102</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">58</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="NDr3JK7IUMyplpdL" name="Q81f" dcml="0">
+      <labl>Q81f. How important, if at all, do you think each is to being truly [DEMONYM]? f. To be [Khmer ethnicity/pribumi/bumiputera/of Chinese descent/Sinhalese/Thai ethnicity]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">8535</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2069</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1266</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">1123</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">117</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="d9j9iC29tnY9CeUp" name="Q81g" dcml="0">
+      <labl>Q81g. How important, if at all, do you think each is to being truly [DEMONYM]? g. To have been born in [COUNTRY]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">9333</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2066</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">1094</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">565</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">57</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="bhloQRTk99Vns7JM" name="Q81h" dcml="0">
+      <labl>Q81h. How important, if at all, do you think each is to being truly [DEMONYM]? h. To be polite and welcoming</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">11189</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">1586</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">192</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">111</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">37</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="FDYdsUm2Uve7TCvT" name="Q81i" dcml="0">
+      <labl>Q81i. How important, if at all, do you think each is to being truly [DEMONYM]? i. To be willing to support [COUNTRY] when others criticize it</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very important</labl>
+        <catStat type="freq">9452</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat important</labl>
+        <catStat type="freq">2337</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very important or</labl>
+        <catStat type="freq">721</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all important</labl>
+        <catStat type="freq">430</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">159</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">23</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="xBVmtWsm0TujtU6B" name="Q82" dcml="0">
+      <labl>Q82. Please tell me if you completely agree, somewhat agree, somewhat disagree or completely disagree with the following statement: [DENOMNYM] people are not perfect, but [DENOMNYM] culture is superior to others</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Completely agree</labl>
+        <catStat type="freq">7150</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat agree</labl>
+        <catStat type="freq">3704</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat disagree</labl>
+        <catStat type="freq">1165</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Completely disagree</labl>
+        <catStat type="freq">947</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">134</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="qENyahlY9oEwZxQf" name="Q86a" dcml="0">
+      <labl>Q86a. Should religious leaders do each of the following things, or not? a. talk publicly about what politicans or political parties they support</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">5655</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">7017</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">420</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">30</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="j3ZNpaK09EQKBHEC" name="Q86b" dcml="0">
+      <labl>Q86b. Should religious leaders do each of the following things, or not? b. be politicians</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">4610</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">7996</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">484</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">32</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="AWRdibBkksBOEqxN" name="Q86c" dcml="0">
+      <labl>Q86c. Should religious leaders do each of the following things, or not? c. participate in political protests</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">4896</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">7783</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">411</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">32</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="e93SKOgaSXxDRUJ2" name="Q86d" dcml="0">
+      <labl>Q86d. Should religious leaders do each of the following things, or not? d. vote in political elections</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">9587</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3290</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">223</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="j6eEEmifkl1uszfe" name="Q87" dcml="0">
+      <labl>Q87. Do you personally feel that using violence against people because of their political beliefs or religion can often be justified, sometimes be justified, rarely be justified or never be justified?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Often justified</labl>
+        <catStat type="freq">768</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sometimes justified</labl>
+        <catStat type="freq">1749</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Rarely justified</labl>
+        <catStat type="freq">1654</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Never justified</labl>
+        <catStat type="freq">8733</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">196</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="lT1DyL4NpbvSKeT5" name="Q88a" dcml="0">
+      <labl>Q88a. Do you favor or oppose basing the law on Buddhist dharma in [IN INDONESIA OR MALAYSIA: “the areas where Buddhists are a majority”/ IN OTHER COUNTRIES: [COUNTRY]]?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Favor</labl>
+        <catStat type="freq">5118</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Oppose</labl>
+        <catStat type="freq">2278</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Depends on situation</labl>
+        <catStat type="freq">103</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">191</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">35</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="OudyFSL4FgkpXQVK" name="Q88b" dcml="0">
+      <labl>Q88b. Do you favor or oppose making sharia the official law of the land in [IN SINGAPORE, SRI LANKA AND THAILAND: “the areas where Muslims are a majority”; IN INDONESIA AND MALAYSIA: [COUNTRY]]?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Favor</labl>
+        <catStat type="freq">3648</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Oppose</labl>
+        <catStat type="freq">2110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Other/Depends on situation</labl>
+        <catStat type="freq">70</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">230</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">22</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="M1wBztX4DwX1Sljl" name="Q96a" dcml="0">
+      <labl>Q96a. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? a. Tourists from other countries</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">1693</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">5667</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">351</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="cFTz8PNlKTuMTy2v" name="Q96b" dcml="0">
+      <labl>Q96b. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? b. The influence of China</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2284</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4761</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">663</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="TZPABkKfJC0vHvBw" name="Q96c" dcml="0">
+      <labl>Q96c. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? c. The influence of the United States</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2350</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4547</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">800</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">28</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="wZhynN61sYx1gPGW" name="Q96d" dcml="0">
+      <labl>Q96d. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? d. The growing number of Muslims</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3062</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4070</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">577</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="KegzJk6KfR1hFfh5" name="Q96e" dcml="0">
+      <labl>Q96e. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? e. The growing number of Christians</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2379</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4876</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">456</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="sXWkOapbD1OdH7bN" name="Q96f" dcml="0">
+      <labl>Q96f. Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? f. Buddhist extremists</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3917</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3320</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">467</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">21</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="aWDG0rMG1bAYZluE" name="Q97a" dcml="0">
+      <labl>Q97a. Do you think each of the following is a threat to Islam in [COUNTRY], or not? a. Tourists from other countries</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">1679</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4304</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">191</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="BSix5jmQgOox4JsI" name="Q97b" dcml="0">
+      <labl>Q97b. Do you think each of the following is a threat to Islam in [COUNTRY], or not? b. The influence of China</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2292</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3627</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">249</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="Uyif958ynADDHrZJ" name="Q97c" dcml="0">
+      <labl>Q97c. Do you think each of the following is a threat to Islam in [COUNTRY], or not? c. The influence of the United States</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2737</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3161</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">271</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="mHKr99mGV312d38S" name="Q97d" dcml="0">
+      <labl>Q97d. Do you think each of the following is a threat to Islam in [COUNTRY], or not? d. The growing number of Christians</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">2119</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">3845</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">204</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">13</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="GHXoYOpp3uT5jKh7" name="Q97e" dcml="0">
+      <labl>Q97e. Do you think each of the following is a threat to Islam in [COUNTRY], or not? e. The growing number of Buddhists</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">1930</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">4035</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">206</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="BtLVAlQ5gfODqtsQ" name="Q97f" dcml="0">
+      <labl>Q97f. Do you think each of the following is a threat to Islam in [COUNTRY], or not? f. Muslim extremists</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">3424</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2438</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">300</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="XZ17QoMvpVLqgXDZ" name="Q98a" dcml="0">
+      <labl>Q98a. Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? a. Wear images of Buddha or other Buddhist symbols</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Appropriate</labl>
+        <catStat type="freq">3982</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Inappropriate</labl>
+        <catStat type="freq">4784</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">192</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">217</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">26</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="FxzpZiCqMykYK2qG" name="Q98b" dcml="0">
+      <labl>Q98b. Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? b. Have Buddhist symbols or images tattooed on their body wherever they like</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Appropriate</labl>
+        <catStat type="freq">2785</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Inappropriate</labl>
+        <catStat type="freq">5955</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">215</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">222</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">24</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="RCMVY83l7l4amHGz" name="Q98c" dcml="0">
+      <labl>Q98c. Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? c. Visit Buddhist temples, pagodas or dhamma halls for tourism</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Appropriate</labl>
+        <catStat type="freq">7946</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Inappropriate</labl>
+        <catStat type="freq">1040</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">77</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">124</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="zNjV6OcHg00uExhP" name="Q98d" dcml="0">
+      <labl>Q98d. Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? d. Participate in Buddhist practices such as meditation and chanting</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Appropriate</labl>
+        <catStat type="freq">7688</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Inappropriate</labl>
+        <catStat type="freq">1250</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">99</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">145</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="CLK44cKBFaY9zkk4" name="Q98e" dcml="0">
+      <labl>Q98e. Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? e. Marry Buddhists from [COUNTRY]</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Appropriate</labl>
+        <catStat type="freq">6845</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Inappropriate</labl>
+        <catStat type="freq">1702</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>[DO NOT READ] Depends on situation</labl>
+        <catStat type="freq">332</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">283</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">39</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="HXANBGQSGLOus6PP" name="GenderRec" dcml="0">
+      <labl>GenderRec</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Man</labl>
+        <catStat type="freq">6049</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Woman</labl>
+        <catStat type="freq">7056</catStat>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Other/DK/Ref</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="iPU3QVakMmXzXWuD" name="QAGE" dcml="0">
+      <labl>QAGE. How old are you?</labl>
+      <sumStat type="min">18</sumStat>
+      <sumStat type="max">999</sumStat>
+      <sumStat type="mean">43.72756</sumStat>
+      <sumStat type="medn">40</sumStat>
+      <sumStat type="stdev">39.7824</sumStat>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>97 or older</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>998</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="P63k10tumlF1E4j3" name="qethkhm" dcml="0">
+      <labl>QETHKHM. What is your ethnicity?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Khmer</labl>
+        <catStat type="freq">1449</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Cham</labl>
+        <catStat type="freq">36</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Vietnamese</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese or</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ewuMhPKj9LTVnZQ0" name="qethidn" dcml="0">
+      <labl>QETHIDN. What is your ethnicity?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">11.95177</sumStat>
+      <sumStat type="medn">2</sumStat>
+      <sumStat type="stdev">27.88559</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Javanese</labl>
+        <catStat type="freq">1185</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sundanese</labl>
+        <catStat type="freq">504</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Malay</labl>
+        <catStat type="freq">185</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>(DO NOT READ) Batak</labl>
+        <catStat type="freq">69</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>(DO NOT READ) Madurese</labl>
+        <catStat type="freq">35</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>(DO NOT READ) Betawi</labl>
+        <catStat type="freq">33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>(DO NOT READ) Minangkabau</labl>
+        <catStat type="freq">57</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>(DO NOT READ) Buginese</labl>
+        <catStat type="freq">68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>(DO NOT READ) Bantenese</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>(DO NOT READ) Banjarese</labl>
+        <catStat type="freq">33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>(DO NOT READ) Balinese</labl>
+        <catStat type="freq">37</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>(DO NOT READ) Acehnese</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>(DO NOT READ) Dayak</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>(DO NOT READ) Sasak</labl>
+        <catStat type="freq">46</catStat>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>(DO NOT READ) Papuan</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>(DO NOT READ) Makassarese</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>(DO NOT READ) Gorontaloan</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>(DO NOT READ) Minahasan</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>(DO NOT READ) Nias</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>(DO NOT READ) Moluccans</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">235</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="uLZcJAaS4VFirGik" name="qethmys" dcml="0">
+      <labl>QETHMYS. What is your ethnicity?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">18.43722</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">36.61897</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Malay</labl>
+        <catStat type="freq">1378</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Indian</labl>
+        <catStat type="freq">106</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Aboriginal</labl>
+        <catStat type="freq">154</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese</labl>
+        <catStat type="freq">217</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">141</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="cjrh61wpQgCO6nd5" name="qethsgp" dcml="0">
+      <labl>QETHSGP. What is your ethnicity?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">73.58497</sumStat>
+      <sumStat type="medn">96</sumStat>
+      <sumStat type="stdev">40.28743</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Malay</labl>
+        <catStat type="freq">260</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Indian</labl>
+        <catStat type="freq">224</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese</labl>
+        <catStat type="freq">1445</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="KzoqB8LcavqqQyPL" name="qethlka" dcml="0">
+      <labl>QETHLKA. What is your ethnicity?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">98</sumStat>
+      <sumStat type="mean">1.449801</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">2.849428</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Sinhalese</labl>
+        <catStat type="freq">1955</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sri Lankan Tamil</labl>
+        <catStat type="freq">347</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Indian Tamil</labl>
+        <catStat type="freq">34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Sri Lankan Moor</labl>
+        <catStat type="freq">169</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Burgher</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Malay</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Sri Lankan Chetty</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="jPAnMefbxeJ9QmeV" name="qeththa" dcml="0">
+      <labl>QETHTHA. What is your ethnicity?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">97</sumStat>
+      <sumStat type="mean">1.276358</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">5.029071</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Thai (DO NOT READ: Siamese, Isan, Yuan, Thai Pak Tai)</labl>
+        <catStat type="freq">2491</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Malay (DO NOT READ: Malayu, Nayu, Yawi)</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Khmer</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Karen</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Mon</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Indian</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Lao</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Chinese (DO NOT READ: Teochew, Hakka, Luk Chin)</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Some other ethnicity</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="ytxy64t8iVNyQeEd" name="Q102" dcml="0">
+      <labl>Q102. How emotionally attached, if at all, do you feel to China?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Very emotionally attached</labl>
+        <catStat type="freq">575</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Somewhat emotionally attached</labl>
+        <catStat type="freq">2389</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not very emotionally attached</labl>
+        <catStat type="freq">3077</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all emotionally attached</labl>
+        <catStat type="freq">6745</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">304</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">32</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="LgLzMZwRP9dqezdy" name="QFERT" dcml="0">
+      <labl>QFERT. How many children have you had, if any? Please count all children born at any time in your life</labl>
+      <sumStat type="min">0</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">2.345222</sumStat>
+      <sumStat type="medn">2</sumStat>
+      <sumStat type="stdev">7.412977</sumStat>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">54</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="ewQqodf2RW13xORP" name="QHH1" dcml="0">
+      <labl>QHH1. How many people, including yourself, live in your household?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.172992</sumStat>
+      <sumStat type="medn">4</sumStat>
+      <sumStat type="stdev">5.236655</sumStat>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">28</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="hjbXTbHvoQdFKbJq" name="QHH2" dcml="0">
+      <labl>QHH2. And how many, including yourself, are adults, age 18 and older?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.166476</sumStat>
+      <sumStat type="medn">3</sumStat>
+      <sumStat type="stdev">4.924969</sumStat>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">21</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="V6MYunZ14efHEgpv" name="QMARRIED" dcml="0">
+      <labl>QMARRIED. What is your current marital status?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Married</labl>
+        <catStat type="freq">8229</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Divorced</labl>
+        <catStat type="freq">327</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Separated</labl>
+        <catStat type="freq">235</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Unmarried/Single or</labl>
+        <catStat type="freq">3244</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Widow/Widower</labl>
+        <catStat type="freq">1050</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>[DO NOT READ] Living with a partner</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="wImJU8QPRIHzTk7D" name="QHHCH" dcml="0">
+      <labl>QHHCH. Are you the parent or legal guardian of any children under the age of 18 who currently live in your household, or not?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">6356</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">6632</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">103</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="zkjlp2B4DrfHFJfE" name="QCHILD_1" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 1. Buddhist</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">2933</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">3423</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="wVHMbCXE3Er8pfZm" name="QCHILD_2" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 2. Muslim</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">2467</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">3889</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="Z0cCimT7eE140U4j" name="QCHILD_3" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 3. Christian</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">395</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">5961</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="rjaL4sFWzv5JZBhT" name="QCHILD_4" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 4. Hindu</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">313</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">6043</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="oEkAOwBKFPdhwUjB" name="QCHILD_5" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 5. Chinese traditional religion</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">5001</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="kH8S5mZU4whL29qi" name="QCHILD_6" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 6. Local beliefs/indigenous religions</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">5020</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="x28Zu4oJqHeFz6a3" name="QCHILD_8" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 8. Some other religion</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">23</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">6333</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="rorsoE2B8tJjkaXD" name="QCHILD_9" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 9. No religion</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">210</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">6146</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="H1kEJKoXJ3ZIP4AV" name="QCHILD_98" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 98. Don't know</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">6347</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="VO2NbECXGrn5BVUr" name="QCHILD_99" dcml="0">
+      <labl>QCHILD. In what religion, if any, are you raising your child/children? 99. Refused</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Not selected</labl>
+        <catStat type="freq">6352</catStat>
+      </catgry>
+      <varFormat type="numeric">F1.0</varFormat>
+    </var>
+    <var ID="HgUgTNkPWMqbUDxs" name="KhmProvince" dcml="0">
+      <labl>Cambodia Province</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">97</sumStat>
+      <sumStat type="mean">26.34421</sumStat>
+      <sumStat type="medn">17.5</sumStat>
+      <sumStat type="stdev">32.50307</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Banteay Meanchey</labl>
+        <catStat type="freq">80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Battambang</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Kampong Cham</labl>
+        <catStat type="freq">80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Kampong Chhnang</labl>
+        <catStat type="freq">40</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Kampong Speu</labl>
+        <catStat type="freq">80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Kampong Thom</labl>
+        <catStat type="freq">71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Kampot</labl>
+        <catStat type="freq">60</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Kandal</labl>
+        <catStat type="freq">110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Koh Kong</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Kratie</labl>
+        <catStat type="freq">40</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Mondul Kiri</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Otdar Meanchey</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Pailin</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Phnom Penh</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Preah Sihanouk</labl>
+        <catStat type="freq">30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Preah Vihear</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>Prey Veng</labl>
+        <catStat type="freq">110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>Pursat</labl>
+        <catStat type="freq">50</catStat>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Ratanak Kiri</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Siemreap</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Stung Treng</labl>
+        <catStat type="freq">30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Svay Rieng</labl>
+        <catStat type="freq">41</catStat>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Takeo</labl>
+        <catStat type="freq">90</catStat>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Tboung Khmum</labl>
+        <catStat type="freq">80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Other</labl>
+        <catStat type="freq">250</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="k9cv2tXqCPdUEOuW" name="IdnRegion" dcml="0">
+      <labl>Indonesia Region</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">7</sumStat>
+      <sumStat type="mean">2.846363</sumStat>
+      <sumStat type="medn">1</sumStat>
+      <sumStat type="stdev">2.552508</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Java</labl>
+        <catStat type="freq">1553</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Kalimantan</labl>
+        <catStat type="freq">145</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Maluku Islands</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Nusa Tenggara</labl>
+        <catStat type="freq">130</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Papua</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Sulawesi</labl>
+        <catStat type="freq">182</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Sumatra</labl>
+        <catStat type="freq">540</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="nLxgoWI1xkJfxXit" name="ZIPMALrec" dcml="0">
+      <labl>ZIPMALrec. What state do you live in?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.831416</sumStat>
+      <sumStat type="medn">10</sumStat>
+      <sumStat type="stdev">8.628763</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Johor</labl>
+        <catStat type="freq">226</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Kedah</labl>
+        <catStat type="freq">118</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Kelantan</labl>
+        <catStat type="freq">102</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Melaka</labl>
+        <catStat type="freq">75</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Negeri Sembilan</labl>
+        <catStat type="freq">78</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Pahang</labl>
+        <catStat type="freq">109</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Perak</labl>
+        <catStat type="freq">146</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Perlis</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Penang</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Sabah</labl>
+        <catStat type="freq">168</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Sarawak</labl>
+        <catStat type="freq">104</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Selangor</labl>
+        <catStat type="freq">504</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Terengganu</labl>
+        <catStat type="freq">74</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Federal Territory of Kuala Lumpur</labl>
+        <catStat type="freq">162</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Other</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>(DO NOT READ) Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>(DO NOT READ) Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="Niv58ieM0mBqfXiZ" name="ZipSinRec" dcml="0">
+      <labl>ZIPSINrec. Can you please tell me in which of the following five regions you live?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">999</sumStat>
+      <sumStat type="mean">6.876228</sumStat>
+      <sumStat type="medn">3</sumStat>
+      <sumStat type="stdev">62.34512</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Central</labl>
+        <catStat type="freq">421</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>East</labl>
+        <catStat type="freq">477</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>North</labl>
+        <catStat type="freq">351</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>North-East</labl>
+        <catStat type="freq">315</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>West</labl>
+        <catStat type="freq">464</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Do not know region</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Did not provide region or planning area</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="RSlP7mlF8z7Pxxbr" name="LkaProvince" dcml="0">
+      <labl>Sri Lanka Province</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">9</sumStat>
+      <sumStat type="mean">5.680478</sumStat>
+      <sumStat type="medn">6</sumStat>
+      <sumStat type="stdev">2.903369</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Central</labl>
+        <catStat type="freq">326</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Eastern</labl>
+        <catStat type="freq">190</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>North Central</labl>
+        <catStat type="freq">160</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>North Western</labl>
+        <catStat type="freq">300</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Northern</labl>
+        <catStat type="freq">121</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Sabaragamuwa</labl>
+        <catStat type="freq">232</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Southern</labl>
+        <catStat type="freq">298</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Uva</labl>
+        <catStat type="freq">158</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Western</labl>
+        <catStat type="freq">725</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="rcCPH0ocD3psEZdm" name="ThaRegion" dcml="0">
+      <labl>Thailand Region</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Bangkok</labl>
+        <catStat type="freq">182</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>North</labl>
+        <catStat type="freq">381</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Northeast</labl>
+        <catStat type="freq">692</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Central</labl>
+        <catStat type="freq">500</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>South</labl>
+        <catStat type="freq">749</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="RJmQl06plhtPL8yN" name="URBANrec" dcml="0">
+      <labl>URBAN</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Urban (includes suburban in Malaysia)</labl>
+        <catStat type="freq">6905</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Rural</labl>
+        <catStat type="freq">6204</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>DK</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Ref</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="VDCjCQIvijXYt8Re" name="qedukhm" dcml="0">
+      <labl>QEDUKHM. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.573236</sumStat>
+      <sumStat type="medn">2</sumStat>
+      <sumStat type="stdev">8.278603</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Pre-primary</labl>
+        <catStat type="freq">191</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Incomplete primary [Grades 1-5 completed, Grade 6 incomplete]</labl>
+        <catStat type="freq">653</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Primary [Grade 6 completed, Grade 7 incomplete]</labl>
+        <catStat type="freq">140</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Secondary school [Grade 7-9 completed and receives lower secondary education diploma, Grade 10 incomplete]</labl>
+        <catStat type="freq">308</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>High school [Grade 10-12 completed and receives upper secondary educational diploma]</labl>
+        <catStat type="freq">150</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Secondary or post-secondary level technical or vocational training [Technical/vocational Certificate 1, 2, or 3; teac</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Associate degree</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Bachelor's degree [including Bachelor of Technology or Bachelor of Engineering]</labl>
+        <catStat type="freq">41</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Master's degree [Including Bachelor of Medicine]</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Doctorate [PhD]</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>[DO NOT READ] Don't know</labl>
+        <catStat type="freq">8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>[DO NOT READ] Refused</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="u8UaTdsstWmdPlXD" name="qeduidn" dcml="0">
+      <labl>QEDUIDN. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.700506</sumStat>
+      <sumStat type="medn">7</sumStat>
+      <sumStat type="stdev">2.726965</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No formal schooling (Preschool or Kindergarten)</labl>
+        <catStat type="freq">12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Did not finish elementary school (grade 1-5 SD) or Madrasah Ibtidaiyah</labl>
+        <catStat type="freq">133</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Finished elementary school (finishing class 6 SD) or Madrasah Ibtidaiyah</labl>
+        <catStat type="freq">482</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Did not finish first school (class 7-8, SMP); Incomp. junior h.s. (comp. sec. grades 7-8), Madrasah Tsanawiyah or SMP...</labl>
+        <catStat type="freq">59</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Finished Junior High School (SMP, class 9), Madrasah Tsanawiyah or SMP Kejuruan</labl>
+        <catStat type="freq">479</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Did not finish high school (class 10-11, SMA); Incomp. h.s. (comp. h.s. grades 10-11), Did not finish Madrasah Aliyah or</labl>
+        <catStat type="freq">91</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Finished High School (class 12, SMA), Madrasah Aliyah or Sekolah Menengah Kejuruan</labl>
+        <catStat type="freq">1077</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Diploma programmes (DI thru DIII)</labl>
+        <catStat type="freq">53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Diploma programmes (DIV) or Program Sarjana (Bachelors Degree/S1)</labl>
+        <catStat type="freq">151</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Program Spesialis 1 (Graduate diploma) and Profesi Dokter  (Medical Doctor Diploma)</labl>
+        <catStat type="freq">29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Program Master S2 (Masters degree)</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Program Doctor; Specialist S3 program</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="v6JY7GYz6Zfwz7ja" name="qedumys" dcml="0">
+      <labl>QEDUMYS. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.425213</sumStat>
+      <sumStat type="medn">6</sumStat>
+      <sumStat type="stdev">5.856756</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No formal education</labl>
+        <catStat type="freq">33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Primary school (Standard 1 to Standard 6/UPSR)</labl>
+        <catStat type="freq">95</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Lower secondary school (Form 1 to Form 3, pre-secondary foundation for religion school/PMR/SRP/LCE)</labl>
+        <catStat type="freq">147</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Vocational/technical (vocation/technical school certificates, eg, SPVM/MCVE)</labl>
+        <catStat type="freq">14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Upper secondary school (Form 4 to Form 5/SPM/MCE/SC/GCE 'O' level)</labl>
+        <catStat type="freq">660</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Trade and technical skills institutions (studies in trade and technical skills institution to earn diploma, e.g., di...</labl>
+        <catStat type="freq">115</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Pre-university (post-secondary studies, e.g., STPM/STP/STA/4THANAWI/HSC/GCE 'A' Level, diploma)</labl>
+        <catStat type="freq">328</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Tertiary studies (e.g., post-diploma/college/polytechnic/university education)</labl>
+        <catStat type="freq">280</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Post graduate Master/Post graduate Diploma</labl>
+        <catStat type="freq">292</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Post graduate PhD.</labl>
+        <catStat type="freq">28</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="diegzmBV0XznAUhb" name="qedusgp" dcml="0">
+      <labl>QEDUSGP. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.424853</sumStat>
+      <sumStat type="medn">6</sumStat>
+      <sumStat type="stdev">7.268508</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No formal education (Nursery, Kindergarten)</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Primary school (PSLE)</labl>
+        <catStat type="freq">74</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Lower secondary school (WISE 1-3, basic vocational certificate)</labl>
+        <catStat type="freq">71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Upper secondary (GCE 'N'/'O' level, National ITE certificate (Intermediate), ITE Skills Certificate (ISC))</labl>
+        <catStat type="freq">298</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Junior college/Polytechnic Foundation Program (PFP)/Institute of Technical Education (National ITE Certificate, Higher..</labl>
+        <catStat type="freq">237</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Polytechnic (Year 2 and 3)/Advanced Diploma in Polytechnic</labl>
+        <catStat type="freq">377</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Bachelor's degree/University (1st degree or post-graduate diploma)</labl>
+        <catStat type="freq">791</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Master degree/MBBS</labl>
+        <catStat type="freq">151</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Doctorate</labl>
+        <catStat type="freq">16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="UsmuR8PfiqyNqTkj" name="qedulka" dcml="0">
+      <labl>QEDULKA. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.349402</sumStat>
+      <sumStat type="medn">4</sumStat>
+      <sumStat type="stdev">3.627129</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No formal education (No schooling)</labl>
+        <catStat type="freq">45</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Primary (Grades 1 to 5)</labl>
+        <catStat type="freq">237</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Junior secondary (Grades 6 to 9)</labl>
+        <catStat type="freq">352</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Senior secondary (GCE O-Level/Grades 10 and 11)</labl>
+        <catStat type="freq">997</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Collegiate level (GCE A-Level/Grades 12 and 13)</labl>
+        <catStat type="freq">653</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Vocational training authority; technical colleges (NVQ Level 3 and 4 Certificates)</labl>
+        <catStat type="freq">45</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Colleges of Technology; university colleges; VTA (NVQ Level 5 Diploma/Non-NVQ Diploma)</labl>
+        <catStat type="freq">42</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>National Diploma in Technology; National Diploma in Engineering Sciences (NDT/NDES NVQ Level 6/Dtech/HNDE/HNDA)</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Bachelor's degree (NVQ Level 7/MBBS)</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Master's degree</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Doctorate (PhD/MD)</labl>
+        <catStat type="freq">9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="i7nP1llf3Qkqm5iQ" name="qedutha" dcml="0">
+      <labl>QEDUTHA. What is the highest level of school you have completed or the highest degree you have received, if any?</labl>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.120208</sumStat>
+      <sumStat type="medn">4</sumStat>
+      <sumStat type="stdev">2.90417</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No education</labl>
+        <catStat type="freq">53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Pre-primary</labl>
+        <catStat type="freq">144</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Incomplete primary</labl>
+        <catStat type="freq">234</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Primary (Grade 6 certificate)</labl>
+        <catStat type="freq">926</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Lower secondary education (Grade 9 certificate)</labl>
+        <catStat type="freq">365</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Upper secondary, vocational (Vocational education certificate)</labl>
+        <catStat type="freq">162</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Upper secondary, general (Grade 12 certificate)</labl>
+        <catStat type="freq">275</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Post-secondary non-tertiary (Associate degree/Technical certificate)</labl>
+        <catStat type="freq">49</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Diploma in vocational education (Higher vocational certificate)</labl>
+        <catStat type="freq">102</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Bachelor's degree</labl>
+        <catStat type="freq">181</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Master's degree, graduate diploma, license degree</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Doctor's degree (Ph.D./Doctorate)</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+    <var ID="Gnqjhujw8bhmL3AG" name="ISCED" dcml="0">
+      <labl>ISCED. ISCED recode</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>ISCED Level one or less</labl>
+        <catStat type="freq">3520</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>ISCED Level two</labl>
+        <catStat type="freq">1827</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>ISCED Level three</labl>
+        <catStat type="freq">4763</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>ISCED Level four</labl>
+        <catStat type="freq">279</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>ISCED Level five or more</labl>
+        <catStat type="freq">2698</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Don't know</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Refused</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+      <varFormat type="numeric">F2.0</varFormat>
+    </var>
+    <var ID="TdUWPnegBzTDS7o7" name="Language" dcml="0">
+      <labl>Language in which interview was conducted</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Khmer</labl>
+        <catStat type="freq">1502</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Bahasa Indonesian</labl>
+        <catStat type="freq">2571</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Malay</labl>
+        <catStat type="freq">1860</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Mandarin Chinese</labl>
+        <catStat type="freq">345</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>English</labl>
+        <catStat type="freq">1830</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Sinhala</labl>
+        <catStat type="freq">2231</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Tamil</labl>
+        <catStat type="freq">279</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Thai</labl>
+        <catStat type="freq">2504</catStat>
+      </catgry>
+      <varFormat type="numeric">F8.2</varFormat>
+    </var>
+  </dataDscr>
+  <otherMat level="0"/>
+</codeBook>

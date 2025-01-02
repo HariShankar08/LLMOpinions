@@ -1,0 +1,105 @@
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /Users/hshankar/.cache/huggingface/token
+Login successful
+Question QRID is missing question or options
+['1', '1', '1', '1', '1', '1']
+Question: Q2, Answer: 1
+['3', '1', '1', '1', '1', '1']
+Question: Q4, Answer: 1
+['3', '1', '1', '1', '1', '1']
+Question: Q5, Answer: 1
+['1', '1']
+Question: Q6a, Answer: 1
+['1', '1']
+Question: Q6b, Answer: 1
+['1', '1']
+Question: Q6c, Answer: 1
+['1', '1']
+Question: Q6d, Answer: 1
+['1', '1']
+Question: Q6e, Answer: 1
+['2', '1', '1', '1']
+Question: Q7, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q9, Answer: 1
+['2', '2']
+Question: ABORT, Answer: 2
+['1', '2']
+Question: Q10, Answer: 1
+['1', '1']
+Question: Q11ya, Answer: 1
+['1', '1']
+Question: Q11yb, Answer: 1
+['1', '1']
+Question: Q11yc, Answer: 1
+['1', '1']
+Question: Q11yd, Answer: 1
+['1', '1']
+Question: Q11ye, Answer: 1
+['1', '1']
+Question: Q11yf, Answer: 1
+['1', '1']
+Question: Q11yg, Answer: 1
+['1', '1']
+Question: Q11yh, Answer: 1
+['1', '1']
+Question: Q11yi, Answer: 1
+['1', '2', '1']
+Question: Q11yj, Answer: 1
+['3', '3', '3', '1', '1', '3']
+Question: Q12, Answer: 3
+['2', '1', '1', '1']
+Question: Q13, Answer: 1
+['3', '1']
+Question: Q14a, Answer: 3
+['1', '1', '1', '1']
+Question: Q14b, Answer: 1
+['1', '1', '1']
+Question: Q14c, Answer: 1
+['1', '1', '1']
+Question: Q14d, Answer: 1
+['3', '1', '3', '3', '3', '3']
+Question: Q15, Answer: 3
+['1', '1']
+Question: Q17a, Answer: 1
+['3', '1', '1', '1']
+Question: Q17b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18c, Answer: 1
+['3', '1', '1', '1']
+Question: Q18d, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q18e, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q18f, Answer: 1
+['1']
+Question: Q19a, Answer: 1
+['2', '1', '1', '1']
+Question: Q19b, Answer: 1
+['1', '1']
+Question: QW21a, Answer: 1
+['1', '1', '1']
+Question: QW21b, Answer: 1
+['1', '1']
+Question: QM21a, Answer: 1
+['1', '1', '1']
+Question: QM21b, Answer: 1
+['2', '1', '2', '3']
+Question: Q22a, Answer: 2
+['2', '2', '2', '2']
+Question: Q22b, Answer: 2
+['2', '2']
+Question: Q22c, Answer: 2
+['1', '3', '3', '2']
+Question: Q23a, Answer: 3
+['3', '1', '2', '1', '3', '1']
+Question: Q23b, Answer: 1
+['3', '1']
+Question: Q24, Answer: 3
+['2', '2', '2', '2', '2', '2']
+Question: Q26, Answer: 2
