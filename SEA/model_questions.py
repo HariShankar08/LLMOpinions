@@ -41,7 +41,7 @@ ASK_ID_QUESTIONS = [
 ]
 
 DEMOGRAPHIC_QUESTIONS = [
-    'QCURREL', 'QAGE', 'GenderRec', 'ISCED', 'URBANrec', 'QMARRIED', 'ZIPMALrec', 'ZipSinRec', 'KhmProvince', 'IdnRegion', 
+    'QCURREL', 'QAGE', 'GenderRec', 'QFERT', 'ISCED', 'URBANrec', 'QMARRIED', 'ZIPMALrec', 'ZipSinRec', 'KhmProvince', 'IdnRegion', 
     'LkaProvince', 'ThaRegion', 'qethkhm', 'qethidn', 'qethsgp', 'qethmys',
     'qethlka', 'qeththa', 'qeduidn', 'qedukhm', 'qedumys', 'qedusgp', 'qedulka', 'qedutha'
 ]

@@ -1,0 +1,646 @@
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /Users/hshankar/.cache/huggingface/token
+Login successful
+Question QRID is missing question or options
+['1', '1', '1', '1', '1', '1']
+Question: Q2, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q4, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q5, Answer: 1
+['1', '1']
+Question: Q6a, Answer: 1
+['1', '1']
+Question: Q6b, Answer: 1
+['1', '1']
+Question: Q6c, Answer: 1
+['1', '1']
+Question: Q6d, Answer: 1
+['1', '1']
+Question: Q6e, Answer: 1
+['1', '1', '1', '1']
+Question: Q7, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q9, Answer: 1
+['1', '1']
+Question: ABORT, Answer: 1
+['1', '1']
+Question: Q10, Answer: 1
+['1', '1']
+Question: Q11ya, Answer: 1
+['1', '1']
+Question: Q11yb, Answer: 1
+['1', '1']
+Question: Q11yc, Answer: 1
+['1', '1']
+Question: Q11yd, Answer: 1
+['1', '1']
+Question: Q11ye, Answer: 1
+['1', '1']
+Question: Q11yf, Answer: 1
+['1', '1']
+Question: Q11yg, Answer: 1
+['1', '1']
+Question: Q11yh, Answer: 1
+['1', '1']
+Question: Q11yi, Answer: 1
+['1', '1', '1']
+Question: Q11yj, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q12, Answer: 1
+['1', '1', '1', '1']
+Question: Q13, Answer: 1
+['1', '1']
+Question: Q14a, Answer: 1
+['1', '1', '1', '1']
+Question: Q14b, Answer: 1
+['1', '1', '1']
+Question: Q14c, Answer: 1
+['1', '1', '1']
+Question: Q14d, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q15, Answer: 1
+['1', '1']
+Question: Q17a, Answer: 1
+['1', '1', '1', '1']
+Question: Q17b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q18c, Answer: 1
+['1', '1', '1', '1']
+Question: Q18d, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q18e, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q18f, Answer: 1
+['1']
+Question: Q19a, Answer: 1
+['1', '1', '1', '1']
+Question: Q19b, Answer: 1
+['1', '1']
+Question: QW21a, Answer: 1
+['1', '1', '1']
+Question: QW21b, Answer: 1
+['1', '1']
+Question: QM21a, Answer: 1
+['1', '1', '1']
+Question: QM21b, Answer: 1
+['1', '1', '1', '1']
+Question: Q22a, Answer: 1
+['1', '1', '1', '1']
+Question: Q22b, Answer: 1
+['1', '1']
+Question: Q22c, Answer: 1
+['1', '1', '1', '1']
+Question: Q23a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q23b, Answer: 1
+['1', '1']
+Question: Q24, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q26, Answer: 1
+['1', '1', '1']
+Question: QCASTEb, Answer: 1
+['1', '1']
+Question: Q29a, Answer: 1
+['1', '1']
+Question: Q29b, Answer: 1
+['1', '1']
+Question: Q29e, Answer: 1
+['1', '1']
+Question: Q29f, Answer: 1
+['1']
+Question: Q29g, Answer: 1
+['1', '1']
+Question: Q29h, Answer: 1
+['1', '1']
+Question: Q30a, Answer: 1
+['1', '1']
+Question: Q30b, Answer: 1
+['1', '1']
+Question: Q30c, Answer: 1
+['1', '1']
+Question: Q30f, Answer: 1
+['1', '1']
+Question: Q30g, Answer: 1
+['1', '1']
+Question: Q30h, Answer: 1
+['1', '1']
+Question: Q30i, Answer: 1
+['1', '1']
+Question: Q30j, Answer: 1
+['1', '1']
+Question: Q30k, Answer: 1
+['1']
+Question: Q30l, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q33a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q33b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q33c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q33d, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q33e, Answer: 1
+['1', '1', '1', '1']
+Question: Q33f, Answer: 1
+['1', '1', '1']
+Question: Q34a, Answer: 1
+['1', '1', '1']
+Question: Q34b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q35, Answer: 1
+['1', '1', '1']
+Question: Q36a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q36b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q36c, Answer: 1
+['1', '1']
+Question: Q37a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q37b, Answer: 1
+['1', '1', '1']
+Question: Q37c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q37d, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q37e, Answer: 1
+['1', '1', '1', '1']
+Question: Q37f, Answer: 1
+['1', '1']
+Question: Q37g, Answer: 1
+['1', '1', '1']
+Question: Q37h, Answer: 1
+['1', '1']
+Question: Q37i, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q38, Answer: 1
+['1', '1']
+Question: Q39a, Answer: 1
+['1', '1']
+Question: Q39b, Answer: 1
+['1', '1', '1']
+Question: Q39c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q40, Answer: 1
+['1', '1', '1']
+Question: Q42, Answer: 1
+['1', '1']
+Question: Q43a, Answer: 1
+['1', '1', '1']
+Question: Q43b, Answer: 1
+['1', '1', '1']
+Question: Q43c, Answer: 1
+['1', '1']
+Question: Q45a, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q45b, Answer: 1
+['1', '1', '1']
+Question: Q45c, Answer: 1
+['1', '1', '1']
+Question: Q46a, Answer: 1
+['1', '1', '1', '1']
+Question: Q46b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q47a, Answer: 1
+['1', '1', '1']
+Question: Q47b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q47c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q48a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q48b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q48c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q48d, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q48e, Answer: 1
+['1', '1']
+Question: Q48f, Answer: 1
+['1', '1', '1', '1']
+Question: Q49a, Answer: 1
+['1', '1', '1']
+Question: Q49b, Answer: 1
+['1', '1', '1', '1']
+Question: Q49c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q49d, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q49e, Answer: 1
+['1', '1', '1', '1']
+Question: Q49f, Answer: 1
+['1', '1', '1']
+Question: Q49g, Answer: 1
+['1', '1', '1']
+Question: Q49h, Answer: 1
+['1', '1', '1', '1']
+Question: Q49i, Answer: 1
+['1', '1', '1']
+Question: Q49j, Answer: 1
+['1']
+Question: Q49k, Answer: 1
+['1', '1', '1', '1']
+Question: Q49l, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q49m, Answer: 1
+['1', '1', '1', '1']
+Question: Q49n, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q49o, Answer: 1
+['1', '1', '1']
+Question: Q50, Answer: 1
+['1', '1']
+Question: Q51, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q52, Answer: 1
+['1', '1', '1', '1']
+Question: Q53a, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q53b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q54a, Answer: 1
+['1', '1', '1', '1']
+Question: Q54b, Answer: 1
+['1', '1', '1']
+Question: Q55a, Answer: 1
+['1', '1']
+Question: Q55b, Answer: 1
+['1', '1', '1']
+Question: Q55c, Answer: 1
+['1', '1']
+Question: Q55d, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q56a, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q56b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q56c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q56d, Answer: 1
+['1', '1', '1', '1']
+Question: Q57a, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q57b, Answer: 1
+['1', '1']
+Question: Q57c, Answer: 1
+['1', '1']
+Question: Q58xa, Answer: 1
+['1', '1']
+Question: Q58xb, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q60, Answer: 1
+['1', '1', '1', '1']
+Question: QDIV, Answer: 1
+['1', '1']
+Question: Q61a, Answer: 1
+['1', '1', '1']
+Question: Q61b, Answer: 1
+['1', '1']
+Question: Q62a, Answer: 1
+['1', '1']
+Question: Q62b, Answer: 1
+['1', '1']
+Question: Q62c, Answer: 1
+['1', '1']
+Question: Q62d, Answer: 1
+['1', '1']
+Question: Q62e, Answer: 1
+['1', '1']
+Question: Q62f, Answer: 1
+['1', '1', '1', '1']
+Question: Q63a, Answer: 1
+['1', '1']
+Question: Q63b, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q63c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q63d, Answer: 1
+['1', '1', '1']
+Question: Q63e, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q63f, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q63g, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q65, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q66a, Answer: 1
+['1', '1']
+Question: Q66b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q66c, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q67a, Answer: 1
+['1', '1', '1', '1']
+Question: Q67b, Answer: 1
+['1', '1']
+Question: Q67c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q68, Answer: 1
+['1', '1', '1']
+Question: Q69a, Answer: 1
+['1', '1']
+Question: Q69b, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q69c, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q69d, Answer: 1
+['1', '1', '1', '1']
+Question: Q69e, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q69f, Answer: 1
+['1', '1']
+Question: Q69g, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q69h, Answer: 1
+['1']
+Question: Q69i, Answer: 1
+['1', '1', '1', '1']
+Question: Q69j, Answer: 1
+['1', '1', '1']
+Question: Q70, Answer: 1
+['1', '1', '1']
+Question: Q72a, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q72b, Answer: 1
+['1', '1', '1']
+Question: Q72c, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q72d, Answer: 1
+['1', '1']
+Question: Q72e, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q72f, Answer: 1
+['1']
+Question: Q72g, Answer: 1
+['1', '1', '1']
+Question: Q72h, Answer: 1
+['1', '1', '1']
+Question: Q72i, Answer: 1
+['1', '1', '1', '1']
+Question: Q73a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: QHHCH, Answer: 1
+['1', '1']
+Question: Q74a, Answer: 1
+['1', '1']
+Question: Q74b, Answer: 1
+['1', '1']
+Question: Q74c, Answer: 1
+['1', '1', '1']
+Question: Q74d, Answer: 1
+['1', '1']
+Question: Q75, Answer: 1
+['1', '1', '1']
+Question: Q76, Answer: 1
+['1', '1', '1']
+Question: Q78, Answer: 1
+['1']
+Question: Q79, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q81, Answer: 1
+['1', '1', '1']
+Question: Q82a, Answer: 1
+['1', '1', '1']
+Question: Q82b, Answer: 1
+['1', '1']
+Question: Q82c, Answer: 1
+['1', '1', '1', '1', '1']
+Question: Q82d, Answer: 1
+['1', '1', '1', '1', '1']
+Question: QPOVa, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: QPOVb, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: QPOVc, Answer: 1
+['1', '1']
+Question: Q83, Answer: 1
+['1', '1']
+Question: QPTY2a, Answer: 1
+['1', '1']
+Question: QPTY2b, Answer: 1
+['1', '1']
+Question: Q85, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q86a, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: Q87, Answer: 1
+{'QMLangRec': QMLangRec
+2    633
+1    367
+Name: count, dtype: int64, 'QRELSING': QRELSING
+1    781
+4    130
+2     66
+5     12
+3      6
+6      5
+Name: count, dtype: int64, 'QSECTrec': QSECTrec
+      934
+1      41
+98     11
+3      10
+4       2
+99      2
+Name: count, dtype: int64, 'QDENOMrec': QDENOMrec
+      994
+1       4
+97      2
+Name: count, dtype: int64, 'QHINDU': QHINDU
+98    245
+      219
+1     181
+2     121
+5     118
+4      52
+3      32
+99     26
+6       6
+Name: count, dtype: int64, 'QSIKHrec': QSIKHrec
+      870
+4      39
+1      29
+2      27
+3      12
+98     10
+7       5
+8       4
+99      4
+Name: count, dtype: int64, 'QCASTE': QCASTE
+1     481
+4     224
+2     190
+3      81
+5      16
+97      3
+98      3
+99      2
+Name: count, dtype: int64, 'QBUDDHISTrec': QBUDDHISTrec
+      988
+98      5
+6       3
+4       3
+5       1
+Name: count, dtype: int64, 'QJAIN': QJAIN
+      995
+2       3
+98      1
+1       1
+Name: count, dtype: int64, 'QSUFIrec': QSUFIrec
+98    471
+2     240
+1     183
+99    106
+Name: count, dtype: int64, 'QCHRELrec': QCHRELrec
+1      976
+2       22
+999      2
+Name: count, dtype: int64, 'QAGErec': QAGErec
+3    265
+2    229
+1    225
+4    209
+5     72
+Name: count, dtype: int64, 'QFERTrec': QFERTrec
+3     355
+4     218
+1     210
+2     197
+99     16
+98      4
+Name: count, dtype: int64, 'QCHGENabrec': QCHGENabrec
+2     536
+1     223
+0     210
+99     16
+97     11
+98      4
+Name: count, dtype: int64, 'QMARRIEDrec': QMARRIEDrec
+1     772
+3     184
+2      39
+99      4
+98      1
+Name: count, dtype: int64, 'QSPRELrec': QSPRELrec
+1    756
+     228
+2     16
+Name: count, dtype: int64, 'QCHSPRELrec': QCHSPRELrec
+1      767
+       228
+2        4
+999      1
+Name: count, dtype: int64, 'QCHILDrec': QCHILDrec
+1      686
+       298
+2       15
+999      1
+Name: count, dtype: int64, 'QINCINDrec': QINCINDrec
+1     482
+2     407
+99     56
+98     55
+Name: count, dtype: int64, 'QPTYrec': QPTYrec
+1     426
+99    168
+2     164
+24    125
+98     60
+25     57
+Name: count, dtype: int64, 'QGEN': QGEN
+1    589
+2    411
+Name: count, dtype: int64, 'QEDU': QEDU
+5     212
+4     169
+3     165
+6     161
+1     113
+9      89
+10     52
+2      19
+99     14
+98      5
+7       1
+Name: count, dtype: int64, 'QINT': QINT
+1     796
+2     203
+98      1
+Name: count, dtype: int64, 'QMOBILE': QMOBILE
+1    906
+2     94
+Name: count, dtype: int64, 'Urban': Urban
+2    578
+1    422
+Name: count, dtype: int64, 'ISCED': ISCED
+3     374
+2     169
+1     165
+5     141
+0     132
+99     14
+98      5
+Name: count, dtype: int64, 'REGION': REGION
+2    394
+6    255
+4    139
+5    134
+3     51
+1     27
+Name: count, dtype: int64}
+Demographic: 1
+Mean: 0.28285970181394615
+Median: 0.28335832083958024
+
+
+
+Demographic: 4
+Mean: 0.28306896403209425
+Median: 0.28291948833709557
+
+
+
+Demographic: 7
+Mean: 0.3749657064471879
+Median: 0.37592592592592594
+
+
+
+Demographic: 3
+Mean: 0.30531563163764325
+Median: 0.3043824701195219
+
+
+
+Demographic: 2
+Mean: 0.2948938523599725
+Median: 0.29457364341085274
+
+
+
+Demographic: 5
+Mean: 0.3180784599421595
+Median: 0.31746031746031744
+
+
+
+Demographic: 6
+Mean: 0.3726336100189311
+Median: 0.373015873015873
+
+
+
+Demographic: 8
+Mean: 0.5114555913035
+Median: 0.5069708491761724
+
+
+

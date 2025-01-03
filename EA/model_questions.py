@@ -22,7 +22,7 @@ ASK_HK_QUESTIONS = [
 ]
 
 ASK_TW_QUESTIONS = [
-    'Q5a','Q5b','Q5c','Q5d','Q13','QFIGURESg','Q37', 'Q40a','Q40b','Q40c','Q40d','Q40e','Q41','Q50'
+    'Q5a','Q5b','Q5c','Q5d','Q13','QFIGURESg','Q37', 'Q40a','Q40b','Q40c','Q40d','Q40e','Q41','Q50',
     'QPTYTWN','Q51','QZIPTWN','QEDUTWN'
 ]
 

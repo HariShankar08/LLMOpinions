@@ -206,7 +206,157 @@ Question: QMARRIED, Answer: 1
 Question: CHURCHEDUa, Answer: 1
 ['1', '1', '1', '1', '1', '1']
 Question: CHURCHEDUb, Answer: 1
+['1', '1']
+Question: Q5a, Answer: 1
+['1', '1']
+Question: Q5b, Answer: 1
+['1', '1']
+Question: Q5c, Answer: 1
+['1', '1']
+Question: Q5d, Answer: 1
 ['1', '1', '1', '1', '1']
-Question: QFIGURESg, Answer: 1
+Question: QFIGURESh, Answer: 1
 ['1', '1', '1', '1']
-Question: QEDUVNM, Answer: 1
+Question: Q37, Answer: 1
+['1', '1']
+Question: Q40a, Answer: 1
+['1', '1']
+Question: Q40b, Answer: 1
+['1', '1']
+Question: Q40c, Answer: 1
+['1', '1']
+Question: Q40d, Answer: 1
+['1', '1']
+Question: Q40e, Answer: 1
+['1', '1']
+Question: QZIPKOR, Answer: 1
+['1', '1', '1', '1', '1', '1']
+Question: QEDUKOR, Answer: 1
+{'ISCED': ISCED
+5     56
+3     35
+2      4
+1      3
+99     2
+Name: count, dtype: int64, 'GenderRec': GenderRec
+1    66
+2    34
+Name: count, dtype: int64, 'UrbanVietnam': UrbanVietnam
+    100
+Name: count, dtype: int64, 'QCURREL': QCURREL
+1    96
+8     4
+Name: count, dtype: int64, 'QCHREL': QCHREL
+1     60
+2     18
+8     10
+6      6
+10     4
+7      2
+Name: count, dtype: int64, 'QZIPHKG': QZIPHKG
+    100
+Name: count, dtype: int64, 'QZIPHKG2': QZIPHKG2
+    100
+Name: count, dtype: int64, 'QAGE': QAGE
+62    6
+50    4
+67    4
+53    4
+70    4
+65    4
+64    4
+68    3
+54    3
+66    3
+49    3
+58    3
+40    3
+56    3
+57    3
+60    3
+23    3
+48    2
+55    2
+80    2
+51    2
+27    2
+61    2
+72    2
+42    2
+47    2
+52    2
+45    2
+39    1
+76    1
+21    1
+59    1
+84    1
+30    1
+83    1
+77    1
+82    1
+46    1
+78    1
+37    1
+41    1
+32    1
+85    1
+73    1
+26    1
+29    1
+Name: count, dtype: int64, 'QFERT': QFERT
+2    48
+0    19
+3    13
+1    12
+4     7
+5     1
+Name: count, dtype: int64, 'QMARRIED': QMARRIED
+1     72
+4     15
+2      5
+5      4
+3      2
+99     1
+6      1
+Name: count, dtype: int64, 'QZIPJPN2': QZIPJPN2
+    100
+Name: count, dtype: int64, 'QZIPKOR': QZIPKOR
+1     22
+8     18
+2      9
+3      8
+15     7
+4      6
+10     5
+11     5
+6      5
+13     3
+9      3
+12     2
+16     2
+14     2
+7      1
+17     1
+5      1
+Name: count, dtype: int64, 'QZIPTWN': QZIPTWN
+    100
+Name: count, dtype: int64, 'QEDUHKG': QEDUHKG
+    100
+Name: count, dtype: int64, 'QEDUJPN': QEDUJPN
+    100
+Name: count, dtype: int64, 'QEDUKOR': QEDUKOR
+8     37
+6     29
+7      8
+9      6
+5      6
+10     5
+4      4
+3      3
+99     2
+Name: count, dtype: int64, 'QEDUTWN': QEDUTWN
+    100
+Name: count, dtype: int64, 'QEDUVNM': QEDUVNM
+    100
+Name: count, dtype: int64}

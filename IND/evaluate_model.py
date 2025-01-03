@@ -41,6 +41,7 @@ SKIP_QUESTIONS = ['Q44rec_12', 'Q86b_3', 'Q44rec_99', 'Q86b_21', 'Q86b_8', 'QSEC
                                  'Q44rec_3', 'Q86b_13', 'Q44rec_98', 'Q44rec_16', 'QINCINDrec', 'QIV7', 'QHH1', 'QHH2', 'Q28rec', 'q29cdrec']
 
 DEMOGRAPHIC_QUESTIONS = ['QMLangRec',
+ 'QRELSING',
  'QSECTrec',
  'QDENOMrec',
  'QHINDU',
