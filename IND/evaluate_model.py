@@ -18,6 +18,7 @@ from scipy.spatial import distance
 from matplotlib import pyplot as plt
 import re
 from parrot import Parrot
+import random
 
 import argparse
 
@@ -26,19 +27,11 @@ login(token='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')
 
 paraphraser = Parrot(model_tag="prithivida/parrot_paraphraser_on_T5") 
 
+random.seed(42)
 torch.manual_seed(42)
+torch.cuda.manual_seed(42)
 
-
-SKIP_QUESTIONS = ['Q44rec_12', 'Q86b_3', 'Q44rec_99', 'Q86b_21', 'Q86b_8', 'QSECTrec',
-                   'Q3rec_7', 'Q86b_6', 'QSUFIrec', 'Q86b_16', 'Q44rec_6', 'Q44rec_14', 'QCHGENabrec',
-                     'QAGErec', 'q73abrec', 'Q86b_20', 'Q28rec', 'Q44rec_7', 'Q44rec_8', 'Q3132rec', 'QMARRIEDrec', 
-                     'Q44rec_4', 'Q86b_11', 'Q44rec_1', 'Q77arec', 'Q44rec_2', 'Q3rec_5', 'Q86b_2', 'Q86b_1', 'QCHSPRELrec',
-                       'Q3rec_99', 'QSIKHrec', 'Q3rec_98', 'QBUDDHISTrec', 'Q86b_7', 'Q44rec_5', 'QCHRELrec', 'q85arec', 'Q86b_19',
-                         'Q86b_17', 'weight', 'Q86b_18', 'Q86b_15', 'Q44rec_9', 'Q3rec_4', 'Q44rec_15', 'QFERTrec', 'Q44rec_11',
-                           'COUNTRY', 'Q44rec_10', 'Q86b_99', 'q29cdrec', 'Q86b_4', 'Q86b_98', 'Q86b_12', 'Q86b_14',
-                             'Q44rec_17', 'Q86b_9', 'QSPRELrec', 'Q3rec_2', 'QPTYrec', 'QCHILDrec', 'Q44rec_13', 'Q86b_5',
-                               'QDENOMrec', 'Q86b_97', 'q30derec', 'Q44rec_18', 'Q3rec_6', 'Q86b_10', 'Q3rec_1', 'Q3rec_3',
-                                 'Q44rec_3', 'Q86b_13', 'Q44rec_98', 'Q44rec_16', 'QINCINDrec', 'QIV7', 'QHH1', 'QHH2', 'Q28rec', 'q29cdrec']
+SKIP_QUESTIONS = []
 
 DEMOGRAPHIC_QUESTIONS = ['QMLangRec',
  'QRELSING',
@@ -108,6 +101,9 @@ def make_prompt(question, questions, steer):
         p += '\nAnswer: '
         prompts.append(p)
 
+    if question in ('QHH1', 'QHH2'):
+        expected_answers = [str(i) for i in range(1, 100)]
+
     if steer is not None:
         bio_prompt = f"\nBelow you will be asked to provide a short description of your religion and then answer some questions.\nDescription: I identify as {steer.strip().title()}\n"
         portray_prompt = f"\nAnswer the following question as though you identified as {steer.strip().title()}\n"
@@ -144,8 +140,6 @@ def get_model_vector(model, questions, steer):
     model_vector = {}
     
     for question in tqdm(questions):
-        if question in DEMOGRAPHIC_QUESTIONS or question in SKIP_QUESTIONS:
-            continue
         out = make_prompt(question, questions, steer)
         if out is None:
             continue
@@ -153,32 +147,37 @@ def get_model_vector(model, questions, steer):
         # print(prompts)
         candidate_answers = []
         for prompt in prompts:
-            inputs = tokenizer(prompt, return_tensors='pt')
-            inputs = {k: v.to(device) for k, v in inputs.items()}
-            outputs = model(**inputs)
+            for seed in (42, 0, 1, 7, 177013):
+                random.seed(seed)
+                torch.manual_seed(seed)
+                torch.cuda.manual_seed(seed)
 
-            logits = outputs.logits[:, -1, :]
-            probabilities = torch.softmax(logits, dim=-1)
+                inputs = tokenizer(prompt, return_tensors='pt')
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+                outputs = model(**inputs)
 
-            top_k = 100
-            top_probabilities, top_indices = torch.topk(probabilities, top_k)
-            top_words = tokenizer.convert_ids_to_tokens(top_indices[0].tolist())
+                logits = outputs.logits[:, -1, :]
+                probabilities = torch.softmax(logits, dim=-1)
 
-            # print(top_words)
+                top_k = 100
+                top_probabilities, top_indices = torch.topk(probabilities, top_k)
+                top_words = tokenizer.convert_ids_to_tokens(top_indices[0].tolist())
 
-            # Display results
-            probabilities = {}
-            for word, prob in zip(top_words, top_probabilities[0].tolist()):
-                # print(f"Word: {word}, Log Probability: {prob:.4f}")
-                probabilities[word] = prob
-            
-            distribution = {}
-            for ans in expected_answers:
-                if ans in probabilities:
-                    distribution[ans] = probabilities[ans]
-            # print(distribution)
-    
-            candidate_answers.append(max(distribution, key=distribution.get))
+                # print(top_words)
+
+                # Display results
+                probabilities = {}
+                for word, prob in zip(top_words, top_probabilities[0].tolist()):
+                    # print(f"Word: {word}, Log Probability: {prob:.4f}")
+                    probabilities[word] = prob
+                
+                distribution = {}
+                for ans in expected_answers:
+                    if ans in probabilities:
+                        distribution[ans] = probabilities[ans]
+                # print(distribution)
+        
+                candidate_answers.append(max(distribution, key=distribution.get))
 
         # Fill the model vector with the most common answer
         print(candidate_answers)
@@ -196,33 +195,35 @@ def get_human_vectors(questions):
 
 def compute_scores(model_vector, human_vectors_df):
     df = human_vectors_df.copy()
-    qrids = df['QRID']
+    qrids = df['QRID'].tolist()
 
     # Drop the QRID column
     df = df.drop('QRID', axis=1)
     
-    df = pd.concat([df, pd.DataFrame([model_vector])], ignore_index=True)
-
-    df = df.replace(' ', 99)
-    df = df.fillna(99)
-
-    df = pd.get_dummies(df)
-    # print(df.columns)
-    
-    human_vector = df.iloc[-1]
-    df = df.drop(df.index[-1])
+    # Ensure the model_vector is a DataFrame row for consistency
+    model_vector_df = pd.DataFrame([model_vector])
 
     hds = []
 
     for i, row in df.iterrows():
-        # print(distance.hamming(row.tolist(), human_vector.tolist()))
-        hds.append(distance.hamming(row.tolist(), human_vector.tolist()))
+        # Create a temporary DataFrame with the current row and the model vector
+        temp_df = pd.concat([pd.DataFrame([row]), model_vector_df], ignore_index=True)
 
+        # Drop columns containing spaces in either row
+        temp_df = temp_df.replace(' ', pd.NA).dropna(axis=1)
 
-    # Add a column to the dataframe that stores the hamming distance between the model vector and the human vector
-    df2 = pd.DataFrame(hds, columns=['Hamming Distance'])
-    df2 = pd.concat([qrids, df2], axis=1)
-    
+        # One-hot encode both rows
+        temp_df = pd.get_dummies(temp_df)
+
+        # Calculate the Hamming distance between the two rows
+        hamming_dist = distance.hamming(
+            temp_df.iloc[0].tolist(), temp_df.iloc[1].tolist()
+        )
+        hds.append(hamming_dist)
+
+    # Add a column to the dataframe that stores the Hamming distance
+    df2 = pd.DataFrame({'QRID': qrids, 'Hamming Distance': hds})
+
     return df2
     
 

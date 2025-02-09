@@ -1,0 +1,70 @@
+Demographic,Demographic Options,L3B,L3BIt,L8B,L8BIt,M7Bv1,M7Bv1It,M7Bv3,M7Bv3It,G9B,G9BIt
+QRELSING,Hindu,855,930,880,759,849,835,700,896,850,717
+QRELSING,Muslim,23,7,28,86,28,2,5,7,33,1
+QRELSING,Christian,3,0,3,31,2,0,0,2,3,3
+QRELSING,Sikh,101,51,76,116,103,155,273,79,100,247
+QRELSING,Buddhist,12,7,8,2,14,3,12,13,10,23
+QRELSING,Jain,6,5,5,6,4,5,10,3,4,9
+QRELSING,Some other religion,0,0,0,0,0,0,0,0,0,0
+QRELSING,No religion,0,0,0,0,0,0,0,0,0,0
+QGEN,Male,657,678,630,591,630,653,626,655,637,790
+QGEN,Female,343,322,370,409,370,347,374,345,363,210
+QAGErec,18-25,194,195,201,179,202,220,218,204,208,343
+QAGErec,26-34,261,298,245,238,242,272,257,269,234,245
+QAGErec,35-44,272,278,267,262,263,259,272,251,263,217
+QAGErec,45-59,214,186,214,213,209,182,188,203,211,141
+QAGErec,60+,59,43,73,108,84,66,65,73,84,52
+QAGErec,Don't know,0,0,0,0,0,1,0,0,0,1
+QAGErec,Refused,0,0,0,0,0,0,0,0,0,1
+QCASTE,General Category,527,453,511,489,458,468,504,483,482,380
+QCASTE,Scheduled Caste,145,209,153,175,210,237,217,150,179,282
+QCASTE,Scheduled Tribe [OR],73,54,83,33,96,37,48,61,85,75
+QCASTE,Other Backward Class,238,257,235,275,219,244,214,291,233,231
+QCASTE,Most Backward Class (DO NOT READ),12,24,12,15,14,11,13,13,16,23
+QCASTE,I do not/my religion does not recognize a caste system (DO NOT READ),1,0,0,2,0,0,0,0,0,2
+QCASTE,Not a member of any caste/category/class (DO NOT READ),1,2,0,2,0,1,2,0,1,0
+QCASTE,Don’t know (DO NOT READ),0,1,3,6,1,2,2,0,2,5
+QCASTE,Refused (DO NOT READ),3,0,3,3,2,0,0,2,2,2
+QMARRIEDrec,Married or living with a partner,811,805,785,782,774,788,780,773,776,658
+QMARRIEDrec,"Divorced, separated, partner is no longer alive",27,23,33,48,39,29,27,35,37,22
+QMARRIEDrec,Unmarried,159,170,177,170,182,181,191,190,183,319
+QMARRIEDrec,Don’t know (DO NOT READ),1,0,1,0,1,1,0,1,0,1
+QMARRIEDrec,Refused (DO NOT READ),2,2,4,0,4,1,2,1,4,0
+QFERTrec,No Children,183,162,208,174,206,185,211,220,207,351
+QFERTrec,One Child,211,200,208,192,195,202,211,210,211,201
+QFERTrec,Two Children,364,382,358,359,364,358,325,346,358,276
+QFERTrec,Three Children or More Children,213,194,204,238,208,206,225,195,200,135
+QFERTrec,Don’t know (DO NOT READ),3,3,1,0,2,3,5,1,4,3
+QFERTrec,Refused (DO NOT READ),26,59,21,37,25,46,23,28,20,34
+QCHGENabrec,No children,183,162,208,174,206,185,211,220,207,351
+QCHGENabrec,No daughters among children,229,215,225,197,223,206,200,205,237,198
+QCHGENabrec,At least one daughter,546,538,533,578,536,546,550,537,521,404
+QCHGENabrec,Do not know number of daughters,0,1,0,1,0,0,1,0,0,1
+QCHGENabrec,Refused number of daughters,13,22,12,13,8,14,10,9,11,9
+QCHGENabrec,Do not know number of children,3,3,1,0,2,3,5,1,4,3
+QCHGENabrec,Refused number of children,26,59,21,37,25,46,23,28,20,34
+Urban,Urban,480,417,458,425,422,366,360,492,446,398
+Urban,Rural,520,583,542,575,578,634,640,508,554,602
+REGION,Northeast,21,10,19,23,19,12,25,26,21,40
+REGION,North,321,385,328,363,363,543,525,311,361,385
+REGION,Central,106,155,73,125,65,126,114,98,60,69
+REGION,East,110,133,129,76,143,137,139,111,146,63
+REGION,West,219,188,144,137,114,96,72,173,122,334
+REGION,South,223,129,307,276,296,86,125,281,290,109
+QEDU,Illiterate,64,57,89,85,93,65,97,47,92,71
+QEDU,Literate but no formal schooling,22,25,22,31,18,19,22,17,28,27
+QEDU,Primary education (primary certificate),141,166,150,154,151,170,136,136,153,115
+QEDU,Upper primary (upper primary certificate),178,195,169,149,170,177,153,167,169,167
+QEDU,High school; Industrial training institute (matriculation certificate or ITI certificate),235,207,220,217,226,204,244,234,214,292
+QEDU,Senior secondary / Intermediate (senior secondary school leaving certificate),180,172,165,158,162,182,174,180,169,179
+QEDU,Technical education training,1,1,1,13,1,1,1,2,1,0
+QEDU,"Nursing, general nursing and midwifery (GNM); Junior teachers training (diploma)",0,0,0,1,0,0,0,0,0,0
+QEDU,"Bachelor (university 1st) / MBBS, LLB",96,119,89,110,87,120,108,126,89,104
+QEDU,Master (university 2nd) / Post-graduate diploma,70,50,82,63,76,48,51,74,71,36
+QEDU,Doctor (tertiary 2nd),0,0,0,5,0,1,1,1,0,2
+QEDU,Don't know (DO NOT READ),3,2,3,3,3,2,3,4,2,1
+QEDU,Refused (DO NOT READ),10,6,10,11,13,11,10,12,12,6
+QINCINDrec,"Rs. 10,000 and below",448,437,457,416,461,374,404,413,462,502
+QINCINDrec,"Rs. 10,001 and above",462,400,461,459,445,416,421,504,442,422
+QINCINDrec,Don’t know (DO NOT READ),39,58,43,49,48,66,56,41,53,32
+QINCINDrec,Refused (DO NOT READ),51,105,39,76,46,144,119,42,43,44

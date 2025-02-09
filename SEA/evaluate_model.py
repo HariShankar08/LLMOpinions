@@ -10,6 +10,7 @@ import re
 from parrot import Parrot
 import argparse
 from model_questions import *
+import random
 
 
 login(token='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')
@@ -80,32 +81,37 @@ def get_model_vector(model, cols, questions):
         # print(prompts)
         candidate_answers = []
         for prompt in prompts:
-            inputs = tokenizer(prompt, return_tensors='pt')
-            inputs = {k: v.to(device) for k, v in inputs.items()}
-            outputs = model(**inputs)
+            for ablation_seed in (42, 0, 1, 7, 177013):
+                random.seed(ablation_seed)
+                torch.manual_seed(ablation_seed)
+                torch.cuda.manual_seed(ablation_seed)
+                
+                inputs = tokenizer(prompt, return_tensors='pt')
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+                outputs = model(**inputs)
 
-            logits = outputs.logits[:, -1, :]
-            probabilities = torch.softmax(logits, dim=-1)
+                logits = outputs.logits[:, -1, :]
+                probabilities = torch.softmax(logits, dim=-1)
 
-            top_k = 100
-            top_probabilities, top_indices = torch.topk(probabilities, top_k)
-            top_words = tokenizer.convert_ids_to_tokens(top_indices[0].tolist())
+                top_k = 100
+                top_probabilities, top_indices = torch.topk(probabilities, top_k)
+                top_words = tokenizer.convert_ids_to_tokens(top_indices[0].tolist())
 
-            # print(top_words)
+                # print(top_words)
 
-            # Display results
-            probabilities = {}
-            for word, prob in zip(top_words, top_probabilities[0].tolist()):
-                # print(f"Word: {word}, Log Probability: {prob:.4f}")
-                probabilities[word] = prob
-            
-            distribution = {}
-            for ans in expected_answers:
-                if ans in probabilities:
-                    distribution[ans] = probabilities[ans]
-            # print(distribution)
-    
-            candidate_answers.append(max(distribution, key=distribution.get))
+                # Display results
+                probabilities = {}
+                for word, prob in zip(top_words, top_probabilities[0].tolist()):
+                    # print(f"Word: {word}, Log Probability: {prob:.4f}")
+                    probabilities[word] = prob
+                
+                distribution = {}
+                for ans in expected_answers:
+                    if ans in probabilities:
+                        distribution[ans] = probabilities[ans]
+                # print(distribution)
+        
+                candidate_answers.append(max(distribution, key=distribution.get))
 
         # Fill the model vector with the most common answer
         print(candidate_answers)
@@ -137,28 +143,30 @@ def compute_scores(model_vector, human_vectors_df):
     # Drop the QRID column
     df = df.drop('QRID', axis=1)
     
-    df = pd.concat([df, pd.DataFrame([model_vector])], ignore_index=True)
-
-    df = df.replace(' ', 99)
-    df = df.fillna(99)
-
-    df = pd.get_dummies(df)
-    # print(df.columns)
-    
-    human_vector = df.iloc[-1]
-    df = df.drop(df.index[-1])
+    # Ensure the model_vector is a DataFrame row for consistency
+    model_vector_df = pd.DataFrame([model_vector])
 
     hds = []
 
     for i, row in df.iterrows():
-        # print(distance.hamming(row.tolist(), human_vector.tolist()))
-        hds.append(distance.hamming(row.tolist(), human_vector.tolist()))
+        # Create a temporary DataFrame with the current row and the model vector
+        temp_df = pd.concat([pd.DataFrame([row]), model_vector_df], ignore_index=True)
 
+        # Drop columns containing spaces in either row
+        temp_df = temp_df.replace(' ', pd.NA).dropna(axis=1)
 
-    # Add a column to the dataframe that stores the hamming distance between the model vector and the human vector
+        # One-hot encode both rows
+        temp_df = pd.get_dummies(temp_df)
+
+        # Calculate the Hamming distance between the two rows
+        hamming_dist = distance.hamming(
+            temp_df.iloc[0].tolist(), temp_df.iloc[1].tolist()
+        )
+        hds.append(hamming_dist)
+
+    # Add a column to the dataframe that stores the Hamming distance
     df2 = pd.DataFrame({'QRID': qrids, 'Hamming Distance': hds})
 
-    
     return df2
     
 
