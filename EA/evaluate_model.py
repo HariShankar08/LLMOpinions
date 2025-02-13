@@ -11,8 +11,9 @@ from parrot import Parrot
 import argparse
 from model_questions import *
 
+TOKEN = ''
 
-login(token='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')
+login(token=TOKEN)
 
 paraphraser = Parrot(model_tag="prithivida/parrot_paraphraser_on_T5") 
 
