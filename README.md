@@ -10,9 +10,6 @@ This project investigates the presence of religious bias in open Large Language 
 - [Ponnurangam Kumaraguru](https://precog.iiit.ac.in) (IIIT Hyderabad)
 - [Abhijnan Chakraborty](https://cse.iitkgp.ac.in/~abhijnan/) (IIT Kharagpur)
 
-## Abstract
-Large Language Models (LLMs) unknowingly generate opinions and propagate biases due to non-diverse training data. While prior research primarily analyzes bias in Western contexts, this work focuses on Asian nations, particularly India. The study introduces a novel method using Hamming Distance to quantitatively assess LLM-generated opinions. Findings indicate that most open LLMs align with a single homogeneous profile across different territories, raising concerns about hegemonic AI outputs and the marginalization of minority perspectives.
-
 ## Website
 [Project Page](https://themodeldothpreach.github.io)
 
