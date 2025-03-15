@@ -58,6 +58,14 @@ Recognized values:
 ## Citation
 If you use this work, please cite it using the following BibTeX entry:
 ```bibtex
-
+@misc{shankar2025modeldothpreachquantifying,
+  title={Sometimes the Model doth Preach: Quantifying Religious Bias in Open LLMs through Demographic Analysis in Asian Nations}, 
+  author={Hari Shankar and Vedanta S P and Tejas Cavale and Ponnurangam Kumaraguru and Abhijnan Chakraborty},
+  year={2025},
+  eprint={2503.07510},
+  archivePrefix={arXiv},
+  primaryClass={cs.CY},
+  url={https://arxiv.org/abs/2503.07510}, 
+}
 
 ```
