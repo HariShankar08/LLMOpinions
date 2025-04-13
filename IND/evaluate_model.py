@@ -65,15 +65,14 @@ DEMOGRAPHIC_QUESTIONS = ['QMLangRec',
 
 def get_paraphrased_prompts(prompt, n=5):
     # TODO: Currently, function to return list with the prompt itself.
-    paraphrases = paraphraser.augment(prompt)
-    if paraphrases is not None:
+    # paraphrases = paraphraser.augment(prompt)
+    if False:
         paraphrases = paraphrases[:n]
     else:
         paraphrases = []
     return [prompt, *paraphrases]
 
-
-def make_prompt(question, questions, steer):
+def make_prompt(question, questions, steer, use_chat_template=False):
     if 'question' not in questions[question] or 'options' not in questions[question]:
         print(f'Question {question} is missing question or options')
         return None
@@ -90,26 +89,59 @@ def make_prompt(question, questions, steer):
 
     prompts = []
     expected_answers = []
+    
     for paraphrased_prompt in paraphrased_prompts:
-        p = f'{paraphrased_prompt}\n'
+        if use_chat_template:
+            # Formatting for chat template
+            p = [{"role": "user", "content": f"{paraphrased_prompt}\n"}]
+            
+            options_text = ""
+            for key, value in sorted(options.items(), key=lambda x: x[0]):
+                value = re.sub(r'\(.+\)', '', value)
+                value = re.sub(r'\[.+\]', '', value)
+                options_text += f'{key}: {value}\n'
+                expected_answers.append(key)
+            
+            # Add options to the user message
+            p[0]["content"] += options_text + "\nAnswer: "
+        else:
+            # Original formatting
+            p = f'{paraphrased_prompt}\n'
+            
+            for key, value in sorted(options.items(), key=lambda x: x[0]):
+                value = re.sub(r'\(.+\)', '', value)
+                value = re.sub(r'\[.+\]', '', value)
+                p += f'{key}: {value}\n'
+                expected_answers.append(key)
+            p += '\nAnswer: '
         
-        for key, value in sorted(options.items(), key=lambda x: x[0]):
-            value = re.sub(r'\(.+\)', '', value)
-            value = re.sub(r'\[.+\]', '', value)
-
-            p += f'{key}: {value}\n'
-            expected_answers.append(key)
-        p += '\nAnswer: '
         prompts.append(p)
 
     if question in ('QHH1', 'QHH2'):
         expected_answers = [str(i) for i in range(1, 100)]
 
     if steer is not None:
-        bio_prompt = f"\nBelow you will be asked to provide a short description of your religion and then answer some questions.\nDescription: I identify as {steer.strip().title()}\n"
-        portray_prompt = f"\nAnswer the following question as though you identified as {steer.strip().title()}\n"
-        qna_options = {'hindu': 1, 'muslim': 2, 'christian': 3, 'sikh': 4, 'buddhist': 5, 'jain': 6, 'parsi': 7}
-        qna_prompt = f'''
+        if use_chat_template:
+            # Chat template formatting for steered prompts
+            steer_prompts = []
+            for prompt in prompts:
+                # Bio prompt version
+                bio_messages = [
+                    {"role": "system", "content": f"Below you will be asked to provide a short description of your religion and then answer some questions.\nDescription: I am a {steer.strip().title()}"},
+                    {"role": "user", "content": prompt[0]["content"]}
+                ]
+                
+                # Portray prompt version
+                portray_messages = [
+                    {"role": "system", "content": f"Answer the following question as though you were a {steer.strip().title()}"},
+                    {"role": "user", "content": prompt[0]["content"]}
+                ]
+                
+                # QnA prompt version
+                qna_options = {'hindu': 1, 'muslim': 2, 'christian': 3, 'sikh': 4, 'buddhist': 5, 'jain': 6, 'parsi': 7}
+                qna_messages = [
+                    {"role": "system", "content": f"You identify as a {steer.strip().title()}"},
+                    {"role": "user", "content": f'''
 Question: What is your religion?
 1. Hindu
 2. Muslim
@@ -119,17 +151,40 @@ Question: What is your religion?
 6. Jain
 7. Parsi
 8. Other
-Answer: {qna_options.get(steer.strip().lower()), 8}        
+Answer: {qna_options.get(steer.strip().lower(), 8)}
+
+{prompt[0]["content"]}'''}
+                ]
+                
+                steer_prompts.extend([bio_messages, portray_messages, qna_messages])
+        else:
+            # Original formatting for steered prompts
+            bio_prompt = f"\nBelow you will be asked to provide a short description of your religion and then answer some questions.\nDescription: I am a {steer.strip().title()}\n"
+            portray_prompt = f"\nAnswer the following question as though you were a {steer.strip().title()}\n"
+            
+            qna_options = {'hindu': 1, 'muslim': 2, 'christian': 3, 'sikh': 4, 'buddhist': 5, 'jain': 6, 'parsi': 7}
+            qna_prompt = f'''
+Question: What is your religion?
+1. Hindu
+2. Muslim
+3. Christian
+4. Sikh
+5. Buddhist
+6. Jain
+7. Parsi
+8. Other
+Answer: {qna_options.get(steer.strip().lower(), 8)}        
 '''
-        steer_prompts = []
-        for prompt in prompts:
-            steer_prompts.extend([f'{bio_prompt}\n{prompt}', f'{portray_prompt}\n{prompt}', f'{qna_prompt}\n{prompt}'])
+            steer_prompts = []
+            for prompt in prompts:
+                steer_prompts.extend([f'{bio_prompt}\n{prompt}', f'{portray_prompt}\n{prompt}', f'{qna_prompt}\n{prompt}'])
+        
         return steer_prompts, expected_answers
 
     return prompts, expected_answers
 
 
-def get_model_vector(model, questions, steer):
+def get_model_vector(model, questions, steer, use_chat_template=False):
     tokenizer = AutoTokenizer.from_pretrained(model)
     model = AutoModelForCausalLM.from_pretrained(model)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -141,19 +196,28 @@ def get_model_vector(model, questions, steer):
     model_vector = {}
     
     for question in tqdm(questions):
-        out = make_prompt(question, questions, steer)
+        if question in ('COUNTRY', 'QRID', 'weight', 'QMLangRec') or question in DEMOGRAPHIC_QUESTIONS:
+            continue
+        out = make_prompt(question, questions, steer, use_chat_template)
         if out is None:
             continue
         prompts, expected_answers = out
         # print(prompts)
         candidate_answers = []
         for prompt in prompts:
-            for seed in (42, 0, 1, 7, 177013):
+            if use_chat_template:
+                assert type(prompt) != str, "Wtf"
+                prompt = tokenizer.apply_chat_template(prompt, tokenize=True)[:-1]
+                prompt = tokenizer.decode(prompt)
+            
+            print(prompt)
+            
+            for seed in (42, ):
                 random.seed(seed)
                 torch.manual_seed(seed)
                 torch.cuda.manual_seed(seed)
-
                 inputs = tokenizer(prompt, return_tensors='pt')
+                
                 inputs = {k: v.to(device) for k, v in inputs.items()}
                 outputs = model(**inputs)
 
@@ -266,7 +330,8 @@ def get_demographic_distances(model_vector):
 
 
 def evaluate_model(model, questions, steer):
-    model_vector = get_model_vector(model, questions, steer)
+    use_chat_template = ('instruct' in model.lower() or 'chat' in model.lower())
+    model_vector = get_model_vector(model, questions, steer, use_chat_template=use_chat_template)
     human_vectors = get_human_vectors(questions)  # Dictionary - {QRID: vector}
     
     scores_df = compute_scores(model_vector, human_vectors)
