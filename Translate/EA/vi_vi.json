@@ -1,0 +1,1573 @@
+{
+    "QRID": {
+        "question": "QRID. Mã số định danh người trả lời (DUY NHẤT CHO MỖI NGƯỜI TRẢ LỜI)"
+    },
+    "weight": {
+        "question": "Trọng số cuối cùng"
+    },
+    "SurveyPublic": {
+        "question": "Mã định danh khảo sát công khai",
+        "options": {
+            "1": "Hồng Kông",
+            "2": "Nhật Bản",
+            "4": "Hàn Quốc",
+            "5": "Đài Loan",
+            "6": "Việt Nam"
+        }
+    },
+    "DEMONYM": {
+        "question": "Tên gọi người dân.",
+        "options": {
+            "1": "Người Hồng Kông",
+            "2": "Người Nhật",
+            "4": "Người Hàn",
+            "5": "Người Đài Loan",
+            "6": "Người Việt Nam"
+        }
+    },
+    "Q1": {
+        "question": "Q1. Nhìn chung, ông/bà hài lòng, không hài lòng, hay không hài lòng cũng không bất mãn với tình hình tại Việt Nam hiện nay?",
+        "options": {
+            "1": "Hài lòng",
+            "2": "Không hài lòng",
+            "3": "Không hài lòng cũng không bất mãn",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q2a": {
+        "question": "Q2a. Trong gia đình, ai nên là người chịu trách nhiệm chính cho các hoạt động sau? a. Kiếm tiền",
+        "options": {
+            "1": "Nam giới",
+            "2": "Phụ nữ [HOẶC]",
+            "3": "Cả hai",
+            "4": "(KHÔNG ĐỌC) Tùy thuộc/Khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q2b": {
+        "question": "Q2b. Trong gia đình, ai nên là người chịu trách nhiệm chính cho các hoạt động sau? b. Chăm sóc con cái",
+        "options": {
+            "1": "Nam giới",
+            "2": "Phụ nữ [HOẶC]",
+            "3": "Cả hai",
+            "4": "(KHÔNG ĐỌC) Tùy thuộc/Khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q2c": {
+        "question": "Q2c. Trong gia đình, ai nên là người chịu trách nhiệm chính cho các hoạt động sau? c. Đưa ra quyết định về chi tiêu",
+        "options": {
+            "1": "Nam giới",
+            "2": "Phụ nữ [HOẶC]",
+            "3": "Cả hai",
+            "4": "(KHÔNG ĐỌC) Tùy thuộc/Khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q2d": {
+        "question": "Q2d. Trong gia đình, ai nên là người chịu trách nhiệm chính cho các hoạt động sau? d. Chăm sóc các thành viên lớn tuổi trong gia đình",
+        "options": {
+            "1": "Nam giới",
+            "2": "Phụ nữ [HOẶC]",
+            "3": "Cả hai",
+            "4": "(KHÔNG ĐỌC) Tùy thuộc/Khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q3": {
+        "question": "Q3. Phát biểu nào sau đây gần với quan điểm của ông/bà nhất, ngay cả khi không có phát biểu nào hoàn toàn chính xác?",
+        "options": {
+            "1": "Phụ nữ có nghĩa vụ với xã hội là phải sinh con",
+            "2": "Phụ nữ nên tự quyết định có sinh con hay không",
+            "3": "(KHÔNG ĐỌC) Khác/Không có ý kiến nào/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q4": {
+        "question": "Q4. Phát biểu nào trong ba phát biểu sau đây gần với quan điểm của ông/bà nhất?",
+        "options": {
+            "1": "Nam giới nhìn chung là những nhà lãnh đạo chính trị tốt hơn phụ nữ",
+            "2": "Phụ nữ nhìn chung là những nhà lãnh đạo chính trị tốt hơn nam giới",
+            "3": "Nhìn chung, phụ nữ và nam giới là những nhà lãnh đạo chính trị giỏi như nhau",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QLEGAL": {
+        "question": "QLEGAL. Ông/Bà ủng hộ mạnh mẽ, khá ủng hộ, khá phản đối hay phản đối mạnh mẽ việc cho phép người đồng tính nam và đồng tính nữ kết hôn hợp pháp?",
+        "options": {
+            "1": "Ủng hộ mạnh mẽ",
+            "2": "Khá ủng hộ",
+            "3": "Khá phản đối",
+            "4": "Phản đối mạnh mẽ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q5a": {
+        "question": "Q5a. Tôi muốn biết ý kiến của ông/bà về một số mối quan ngại quốc tế có thể có đối với Việt Nam. Ông/bà có nghĩ rằng mỗi điều sau đây là một mối đe dọa lớn, một mối đe dọa nhỏ, hay không phải là mối đe dọa đối với Việt Nam không? a. Quyền lực và ảnh hưởng của Hoa Kỳ",
+        "options": {
+            "1": "Mối đe dọa lớn",
+            "2": "Mối đe dọa nhỏ",
+            "3": "Không phải là mối đe dọa",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q5b": {
+        "question": "Q5b. Tôi muốn biết ý kiến của ông/bà về một số mối quan ngại quốc tế có thể có đối với Việt Nam. Ông/bà có nghĩ rằng mỗi điều sau đây là một mối đe dọa lớn, một mối đe dọa nhỏ, hay không phải là mối đe dọa đối với Việt Nam không? b. Chương trình vũ khí hạt nhân của Bắc Triều Tiên",
+        "options": {
+            "1": "Mối đe dọa lớn",
+            "2": "Mối đe dọa nhỏ",
+            "3": "Không phải là mối đe dọa",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q5c": {
+        "question": "Q5c. Tôi muốn biết ý kiến của ông/bà về một số mối quan ngại quốc tế có thể có đối với Việt Nam. Ông/bà có nghĩ rằng mỗi điều sau đây là một mối đe dọa lớn, một mối đe dọa nhỏ, hay không phải là mối đe dọa đối với Việt Nam không? c. Quyền lực và ảnh hưởng của Nga",
+        "options": {
+            "1": "Mối đe dọa lớn",
+            "2": "Mối đe dọa nhỏ",
+            "3": "Không phải là mối đe dọa",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q5d": {
+        "question": "Q5d. Tôi muốn biết ý kiến của ông/bà về một số mối quan ngại quốc tế có thể có đối với Việt Nam. Ông/bà có nghĩ rằng mỗi điều sau đây là một mối đe dọa lớn, một mối đe dọa nhỏ, hay không phải là mối đe dọa đối với Việt Nam không? d. Quyền lực và ảnh hưởng của Trung Quốc",
+        "options": {
+            "1": "Mối đe dọa lớn",
+            "2": "Mối đe dọa nhỏ",
+            "3": "Không phải là mối đe dọa",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QCURREL": {
+        "question": "QCURREL. Tôn giáo của ông/bà là gì, nếu có?",
+        "options": {
+            "1": "Phật giáo",
+            "2": "Công giáo, Tin lành hoặc Cơ đốc giáo khác",
+            "3": "Hồi giáo",
+            "4": "Thần đạo [HỎI Ở NHẬT BẢN]",
+            "5": "Đạo giáo",
+            "6": "Nho giáo",
+            "7": "Tôn giáo địa phương/ Tôn giáo bản địa",
+            "8": "Không tôn giáo [HOẶC]",
+            "9": "Một số tôn giáo khác [NÊU RÕ TRONG QCURRELb]",
+            "10": "(KHÔNG ĐỌC) Kết hợp nhiều tôn giáo",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6a": {
+        "question": "Q6a. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? a. Lối sống Phật giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6b": {
+        "question": "Q6b. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? b. Lối sống Cơ đốc giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6c": {
+        "question": "Q6c. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? c. Lối sống Thần đạo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6d": {
+        "question": "Q6d. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? d. Lối sống Đạo giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6e": {
+        "question": "Q6e. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? e. Lối sống Nho giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q6f": {
+        "question": "Q6f. Ông/bà có cảm thấy có mối liên hệ cá nhân với từng lối sống sau đây không? f. Lối sống của các tôn giáo địa phương/ tôn giáo bản địa",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QBORN": {
+        "question": "QBORN. Ông/Bà có mô tả mình là một tín đồ Cơ đốc giáo tái sinh hay phúc âm không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q7a": {
+        "question": "Q7a. Dựa trên những gì ông/bà biết, ông/bà có nghĩ rằng mỗi mô tả sau đây phù hợp với Phật giáo không? a. Phật giáo là một truyền thống gia đình phải tuân theo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q7b": {
+        "question": "Q7b. Dựa trên những gì ông/bà biết, ông/bà có nghĩ rằng mỗi mô tả sau đây phù hợp với Phật giáo không? b. Phật giáo là một dân tộc mà người ta sinh ra đã thuộc về",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q7c": {
+        "question": "Q7c. Dựa trên những gì ông/bà biết, ông/bà có nghĩ rằng mỗi mô tả sau đây phù hợp với Phật giáo không? c. Phật giáo là một nền văn hóa mà người ta là một phần của nó",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q7d": {
+        "question": "Q7d. Dựa trên những gì ông/bà biết, ông/bà có nghĩ rằng mỗi mô tả sau đây phù hợp với Phật giáo không? d. Phật giáo là một tập hợp các giáo lý đạo đức để hướng dẫn hành động",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q7e": {
+        "question": "Q7e. Dựa trên những gì ông/bà biết, ông/bà có nghĩ rằng mỗi mô tả sau đây phù hợp với Phật giáo không? e. Phật giáo là một tôn giáo mà người ta chọn để theo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8a": {
+        "question": "Q8a. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? a. không tôn trọng người lớn tuổi",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8b": {
+        "question": "Q8b. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? b. không tôn trọng đất nước Việt Nam",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8c": {
+        "question": "Q8c. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? c. không tôn trọng các vị thần hoặc linh hồn",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8d": {
+        "question": "Q8d. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? d. không bao giờ đến chùa hoặc tháp",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8e": {
+        "question": "Q8e. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? e. không cầu nguyện",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8f": {
+        "question": "Q8f. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? f. uống rượu",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8g": {
+        "question": "Q8g. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? g. tổ chức lễ Giáng sinh của Cơ đốc giáo",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8h": {
+        "question": "Q8h. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? h. tổ chức lễ Eid của người Hồi giáo",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8i": {
+        "question": "Q8i. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? i. cúng bái hoặc thờ cúng tổ tiên",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8j": {
+        "question": "Q8j. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? j. không tin vào thế giới bên kia",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q8k": {
+        "question": "Q8k. Theo ông/bà, một người có thể là một Phật tử thực sự không nếu họ làm những điều sau đây? k. không có tang lễ theo nghi thức Phật giáo",
+        "options": {
+            "1": "Có, có thể là",
+            "2": "Không, không thể là",
+            "97": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q9": {
+        "question": "Q9. Tôn giáo quan trọng như thế nào trong cuộc sống của ông/bà, nếu có?",
+        "options": {
+            "1": "Rất quan trọng",
+            "2": "Khá quan trọng",
+            "3": "Không quan trọng lắm [HOẶC]",
+            "4": "Hoàn toàn không quan trọng",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q10": {
+        "question": "Q10. Ông/bà có tin vào Chúa không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q11": {
+        "question": "Q11. Ông/bà có nghĩ rằng có những sinh vật vô hình trên thế giới, như thần thánh hoặc linh hồn không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q12": {
+        "question": "Q12. Phát biểu nào gần với quan điểm của ông/bà hơn ngay cả khi không có phát biểu nào hoàn toàn chính xác?",
+        "options": {
+            "1": "Chỉ có MỘT tôn giáo thật sự",
+            "2": "Nhiều tôn giáo có thể là thật sự",
+            "3": "(KHÔNG ĐỌC) Khác/Không có ý kiến nào/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QCHREL": {
+        "question": "QCHREL. Nghĩ về khi ông/bà còn nhỏ, ông/bà được nuôi dưỡng trong tôn giáo nào, nếu có?",
+        "options": {
+            "1": "Phật giáo",
+            "2": "Công giáo, Tin lành hoặc Cơ đốc giáo khác",
+            "3": "Hồi giáo",
+            "4": "Thần đạo [HỎI Ở NHẬT BẢN]",
+            "5": "Đạo giáo",
+            "6": "Nho giáo",
+            "7": "Tôn giáo địa phương/ Tôn giáo bản địa",
+            "8": "Không tôn giáo [HOẶC]",
+            "9": "Một số tôn giáo khác [NÊU RÕ TRONG QCHRELb]",
+            "10": "(KHÔNG ĐỌC) Kết hợp nhiều tôn giáo",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q13": {
+        "question": "Q13. Ông/bà tự xem mình chủ yếu là người Đài Loan, chủ yếu là người Trung Quốc, hay vừa là người Đài Loan vừa là người Trung Quốc?",
+        "options": {
+            "1": "Chủ yếu là người Đài Loan",
+            "2": "Chủ yếu là người Trung Quốc [HOẶC]",
+            "3": "Vừa là người Đài Loan vừa là người Trung Quốc",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q14": {
+        "question": "Q14. Ông/bà tự xem mình chủ yếu là người Hồng Kông, chủ yếu là người Trung Quốc, hay vừa là người Hồng Kông vừa là người Trung Quốc?",
+        "options": {
+            "1": "Chủ yếu là người Hồng Kông",
+            "2": "Chủ yếu là người Trung Quốc [HOẶC]",
+            "3": "Vừa là người Hồng Kông vừa là người Trung Quốc",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q15a": {
+        "question": "Q15a. Nhìn chung về cuộc sống của mình, ông/bà có thường đến những nơi sau đây không? a. Đền thờ",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q15b": {
+        "question": "Q15b. Nhìn chung về cuộc sống của mình, ông/bà có thường đến những nơi sau đây không? b. Chùa hoặc tháp",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q15c": {
+        "question": "Q15c. Nhìn chung về cuộc sống của mình, ông/bà có thường đến những nơi sau đây không? c. Nhà thờ",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q15d": {
+        "question": "Q15d. Nhìn chung về cuộc sống của mình, ông/bà có thường đến những nơi sau đây không? d. Tu viện hoặc nơi thiền định",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESa": {
+        "question": "QFIGURESa. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? a. Khổng Tử",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESb": {
+        "question": "QFIGURESb. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? b. Phật",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESc": {
+        "question": "QFIGURESc. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? c. Đức Mẹ Maria",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESd": {
+        "question": "QFIGURESd. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? d. Quan Công hoặc Quan Đế",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESe": {
+        "question": "QFIGURESe. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? e. Chúa Giê-su",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESf": {
+        "question": "QFIGURESf. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? f. Quan Âm, Quan Thế Âm Bồ Tát",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESg": {
+        "question": "QFIGURESg. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? g. Ma Tổ, Nữ thần Biển",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESh": {
+        "question": "QFIGURESh. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? h. Thần Kami",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFIGURESi": {
+        "question": "QFIGURESi. Hiện tại ông/bà có cầu nguyện hoặc bày tỏ lòng thành kính với những nhân vật sau đây không? i. Đạt Lai Lạt Ma",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q16_1": {
+        "question": "Q16. [CHỌN TẤT CẢ] Mọi người có những cách khác nhau để lo hậu sự cho người thân đã khuất. Gia đình ông/bà thực hiện những tập tục nào sau đây? Hỏa táng người thân đã khuất",
+        "options": {
+            "1": "Đã chọn",
+            "2": "Không được chọn"
+        }
+    },
+    "Q16_2": {
+        "question": "Q16. [CHỌN TẤT CẢ] Mọi người có những cách khác nhau để lo hậu sự cho người thân đã khuất. Gia đình ông/bà thực hiện những tập tục nào sau đây? Chôn cất người thân đã khuất",
+        "options": {
+            "1": "Đã chọn",
+            "2": "Không được chọn"
+        }
+    },
+    "Q16_3": {
+        "question": "Q16. [CHỌN TẤT CẢ] Mọi người có những cách khác nhau để lo hậu sự cho người thân đã khuất. Gia đình ông/bà thực hiện những tập tục nào sau đây? [HOẶC] Theo một phương pháp khác",
+        "options": {
+            "1": "Đã chọn",
+            "2": "Không được chọn"
+        }
+    },
+    "Q16_98": {
+        "question": "Q16. [CHỌN TẤT CẢ] Mọi người có những cách khác nhau để lo hậu sự cho người thân đã khuất. Gia đình ông/bà thực hiện những tập tục nào sau đây? Không biết",
+        "options": {
+            "1": "Đã chọn",
+            "2": "Không được chọn"
+        }
+    },
+    "Q16_99": {
+        "question": "Q16. [CHỌN TẤT CẢ] Mọi người có những cách khác nhau để lo hậu sự cho người thân đã khuất. Gia đình ông/bà thực hiện những tập tục nào sau đây? Từ chối trả lời",
+        "options": {
+            "1": "Đã chọn",
+            "2": "Không được chọn"
+        }
+    },
+    "Q17": {
+        "question": "Q17. Gia đình ông/bà rải tro cốt của người thân đã khuất HAY giữ chúng ở một địa điểm cụ thể, như nhà của ai đó, chùa, tháp, hoặc một khu mộ?",
+        "options": {
+            "1": "Rải tro cốt",
+            "2": "Giữ chúng ở một địa điểm cụ thể",
+            "3": "(KHÔNG ĐỌC) Một phương pháp khác/Cả hai",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q18": {
+        "question": "Q18. Nếu ông/bà đang lên kế hoạch tang lễ cho một thành viên trong gia đình hoặc người thân, việc tuân theo các nghi lễ và nghi thức tang lễ truyền thống sẽ quan trọng đến mức nào?",
+        "options": {
+            "1": "Rất quan trọng",
+            "2": "Khá quan trọng",
+            "3": "Không quan trọng lắm [HOẶC]",
+            "4": "Hoàn toàn không quan trọng",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q19": {
+        "question": "Q19. Ông/bà có khu mộ gia đình nơi lưu giữ tro cốt hoặc hài cốt của người thân đã khuất không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q20a": {
+        "question": "Q20a. Ông/bà hoặc ai đó trong gia đình có trả tiền để duy trì khu mộ gia đình không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q20b": {
+        "question": "Q20b. Ông/bà hoặc ai đó trong gia đình có chăm sóc khu mộ gia đình bằng cách quét dọn hoặc lau chùi không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q21": {
+        "question": "Q21. Ông/bà có thường xuyên đến thăm khu mộ gia đình không, nếu có?",
+        "options": {
+            "1": "Ít nhất mỗi tháng một lần",
+            "2": "Vài lần một năm",
+            "3": "Mỗi năm một lần",
+            "4": "Ít thường xuyên hơn thế [HOẶC]",
+            "5": "Không bao giờ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q22a": {
+        "question": "Q22a. Trong 12 tháng qua, ông/bà đã thực hiện các hoạt động hoặc nghi lễ nào sau đây để tưởng nhớ hoặc chăm sóc tổ tiên của mình chưa? a. Cúng đồ ăn, nước uống",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q22b": {
+        "question": "Q22b. Trong 12 tháng qua, ông/bà đã thực hiện các hoạt động hoặc nghi lễ nào sau đây để tưởng nhớ hoặc chăm sóc tổ tiên của mình chưa? b. Cúng hoa hoặc thắp nến",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q22c": {
+        "question": "Q22c. Trong 12 tháng qua, ông/bà đã thực hiện các hoạt động hoặc nghi lễ nào sau đây để tưởng nhớ hoặc chăm sóc tổ tiên của mình chưa? c. Đốt nhang",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q22d": {
+        "question": "Q22d. Trong 12 tháng qua, ông/bà đã thực hiện các hoạt động hoặc nghi lễ nào sau đây để tưởng nhớ hoặc chăm sóc tổ tiên của mình chưa? d. Cúng tiền hoặc những thứ khác họ có thể cần ở thế giới bên kia",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q23": {
+        "question": "Q23. Trong 12 tháng qua, ông/bà có kể cho tổ tiên nghe về các sự kiện trong cuộc sống của mình không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q24a": {
+        "question": "Q24a. Ông/bà đã bao giờ cảm thấy rằng linh hồn của một người tổ tiên đã làm những điều sau đây chưa? a. Giúp đỡ ông/bà",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q24b": {
+        "question": "Q24b. Ông/bà đã bao giờ cảm thấy rằng linh hồn của một người tổ tiên đã làm những điều sau đây chưa? b. Trừng phạt ông/bà",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q24c": {
+        "question": "Q24c. Ông/bà đã bao giờ cảm thấy rằng linh hồn của một người tổ tiên đã làm những điều sau đây chưa? c. Về thăm ông/bà trong giấc mơ",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q24d": {
+        "question": "Q24d. Ông/bà đã bao giờ cảm thấy rằng linh hồn của một người tổ tiên đã làm những điều sau đây chưa? d. Đến với ông/bà dưới bất kỳ hình thức nào khác",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q25a": {
+        "question": "Q25a. Ông/bà có nghĩ rằng mỗi thứ sau đây đều có linh hồn riêng của chúng không? a. Núi, sông hoặc cây cối",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q25b": {
+        "question": "Q25b. Ông/bà có nghĩ rằng mỗi thứ sau đây đều có linh hồn riêng của chúng không? b. Một số vật thể nhất định, như pha lê, đồ trang sức hoặc đá",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q25c": {
+        "question": "Q25c. Ông/bà có nghĩ rằng mỗi thứ sau đây đều có linh hồn riêng của chúng không? c. Nhà cửa hoặc các tòa nhà khác",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q26a": {
+        "question": "Q26a. Nghĩ về một số loại trải nghiệm khác nhau, ông/bà có thường có những trải nghiệm sau đây không? a. Cảm giác kinh ngạc sâu sắc về vũ trụ",
+        "options": {
+            "1": "Ít nhất một lần một tuần",
+            "2": "Một hoặc hai lần một tháng",
+            "3": "Vài lần một năm",
+            "4": "Hiếm khi [HOẶC]",
+            "5": "Không bao giờ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q26b": {
+        "question": "Q26b. Nghĩ về một số loại trải nghiệm khác nhau, ông/bà có thường có những trải nghiệm sau đây không? b. Suy nghĩ về ý nghĩa và mục đích của cuộc sống",
+        "options": {
+            "1": "Ít nhất một lần một tuần",
+            "2": "Một hoặc hai lần một tháng",
+            "3": "Vài lần một năm",
+            "4": "Hiếm khi [HOẶC]",
+            "5": "Không bao giờ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27a": {
+        "question": "Q27a. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? a. Tái sinh",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27b": {
+        "question": "Q27b. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? b. Số phận",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27c": {
+        "question": "Q27c. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? c. Nghiệp chướng (Karma)",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27d": {
+        "question": "Q27d. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? d. Niết bàn (Nirvana)",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27e": {
+        "question": "Q27e. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? e. Thiên thần hoặc các vị thần hữu ích",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27f": {
+        "question": "Q27f. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? f. Quỷ dữ hoặc các vị thần xấu xa",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27g": {
+        "question": "Q27g. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? g. Phép màu",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27h": {
+        "question": "Q27h. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? h. Thiên đường",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q27i": {
+        "question": "Q27i. Ông/bà có nghĩ rằng mỗi thứ sau đây tồn tại không? i. Địa ngục",
+        "options": {
+            "1": "Có, tồn tại",
+            "2": "Không, không tồn tại",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q28": {
+        "question": "Q28. Ông/bà có thường xuyên cầu nguyện không, nếu có?",
+        "options": {
+            "1": "Vài lần một ngày",
+            "2": "Mỗi ngày một lần",
+            "3": "Vài lần một tuần",
+            "4": "Mỗi tuần một lần",
+            "5": "Vài lần một tháng",
+            "6": "Ít thường xuyên hơn thế [HOẶC]",
+            "7": "Không bao giờ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q29": {
+        "question": "Q29. Trong nhà ông/bà có bàn thờ không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q30": {
+        "question": "Q30. Ông/bà có nghĩ việc một người cố gắng thuyết phục người khác tham gia tôn giáo của mình là chấp nhận được hay không thể chấp nhận được?",
+        "options": {
+            "1": "Chấp nhận được",
+            "2": "Không thể chấp nhận được",
+            "3": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q31": {
+        "question": "Q31. Ông/bà có bao giờ thực hành thiền định không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q33": {
+        "question": "Q33. Trong 12 tháng qua, ông/bà đã đi xem bói chưa?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q35": {
+        "question": "Q35. Phát biểu nào trong hai phát biểu sau đây gần với quan điểm của ông/bà nhất ngay cả khi không có phát biểu nào hoàn toàn chính xác?",
+        "options": {
+            "1": "Việt Nam sẽ tốt đẹp hơn trong tương lai nếu gắn bó với truyền thống và lối sống của mình",
+            "2": "Việt Nam sẽ tốt đẹp hơn trong tương lai nếu cởi mở với những thay đổi liên quan đến truyền thống và lối sống của mình",
+            "3": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q36": {
+        "question": "Q36. Phát biểu nào trong hai phát biểu sau đây gần với quan điểm của ông/bà nhất ngay cả khi không có phát biểu nào hoàn toàn chính xác?",
+        "options": {
+            "1": "Mọi người nên được phép phát biểu ý kiến công khai ngay cả khi họ làm phiền lòng người khác",
+            "2": "Sự hòa hợp với người khác quan trọng hơn quyền phát biểu ý kiến của mình",
+            "3": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q37": {
+        "question": "Q37. Ông/bà nghĩ những người không đồng tình với hành động của chính phủ chúng ta có nên được phép công khai chỉ trích chính phủ không?",
+        "options": {
+            "1": "Có, nên được phép công khai chỉ trích chính phủ",
+            "2": "Không, không nên được phép công khai chỉ trích chính phủ",
+            "3": "(KHÔNG ĐỌC) Khác/Cả hai/Không phải cả hai/Tùy tình huống",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q38a": {
+        "question": "Q38a. Các nhà lãnh đạo tôn giáo có nên làm những việc sau đây không? a. Nói công khai về chính trị gia hoặc đảng phái chính trị mà họ ủng hộ",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q38b": {
+        "question": "Q38b. Các nhà lãnh đạo tôn giáo có nên làm những việc sau đây không? b. Trở thành chính trị gia",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q38c": {
+        "question": "Q38c. Các nhà lãnh đạo tôn giáo có nên làm những việc sau đây không? c. Tham gia các cuộc biểu tình chính trị",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q39a": {
+        "question": "Q39a. Các phát biểu sau đây mô tả quan điểm của ông/bà tốt đến mức nào? a. Tôn giáo giúp xã hội bằng cách mang lại cho con người ý nghĩa và mục đích trong cuộc sống",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Không tốt lắm [HOẶC]",
+            "4": "Hoàn toàn không tốt",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q39b": {
+        "question": "Q39b. Các phát biểu sau đây mô tả quan điểm của ông/bà tốt đến mức nào? b. Tôn giáo khuyến khích sự mê tín và tư duy phi logic trong xã hội",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Không tốt lắm [HOẶC]",
+            "4": "Hoàn toàn không tốt",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q39c": {
+        "question": "Q39c. Các phát biểu sau đây mô tả quan điểm của ông/bà tốt đến mức nào? c. Tôn giáo hướng dẫn mọi người để họ làm điều đúng và đối xử tốt với người khác",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Không tốt lắm [HOẶC]",
+            "4": "Hoàn toàn không tốt",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q39d": {
+        "question": "Q39d. Các phát biểu sau đây mô tả quan điểm của ông/bà tốt đến mức nào? d. Tôn giáo khuyến khích tư duy bạo lực và cực đoan trong mọi người",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Không tốt lắm [HOẶC]",
+            "4": "Hoàn toàn không tốt",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QABORT": {
+        "question": "QABORT. Ông/bà nghĩ việc phá thai nên là hợp pháp trong mọi trường hợp, hợp pháp trong hầu hết các trường hợp, bất hợp pháp trong hầu hết các trường hợp, hay bất hợp pháp trong mọi trường hợp?",
+        "options": {
+            "1": "Hợp pháp trong mọi trường hợp",
+            "2": "Hợp pháp trong hầu hết các trường hợp",
+            "3": "Bất hợp pháp trong hầu hết các trường hợp",
+            "4": "Bất hợp pháp trong mọi trường hợp",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q40a": {
+        "question": "Q40a. Hệ thống chính trị sau đây sẽ là một cách quản lý Việt Nam rất tốt, khá tốt, khá tệ hay rất tệ? a. Một hệ thống trong đó hai hoặc nhiều đảng chính trị tranh cử",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Khá tệ",
+            "4": "Rất tệ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q40b": {
+        "question": "Q40b. Hệ thống chính trị sau đây sẽ là một cách quản lý Việt Nam rất tốt, khá tốt, khá tệ hay rất tệ? b. Một hệ thống trong đó các cuộc bầu cử được tổ chức chỉ với một đảng tham gia",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Khá tệ",
+            "4": "Rất tệ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q40c": {
+        "question": "Q40c. Hệ thống chính trị sau đây sẽ là một cách quản lý Việt Nam rất tốt, khá tốt, khá tệ hay rất tệ? c. Một hệ thống trong đó một nhà lãnh đạo mạnh có thể đưa ra quyết định mà không bị can thiệp từ quốc hội hoặc tòa án",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Khá tệ",
+            "4": "Rất tệ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q40d": {
+        "question": "Q40d. Hệ thống chính trị sau đây sẽ là một cách quản lý Việt Nam rất tốt, khá tốt, khá tệ hay rất tệ? d. Một hệ thống trong đó các chuyên gia, chứ không phải các quan chức được bầu, đưa ra quyết định theo những gì họ cho là tốt nhất cho [TÊN CÔNG CHÚNG KHẢO SÁT]",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Khá tệ",
+            "4": "Rất tệ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q40e": {
+        "question": "Q40e. Hệ thống chính trị sau đây sẽ là một cách quản lý Việt Nam rất tốt, khá tốt, khá tệ hay rất tệ? e. Một hệ thống trong đó quân đội cai trị Việt Nam",
+        "options": {
+            "1": "Rất tốt",
+            "2": "Khá tốt",
+            "3": "Khá tệ",
+            "4": "Rất tệ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QATTEND": {
+        "question": "QATTEND. Ngoài đám cưới và đám tang, ông/bà có thường xuyên đi nhà thờ không, nếu có?",
+        "options": {
+            "1": "Hàng ngày",
+            "2": "Hơn một lần một tuần",
+            "3": "Mỗi tuần một lần",
+            "4": "Một hoặc hai lần một tháng",
+            "5": "Vài lần một năm",
+            "6": "Ít thường xuyên hơn thế hoặc",
+            "7": "Không bao giờ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE": {
+        "question": "QAGE. Ông/bà bao nhiêu tuổi?",
+        "options": {
+            "97": "97 tuổi trở lên",
+            "998": "(KHÔNG ĐỌC) Không biết",
+            "999": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE_NRHKG": {
+        "question": "QAGE_NRHKG. Tuổi của ông/bà thuộc khoảng nào sau đây?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE_NRJPN": {
+        "question": "QAGE_NRJPN. Tuổi của ông/bà thuộc khoảng nào sau đây?",
+        "options": {
+            "1": "18-29",
+            "2": "30-44",
+            "3": "45-59",
+            "4": "60-74",
+            "5": "75+",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE_NRKOR": {
+        "question": "QAGE_NRKOR. Tuổi của ông/bà thuộc khoảng nào sau đây?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE_NRTWNrec": {
+        "question": "QAGE_NRTWN. Tuổi của ông/bà thuộc khoảng nào sau đây?",
+        "options": {
+            "1": "18-29",
+            "2": "30-44",
+            "3": "45-59",
+            "4": "60-74",
+            "5": "75+",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QAGE_NRVNM": {
+        "question": "QAGE_NRVNM. Tuổi của ông/bà thuộc khoảng nào sau đây?",
+        "options": {
+            "1": "18-24",
+            "2": "25-34",
+            "3": "35-44",
+            "4": "45-54",
+            "5": "55-64",
+            "6": "65+",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QETHHKG": {
+        "question": "QETHHKG. Dân tộc của ông/bà là gì?",
+        "options": {
+            "1": "Người Hoa",
+            "97": "Một số dân tộc khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QETHTWN": {
+        "question": "QETHTWN. Dân tộc của ông/bà là gì?",
+        "options": {
+            "1": "Người Hán",
+            "2": "Người bản địa",
+            "97": "Một số dân tộc khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QETHVNM": {
+        "question": "QETHNVM. Dân tộc của ông/bà là gì?",
+        "options": {
+            "1": "Người Việt/Kinh",
+            "97": "Một số dân tộc khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QFERT": {
+        "question": "QFERT. Ông/bà đã có bao nhiêu người con, nếu có? Vui lòng tính tất cả các con được sinh ra bất cứ lúc nào trong đời ông/bà.",
+        "options": {
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QHH1": {
+        "question": "QHH1. Có bao nhiêu người, kể cả ông/bà, sống trong gia đình của ông/bà?",
+        "options": {
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QHH2": {
+        "question": "QHH2. Có bao nhiêu người sống trong gia đình của ông/bà, kể cả ông/bà, là người lớn, từ 18 tuổi trở lên?",
+        "options": {
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q41": {
+        "question": "Q41. Ông/bà cảm thấy gắn bó về mặt tình cảm với đất nước Trung Quốc đến mức nào, nếu có?",
+        "options": {
+            "1": "Rất gắn bó về mặt tình cảm",
+            "2": "Khá gắn bó về mặt tình cảm",
+            "3": "Không gắn bó lắm về mặt tình cảm [HOẶC]",
+            "4": "Hoàn toàn không gắn bó về mặt tình cảm",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QMARRIED": {
+        "question": "QMARRIED. Tình trạng hôn nhân hiện tại của ông/bà là gì?",
+        "options": {
+            "1": "Đã kết hôn",
+            "2": "Đã ly hôn",
+            "3": "Ly thân",
+            "4": "Chưa kết hôn/Độc thân [HOẶC]",
+            "5": "Góa vợ/Góa chồng",
+            "6": "(KHÔNG ĐỌC) Sống chung với bạn đời",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QEDUHKG": {
+        "question": "QEDUHKG. Trình độ học vấn cao nhất mà ông/bà đã hoàn thành hoặc bằng cấp cao nhất mà ông/bà đã nhận được là gì?",
+        "options": {
+            "1": "Không đi học chính thức (Mẫu giáo)",
+            "2": "Giáo dục tiểu học (Lớp 1 đến lớp 6)",
+            "3": "Giáo dục trung học cơ sở (Cấp độ GCE N (Lớp 9))",
+            "4": "Giáo dục trung học phổ thông (Cấp độ GCE O (Lớp 11), Cấp độ GCE A (Lớp 13 theo cấu trúc cũ), Cấp độ DSE (Lớp 12 theo cấu trúc mới))",
+            "5": "Bằng tốt nghiệp/Chứng chỉ nâng cao/bằng tốt nghiệp nâng cao/DVE (không phải đại học)",
+            "6": "Bằng cao đẳng hoặc bằng nghề tương đương",
+            "7": "Bằng Đại học (Bằng cử nhân)",
+            "8": "Bằng Sau Đại học (Bằng thạc sĩ)",
+            "9": "Bằng Sau Đại học (Bằng tiến sĩ)",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QEDUJPN": {
+        "question": "QEDUJPN. Trình độ học vấn cao nhất mà ông/bà đã hoàn thành hoặc bằng cấp cao nhất mà ông/bà đã nhận được là gì?",
+        "options": {
+            "1": "Không đi học chính thức (Mầm non hoặc Mẫu giáo)",
+            "2": "Trường tiểu học",
+            "3": "Trường trung học cơ sở",
+            "4": "Trường trung học phổ thông",
+            "5": "Cao đẳng công nghệ",
+            "6": "Cao đẳng (bằng cao đẳng), trường đào tạo đặc biệt (bằng tốt nghiệp hoặc bằng tốt nghiệp nâng cao)",
+            "7": "Bằng cử nhân",
+            "8": "Bằng thạc sĩ hoặc Tiến sĩ Luật",
+            "9": "Bằng tiến sĩ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QEDUKOR": {
+        "question": "QEDUKOR. Trình độ học vấn cao nhất mà ông/bà đã hoàn thành hoặc bằng cấp cao nhất mà ông/bà đã nhận được là gì?",
+        "options": {
+            "1": "Không đi học chính thức/mẫu giáo",
+            "2": "Chưa hoàn thành giáo dục tiểu học",
+            "3": "Trường tiểu học",
+            "4": "Trường trung học cơ sở",
+            "5": "Trường trung học nghề/Trường trung học thương mại",
+            "6": "Trường trung học phổ thông",
+            "7": "Cao đẳng, trường cao đẳng bách khoa / bằng cao đẳng, trường cao đẳng thuế (2-3 năm)",
+            "8": "Bằng cử nhân hoặc quân đội Hàn Quốc (4-6 năm)",
+            "9": "Bằng thạc sĩ",
+            "10": "Bằng tiến sĩ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QEDUTWN": {
+        "question": "QEDUTWN. Trình độ học vấn cao nhất mà ông/bà đã hoàn thành hoặc bằng cấp cao nhất mà ông/bà đã nhận được là gì?",
+        "options": {
+            "1": "Không được giáo dục chính thức (Mầm non hoặc Mẫu giáo)",
+            "2": "Chưa hoàn thành giáo dục tiểu học",
+            "3": "Hoàn thành giáo dục tiểu học",
+            "4": "Trường trung học cơ sở",
+            "5": "Trường trung cấp nghề/trường trung cấp kỹ thuật",
+            "6": "Trường trung học phổ thông",
+            "7": "Cao đẳng/Trường cao đẳng kỹ thuật & dạy nghề",
+            "8": "Cử nhân (đại học)",
+            "9": "Thạc sĩ",
+            "10": "Tiến sĩ",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QEDUVNM": {
+        "question": "QEDUVNM. Trình độ học vấn cao nhất mà ông/bà đã hoàn thành hoặc bằng cấp cao nhất mà ông/bà đã nhận được là gì, nếu có?",
+        "options": {
+            "1": "Không đi học chính thức",
+            "2": "Chưa hoàn thành tiểu học",
+            "3": "Tiểu học",
+            "4": "Trung học cơ sở (Bằng tốt nghiệp trung học cơ sở)",
+            "5": "Trung học phổ thông, dạy nghề (Chứng chỉ giáo dục nghề nghiệp)",
+            "6": "Trung học phổ thông, phổ thông (Bằng tốt nghiệp trung học phổ thông)",
+            "7": "Bằng trung cấp chuyên nghiệp",
+            "8": "Bằng cao đẳng nghề",
+            "9": "Bằng cao đẳng (hệ phổ thông)",
+            "10": "Bằng cử nhân",
+            "11": "Bằng thạc sĩ, Chứng chỉ sau đại học",
+            "12": "Bằng tiến sĩ (Ph.D.)",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "CHURCHEDUa": {
+        "question": "CHURCHEDUa. Tại bất kỳ thời điểm nào trong quá trình học tập, ông/bà có theo học một trường liên kết với những tổ chức sau đây không? a. Một nhà thờ Cơ đốc giáo hoặc Công giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "CHURCHEDUb": {
+        "question": "CHURCHEDUb. Tại bất kỳ thời điểm nào trong quá trình học tập, ông/bà có theo học một trường liên kết với những tổ chức sau đây không? b. Một tổ chức Phật giáo",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QPTYJPN": {
+        "question": "QPTYJPN. Bất kể ông/bà đã bỏ phiếu cho đảng nào trong cuộc bầu cử quốc gia vừa qua, ông/bà cảm thấy gần gũi với đảng chính trị nào, nếu có?",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Đảng Dân chủ Tự do (LDP)",
+            "2": "(KHÔNG ĐỌC) Đảng Công Minh (Komeito - NKP)",
+            "3": "(KHÔNG ĐỌC) Đảng Dân chủ Lập hiến (CDP)",
+            "4": "(KHÔNG ĐỌC) Đảng Dân chủ Xã hội (SDP)",
+            "5": "(KHÔNG ĐỌC) Đảng Duy tân Nhật Bản (Ishin)",
+            "6": "(KHÔNG ĐỌC) Đảng Dân chủ vì Nhân dân (DPP)",
+            "7": "(KHÔNG ĐỌC) Đảng Cộng sản Nhật Bản (JCP)",
+            "8": "(KHÔNG ĐỌC) Sanseito (DIY)",
+            "9": "(KHÔNG ĐỌC) Reiwa Shinsengumi",
+            "10": "(KHÔNG ĐỌC) Đảng NHK (NHK)",
+            "96": "(KHÔNG ĐỌC) Không cảm thấy gần gũi với đảng nào",
+            "97": "(KHÔNG ĐỌC) Một số đảng khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QPTYTWN": {
+        "question": "QPTYTWN. Bất kể ông/bà đã bỏ phiếu cho đảng nào trong cuộc bầu cử quốc gia vừa qua, ông/bà cảm thấy gần gũi với đảng chính trị nào, nếu có?",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Đảng Dân chủ Tiến bộ (DPP)",
+            "2": "(KHÔNG ĐỌC) Quốc Dân Đảng (KMT)",
+            "3": "(KHÔNG ĐỌC) Đảng Nhân dân Đài Loan (TPP)",
+            "96": "(KHÔNG ĐỌC) Không cảm thấy gần gũi với đảng nào",
+            "97": "(KHÔNG ĐỌC) Một số đảng khác",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q50": {
+        "question": "Q50. Bây giờ nghĩ về việc sử dụng điện thoại của ông/bà, có ít nhất một chiếc điện thoại BÊN TRONG nhà ông/bà hiện đang hoạt động và không phải là điện thoại di động không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "Q51": {
+        "question": "Q51. Bây giờ nghĩ về việc sử dụng điện thoại của ông/bà, ông/bà có điện thoại di động đang hoạt động không?",
+        "options": {
+            "1": "Có",
+            "2": "Không",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QZIPHKG": {
+        "question": "QZIPHKG. Vui lòng cho biết quận mà ông/bà đang sống.",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Trung và Tây",
+            "2": "(KHÔNG ĐỌC) Loan Tể (Wan Chai)",
+            "3": "(KHÔNG ĐỌC) Đông",
+            "4": "(KHÔNG ĐỌC) Nam",
+            "5": "(KHÔNG ĐỌC) Du Tiêm Vượng (Yau Tsim Mong)",
+            "6": "(KHÔNG ĐỌC) Thâm Thủy Bộ (Sham Shui Po)",
+            "7": "(KHÔNG ĐỌC) Cửu Long Thành (Kowloon City)",
+            "8": "(KHÔNG ĐỌC) Hoàng Đại Tiên (Wong Tai Sin)",
+            "9": "(KHÔNG ĐỌC) Quan Đường (Kwun Tong)",
+            "10": "(KHÔNG ĐỌC) Quỳ Thanh (Kwai Tsing)",
+            "11": "(KHÔNG ĐỌC) Thuyên Loan (Tsuen Wan)",
+            "12": "(KHÔNG ĐỌC) Đồn Môn (Tuen Mun)",
+            "13": "(KHÔNG ĐỌC) Nguyên Lãng (Yuen Long)",
+            "14": "(KHÔNG ĐỌC) Bắc",
+            "15": "(KHÔNG ĐỌC) Đại Bộ (Tai Po)",
+            "16": "(KHÔNG ĐỌC) Sa Điền (Sha Tin)",
+            "17": "(KHÔNG ĐỌC) Tây Cống (Sai Kung)",
+            "18": "(KHÔNG ĐỌC) Ly Đảo",
+            "19": "(KHÔNG ĐỌC) Hàng hải",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QZIPHKG2": {
+        "question": "QZIPHKG2. Ông/bà sống ở khu vực nào?",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Đảo Hồng Kông (HK)",
+            "2": "(KHÔNG ĐỌC) Cửu Long (KLN)",
+            "3": "(KHÔNG ĐỌC) Tân Giới (NT)",
+            "4": "(KHÔNG ĐỌC) Hàng hải",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QZIPJPN2": {
+        "question": "ZIPJPN2. Ông/bà sống ở khu vực nào?",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Hokkaido",
+            "2": "(KHÔNG ĐỌC) Tohoku",
+            "3": "(KHÔNG ĐỌC) Kanto",
+            "4": "(KHÔNG ĐỌC) Chubu",
+            "5": "(KHÔNG ĐỌC) Kansai",
+            "6": "(KHÔNG ĐỌC) Chugoku",
+            "7": "(KHÔNG ĐỌC) Shikoku",
+            "8": "(KHÔNG ĐỌC) Kyushu (bao gồm Okinawa)",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QZIPKOR": {
+        "question": "ZIPKOR. Ông/bà sống ở tỉnh nào?",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Seoul",
+            "2": "(KHÔNG ĐỌC) Busan",
+            "3": "(KHÔNG ĐỌC) Daegu",
+            "4": "(KHÔNG ĐỌC) Incheon",
+            "5": "(KHÔNG ĐỌC) Gwangju",
+            "6": "(KHÔNG ĐỌC) Daejeon",
+            "7": "(KHÔNG ĐỌC) Ulsan",
+            "8": "(KHÔNG ĐỌC) Gyeonggi-do",
+            "9": "(KHÔNG ĐỌC) Gangwon-do",
+            "10": "(KHÔNG ĐỌC) Chungcheongbuk-do",
+            "11": "(KHÔNG ĐỌC) Chungcheongnam-do",
+            "12": "(KHÔNG ĐỌC) Jeollabuk-do",
+            "13": "(KHÔNG ĐỌC) Jeollanam-do",
+            "14": "(KHÔNG ĐỌC) Gyeongsangbuk-do",
+            "15": "(KHÔNG ĐỌC) Gyeongsangnam-do",
+            "16": "(KHÔNG ĐỌC) Jeju-do",
+            "17": "(KHÔNG ĐỌC) Sejong",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "QZIPTWN": {
+        "question": "QZIPTWN. Vui lòng cho biết thành phố hoặc huyện mà ông/bà đang sống.",
+        "options": {
+            "1": "(KHÔNG ĐỌC) Thành phố Gia Nghĩa",
+            "2": "(KHÔNG ĐỌC) Huyện Gia Nghĩa",
+            "3": "(KHÔNG ĐỌC) Huyện Chương Hóa",
+            "4": "(KHÔNG ĐỌC) Thành phố Tân Trúc",
+            "5": "(KHÔNG ĐỌC) Huyện Tân Trúc",
+            "6": "(KHÔNG ĐỌC) Huyện Hoa Liên",
+            "7": "(KHÔNG ĐỌC) Thành phố Cao Hùng",
+            "8": "(KHÔNG ĐỌC) Thành phố Cơ Long",
+            "9": "(KHÔNG ĐỌC) Huyện Kim Môn",
+            "10": "(KHÔNG ĐỌC) Huyện Liên Giang",
+            "11": "(KHÔNG ĐỌC) Huyện Miêu Lật",
+            "12": "(KHÔNG ĐỌC) Huyện Nam Đầu",
+            "13": "(KHÔNG ĐỌC) Thành phố Tân Bắc",
+            "14": "(KHÔNG ĐỌC) Huyện Bành Hồ",
+            "15": "(KHÔNG ĐỌC) Huyện Bình Đông",
+            "16": "(KHÔNG ĐỌC) Thành phố Đài Trung",
+            "17": "(KHÔNG ĐỌC) Thành phố Đài Nam",
+            "18": "(KHÔNG ĐỌC) Thành phố Đài Bắc",
+            "19": "(KHÔNG ĐỌC) Huyện Đài Đông",
+            "20": "(KHÔNG ĐỌC) Thành phố Đào Viên",
+            "21": "(KHÔNG ĐỌC) Huyện Nghi Lan",
+            "22": "(KHÔNG ĐỌC) Huyện Vân Lâm",
+            "98": "(KHÔNG ĐỌC) Không biết",
+            "99": "(KHÔNG ĐỌC) Từ chối trả lời"
+        }
+    },
+    "VietnamRegion": {
+        "question": "VietnamRegion. Vui lòng cho biết vùng mà ông/bà đang sống",
+        "options": {
+            "1": "Tây Nguyên",
+            "2": "Đồng bằng sông Cửu Long",
+            "3": "Bắc Trung Bộ và Duyên hải miền Trung",
+            "4": "Trung du và miền núi phía Bắc",
+            "5": "Đồng bằng sông Hồng",
+            "6": "Đông Nam Bộ"
+        }
+    },
+    "GenderRec": {
+        "question": "Giới tính",
+        "options": {
+            "1": "Nam",
+            "2": "Nữ",
+            "999": "Khác/Không biết/Từ chối"
+        }
+    },
+    "Language": {
+        "question": "Ngôn ngữ thực hiện phỏng vấn",
+        "options": {
+            "1": "Tiếng Quảng Đông",
+            "2": "Tiếng Quan Thoại (Hồng Kông)",
+            "3": "Tiếng Anh",
+            "4": "Tiếng Nhật",
+            "5": "Tiếng Hàn",
+            "6": "Tiếng Quan Thoại (Đài Loan)",
+            "7": "Tiếng Phúc Kiến",
+            "8": "Tiếng Việt"
+        }
+    },
+    "ISCED": {
+        "question": "ISCED. Mã hóa lại ISCED",
+        "options": {
+            "1": "ISCED Cấp độ một",
+            "2": "ISCED Cấp độ hai",
+            "3": "ISCED Cấp độ ba",
+            "4": "ISCED Cấp độ bốn",
+            "5": "ISCED Cấp độ năm hoặc cao hơn",
+            "98": "Không biết",
+            "99": "Từ chối trả lời"
+        }
+    },
+    "UrbanVietnam": {
+        "question": "Urban. Khu vực đô thị ở Việt Nam",
+        "options": {
+            "1": "Thành thị",
+            "2": "Nông thôn"
+        }
+    }
+}
