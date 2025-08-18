@@ -7,6 +7,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
 import torch
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
+import argparse
 
 # Set all seeds for reproducibility
 torch.manual_seed(42)
@@ -140,6 +141,12 @@ def compare_distributions(d1, d2, num_options):
     return 1 - (wd / (num_options - 1))
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--country', type=str, default=None)
+    parser.add_argument('--language', type=str, default=LANGUAGE)
+    args = parser.parse_args()
+    LANGUAGE = args.language
+
     responses = pd.read_csv('responses.csv')
     with open(f'ind_{LANGUAGE}.json') as f:
         questions = json.load(f)

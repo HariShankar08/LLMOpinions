@@ -7,6 +7,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
 import torch
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
+import argparse
 
 # Set all seeds for reproducibility
 torch.manual_seed(42)
@@ -26,6 +27,15 @@ TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if torch.backends.mps.is_available():
     DEVICE = torch.device("mps")
+
+country_ids = {
+    'ca': 1,
+    'id': 2,
+    'ms': 3,
+    'sg': 5,
+    'sl': 6,
+    'th': 7
+}
 
 def get_question_distribution(df, question):
     # Get the distribution of answers for a specific question
@@ -237,10 +247,20 @@ def compare_distributions(d1, d2, num_options):
     return 1 - (wd / (num_options - 1))
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--country', type=str, default=COUNTRY)
+    parser.add_argument('--language', type=str, default=LANGUAGE)
+    args = parser.parse_args()
+    COUNTRY = args.country
+    LANGUAGE = args.language
+
     responses = pd.read_csv('responses.csv')
     with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
         questions = json.load(f)
-    
+
+    country = country_ids[COUNTRY]
+    responses = responses[responses['COUNTRY'] == country]
+
     scores = []
     for question in tqdm(questions):
         if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
