@@ -5,6 +5,9 @@
 
 set -e  # Exit on any error
 
+# Store the original directory
+ORIGINAL_DIR=$(pwd)
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -13,7 +16,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Create logs directory
-LOGS_DIR="evaluation_logs"
+LOGS_DIR="$ORIGINAL_DIR/evaluation_logs"
 mkdir -p "$LOGS_DIR"
 
 # Get timestamp for this run
@@ -34,7 +37,7 @@ log_message() {
 run_region_evaluations() {
     local region=$1
     local script_name=$2
-    local base_dir="Translate/$region"
+    local base_dir="$ORIGINAL_DIR/Translate/$region"
     
     if [ ! -d "$base_dir" ]; then
         log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
@@ -60,7 +63,7 @@ run_region_evaluations() {
         local country=$(echo "$filename" | cut -d'_' -f1)
         local language=$(echo "$filename" | cut -d'_' -f2)
         
-        # Create individual log file for this evaluation
+        # Create individual log file for this evaluation (using absolute path)
         local eval_log="$LOGS_DIR/${region}_${country}_${language}_${TIMESTAMP}.log"
         
         log_message "${BLUE}Running evaluation for $country ($language) in $region...${NC}"
@@ -92,7 +95,7 @@ run_region_evaluations() {
         fi
         
         # Return to original directory
-        cd - > /dev/null
+        cd "$ORIGINAL_DIR"
         
         log_message ""
     done
@@ -100,7 +103,7 @@ run_region_evaluations() {
 
 # Function to run evaluation for IND region (special case)
 run_ind_evaluations() {
-    local base_dir="IND"
+    local base_dir="$ORIGINAL_DIR/IND"
     
     if [ ! -d "$base_dir" ]; then
         log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
@@ -126,7 +129,7 @@ run_ind_evaluations() {
         local country=$(echo "$filename" | cut -d'_' -f1)
         local language=$(echo "$filename" | cut -d'_' -f2)
         
-        # Create individual log file for this evaluation
+        # Create individual log file for this evaluation (using absolute path)
         local eval_log="$LOGS_DIR/IND_${country}_${language}_${TIMESTAMP}.log"
         
         log_message "${BLUE}Running evaluation for $country ($language)...${NC}"
@@ -158,7 +161,7 @@ run_ind_evaluations() {
         fi
         
         # Return to original directory
-        cd - > /dev/null
+        cd "$ORIGINAL_DIR"
         
         log_message ""
     done
@@ -168,7 +171,7 @@ run_ind_evaluations() {
 run_nocot_evaluations() {
     local region=$1
     local script_name="evaluate_model_noCoT.py"
-    local base_dir="Translate/$region"
+    local base_dir="$ORIGINAL_DIR/Translate/$region"
     
     if [ ! -d "$base_dir" ]; then
         log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
@@ -194,7 +197,7 @@ run_nocot_evaluations() {
         local country=$(echo "$filename" | cut -d'_' -f1)
         local language=$(echo "$filename" | cut -d'_' -f2)
         
-        # Create individual log file for this evaluation
+        # Create individual log file for this evaluation (using absolute path)
         local eval_log="$LOGS_DIR/${region}_${country}_${language}_noCoT_${TIMESTAMP}.log"
         
         log_message "${BLUE}Running noCoT evaluation for $country ($language) in $region...${NC}"
@@ -226,7 +229,7 @@ run_nocot_evaluations() {
         fi
         
         # Return to original directory
-        cd - > /dev/null
+        cd "$ORIGINAL_DIR"
         
         log_message ""
     done
