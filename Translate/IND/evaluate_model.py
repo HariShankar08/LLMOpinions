@@ -40,7 +40,7 @@ def get_question_distribution(df, question):
 def get_prompt(question, questions):
     # Get the prompt based on the question and its context.
     qdict = questions[question]
-    prompt = qdict['question'] + '\n'
+    prompt = f'Question: {qdict['question']}\n'
     for option in sorted(qdict['options'], key=lambda x: int(x)):
         prompt += f'{option}: {qdict["options"][option]}\n'
     return prompt
