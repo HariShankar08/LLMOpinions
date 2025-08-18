@@ -201,6 +201,8 @@ def compare_distributions(d1, d2, num_options):
         d1 = d1.reindex(d2.index, fill_value=0)
     
     wd = wasserstein_distance(d1, d2)
+    if num_options == 1:
+        return 1  # There is no diversity if there is only one option.
     return 1 - (wd / (num_options - 1))
 
 if __name__ == "__main__":
