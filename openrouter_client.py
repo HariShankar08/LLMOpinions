@@ -36,7 +36,7 @@ class OpenRouterClient:
         # For tokenization compatibility with existing code
         self.tokenizer = None
         
-    def set_tokenizer_for_compatibility(self, model_name: str = "meta-llama/Llama-3.2-1B-Instruct"):
+    def set_tokenizer_for_compatibility(self, model_name: str = "microsoft/DialoGPT-medium"):
         """
         Set a tokenizer for compatibility with existing code that expects tokenizer methods.
         This is used for token encoding/decoding in probability calculations.
@@ -277,7 +277,7 @@ def create_openrouter_model(model_name: str, api_key: Optional[str] = None):
     return OpenRouterModelWrapper(model_name, api_key)
 
 
-def create_openrouter_tokenizer(base_model: str = "meta-llama/Llama-3.2-1B-Instruct"):
+def create_openrouter_tokenizer(base_model: str = "microsoft/DialoGPT-medium"):
     """
     Create a tokenizer for compatibility with OpenRouter models.
     
@@ -300,6 +300,7 @@ OPENROUTER_MODELS = {
     "gpt-4o": "openai/gpt-4o",
     "gpt-4": "openai/gpt-4",
     "gpt-3.5-turbo": "openai/gpt-3.5-turbo",
+    "gpt-oss-20b-free": "openai/gpt-oss-20b:free",
     "claude-3.5-sonnet": "anthropic/claude-3.5-sonnet",
     "claude-3-haiku": "anthropic/claude-3-haiku", 
     "llama-3.1-8b": "meta-llama/llama-3.1-8b-instruct",

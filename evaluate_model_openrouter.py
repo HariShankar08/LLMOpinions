@@ -79,7 +79,7 @@ class ModelEvaluator:
         
         # Set up tokenizer for compatibility
         from transformers import AutoTokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+        self.tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
@@ -338,33 +338,33 @@ def main():
     
     # Import region-specific question sets
     if args.region == "EA":
-        from EA.model_questions import *
-        cols = list(ASK_ALL_QUESTIONS)
+        import EA.model_questions as ea_questions
+        cols = list(ea_questions.ASK_ALL_QUESTIONS)
         if args.country == 'JPN':
-            cols.extend(ASK_JP_QUESTIONS)
+            cols.extend(ea_questions.ASK_JP_QUESTIONS)
         elif args.country == 'HKG':
-            cols.extend(ASK_HK_QUESTIONS)
+            cols.extend(ea_questions.ASK_HK_QUESTIONS)
         elif args.country == 'KOR':
-            cols.extend(ASK_SK_QUESTIONS)
+            cols.extend(ea_questions.ASK_SK_QUESTIONS)
         elif args.country == 'TWN':
-            cols.extend(ASK_TW_QUESTIONS)
+            cols.extend(ea_questions.ASK_TW_QUESTIONS)
         elif args.country == 'VNM':
-            cols.extend(ASK_VIET_QUESTIONS)
+            cols.extend(ea_questions.ASK_VIET_QUESTIONS)
     elif args.region == "SEA":
-        from SEA.model_questions import *
-        cols = list(ASK_ALL_QUESTIONS)
+        import SEA.model_questions as sea_questions
+        cols = list(sea_questions.ASK_ALL_QUESTIONS)
         if args.country == 'KHM':
-            cols.extend(ASK_CAM_QUESTIONS)
+            cols.extend(sea_questions.ASK_CAM_QUESTIONS)
         elif args.country == 'IDN':
-            cols.extend(ASK_ID_QUESTIONS)
+            cols.extend(sea_questions.ASK_ID_QUESTIONS)
         elif args.country == 'SGP':
-            cols.extend(ASK_SG_QUESTIONS)
+            cols.extend(sea_questions.ASK_SG_QUESTIONS)
         elif args.country == 'MYS':
-            cols.extend(ASK_MALAY_QUESTIONS)
+            cols.extend(sea_questions.ASK_MALAY_QUESTIONS)
         elif args.country == 'LKA':
-            cols.extend(ASK_SL_QUESTIONS)
+            cols.extend(sea_questions.ASK_SL_QUESTIONS)
         elif args.country == 'THA':
-            cols.extend(ASK_TH_QUESTIONS)
+            cols.extend(sea_questions.ASK_TH_QUESTIONS)
     elif args.region == "IND":
         # For India, we'll use all available questions from the JSON file
         cols = [q for q in questions.keys() if isinstance(questions[q], dict) and 
