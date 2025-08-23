@@ -8,6 +8,8 @@ import torch
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import argparse
+import os
+import pickle
 
 # Set all seeds for reproducibility
 torch.manual_seed(42)
@@ -19,13 +21,40 @@ set_seed(42)
 
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'hi'
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
+
+MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
+MODEL_SHORT = "qwen3-4b-thinking"   
+
+MODEL = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+TOKENIZER = AutoTokenizer.from_pretrained(MODEL_NAME)
 TOKENIZER.pad_token = TOKENIZER.eos_token
 TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if torch.backends.mps.is_available():
     DEVICE = torch.device("mps")
+
+def get_cache_filename(country, language, model_name=MODEL_SHORT):
+    """Generate cache filename based on country, language, and model."""
+    return f"cache_{country}_{language}_{model_name}.pkl"
+
+def load_cached_distributions(cache_file):
+    """Load cached model distributions from file."""
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'rb') as f:
+                return pickle.load(f)
+        except Exception as e:
+            print(f"Warning: Could not load cache file {cache_file}: {e}")
+    return {}
+
+def save_cached_distributions(cache_file, distributions):
+    """Save model distributions to cache file."""
+    try:
+        with open(cache_file, 'wb') as f:
+            pickle.dump(distributions, f)
+        print(f"Saved cached distributions to {cache_file}")
+    except Exception as e:
+        print(f"Warning: Could not save cache file {cache_file}: {e}")
 
 def get_question_distribution(df, question):
     # Get the distribution of answers for a specific question
@@ -61,7 +90,7 @@ def get_system_prompt(steering=False):
 
 def get_reasoning_start_prompt():
     if LANGUAGE == 'en':
-        return 'Let’s think step by step.'
+        return 'Let\'s think step by step.'
     elif LANGUAGE == 'hi':
         return 'चलिए, चरणबद्ध तरीके से सोचते हैं।'
     
@@ -85,7 +114,14 @@ def make_model_distribution(logits, question, questions_dict):
     # The values will now be floats, as expected.
     return pd.Series(model_distribution)
 
-def get_model_distribution(df, question, questions, chat_model=True):
+def get_model_distribution(df, question, questions, chat_model=True, cached_distributions=None):
+    # Check if we have a cached distribution for this question
+    if cached_distributions is not None and question in cached_distributions:
+        print(f"Using cached distribution for question: {question}")
+        return cached_distributions[question]
+    
+    print(f"Computing distribution for question: {question}")
+    
     # Get the prompt based on the question.
     prompt = get_prompt(question, questions)
     system_prompt = get_system_prompt(steering=False)
@@ -148,13 +184,26 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=None)
     parser.add_argument('--language', type=str, default=LANGUAGE)
+    parser.add_argument('--secondary-filter-var', type=str, default=None)
+    parser.add_argument('--secondary-filter-value', type=str, default=None)
     args = parser.parse_args()
     LANGUAGE = args.language
+    SECONDARY_FILTER_VAR = args.secondary_filter_var
+    SECONDARY_FILTER_VALUE = args.secondary_filter_value
+    COUNTRY = 'ind'  # Default for IND region
+
+    # Setup caching
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE)
+    cached_distributions = load_cached_distributions(cache_file)
+    new_distributions = {}
 
     responses = pd.read_csv('responses.csv')
     with open(f'ind_{LANGUAGE}.json') as f:
         questions = json.load(f)
     
+    if SECONDARY_FILTER_VAR is not None and SECONDARY_FILTER_VALUE is not None:
+        responses = responses[responses[SECONDARY_FILTER_VAR] == SECONDARY_FILTER_VALUE]
+
     scores = []
     for question in tqdm(questions):
         if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
@@ -166,10 +215,17 @@ if __name__ == "__main__":
             # We now need qd2, which represents the distribution from the model's response.
             # We first need to generate the model response.
             # Assuming we have a function to generate model responses
-            qd2 = get_model_distribution(responses, question, questions)
+            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions)
+            
+            # Save the distribution for future use
+            new_distributions[question] = qd2
 
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
+    
+    # Save all distributions to cache
+    all_distributions = {**cached_distributions, **new_distributions}
+    save_cached_distributions(cache_file, all_distributions)
     
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
