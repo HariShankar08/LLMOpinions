@@ -19,8 +19,8 @@ set_seed(42)
 
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'hi'
-MODEL = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
-TOKENIZER = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+MODEL = AutoModelForCausalLM.from_pretrained("openai/gpt-oss-20b")
+TOKENIZER = AutoTokenizer.from_pretrained("openai/gpt-oss-20b")
 TOKENIZER.pad_token = TOKENIZER.eos_token
 TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
