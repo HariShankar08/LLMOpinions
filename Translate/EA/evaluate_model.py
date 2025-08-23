@@ -20,8 +20,8 @@ set_seed(42)
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'en'
 COUNTRY = 'hk'
-MODEL = AutoModelForCausalLM.from_pretrained("openai/gpt-oss-20b")
-TOKENIZER = AutoTokenizer.from_pretrained("openai/gpt-oss-20b")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
 TOKENIZER.pad_token = TOKENIZER.eos_token
 TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
