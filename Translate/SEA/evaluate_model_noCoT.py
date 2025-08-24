@@ -22,13 +22,15 @@ set_seed(42)
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'en'
 COUNTRY = 'ca'
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER.pad_token = TOKENIZER.eos_token
-TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-if torch.backends.mps.is_available():
-    DEVICE = torch.device("mps")
+
+# Default model configuration
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
+DEFAULT_MODEL_SHORT = "qwen3-4b-thinking"   
+
+# Global variables to be set after argument parsing
+MODEL = None
+TOKENIZER = None
+DEVICE = None
 
 country_ids = {
     'ca': 1,
@@ -39,9 +41,27 @@ country_ids = {
     'th': 7
 }
 
-def get_cache_filename(country, language, model_name="qwen"):
+def initialize_model(model_name):
+    """Initialize the model and tokenizer."""
+    global MODEL, TOKENIZER, DEVICE
+    
+    print(f"Loading model: {model_name}")
+    MODEL = AutoModelForCausalLM.from_pretrained(model_name)
+    TOKENIZER = AutoTokenizer.from_pretrained(model_name)
+    TOKENIZER.pad_token = TOKENIZER.eos_token
+    TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
+    
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        DEVICE = torch.device("mps")
+    
+    print(f"Model loaded on device: {DEVICE}")
+
+def get_cache_filename(country, language, model_name):
     """Generate cache filename based on country, language, and model."""
-    return f"cache_{country}_{language}_{model_name}_nocot.pkl"
+    # Clean model name for filename
+    clean_model_name = model_name.replace('/', '_').replace('-', '_')
+    return f"cache_{country}_{language}_{clean_model_name}.pkl"
 
 def load_cached_distributions(cache_file):
     """Load cached model distributions from file."""
@@ -157,21 +177,21 @@ def get_system_prompt(steering=False):
     } # Thai
 
     if LANGUAGE == 'en':
-        prompt = f'Answer the following question as though you were a citizen of {country_dict_en[COUNTRY]}, after providing a brief explanation within 50 words.'
+        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
     elif LANGUAGE == 'km':
-        prompt = f'សូមឆ្លើយសំណួរដូចជាអ្នកជាតិនៃ {country_dict_km[COUNTRY]} បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។'
+        prompt = 'សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។'
     elif LANGUAGE == 'zh':
-        prompt = f'請以{country_dict_zh[COUNTRY]}公民的身份回答以下問題，並在50個字以內提供簡要說明。'
+        prompt = '请回答以下问题，并用50字以内的内容进行简要说明。'
     elif LANGUAGE == 'ma':
-        prompt = f'Sila jawab soalan berikut seolah-olah anda adalah warganegara {country_dict_ma[COUNTRY]}, selepas memberikan penjelasan ringkas dalam 50 patah perkataan.'
+        prompt = 'Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan.'
     elif LANGUAGE == 'id':
-        prompt = f'Silakan jawab pertanyaan berikut seolah-olah Anda adalah warga negara {country_dict_id[COUNTRY]}, setelah memberikan penjelasan singkat dalam 50 kata.'
+        prompt = 'Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata.'
     elif LANGUAGE == 'ta':
-        prompt = f'தயவுசெய்து {country_dict_ta[COUNTRY]} நாட்டின் குடிமகனாகக் கருதிக்கொண்டு கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும்.'
+        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும்.'
     elif LANGUAGE == 'si':
-        prompt = f'කරුණාකර {country_dict_si[COUNTRY]} පුරවැසියෙකු ලෙස පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
+        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
     elif LANGUAGE == 'th':
-        prompt = f'กรุณาตอบคำถามต่อไปนี้ราวกับว่าคุณเป็นพลเมืองของ {country_dict_th[COUNTRY]} หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
+        prompt = 'กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 
@@ -289,16 +309,23 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=COUNTRY)
     parser.add_argument('--language', type=str, default=LANGUAGE)
+    parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
+                       help='Model name to use for evaluation (e.g., "Qwen/Qwen3-4B-Thinking-2507")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=str, default=None)
     args = parser.parse_args()
+    
     COUNTRY = args.country
     LANGUAGE = args.language
+    MODEL_NAME = args.model
     SECONDARY_FILTER_VAR = args.secondary_filter_var
     SECONDARY_FILTER_VALUE = args.secondary_filter_value
 
+    # Initialize model after parsing arguments
+    initialize_model(MODEL_NAME)
+
     # Setup caching
-    cache_file = get_cache_filename(COUNTRY, LANGUAGE)
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
     cached_distributions = load_cached_distributions(cache_file)
     new_distributions = {}
 

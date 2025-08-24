@@ -235,6 +235,140 @@ run_nocot_evaluations() {
     done
 }
 
+# Function to run Gemini evaluations for a specific region
+run_gemini_evaluations() {
+    local region=$1
+    local script_name="evaluate_model_gemini.py"
+    local base_dir="$ORIGINAL_DIR/Translate/$region"
+    
+    if [ ! -d "$base_dir" ]; then
+        log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
+        return
+    fi
+    
+    log_message "${GREEN}Processing Gemini evaluations for region: $region${NC}"
+    
+    # Find all JSON files in the region directory
+    local json_files=$(find "$base_dir" -name "*.json" -type f)
+    
+    if [ -z "$json_files" ]; then
+        log_message "${YELLOW}No JSON files found in $base_dir${NC}"
+        return
+    fi
+    
+    # Process each JSON file
+    for json_file in $json_files; do
+        # Extract filename without path and extension
+        local filename=$(basename "$json_file" .json)
+        
+        # Parse country and language from filename (format: country_language.json)
+        local country=$(echo "$filename" | cut -d'_' -f1)
+        local language=$(echo "$filename" | cut -d'_' -f2)
+        
+        # Create individual log file for this evaluation
+        local eval_log="$LOGS_DIR/${region}_${country}_${language}_gemini_${TIMESTAMP}.log"
+        
+        log_message "${BLUE}Running Gemini evaluation for $country ($language) in $region...${NC}"
+        log_message "Individual log: $eval_log"
+        
+        # Change to the region directory
+        cd "$base_dir"
+        
+        # Run the Gemini evaluation script and capture output
+        local start_time=$(date +"%Y-%m-%d %H:%M:%S")
+        echo "=== Gemini Evaluation started at $start_time ===" > "$eval_log"
+        echo "Region: $region" >> "$eval_log"
+        echo "Country: $country" >> "$eval_log"
+        echo "Language: $language" >> "$eval_log"
+        echo "Script: $script_name" >> "$eval_log"
+        echo "=============================================" >> "$eval_log"
+        echo "" >> "$eval_log"
+        
+        if python "$script_name" --country "$country" --language "$language" 2>&1 | tee -a "$eval_log"; then
+            local end_time=$(date +"%Y-%m-%d %H:%M:%S")
+            echo "" >> "$eval_log"
+            echo "=== Gemini Evaluation completed successfully at $end_time ===" >> "$eval_log"
+            log_message "${GREEN}✓ Successfully completed Gemini evaluation for $country ($language) in $region${NC}"
+        else
+            local end_time=$(date +"%Y-%m-%d %H:%M:%S")
+            echo "" >> "$eval_log"
+            echo "=== Gemini Evaluation FAILED at $end_time ===" >> "$eval_log"
+            log_message "${RED}✗ Failed to complete Gemini evaluation for $country ($language) in $region${NC}"
+        fi
+        
+        # Return to original directory
+        cd "$ORIGINAL_DIR"
+        
+        log_message ""
+    done
+}
+
+# Function to run Gemini evaluation for IND region (special case)
+run_gemini_ind_evaluations() {
+    local base_dir="$ORIGINAL_DIR/IND"
+    
+    if [ ! -d "$base_dir" ]; then
+        log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
+        return
+    fi
+    
+    log_message "${GREEN}Processing Gemini evaluations for region: IND${NC}"
+    
+    # Find all JSON files in the IND directory
+    local json_files=$(find "$base_dir" -name "*.json" -type f)
+    
+    if [ -z "$json_files" ]; then
+        log_message "${YELLOW}No JSON files found in $base_dir${NC}"
+        return
+    fi
+    
+    # Process each JSON file
+    for json_file in $json_files; do
+        # Extract filename without path and extension
+        local filename=$(basename "$json_file" .json)
+        
+        # Parse country and language from filename (format: ind_language.json)
+        local country=$(echo "$filename" | cut -d'_' -f1)
+        local language=$(echo "$filename" | cut -d'_' -f2)
+        
+        # Create individual log file for this evaluation
+        local eval_log="$LOGS_DIR/IND_${country}_${language}_gemini_${TIMESTAMP}.log"
+        
+        log_message "${BLUE}Running Gemini evaluation for $country ($language)...${NC}"
+        log_message "Individual log: $eval_log"
+        
+        # Change to the IND directory
+        cd "$base_dir"
+        
+        # Run the Gemini evaluation script and capture output
+        local start_time=$(date +"%Y-%m-%d %H:%M:%S")
+        echo "=== Gemini Evaluation started at $start_time ===" > "$eval_log"
+        echo "Region: IND" >> "$eval_log"
+        echo "Country: $country" >> "$eval_log"
+        echo "Language: $language" >> "$eval_log"
+        echo "Script: evaluate_model_gemini.py" >> "$eval_log"
+        echo "=============================================" >> "$eval_log"
+        echo "" >> "$eval_log"
+        
+        if python "evaluate_model_gemini.py" --country "$country" --language "$language" 2>&1 | tee -a "$eval_log"; then
+            local end_time=$(date +"%Y-%m-%d %H:%M:%S")
+            echo "" >> "$eval_log"
+            echo "=== Gemini Evaluation completed successfully at $end_time ===" >> "$eval_log"
+            log_message "${GREEN}✓ Successfully completed Gemini evaluation for $country ($language)${NC}"
+        else
+            local end_time=$(date +"%Y-%m-%d %H:%M:%S")
+            echo "" >> "$eval_log"
+            echo "=== Gemini Evaluation FAILED at $end_time ===" >> "$eval_log"
+            log_message "${RED}✗ Failed to complete Gemini evaluation for $country ($language)${NC}"
+        fi
+        
+        # Return to original directory
+        cd "$ORIGINAL_DIR"
+        
+        log_message ""
+    done
+}
+
 # Main execution
 log_message "${BLUE}=== Running Standard Evaluations ===${NC}"
 log_message ""
@@ -251,6 +385,14 @@ log_message ""
 run_nocot_evaluations "SEA"
 run_nocot_evaluations "EA"
 run_nocot_evaluations "IND"
+
+log_message "${BLUE}=== Running Gemini Evaluations ===${NC}"
+log_message ""
+
+# Run Gemini evaluations for each region
+run_gemini_evaluations "SEA"
+run_gemini_evaluations "EA"
+run_gemini_ind_evaluations
 
 log_message "${GREEN}All evaluations completed!${NC}"
 

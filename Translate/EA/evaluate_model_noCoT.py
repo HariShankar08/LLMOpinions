@@ -22,13 +22,15 @@ set_seed(42)
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'en'
 COUNTRY = 'hk'
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER.pad_token = TOKENIZER.eos_token
-TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-if torch.backends.mps.is_available():
-    DEVICE = torch.device("mps")
+
+# Default model configuration
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
+DEFAULT_MODEL_SHORT = "qwen3-4b-thinking"   
+
+# Global variables to be set after argument parsing
+MODEL = None
+TOKENIZER = None
+DEVICE = None
         
 survey_publics = {
     'hk':1,
@@ -38,9 +40,27 @@ survey_publics = {
     'vi':6
 }
 
-def get_cache_filename(country, language, model_name="qwen"):
+def initialize_model(model_name):
+    """Initialize the model and tokenizer."""
+    global MODEL, TOKENIZER, DEVICE
+    
+    print(f"Loading model: {model_name}")
+    MODEL = AutoModelForCausalLM.from_pretrained(model_name)
+    TOKENIZER = AutoTokenizer.from_pretrained(model_name)
+    TOKENIZER.pad_token = TOKENIZER.eos_token
+    TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
+    
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        DEVICE = torch.device("mps")
+    
+    print(f"Model loaded on device: {DEVICE}")
+
+def get_cache_filename(country, language, model_name):
     """Generate cache filename based on country, language, and model."""
-    return f"cache_{country}_{language}_{model_name}_nocot.pkl"
+    # Clean model name for filename
+    clean_model_name = model_name.replace('/', '_').replace('-', '_')
+    return f"cache_{country}_{language}_{clean_model_name}.pkl"
 
 def load_cached_distributions(cache_file):
     """Load cached model distributions from file."""
@@ -124,15 +144,15 @@ def get_system_prompt(steering=False):
     }
 
     if LANGUAGE == 'en':
-        prompt = f'Answer the following question as though you were a citizen of {country_dict_en[COUNTRY]}, after providing a brief explanation within 50 words.'
+        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
     elif LANGUAGE == 'zh':
-        prompt = f'請以{country_dict_zh[COUNTRY]}公民的身份回答以下問題，並在50個字以內提供簡要說明。'
+        prompt = '請回答下列問題，並在 50 字以內提供簡短解釋。'
     elif LANGUAGE == 'ja':
-        prompt = f'{country_dict_ja[COUNTRY]}の市民として、以下の質問に答えてください。50字以内で簡潔な説明を加えてください。'
+        prompt = '以下の質問に答えてください。50字以内で簡潔な説明を加えてください。'
     elif LANGUAGE == 'ko':
-        prompt = f'{country_dict_ko[COUNTRY]}의 시민으로서 다음 질문에 답하십시오. 50자 이내로 간단한 설명을 추가하십시오.'
+        prompt = '다음 질문에 답하십시오. 50자 이내로 간단한 설명을 추가하십시오.'
     elif LANGUAGE == 'vi':
-        prompt = f'Xin hãy trả lời câu hỏi sau như thể bạn là một công dân của {country_dict_vi[COUNTRY]}, sau khi cung cấp một lời giải thích ngắn gọn trong vòng 50 từ.'
+        prompt = 'Xin hãy trả lời câu hỏi sau, sau khi cung cấp một lời giải thích ngắn gọn trong vòng 50 từ.'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
@@ -246,16 +266,23 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=COUNTRY)
     parser.add_argument('--language', type=str, default=LANGUAGE)
+    parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
+                       help='Model name to use for evaluation (e.g., "Qwen/Qwen3-4B-Thinking-2507")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=str, default=None)
     args = parser.parse_args()
+    
     COUNTRY = args.country
     LANGUAGE = args.language
+    MODEL_NAME = args.model
     SECONDARY_FILTER_VAR = args.secondary_filter_var
     SECONDARY_FILTER_VALUE = args.secondary_filter_value
 
+    # Initialize model after parsing arguments
+    initialize_model(MODEL_NAME)
+
     # Setup caching
-    cache_file = get_cache_filename(COUNTRY, LANGUAGE)
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
     cached_distributions = load_cached_distributions(cache_file)
     new_distributions = {}
 

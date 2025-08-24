@@ -7,14 +7,16 @@ import json
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import argparse
-from openai import openai
+from openai import OpenAI
 import math
+from time import sleep
 
 
 
-API_KEY = ''  # Set your OpenRouter API key here
 
-client = openai.Client(
+API_KEY = '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'  # Set your OpenRouter API key here
+
+client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=API_KEY,
 )
@@ -22,8 +24,8 @@ client = openai.Client(
 
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'en'
-COUNTRY = 'hk'
-MODEL='openai/gpt-3.5-turbo'
+COUNTRY = 'ind'
+MODEL='google/gemma-3-27b-it:free'
 
 def get_question_distribution(df, question):
     # Get the distribution of answers for a specific question
@@ -47,9 +49,9 @@ def get_prompt(question, questions):
 
 def get_system_prompt(steering=False):
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question as though you were a citizen of India, after providing a brief explanation within 50 words.'
+        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
     elif LANGUAGE == 'hi':
-        prompt = 'निम्नलिखित प्रश्न का उत्तर इस प्रकार दीजिए जैसे कि आप भारत के नागरिक हों, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
+        prompt = 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
@@ -106,39 +108,71 @@ def get_model_distribution(df, question, questions, cot=True):
         )
         reasoning = reasoning_response.choices[0].message.content.strip()
         messages.append({"role": "assistant", "content": reasoning})
-        messages.append({"role": "user", "content": "Answer:"})
+        messages.append({"role": "user", "content": "Selected Option:"})
     else:
         # No CoT: directly ask for the answer
         messages = [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt + "\nAnswer:"}
+            {"role": "user", "content": prompt + "\nSelected Option:"}
         ]
 
-    answer_response = client.chat.completions.create(
-        model=MODEL,
-        messages=messages,
-        max_tokens=1,
-        temperature=0.0,
-        logprobs=True,
-        top_logprobs=10
-    )
+    try:
+        # Try to get logprobs
+        answer_response = client.chat.completions.create(
+            model=MODEL,
+            messages=messages,
+            max_tokens=1,
+            temperature=0.0,
+            logprobs=True,
+            top_logprobs=100
+        )
+        
+        # Check if logprobs are available
+        if (answer_response.choices[0].logprobs is None or 
+            not answer_response.choices[0].logprobs.content or
+            not answer_response.choices[0].logprobs.content[0].top_logprobs):
+            print(f"Warning: Logprobs not available for model {MODEL}, using fallback method")
+            return get_model_distribution_fallback(questions, question)
+        
+        logprobs = answer_response.choices[0].logprobs.content[0].top_logprobs
+        print(logprobs)
+        
+        model_distribution = {}
+        for option in questions[question]['options']:
+            prob = 0.0
+            for item in logprobs:
+                if item.token.strip().lower() == option.strip().lower():
+                    logp = item.logprob
+                    prob = float(pow(10, logp / math.e))
+                    break
+            model_distribution[option] = prob
+        
+        print(model_distribution)
 
-    logprobs = answer_response.choices[0].logprobs.content[0].top_logprobs
+        total = sum(model_distribution.values())
+        if total > 0:
+            for k in model_distribution:
+                model_distribution[k] /= total
+        else:
+            # If no probabilities found, use uniform distribution
+            print(f"Warning: No valid probabilities found for question {question}, using uniform distribution")
+            return get_model_distribution_fallback(questions, question)
 
-    model_distribution = {}
-    for option in questions[question]['options']:
-        prob = 0.0
-        for token, logp in logprobs.items():
-            if token.strip() == option:
-                prob = float(pow(10, logp / math.e))
-                break
-        model_distribution[option] = prob
+        return pd.Series(model_distribution)
 
-    total = sum(model_distribution.values())
-    if total > 0:
-        for k in model_distribution:
-            model_distribution[k] /= total
+        
+    except Exception as e:
+        print(f"Error getting logprobs for model {MODEL}: {e}")
+        print("Falling back to alternative method")
+        return get_model_distribution_fallback(questions, question)
 
+
+def get_model_distribution_fallback(questions, question):
+    """Fallback method when logprobs are not available."""
+    # Use uniform distribution as fallback
+    options = questions[question]['options']
+    uniform_prob = 1.0 / len(options)
+    model_distribution = {option: uniform_prob for option in options}
     return pd.Series(model_distribution)
 
 
@@ -172,6 +206,8 @@ if __name__ == "__main__":
         questions = json.load(f)
 
     scores = []
+    # Prompt 10 questions, then sleep for 12 seconds. Repeat until all questions are processed.
+    count = 0
     for question in tqdm(questions):
         if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
             continue
@@ -180,6 +216,10 @@ if __name__ == "__main__":
             qd2 = get_model_distribution(responses, question, questions, cot=COT)
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
+            sleep(5)
+            count += 1
+            if count % 10 == 0:
+                sleep(12)
 
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)

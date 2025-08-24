@@ -1,28 +1,29 @@
 # By default, let the program compute the representativeness of the model.
 # We may filter some of the rows later to take a look at Alignment in specific.
 
-
 import pandas as pd
 import json
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import argparse
-from openai import openai
+import google.generativeai as genai
 import math
+from time import sleep
+import os
+import pickle
 
-
-
-API_KEY = ''  # Set your OpenRouter API key here
-
-client = openai.Client(
-    base_url="https://openrouter.ai/api/v1",
-    api_key=API_KEY,
-)
-
+# Configure Gemini API
+API_KEY = ''  # Set your Google API key here
+genai.configure(api_key=API_KEY)
 
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'en'
-COUNTRY = 'hk'
+COUNTRY = 'ca'
+
+# Default model configuration
+DEFAULT_MODEL = 'gemini-1.5-pro'
+
+# Country mappings for SEA
 country_ids = {
     'ca': 1,
     'id': 2,
@@ -32,7 +33,31 @@ country_ids = {
     'th': 7
 }
 
-MODEL='openai/gpt-3.5-turbo'
+def get_cache_filename(country, language, model_name):
+    """Generate cache filename based on country, language, and model."""
+    # Clean model name for filename
+    clean_model_name = model_name.replace('/', '_').replace('-', '_')
+    return f"cache_{country}_{language}_{clean_model_name}.pkl"
+
+def load_cached_distributions(cache_file):
+    """Load cached model distributions from file."""
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'rb') as f:
+                return pickle.load(f)
+        except Exception as e:
+            print(f"Warning: Could not load cache file {cache_file}: {e}")
+    return {}
+
+def save_cached_distributions(cache_file, distributions):
+    """Save model distributions to cache file."""
+    try:
+        with open(cache_file, 'wb') as f:
+            pickle.dump(distributions, f)
+        print(f"Saved cached distributions to {cache_file}")
+    except Exception as e:
+        print(f"Warning: Could not save cache file {cache_file}: {e}")
+
 
 def get_question_distribution(df, question):
     # Get the distribution of answers for a specific question
@@ -143,6 +168,7 @@ def get_system_prompt(steering=False):
         prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
     elif LANGUAGE == 'th':
         prompt = 'กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
+    
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 
@@ -151,7 +177,7 @@ def get_system_prompt(steering=False):
 
 def get_reasoning_start_prompt():
     if LANGUAGE == 'en':
-        prompt = f'Let’s think step by step.'
+        prompt = f'Let\'s think step by step.'
     elif LANGUAGE == 'km':
         prompt = f'មកគិតជាដំណាក់កាលៗគ្នា។'
     elif LANGUAGE == 'zh':
@@ -167,105 +193,79 @@ def get_reasoning_start_prompt():
     elif LANGUAGE == 'th':
         prompt = 'กรุณาคิดทีละขั้นตอน'
     return prompt
+
+
+def get_model_distribution(df, question, questions, cot=True, cached_distributions=None, model_name=DEFAULT_MODEL):
+    # Check if we have a cached distribution for this question
+    if cached_distributions is not None and question in cached_distributions:
+        print(f"Using cached distribution for question: {question}")
+        return cached_distributions[question]
     
-
-def make_model_distribution(logits, question, questions_dict):
-    # Make a dictionary to hold the model's answer distribution
-    model_distribution = {}
-
-    # `logits` here are actually probabilities after softmax, which is correct
-    probs = logits 
-
-    for option in questions_dict[question]['options']:
-        # 1. Encode the option string, disable special tokens, and get the first token ID.
-        #    This ensures you get the ID for just the character (e.g., "1") itself.
-        option_token_id = TOKENIZER.encode(option, add_special_tokens=False)[0]
-
-        # 2. Get the probability for that single token ID and convert it to a float.
-        model_distribution[option] = probs[0, option_token_id].item()
-
-    # Convert the model_distribution to a pandas series.
-    # The values will now be floats, as expected.
-    return pd.Series(model_distribution)
-
-
-
-
-def get_model_distribution(df, question, questions, cot=True):
+    print(f"Computing distribution for question: {question}")
+    
     prompt = get_prompt(question, questions)
     system_prompt = get_system_prompt(steering=False)
     reasoning_start_prompt = get_reasoning_start_prompt()
 
+    # Initialize Gemini model
+    model = genai.GenerativeModel(model_name)
+    
     if cot:
         # Chain-of-thought: generate reasoning, then ask for answer
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-            {"role": "assistant", "content": reasoning_start_prompt}
-        ]
-        reasoning_response = client.chat.completions.create(
-            model=MODEL,
-            messages=messages,
-            max_tokens=NUM_REASONING_TOKENS,
-            temperature=0.0
-        )
-        reasoning = reasoning_response.choices[0].message.content.strip()
-        messages.append({"role": "assistant", "content": reasoning})
-        messages.append({"role": "user", "content": "Answer:"})
+        full_prompt = f"{system_prompt}\n\n{prompt}\n\n{reasoning_start_prompt}"
+        
+        try:
+            reasoning_response = model.generate_content(full_prompt)
+            reasoning = reasoning_response.text.strip()
+            
+            # Now ask for the final answer
+            answer_prompt = f"{system_prompt}\n\n{prompt}\n\n{reasoning}\n\nSelected Option:"
+        except Exception as e:
+            print(f"Error in reasoning generation: {e}")
+            # Fallback to direct answer
+            answer_prompt = f"{system_prompt}\n\n{prompt}\n\nSelected Option:"
     else:
         # No CoT: directly ask for the answer
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt + "\nAnswer:"}
-        ]
+        answer_prompt = f"{system_prompt}\n\n{prompt}\n\nSelected Option:"
 
     try:
-        answer_response = client.chat.completions.create(
-            model=MODEL,
-            messages=messages,
-            max_tokens=1,
-            temperature=0.0,
-            logprobs=True,
-            top_logprobs=10
-        )
-
-        # Check if logprobs are available
-        if (answer_response.choices[0].logprobs is None or 
-            not answer_response.choices[0].logprobs.content or
-            not answer_response.choices[0].logprobs.content[0].top_logprobs):
-            print(f"Warning: Logprobs not available for model {MODEL}, using fallback method")
-            return get_model_distribution_fallback(questions, question)
-
-        logprobs = answer_response.choices[0].logprobs.content[0].top_logprobs
-
+        # Get the model's response
+        response = model.generate_content(answer_prompt)
+        answer_text = response.text.strip()
+        
+        # Extract the option from the response
         model_distribution = {}
-        for option in questions[question]['options']:
-            prob = 0.0
-            for token, logp in logprobs.items():
-                if token.strip() == option:
-                    prob = float(pow(10, logp / math.e))
-                    break
-            model_distribution[option] = prob
-
-        total = sum(model_distribution.values())
-        if total > 0:
-            for k in model_distribution:
-                model_distribution[k] /= total
+        options = questions[question]['options']
+        
+        # Try to find the option in the response
+        found_option = None
+        for option in options:
+            if option.strip().lower() in answer_text.lower():
+                found_option = option
+                break
+        
+        if found_option:
+            # Assign high probability to the found option, low to others
+            for option in options:
+                if option == found_option:
+                    model_distribution[option] = 0.8
+                else:
+                    model_distribution[option] = 0.2 / (len(options) - 1)
         else:
-            # If no probabilities found, use uniform distribution
-            print(f"Warning: No valid probabilities found for question {question}, using uniform distribution")
-            return get_model_distribution_fallback(questions, question)
-
+            # If no clear option found, use uniform distribution
+            uniform_prob = 1.0 / len(options)
+            model_distribution = {option: uniform_prob for option in options}
+        
         return pd.Series(model_distribution)
         
     except Exception as e:
-        print(f"Error getting logprobs for model {MODEL}: {e}")
-        print("Falling back to alternative method")
+        print(f"Error getting Gemini response for model {model_name}: {e}")
+        print("Falling back to uniform distribution")
         return get_model_distribution_fallback(questions, question)
 
 
 def get_model_distribution_fallback(questions, question):
-    """Fallback method when logprobs are not available."""
+    """Fallback method when Gemini API fails."""
     # Use uniform distribution as fallback
     options = questions[question]['options']
     uniform_prob = 1.0 / len(options)
@@ -285,37 +285,57 @@ def compare_distributions(d1, d2, num_options):
     return 1 - (wd / (num_options - 1))
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=COUNTRY)
     parser.add_argument('--language', type=str, default=LANGUAGE)
     parser.add_argument('--cot', action='store_true', help='Enable chain-of-thought reasoning')
-    parser.add_argument('--model', type=str, default=MODEL, help='Model to use for evaluation')
+    parser.add_argument('--model', type=str, default=DEFAULT_MODEL, 
+                       help='Gemini model to use for evaluation (e.g., "gemini-1.5-pro")')
     
     args = parser.parse_args()
+    
     COUNTRY = args.country
     LANGUAGE = args.language
     COT = args.cot
-    MODEL = args.model
+    MODEL_NAME = args.model
+
+    # Setup caching
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
+    cached_distributions = load_cached_distributions(cache_file)
+    new_distributions = {}
 
     responses = pd.read_csv('responses.csv')
     with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
         questions = json.load(f)
 
-    survey_public = survey_publics[COUNTRY]
-    responses = responses[responses['SurveyPublic'] == survey_public]
+    country = country_ids[COUNTRY]
+    responses = responses[responses['COUNTRY'] == country]
 
     scores = []
+    # Rate limiting: sleep between requests
+    count = 0
     for question in tqdm(questions):
         if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
             continue
         if 'question' in questions[question] and 'options' in questions[question]:
             qd1 = get_question_distribution(responses, question)
-            qd2 = get_model_distribution(responses, question, questions, cot=COT)
+            qd2 = get_model_distribution(responses, question, questions, cot=COT, 
+                                       cached_distributions=cached_distributions, model_name=MODEL_NAME)
+            
+            # Save the distribution for future use
+            new_distributions[question] = qd2
+            
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
+            sleep(2)  # Rate limiting for Gemini API
+            count += 1
+            if count % 10 == 0:
+                sleep(5)  # Longer pause every 10 requests
+
+    # Save all distributions to cache
+    all_distributions = {**cached_distributions, **new_distributions}
+    save_cached_distributions(cache_file, all_distributions)
 
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
-

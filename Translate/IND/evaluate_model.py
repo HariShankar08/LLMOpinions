@@ -21,17 +21,37 @@ set_seed(42)
 
 NUM_REASONING_TOKENS = 100
 LANGUAGE = 'hi'
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen3-4B-Thinking-2507")
-TOKENIZER.pad_token = TOKENIZER.eos_token
-TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-if torch.backends.mps.is_available():
-    DEVICE = torch.device("mps")
 
-def get_cache_filename(country, language, model_name="qwen"):
+# Default model configuration
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
+DEFAULT_MODEL_SHORT = "qwen3-4b-thinking"   
+
+# Global variables to be set after argument parsing
+MODEL = None
+TOKENIZER = None
+DEVICE = None
+
+def initialize_model(model_name):
+    """Initialize the model and tokenizer."""
+    global MODEL, TOKENIZER, DEVICE
+    
+    print(f"Loading model: {model_name}")
+    MODEL = AutoModelForCausalLM.from_pretrained(model_name)
+    TOKENIZER = AutoTokenizer.from_pretrained(model_name)
+    TOKENIZER.pad_token = TOKENIZER.eos_token
+    TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
+    
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        DEVICE = torch.device("mps")
+    
+    print(f"Model loaded on device: {DEVICE}")
+
+def get_cache_filename(country, language, model_name):
     """Generate cache filename based on country, language, and model."""
-    return f"cache_{country}_{language}_{model_name}_cot.pkl"
+    # Clean model name for filename
+    clean_model_name = model_name.replace('/', '_').replace('-', '_')
+    return f"cache_{country}_{language}_{clean_model_name}.pkl"
 
 def load_cached_distributions(cache_file):
     """Load cached model distributions from file."""
@@ -74,9 +94,9 @@ def get_prompt(question, questions):
 
 def get_system_prompt(steering=False):
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question as though you were a citizen of India, after providing a brief explanation within 50 words.'
+        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
     elif LANGUAGE == 'hi':
-        prompt = 'निम्नलिखित प्रश्न का उत्तर इस प्रकार दीजिए जैसे कि आप भारत के नागरिक हों, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
+        prompt = 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
@@ -179,24 +199,31 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=None)
     parser.add_argument('--language', type=str, default=LANGUAGE)
+    parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
+                       help='Model name to use for evaluation (e.g., "Qwen/Qwen3-4B-Thinking-2507")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=str, default=None)
     args = parser.parse_args()
+    
     LANGUAGE = args.language
+    MODEL_NAME = args.model
     SECONDARY_FILTER_VAR = args.secondary_filter_var
     SECONDARY_FILTER_VALUE = args.secondary_filter_value
     
     COUNTRY = 'ind'  # Default for IND region
 
+    # Initialize model after parsing arguments
+    initialize_model(MODEL_NAME)
+
     # Setup caching
-    cache_file = get_cache_filename(COUNTRY, LANGUAGE)
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
     cached_distributions = load_cached_distributions(cache_file)
     new_distributions = {}
 
     responses = pd.read_csv('responses.csv')
     with open(f'ind_{LANGUAGE}.json') as f:
         questions = json.load(f)
-
+ 
     if SECONDARY_FILTER_VAR is not None and SECONDARY_FILTER_VALUE is not None:
         responses = responses[responses[SECONDARY_FILTER_VAR] == SECONDARY_FILTER_VALUE]
 
