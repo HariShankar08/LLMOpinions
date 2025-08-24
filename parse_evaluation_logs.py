@@ -39,7 +39,7 @@ def parse_log_filename(filename: str) -> Optional[Tuple[str, str, str, str]]:
     return (region, country, language, eval_type)
 
 
-def extract_representativeness_score(log_content: str) -> Optional[float]:
+def extract_representativeness_score(log_content: str) -> Optional[str]:
     """
     Extract the average representativeness score from log content.
     
@@ -47,17 +47,14 @@ def extract_representativeness_score(log_content: str) -> Optional[float]:
         log_content: The content of the log file
         
     Returns:
-        The representativeness score as float, or None if not found
+        The representativeness score as string to preserve precision, or None if not found
     """
     # Look for the pattern "Average Representativeness: [number]"
     pattern = r'Average Representativeness:\s*([0-9.]+)'
     match = re.search(pattern, log_content)
     
     if match:
-        try:
-            return float(match.group(1))
-        except ValueError:
-            return None
+        return match.group(1)
     
     return None
 
@@ -96,7 +93,8 @@ def parse_log_file(filepath: str) -> Optional[Dict]:
             'country': country,
             'language': language,
             'eval_type': eval_type,
-            'representativeness': score,
+            'representativeness_str': score,  # Keep as string for precision
+            'representativeness': float(score),  # Convert to float for calculations
             'log_file': os.path.basename(filepath)
         }
         
@@ -147,12 +145,13 @@ def create_summary_table(df: pd.DataFrame) -> pd.DataFrame:
     # Group by region, country, language and calculate statistics
     summary = df.groupby(['region', 'country', 'language']).agg({
         'representativeness': ['mean', 'std', 'count'],
+        'representativeness_str': lambda x: ', '.join(x),  # Keep original strings
         'eval_type': lambda x: ', '.join(sorted(set(x))),
         'log_file': lambda x: ', '.join(sorted(set(x)))
-    }).round(4)
+    })
     
     # Flatten column names
-    summary.columns = ['avg_representativeness', 'std_representativeness', 'num_evaluations', 'eval_types', 'log_files']
+    summary.columns = ['avg_representativeness', 'std_representativeness', 'num_evaluations', 'representativeness_strings', 'eval_types', 'log_files']
     
     # Reset index to make region, country, language regular columns
     summary = summary.reset_index()
@@ -180,6 +179,11 @@ def print_summary_table(summary_df: pd.DataFrame):
     print(f"Overall average representativeness: {summary_df['avg_representativeness'].mean()}")
     print(f"Overall standard deviation: {summary_df['avg_representativeness'].std()}")
     
+    # Show original precision values
+    print(f"\nOriginal representativeness values from logs:")
+    for _, row in summary_df.iterrows():
+        print(f"  {row['region']} - {row['country']} ({row['language']}): {row['representativeness_strings']}")
+    
     # Print by region
     print("\n" + "-"*80)
     print("RESULTS BY REGION")
@@ -193,7 +197,7 @@ def print_summary_table(summary_df: pd.DataFrame):
         
         # Print individual results for this region
         for _, row in region_data.sort_values(['country', 'language']).iterrows():
-            print(f"    {row['country']} ({row['language']}): {row['avg_representativeness']}")
+            print(f"    {row['country']} ({row['language']}): {row['avg_representativeness']} (original: {row['representativeness_strings']})")
     
     # Print detailed table
     print("\n" + "-"*80)
@@ -205,7 +209,7 @@ def print_summary_table(summary_df: pd.DataFrame):
     display_df['avg_representativeness'] = display_df['avg_representativeness'].apply(lambda x: f"{x}")
     display_df['std_representativeness'] = display_df['std_representativeness'].apply(lambda x: f"{x}")
     
-    print(display_df[['region', 'country', 'language', 'avg_representativeness', 'std_representativeness', 'num_evaluations']].to_string(index=False))
+    print(display_df[['region', 'country', 'language', 'avg_representativeness', 'std_representativeness', 'num_evaluations', 'representativeness_strings']].to_string(index=False))
 
 
 def save_summary_to_csv(summary_df: pd.DataFrame, output_file: str = "evaluation_summary.csv"):
@@ -265,10 +269,10 @@ def main():
     worst_row = summary_df.loc[worst_idx]
     
     print(f"\nBest performing combination:")
-    print(f"  {best_row['region']} - {best_row['country']} ({best_row['language']}): {best_row['avg_representativeness']}")
+    print(f"  {best_row['region']} - {best_row['country']} ({best_row['language']}): {best_row['avg_representativeness']} (original: {best_row['representativeness_strings']})")
     
     print(f"\nWorst performing combination:")
-    print(f"  {worst_row['region']} - {worst_row['country']} ({worst_row['language']}): {worst_row['avg_representativeness']}")
+    print(f"  {worst_row['region']} - {worst_row['country']} ({worst_row['language']}): {worst_row['avg_representativeness']} (original: {worst_row['representativeness_strings']})")
     
     # Performance by evaluation type
     if len(df['eval_type'].unique()) > 1:
