@@ -177,8 +177,8 @@ def print_summary_table(summary_df: pd.DataFrame):
     
     # Print overall statistics
     print(f"\nTotal evaluations processed: {len(summary_df)}")
-    print(f"Overall average representativeness: {summary_df['avg_representativeness'].mean():.4f}")
-    print(f"Overall standard deviation: {summary_df['avg_representativeness'].std():.4f}")
+    print(f"Overall average representativeness: {summary_df['avg_representativeness'].mean()}")
+    print(f"Overall standard deviation: {summary_df['avg_representativeness'].std()}")
     
     # Print by region
     print("\n" + "-"*80)
@@ -188,12 +188,12 @@ def print_summary_table(summary_df: pd.DataFrame):
     for region in sorted(summary_df['region'].unique()):
         region_data = summary_df[summary_df['region'] == region]
         print(f"\n{region.upper()} REGION:")
-        print(f"  Average representativeness: {region_data['avg_representativeness'].mean():.4f}")
+        print(f"  Average representativeness: {region_data['avg_representativeness'].mean()}")
         print(f"  Number of evaluations: {len(region_data)}")
         
         # Print individual results for this region
         for _, row in region_data.sort_values(['country', 'language']).iterrows():
-            print(f"    {row['country']} ({row['language']}): {row['avg_representativeness']:.4f}")
+            print(f"    {row['country']} ({row['language']}): {row['avg_representativeness']}")
     
     # Print detailed table
     print("\n" + "-"*80)
@@ -202,8 +202,8 @@ def print_summary_table(summary_df: pd.DataFrame):
     
     # Format the table for display
     display_df = summary_df.copy()
-    display_df['avg_representativeness'] = display_df['avg_representativeness'].apply(lambda x: f"{x:.4f}")
-    display_df['std_representativeness'] = display_df['std_representativeness'].apply(lambda x: f"{x:.4f}")
+    display_df['avg_representativeness'] = display_df['avg_representativeness'].apply(lambda x: f"{x}")
+    display_df['std_representativeness'] = display_df['std_representativeness'].apply(lambda x: f"{x}")
     
     print(display_df[['region', 'country', 'language', 'avg_representativeness', 'std_representativeness', 'num_evaluations']].to_string(index=False))
 
@@ -265,17 +265,17 @@ def main():
     worst_row = summary_df.loc[worst_idx]
     
     print(f"\nBest performing combination:")
-    print(f"  {best_row['region']} - {best_row['country']} ({best_row['language']}): {best_row['avg_representativeness']:.4f}")
+    print(f"  {best_row['region']} - {best_row['country']} ({best_row['language']}): {best_row['avg_representativeness']}")
     
     print(f"\nWorst performing combination:")
-    print(f"  {worst_row['region']} - {worst_row['country']} ({worst_row['language']}): {worst_row['avg_representativeness']:.4f}")
+    print(f"  {worst_row['region']} - {worst_row['country']} ({worst_row['language']}): {worst_row['avg_representativeness']}")
     
     # Performance by evaluation type
     if len(df['eval_type'].unique()) > 1:
         print(f"\nPerformance by evaluation type:")
         for eval_type in sorted(df['eval_type'].unique()):
             eval_data = df[df['eval_type'] == eval_type]
-            print(f"  {eval_type}: {eval_data['representativeness'].mean():.4f} (n={len(eval_data)})")
+            print(f"  {eval_type}: {eval_data['representativeness'].mean()} (n={len(eval_data)})")
 
 
 if __name__ == "__main__":
