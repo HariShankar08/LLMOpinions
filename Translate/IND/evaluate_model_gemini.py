@@ -21,7 +21,7 @@ LANGUAGE = 'en'
 COUNTRY = 'ind'
 
 # Default model configuration
-DEFAULT_MODEL = 'gemini-1.5-pro'
+DEFAULT_MODEL = 'meta-llama/Llama-3.2-1B-Instruct'
 
 def get_cache_filename(country, language, model_name):
     """Generate cache filename based on country, language, and model."""

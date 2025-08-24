@@ -32,7 +32,7 @@ country_ids = {
     'th': 7
 }
 
-MODEL='openai/gpt-3.5-turbo'
+MODEL='meta-llama/Llama-3.2-1B-Instruct'
 
 def get_question_distribution(df, question):
     # Get the distribution of answers for a specific question

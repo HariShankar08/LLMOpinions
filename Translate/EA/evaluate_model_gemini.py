@@ -21,7 +21,7 @@ LANGUAGE = 'en'
 COUNTRY = 'hk'
 
 # Default model configuration
-DEFAULT_MODEL = 'gemini-1.5-pro'
+DEFAULT_MODEL = 'meta-llama/Llama-3.2-1B-Instruct'
 
 # Country mappings for EA
 survey_publics = {

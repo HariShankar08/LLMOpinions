@@ -24,8 +24,8 @@ LANGUAGE = 'en'
 COUNTRY = 'hk'
 
 # Default model configuration
-DEFAULT_MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
-DEFAULT_MODEL_SHORT = "qwen3-4b-thinking"   
+DEFAULT_MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
+DEFAULT_MODEL_SHORT = "llama-3.2-1b-instruct"   
 
 # Global variables to be set after argument parsing
 MODEL = None
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     parser.add_argument('--country', type=str, default=COUNTRY)
     parser.add_argument('--language', type=str, default=LANGUAGE)
     parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
-                       help='Model name to use for evaluation (e.g., "Qwen/Qwen3-4B-Thinking-2507")')
+                       help='Model name to use for evaluation (e.g., "meta-llama/Llama-3.2-1B-Instruct")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=str, default=None)
     args = parser.parse_args()
