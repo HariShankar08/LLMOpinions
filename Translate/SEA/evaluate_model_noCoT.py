@@ -234,9 +234,12 @@ def make_model_distribution(logits, question, questions_dict):
         # 2. Get the probability for that single token ID and convert it to a float.
         model_distribution[option] = probs[0, option_token_id].item()
 
-    # Convert the model_distribution to a pandas series.
-    # The values will now be floats, as expected.
-    return pd.Series(model_distribution)
+    # Convert to a pandas Series and normalize to sum to 1
+    series = pd.Series(model_distribution, dtype=float)
+    total = series.sum()
+    if total > 0:
+        series = series / total
+    return series
 
 
 def get_model_distribution(df, question, questions, chat_model=True, cached_distributions=None):
