@@ -6,6 +6,7 @@ import sys
 from datetime import datetime
 from glob import glob
 import argparse
+import csv
 
 # --- Configuration ---
 
@@ -29,6 +30,13 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 # Get a unique timestamp for this entire run
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 MAIN_LOG_PATH = os.path.join(LOGS_DIR, f"evaluation_run_{TIMESTAMP}.log")
+AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages_{TIMESTAMP}.csv")
+
+# Initialize CSV with header
+if not os.path.exists(AVERAGES_CSV_PATH):
+    with open(AVERAGES_CSV_PATH, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["timestamp", "region", "country", "language", "script", "suffix", "average_representativeness"]) 
 
 def log_message(message, color=Colors.NC):
     """
@@ -116,6 +124,26 @@ def run_evaluation(region, script_name, log_suffix=""):
                 for line in iter(process.stdout.readline, ''):
                     sys.stdout.write(line) # Show output on console
                     f.write(line) # Write output to log file
+
+                    # Capture and log average representativeness to CSV
+                    if "Average Representativeness:" in line:
+                        try:
+                            avg_str = line.strip().split(":", 1)[1].strip()
+                            average = float(avg_str)
+                            with open(AVERAGES_CSV_PATH, 'a', newline='') as csvfile:
+                                writer = csv.writer(csvfile)
+                                writer.writerow([
+                                    datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                                    region,
+                                    country,
+                                    language,
+                                    script_name,
+                                    (log_suffix or ""),
+                                    average
+                                ])
+                        except Exception:
+                            # Ignore parsing errors and continue
+                            pass
             
             process.stdout.close()
             return_code = process.wait()
