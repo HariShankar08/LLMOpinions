@@ -84,14 +84,22 @@ def save_cached_distributions(cache_file, distributions):
 
 
 def get_question_distribution(df, question):
-    # Get the distribution of answers for a specific question
-    question_data = df[question]
-    # Convert all values to strings.
-    question_data = question_data.astype(str)
-    # Ignore rows with NaN values, space, or empty strings
-    question_data = question_data[question_data.notna() & (question_data != "") & (question_data.str.strip() != "")]
+    if question not in df.columns or 'weight' not in df.columns:
+        raise ValueError(f"DataFrame must contain both '{question}' and 'weight' columns.")
 
-    return question_data.value_counts(normalize=True)
+    temp_df = df[[question, 'weight']].copy()
+
+    temp_df[question] = temp_df[question].astype(str)
+    temp_df[question] = temp_df[question].str.strip()
+    temp_df = temp_df[temp_df[question].notna() & (temp_df[question] != "") & (temp_df[question].str.lower() != 'nan')]
+
+    weighted_counts = temp_df.groupby(question)['weight'].sum()
+    total_weight = weighted_counts.sum()
+    if total_weight == 0:
+        return pd.Series(dtype=float)
+
+    weighted_distribution = weighted_counts / total_weight
+    return weighted_distribution
     
 
 def get_prompt(question, questions):
@@ -177,21 +185,21 @@ def get_system_prompt(steering=False):
     } # Thai
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
-    elif LANGUAGE == 'km':
-        prompt = 'សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។'
-    elif LANGUAGE == 'zh':
-        prompt = '请回答以下问题，并用50字以内的内容进行简要说明。'
+        prompt = 'Answer the following question.'
+    elif LANGUAGE == 'km': # Translation of "Answer the following question."
+        prompt = 'សូមឆ្លើយសំណួរ'
+    elif LANGUAGE == 'zh': # Translation of "Answer the following question."        
+        prompt = '请回答以下问题。'
     elif LANGUAGE == 'ma':
-        prompt = 'Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan.'
+        prompt = 'Sila jawab soalan berikut.'
     elif LANGUAGE == 'id':
-        prompt = 'Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata.'
+        prompt = 'Silakan jawab pertanyaan berikut.'
     elif LANGUAGE == 'ta':
-        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும்.'
+        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும்.'
     elif LANGUAGE == 'si':
-        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
-    elif LANGUAGE == 'th':
-        prompt = 'กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
+        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න.'
+    elif LANGUAGE == 'th':  # Translation of "Answer the following question."
+        prompt = 'กรุณาตอบคำถามต่อไปนี้'
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 
@@ -352,6 +360,9 @@ if __name__ == "__main__":
             # Assuming we have a function to generate model responses
             qd2 = get_model_distribution(responses, question, questions, cached_distributions=None)
 
+            if qd1.sum() == 0 or qd2.sum() == 0:
+                print(f"Skipping question {question}: zero-sum distribution detected")
+                continue
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             print(f"Question {question} score: {score}")
             scores.append(score)

@@ -73,15 +73,39 @@ def save_cached_distributions(cache_file, distributions):
         print(f"Warning: Could not save cache file {cache_file}: {e}")
 
 def get_question_distribution(df, question):
-    # Get the distribution of answers for a specific question
-    question_data = df[question]
-    # Convert all values to strings.
-    question_data = question_data.astype(str)
-    # Ignore rows with NaN values, space, or empty strings
-    question_data = question_data[question_data.notna() & (question_data != "") & (question_data.str.strip() != "")]
+    if question not in df.columns or 'weight' not in df.columns:
+        raise ValueError(f"DataFrame must contain both '{question}' and 'weight' columns.")
 
-    return question_data.value_counts(normalize=True)
+    # Create a working copy to avoid modifying the original DataFrame
+    temp_df = df[[question, 'weight']].copy()
+
+    # --- Data Cleaning ---
+    # Convert the question column to string type to handle mixed data types
+    temp_df[question] = temp_df[question].astype(str)
     
+    # Remove leading/trailing whitespace from answers
+    temp_df[question] = temp_df[question].str.strip()
+
+    # Filter out rows where the answer is NaN (as 'nan'), an empty string, or just whitespace
+    # The strip() above handles the whitespace case, so we only need to check for ""
+    # We also need to filter out rows where the original value might have been NaN
+    temp_df = temp_df[temp_df[question].notna() & (temp_df[question] != "") & (temp_df[question].str.lower() != 'nan')]
+
+    # --- Weighted Calculation ---
+    # Group by the unique answers and sum their corresponding weights
+    weighted_counts = temp_df.groupby(question)['weight'].sum()
+
+    # Calculate the total sum of weights for normalization
+    total_weight = weighted_counts.sum()
+
+    # To avoid division by zero, return an empty series if total_weight is 0
+    if total_weight == 0:
+        return pd.Series(dtype=float)
+
+    # Normalize the weighted counts to get the probability distribution
+    weighted_distribution = weighted_counts / total_weight
+
+    return weighted_distribution
 
 def get_prompt(question, questions):
     # Get the prompt based on the question and its context.
@@ -241,6 +265,9 @@ if __name__ == "__main__":
             # Assuming we have a function to generate model responses
             qd2 = get_model_distribution(responses, question, questions, cached_distributions=None)
 
+            if qd1.sum() == 0 or qd2.sum() == 0:
+                print(f"Skipping question {question}: zero-sum distribution detected")
+                continue
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             print(f"Question {question} score: {score}")
             scores.append(score)

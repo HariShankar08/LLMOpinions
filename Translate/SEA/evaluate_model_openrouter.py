@@ -35,14 +35,22 @@ country_ids = {
 MODEL='meta-llama/Llama-3.2-1B-Instruct'
 
 def get_question_distribution(df, question):
-    # Get the distribution of answers for a specific question
-    question_data = df[question]
-    # Convert all values to strings.
-    question_data = question_data.astype(str)
-    # Ignore rows with NaN values, space, or empty strings
-    question_data = question_data[question_data.notna() & (question_data != "") & (question_data.str.strip() != "")]
+    if question not in df.columns or 'weight' not in df.columns:
+        raise ValueError(f"DataFrame must contain both '{question}' and 'weight' columns.")
 
-    return question_data.value_counts(normalize=True)
+    temp_df = df[[question, 'weight']].copy()
+
+    temp_df[question] = temp_df[question].astype(str)
+    temp_df[question] = temp_df[question].str.strip()
+    temp_df = temp_df[temp_df[question].notna() & (temp_df[question] != "") & (temp_df[question].str.lower() != 'nan')]
+
+    weighted_counts = temp_df.groupby(question)['weight'].sum()
+    total_weight = weighted_counts.sum()
+    if total_weight == 0:
+        return pd.Series(dtype=float)
+
+    weighted_distribution = weighted_counts / total_weight
+    return weighted_distribution
     
 
 def get_prompt(question, questions):

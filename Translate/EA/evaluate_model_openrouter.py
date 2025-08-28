@@ -105,11 +105,21 @@ class TranslateModelEvaluator:
         print(f"Initialized HuggingFace model: {model_name} on {self.device}")
     
     def get_question_distribution(self, df: pd.DataFrame, question: str) -> pd.Series:
-        """Get the distribution of answers for a specific question."""
-        question_data = df[question]
-        question_data = question_data.astype(str)
-        question_data = question_data[question_data.notna() & (question_data != "") & (question_data.str.strip() != "")]
-        return question_data.value_counts(normalize=True)
+        """Get weighted, cleaned distribution of answers for a specific question."""
+        if question not in df.columns or 'weight' not in df.columns:
+            raise ValueError(f"DataFrame must contain both '{question}' and 'weight' columns.")
+
+        temp_df = df[[question, 'weight']].copy()
+        temp_df[question] = temp_df[question].astype(str)
+        temp_df[question] = temp_df[question].str.strip()
+        temp_df = temp_df[temp_df[question].notna() & (temp_df[question] != "") & (temp_df[question].str.lower() != 'nan')]
+
+        weighted_counts = temp_df.groupby(question)['weight'].sum()
+        total_weight = weighted_counts.sum()
+        if total_weight == 0:
+            return pd.Series(dtype=float)
+
+        return weighted_counts / total_weight
     
     def get_prompt(self, question: str, questions: dict) -> str:
         """Get the prompt based on the question and its context."""

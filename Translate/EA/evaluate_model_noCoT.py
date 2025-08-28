@@ -83,14 +83,22 @@ def save_cached_distributions(cache_file, distributions):
 
 
 def get_question_distribution(df, question):
-    # Get the distribution of answers for a specific question
-    question_data = df[question]
-    # Convert all values to strings.
-    question_data = question_data.astype(str)
-    # Ignore rows with NaN values, space, or empty strings
-    question_data = question_data[question_data.notna() & (question_data != "") & (question_data.str.strip() != "")]
+    if question not in df.columns or 'weight' not in df.columns:
+        raise ValueError(f"DataFrame must contain both '{question}' and 'weight' columns.")
 
-    return question_data.value_counts(normalize=True)
+    temp_df = df[[question, 'weight']].copy()
+
+    temp_df[question] = temp_df[question].astype(str)
+    temp_df[question] = temp_df[question].str.strip()
+    temp_df = temp_df[temp_df[question].notna() & (temp_df[question] != "") & (temp_df[question].str.lower() != 'nan')]
+
+    weighted_counts = temp_df.groupby(question)['weight'].sum()
+    total_weight = weighted_counts.sum()
+    if total_weight == 0:
+        return pd.Series(dtype=float)
+
+    weighted_distribution = weighted_counts / total_weight
+    return weighted_distribution
     
 
 def get_prompt(question, questions):
@@ -144,15 +152,15 @@ def get_system_prompt(steering=False):
     }
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
-    elif LANGUAGE == 'zh':
-        prompt = '請回答下列問題，並在 50 字以內提供簡短解釋。'
-    elif LANGUAGE == 'ja':
-        prompt = '以下の質問に答えてください。50字以内で簡潔な説明を加えてください。'
+        prompt = 'Answer the following question.'
+    elif LANGUAGE == 'zh':  # Translation of "Answer the following question."   
+        prompt = '請回答下列問題。'
+    elif LANGUAGE == 'ja':  # Translation of "Answer the following question."
+        prompt = '以下の質問に答えてください。'
     elif LANGUAGE == 'ko':
-        prompt = '다음 질문에 답하십시오. 50자 이내로 간단한 설명을 추가하십시오.'
+        prompt = '다음 질문에 답하십시오.'
     elif LANGUAGE == 'vi':
-        prompt = 'Xin hãy trả lời câu hỏi sau, sau khi cung cấp một lời giải thích ngắn gọn trong vòng 50 từ.'
+        prompt = 'Xin hãy trả lời câu hỏi sau.'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
@@ -309,6 +317,9 @@ if __name__ == "__main__":
             # Assuming we have a function to generate model responses
             qd2 = get_model_distribution(responses, question, questions, cached_distributions=None)
 
+            if qd1.sum() == 0 or qd2.sum() == 0:
+                print(f"Skipping question {question}: zero-sum distribution detected")
+                continue
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             print(f"Question {question} score: {score}")
             scores.append(score)
