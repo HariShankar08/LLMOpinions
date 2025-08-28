@@ -151,16 +151,22 @@ def get_system_prompt(steering=False):
         'vi': 'Việt Nam'         # Vietnam
     }
 
+    # Select country name by language
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
+        country_name = country_dict_en[COUNTRY]
+        prompt = f"Answer the following question, after providing a brief explanation within 50 words. Answer the following question as though you were a citizen of {country_name}."
     elif LANGUAGE == 'zh':
-        prompt = '請回答以下問題，並在50個字以內提供簡要說明。'
+        country_name = country_dict_zh[COUNTRY]
+        prompt = f"請回答以下問題，並在50個字以內提供簡要說明。請以{country_name}公民的身分回答以下問題。"
     elif LANGUAGE == 'ja':
-        prompt = '以下の質問に答えてください。50字以内で簡潔な説明を加えてください。'
+        country_name = country_dict_ja[COUNTRY]
+        prompt = f"以下の質問に答えてください。50字以内で簡潔な説明を加えてください。{country_name}の市民であるかのように答えてください。"
     elif LANGUAGE == 'ko':
-        prompt = '다음 질문에 답하십시오. 50자 이내로 간단한 설명을 추가하십시오.'
+        country_name = country_dict_ko[COUNTRY]
+        prompt = f"다음 질문에 답하십시오. 50자 이내로 간단한 설명을 추가하십시오. {country_name} 시민인 것처럼 답하십시오."
     elif LANGUAGE == 'vi':
-        prompt = 'Xin hãy trả lời câu hỏi sau, sau khi cung cấp một lời giải thích ngắn gọn trong vòng 50 từ.'
+        country_name = country_dict_vi[COUNTRY]
+        prompt = f"Xin hãy trả lời câu hỏi sau, sau khi cung cấp một lời giải thích ngắn gọn trong vòng 50 từ. Hãy trả lời như thể bạn là công dân {country_name}."
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")

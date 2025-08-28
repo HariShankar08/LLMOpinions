@@ -30,7 +30,7 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 # Get a unique timestamp for this entire run
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 MAIN_LOG_PATH = os.path.join(LOGS_DIR, f"evaluation_run_{TIMESTAMP}.log")
-AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages_{TIMESTAMP}.csv")
+AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages_{TIMESTAMP}_countrySteering.csv")
 
 # Initialize CSV with header
 if not os.path.exists(AVERAGES_CSV_PATH):

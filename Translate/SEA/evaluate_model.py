@@ -185,21 +185,29 @@ def get_system_prompt(steering=False):
     } # Thai
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
+        country_name = country_dict_en[COUNTRY]
+        prompt = f"Answer the following question, after providing a brief explanation within 50 words. Answer the following question as though you were a citizen of {country_name}."
     elif LANGUAGE == 'km':
-        prompt = 'សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។'
+        country_name = country_dict_km[COUNTRY]
+        prompt = f"សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។ សូមឆ្លើយដូចជាអ្នកជាពលរាស្ត្រនៃ {country_name}."
     elif LANGUAGE == 'zh':
-        prompt = '请回答以下问题，并用50字以内的内容进行简要说明。'
+        country_name = country_dict_zh[COUNTRY]
+        prompt = f"请回答以下问题，并用50字以内的内容进行简要说明。请以{country_name}公民的身份作答。"
     elif LANGUAGE == 'ma':
-        prompt = 'Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan.'
+        country_name = country_dict_ma[COUNTRY]
+        prompt = f"Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan. Jawablah seolah-olah anda warganegara {country_name}."
     elif LANGUAGE == 'id':
-        prompt = 'Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata.'
+        country_name = country_dict_id[COUNTRY]
+        prompt = f"Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata. Jawablah seolah-olah Anda adalah warga negara {country_name}."
     elif LANGUAGE == 'ta':
-        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும்.'
+        country_name = country_dict_ta[COUNTRY]
+        prompt = f"தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும். நீங்கள் {country_name} நாட்டின் குடிமகனாக இருப்பது போல பதிலளிக்கவும்."
     elif LANGUAGE == 'si':
-        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
+        country_name = country_dict_si[COUNTRY]
+        prompt = f"කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී. ඔබ {country_name} පුරවැසියෙකු ලෙස පිළිතුරු දෙන්න."
     elif LANGUAGE == 'th':
-        prompt = 'กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
+        country_name = country_dict_th[COUNTRY]
+        prompt = f"กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ กรุณาตอบราวกับว่าคุณเป็นพลเมืองของ {country_name}."
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 

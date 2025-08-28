@@ -78,9 +78,9 @@ def get_prompt(question, questions):
 
 def get_system_prompt(steering=False):
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question, after providing a brief explanation within 50 words.'
+        prompt = 'Answer the following question, after providing a brief explanation within 50 words. Answer the following question as though you were a citizen of India.'
     elif LANGUAGE == 'hi':
-        prompt = 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
+        prompt = 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए। कृपया ऐसे उत्तर दें मानो आप भारत के नागरिक हों।'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")

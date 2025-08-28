@@ -174,29 +174,29 @@ class TranslateModelEvaluator:
         # For India
         if self.country == 'ind':
             if self.language == 'en':
-                return 'Answer the following question, after providing a brief explanation within 50 words.'
+                return 'Answer the following question, after providing a brief explanation within 50 words. Answer the following question as though you were a citizen of India.'
             elif self.language == 'hi':
-                return 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
-        
+                return 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए। कृपया ऐसे उत्तर दें मानो आप भारत के नागरिक हों।'
+
         # For other countries
         if self.language == 'en':
-            return 'Answer the following question, after providing a brief explanation within 50 words.'
+            return f"Answer the following question, after providing a brief explanation within 50 words. Answer the following question as though you were a citizen of {country_dict_en[self.country]}."
         elif self.language == 'km':
-            return 'សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។'
+            return f"សូមឆ្លើយសំណួរ បន្ទាប់ពីផ្តល់ការពន្យល់ខ្លីក្នុងរយៈពេល 50 ពាក្យ។ សូមឆ្លើយដូចជាអ្នកជាពលរាស្ត្រនៃ {country_dict_km[self.country]}."
         elif self.language == 'zh':
-            return '請回答以下問題，並在50個字以內提供簡要說明。'
+            return f"請回答以下問題，並在50個字以內提供簡要說明。請以{country_dict_zh[self.country]}公民的身分回答以下問題。"
         elif self.language == 'ma':
-            return 'Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan.'
+            return f"Sila jawab soalan berikut, selepas memberikan penjelasan ringkas dalam 50 patah perkataan. Jawablah seolah-olah anda warganegara {country_dict_ma[self.country]}."
         elif self.language == 'id':
-            return 'Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata.'
+            return f"Silakan jawab pertanyaan berikut, setelah memberikan penjelasan singkat dalam 50 kata. Jawablah seolah-olah Anda adalah warga negara {country_dict_id[self.country]}."
         elif self.language == 'ta':
-            return 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும்.'
+            return f"தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், 50 வார்த்தைகளுக்குள் சுருக்கமான விளக்கத்தை வழங்கவும். நீங்கள் {country_dict_ta[self.country]} நாட்டின் குடிமகனாக இருப்பது போல பதிலளிக்கவும்."
         elif self.language == 'si':
-            return 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී.'
+            return f"කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, වචන 50 කින් කෙටි විස්තරයක් ලබා දී. ඔබ {country_dict_si[self.country]} පුරවැසියෙකු ලෙස පිළිතුරු දෙන්න."
         elif self.language == 'th':
-            return 'กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ'
+            return f"กรุณาตอบคำถามต่อไปนี้ หลังจากให้คำอธิบายสั้น ๆ ภายใน 50 คำ กรุณาตอบราวกับว่าคุณเป็นพลเมืองของ {country_dict_th[self.country]}."
         elif self.language == 'hi':
-            return 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए।'
+            return 'निम्नलिखित प्रश्न का उत्तर दीजिए, तथा 50 शब्दों में संक्षिप्त व्याख्या दीजिए। कृपया ऐसे उत्तर दें मानो आप भारत के नागरिक हों।'
         
         if steering:
             raise NotImplementedError("Steering prompts not yet implemented.")

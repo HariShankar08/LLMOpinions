@@ -185,21 +185,21 @@ def get_system_prompt(steering=False):
     } # Thai
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question.'
-    elif LANGUAGE == 'km': # Translation of "Answer the following question."
-        prompt = 'សូមឆ្លើយសំណួរ'
-    elif LANGUAGE == 'zh': # Translation of "Answer the following question."        
-        prompt = '请回答以下问题。'
+        prompt = f'Answer the following question, as though you were a resident citizen of {country_dict_en[COUNTRY]}.'
+    elif LANGUAGE == 'km': # Translation of "Answer the following question, as though you were a resident citizen of {country_dict_en[COUNTRY]}."
+        prompt = f'ឆ្លើយសំណួរខាងក្រោមដូចជាអ្នកជាពលរដ្ឋនៃ {country_dict_km[COUNTRY]}។'
+    elif LANGUAGE == 'zh': # Translation of "Answer the following question, as though you were a resident citizen of {country_dict_en[COUNTRY]}."        
+        prompt = f'请回答以下问题，仿佛您是{country_dict_zh[COUNTRY]}的公民。'
     elif LANGUAGE == 'ma':
-        prompt = 'Sila jawab soalan berikut.'
+        prompt = f'Sila jawab soalan berikut, seperti anda adalah warganegara {country_dict_ma[COUNTRY]}.'
     elif LANGUAGE == 'id':
-        prompt = 'Silakan jawab pertanyaan berikut.'
+        prompt = f'Silakan jawab pertanyaan berikut, seperti anda adalah warganegara {country_dict_id[COUNTRY]}.'
     elif LANGUAGE == 'ta':
-        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும்.'
+        prompt = f'நீங்கள் {country_dict_ta[COUNTRY]} நாட்டின் குடிமகனைப் போல பின்வரும் கேள்விகளுக்கு பதிலளிக்கவும்.'
     elif LANGUAGE == 'si':
-        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න.'
-    elif LANGUAGE == 'th':  # Translation of "Answer the following question."
-        prompt = 'กรุณาตอบคำถามต่อไปนี้'
+        prompt = f'ඔබ {country_dict_si[COUNTRY]} හි පුරවැසියෙකු වූවාක් මෙන් පහත ප්‍රශ්නවලට පිළිතුරු දෙන්න.'
+    elif LANGUAGE == 'th':  # Translation of "Answer the following question, as though you were a resident citizen of {country_dict_en[COUNTRY]}."
+        prompt = f'โปรดตอบคำถามต่อไปนี้ราวกับว่าคุณเป็นพลเมืองของ {country_dict_id[COUNTRY]}.'
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 

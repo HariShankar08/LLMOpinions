@@ -152,15 +152,20 @@ def get_system_prompt(steering=False):
     }
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question.'
-    elif LANGUAGE == 'zh':  # Translation of "Answer the following question."   
-        prompt = '請回答下列問題。'
-    elif LANGUAGE == 'ja':  # Translation of "Answer the following question."
-        prompt = '以下の質問に答えてください。'
+        country_name = country_dict_en[COUNTRY]
+        prompt = f"Answer the following question. Answer the following question as though you were a citizen of {country_name}."
+    elif LANGUAGE == 'zh':
+        country_name = country_dict_zh[COUNTRY]
+        prompt = f"請回答下列問題。請以{country_name}公民的身分回答以下問題。"
+    elif LANGUAGE == 'ja':
+        country_name = country_dict_ja[COUNTRY]
+        prompt = f"以下の質問に答えてください。{country_name}の市民であるかのように答えてください。"
     elif LANGUAGE == 'ko':
-        prompt = '다음 질문에 답하십시오.'
+        country_name = country_dict_ko[COUNTRY]
+        prompt = f"다음 질문에 답하십시오. {country_name} 시민인 것처럼 답하십시오."
     elif LANGUAGE == 'vi':
-        prompt = 'Xin hãy trả lời câu hỏi sau.'
+        country_name = country_dict_vi[COUNTRY]
+        prompt = f"Xin hãy trả lời câu hỏi sau. Hãy trả lời như thể bạn là công dân {country_name}."
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
