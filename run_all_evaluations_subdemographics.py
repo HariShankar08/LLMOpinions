@@ -6,49 +6,41 @@ import sys
 from datetime import datetime
 from glob import glob
 import argparse
+import csv
 import json
 
 # --- Configuration ---
 
-IND_DEMOGRAPHIC_VARS = ['QMLangRec',
- 'QSECTrec',
- 'QDENOMrec',
- 'QHINDU',
- 'QSIKHrec',
+IND_DEMOGRAPHIC_VARS = ['QRELSING',
  'QCASTE',
- 'QBUDDHISTrec',
- 'QJAIN',
- 'QSUFIrec',
- 'QCHRELrec',
- 'QFERTrec',
- 'QCHGENabrec',
  'QMARRIEDrec',
- 'QSPRELrec',
- 'QCHSPRELrec',
- 'QCHILDrec',
- 'QINCINDrec',
- 'QPTYrec',
  'QGEN',
- 'QEDU',
- 'QINT',
- 'QMOBILE',
  'Urban',
  'ISCED',
  'REGION'
 ]
 
 EA_DEMOGRAPHIC_VARS = [
-    'ISCED', 'GenderRec', 'UrbanVietnam', 'QCURREL','QCHREL','QZIPHKG','QZIPHKG2',
-    'QAGE','QFERT','QMARRIED','QZIPJPN2','QZIPKOR','QZIPTWN','QEDUHKG','QEDUJPN','QEDUKOR','QEDUTWN',
-    'QEDUVNM', 'VietnamRegion'
-]
+    'ISCED', 'GenderRec', 'QCURREL', 'QMARRIED', 'QZIPHKG', 'QZIPJPN2', 'QZIPKOR', 'QZIPTWN', 'VietnamRegion']
 
 
 SEA_DEMOGRAPHIC_VARS = [
-    'QCURREL', 'QAGE', 'GenderRec', 'QFERT', 'ISCED', 'URBANrec', 'QMARRIED', 'ZIPMALrec', 'ZipSinRec', 'KhmProvince', 'IdnRegion', 
-    'LkaProvince', 'ThaRegion', 'qethkhm', 'qethidn', 'qethsgp', 'qethmys',
-    'qethlka', 'qeththa', 'qeduidn', 'qedukhm', 'qedumys', 'qedusgp', 'qedulka', 'qedutha'
-]
+    'QCURREL', 'GenderRec', 'QFERT', 'ISCED', 'URBANrec', 'QMARRIED', 'ZIPMALrec', 'ZipSinRec', 'KhmProvince', 'IdnRegion', 
+    'LkaProvince', 'ThaRegion',]
+
+exclusives = {
+    'QZIPHKG': 'hk',
+    'QZIPJPN2': 'jp',
+    'QZIPKOR': 'ko',
+    'QZIPTWN': 'tw',
+    'VietnamRegion': 'vi',
+    'KhmProvince': 'kh',
+    'IdnRegion': 'id',
+    'LkaProvince': 'lk',
+    'ThaRegion': 'th',
+    'ZipSinRec': 'sg',
+    'ZIPMALrec': 'ms',
+}
 
 # Store the original directory where the script is run
 ORIGINAL_DIR = os.getcwd()
@@ -70,6 +62,23 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 # Get a unique timestamp for this entire run
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 MAIN_LOG_PATH = os.path.join(LOGS_DIR, f"evaluation_run_{TIMESTAMP}.log")
+AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages_{TIMESTAMP}_subdemographics.csv")
+
+# Initialize CSV with header
+if not os.path.exists(AVERAGES_CSV_PATH):
+    with open(AVERAGES_CSV_PATH, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow([
+            "timestamp",
+            "region",
+            "country",
+            "language",
+            "script",
+            "suffix",
+            "secondary_var",
+            "secondary_value",
+            "average_representativeness"
+        ])
 
 def log_message(message, color=Colors.NC):
     """
@@ -135,14 +144,24 @@ def run_evaluation(region, script_name, log_suffix=""):
             continue
 
         for var in demographic_vars:
+            if var in exclusives:
+                print(country, exclusives[var])
+                if country != exclusives[var]:
+                    continue
             entry = questions_map.get(var)
             opts = entry.get('options') if isinstance(entry, dict) else None
             if not isinstance(opts, dict) or not opts:
                 continue
 
             for code in opts.keys():
+                # Ensure secondary filter value is an integer throughout
+                try:
+                    code_int = int(code)
+                except Exception:
+                    # If conversion fails, skip this option as per requirement
+                    continue
                 # Create a unique log file for this specific evaluation
-                eval_log_name = f"{region}_{country}_{language}_{var}_{code}{log_suffix}_{TIMESTAMP}.log"
+                eval_log_name = f"{region}_{country}_{language}_{var}_{code_int}{log_suffix}_{TIMESTAMP}.log"
                 eval_log_path = os.path.join(LOGS_DIR, eval_log_name)
 
                 log_message(f"Running evaluation for {country} ({language}) in {region}...", Colors.BLUE)
@@ -159,7 +178,7 @@ def run_evaluation(region, script_name, log_suffix=""):
                     f.write(f"Script: {script_name}\n")
                     f.write(f"Suffix: {log_suffix or 'N/A'}\n")
                     f.write(f"Secondary filter var: {var}\n")
-                    f.write(f"Secondary filter value: {code}\n")
+                    f.write(f"Secondary filter value: {code_int}\n")
                     f.write("==================================================\n\n")
 
                 try:
@@ -173,7 +192,7 @@ def run_evaluation(region, script_name, log_suffix=""):
                         "--country", country,
                         "--language", language,
                         "--secondary-filter-var", var,
-                        "--secondary-filter-value", str(code)
+                        "--secondary-filter-value", str(code_int)
                     ]
                     
                     # Execute the command and capture output in real-time
@@ -183,6 +202,28 @@ def run_evaluation(region, script_name, log_suffix=""):
                         for line in iter(process.stdout.readline, ''):
                             sys.stdout.write(line) # Show output on console
                             f.write(line) # Write output to log file
+
+                            # Capture and log average representativeness to CSV
+                            if "Average Representativeness:" in line:
+                                try:
+                                    avg_str = line.strip().split(":", 1)[1].strip()
+                                    average = float(avg_str)
+                                    with open(AVERAGES_CSV_PATH, 'a', newline='') as csvfile:
+                                        writer = csv.writer(csvfile)
+                                        writer.writerow([
+                                            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                                            region,
+                                            country,
+                                            language,
+                                            script_name,
+                                            (log_suffix or ""),
+                                            var,
+                                            code_int,
+                                            average
+                                        ])
+                                except Exception:
+                                    # Ignore parsing errors and continue
+                                    pass
                     
                     process.stdout.close()
                     return_code = process.wait()
@@ -235,11 +276,11 @@ def main():
     log_message("Starting evaluation runs for all available country-language combinations...", Colors.BLUE)
     log_message(f"Main log file: {MAIN_LOG_PATH}\n", Colors.BLUE)
 
-    # --- Run Standard Evaluations ---
-    log_message("=== Running Standard Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model.py")
-    run_evaluation("EA", "evaluate_model.py")
-    run_evaluation("IND", "evaluate_model.py")
+    # # --- Run Standard Evaluations ---
+    # log_message("=== Running Standard Evaluations ===", Colors.BLUE)
+    # run_evaluation("SEA", "evaluate_model.py")
+    # run_evaluation("EA", "evaluate_model.py")
+    # run_evaluation("IND", "evaluate_model.py")
 
     # --- Run noCoT Evaluations ---
     log_message("=== Running noCoT Evaluations ===", Colors.BLUE)
@@ -247,11 +288,11 @@ def main():
     run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT")
     run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT")
 
-    # --- Run Gemini Evaluations ---
-    log_message("=== Running Gemini Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini")
-    run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini")
-    run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini")
+    # # --- Run Gemini Evaluations ---
+    # log_message("=== Running Gemini Evaluations ===", Colors.BLUE)
+    # run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini")
+    # run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini")
+    # run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini")
 
     log_message("All evaluations completed!", Colors.GREEN)
     

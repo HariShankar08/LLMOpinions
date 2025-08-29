@@ -292,8 +292,10 @@ if __name__ == "__main__":
     # Initialize model after parsing arguments
     initialize_model(MODEL_NAME)
 
-    # Disable caching
-    cached_distributions = {}
+    # Enable caching
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
+    cached_distributions = load_cached_distributions(cache_file)
+    new_distributions = {}
 
     responses = pd.read_csv('responses.csv')
     with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
@@ -315,7 +317,10 @@ if __name__ == "__main__":
             # We now need qd2, which represents the distribution from the model's response.
             # We first need to generate the model response.
             # Assuming we have a function to generate model responses
-            qd2 = get_model_distribution(responses, question, questions, cached_distributions=None)
+            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions)
+
+            # Save the distribution for future use
+            new_distributions[question] = qd2
 
             if qd1.sum() == 0 or qd2.sum() == 0:
                 print(f"Skipping question {question}: zero-sum distribution detected")
@@ -324,6 +329,10 @@ if __name__ == "__main__":
             print(f"Question {question} score: {score}")
             scores.append(score)
     
+    # Save all distributions to cache
+    all_distributions = {**cached_distributions, **new_distributions}
+    save_cached_distributions(cache_file, all_distributions)
+
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
 
