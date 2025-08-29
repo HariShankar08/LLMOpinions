@@ -282,7 +282,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
                        help='Model name to use for evaluation (e.g., "meta-llama/Llama-3.2-1B-Instruct")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
-    parser.add_argument('--secondary-filter-value', type=str, default=None)
+    parser.add_argument('--secondary-filter-value', type=int, default=None)
     args = parser.parse_args()
     
     COUNTRY = args.country
@@ -294,8 +294,9 @@ if __name__ == "__main__":
     # Initialize model after parsing arguments
     initialize_model(MODEL_NAME)
 
-    # Disable caching
-    cached_distributions = {}
+    # Re-enable caching
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
+    cached_distributions = load_cached_distributions(cache_file)
 
     responses = pd.read_csv('responses.csv')
     with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
@@ -317,7 +318,9 @@ if __name__ == "__main__":
             # We now need qd2, which represents the distribution from the model's response.
             # We first need to generate the model response.
             # Assuming we have a function to generate model responses
-            qd2 = get_model_distribution(responses, question, questions, cached_distributions=None)
+            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions)
+            # Update cache
+            cached_distributions[question] = qd2
 
             if qd1.sum() == 0 or qd2.sum() == 0:
                 print(f"Skipping question {question}: zero-sum distribution detected")
@@ -326,6 +329,9 @@ if __name__ == "__main__":
             print(f"Question {question} score: {score}")
             scores.append(score)
     
+    # Save cache
+    save_cached_distributions(cache_file, cached_distributions)
+
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
 

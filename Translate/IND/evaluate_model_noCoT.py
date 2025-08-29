@@ -214,7 +214,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
                        help='Model name to use for evaluation (e.g., "meta-llama/Llama-3.2-1B-Instruct")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
-    parser.add_argument('--secondary-filter-value', type=str, default=None)
+    parser.add_argument('--secondary-filter-value', type=int, default=None)
     args = parser.parse_args()
     
     LANGUAGE = args.language
