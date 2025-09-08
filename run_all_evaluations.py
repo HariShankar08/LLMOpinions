@@ -7,6 +7,8 @@ from datetime import datetime
 from glob import glob
 import argparse
 import csv
+import json
+
 
 # --- Configuration ---
 
@@ -175,6 +177,77 @@ def run_evaluation(region, script_name, log_suffix="", model_override=None):
             os.chdir(ORIGINAL_DIR)
             log_message("") # Add a blank line for readability
 
+def run_logprobs_full(region):
+    """Run the Gemini logprobs evaluator in per-question flow (noCoT parity)."""
+    log_message(f"Processing Gemini Logprobs (full) for region: {region}", Colors.GREEN)
+
+    base_dir = os.path.join(ORIGINAL_DIR, "Translate", region)
+    if not os.path.isdir(base_dir):
+        log_message(f"Warning: Directory {base_dir} not found, skipping...", Colors.YELLOW)
+        return
+
+    json_files = glob(os.path.join(base_dir, "*.json"))
+    if not json_files:
+        log_message(f"No JSON files found in {base_dir}", Colors.YELLOW)
+        return
+
+    for json_file in json_files:
+        filename = os.path.basename(json_file).replace('.json', '')
+        try:
+            country, language = filename.split('_', 1)
+        except ValueError:
+            log_message(f"Warning: Could not parse country/language from '{filename}', skipping...", Colors.YELLOW)
+            continue
+
+        # Prepare log
+        eval_log_name = f"{region}_{country}_{language}_gemini_logprobs_{TIMESTAMP}.log"
+        eval_log_path = os.path.join(LOGS_DIR, eval_log_name)
+        log_message(f"Running Gemini logprobs (full) for {country} ({language}) in {region}...", Colors.BLUE)
+        log_message(f"Individual log: {eval_log_path}")
+
+        # Execute the evaluator
+        start_time = datetime.now()
+        with open(eval_log_path, 'w', encoding='utf-8') as f:
+            f.write(f"=== Gemini Logprobs (full) started at {start_time.strftime('%Y-%m-%d %H:%M:%S')} ===\n")
+            f.write(f"Region: {region}\n")
+            f.write(f"Country: {country}\n")
+            f.write(f"Language: {language}\n")
+            f.write(f"Script: evaluate_gemini_logprobs.py\n")
+            f.write("==================================================\n\n")
+
+        try:
+            # Run from repo root where the script exists
+            os.chdir(ORIGINAL_DIR)
+            command = [
+                sys.executable,
+                "evaluate_gemini_logprobs.py",
+                "--region", region,
+                "--country", country,
+                "--language", language
+            ]
+
+            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
+            with open(eval_log_path, 'a', encoding='utf-8') as f:
+                for line in iter(process.stdout.readline, ''):
+                    sys.stdout.write(line)
+                    f.write(line)
+            process.stdout.close()
+            return_code = process.wait()
+
+            end_time = datetime.now()
+            footer_message = (
+                f"=== Gemini Logprobs (full) completed successfully at {end_time.strftime('%Y-%m-%d %H:%M:%S')} ==="
+                if return_code == 0 else
+                f"=== Gemini Logprobs (full) FAILED at {end_time.strftime('%Y-%m-%d %H:%M:%S')} ==="
+            )
+            with open(eval_log_path, 'a', encoding='utf-8') as f:
+                f.write("\n" + footer_message + "\n")
+        except Exception as e:
+            log_message(f"✗ An unexpected error occurred in logprobs run: {e}", Colors.RED)
+        finally:
+            os.chdir(ORIGINAL_DIR)
+            log_message("")
+
 def create_summary():
     """Creates a summary file listing all logs generated during the run."""
     summary_file_path = os.path.join(LOGS_DIR, f"summary_{TIMESTAMP}.txt")
@@ -224,6 +297,12 @@ def main():
     run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
     run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
     run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
+
+    # --- Run Gemini Logprobs Demo (optional, minimal integration) ---
+    log_message("=== Running Gemini Logprobs (Full) ===", Colors.BLUE)
+    run_logprobs_full("SEA")
+    run_logprobs_full("EA")
+    run_logprobs_full("IND")
 
     log_message("All evaluations completed!", Colors.GREEN)
     

@@ -1,0 +1,6 @@
+export PROJECT_ID=our-audio-441114-v7
+python evaluate_gemini_logprobs.py \
+  --prompt "I am not sure if I really like this restaurant a lot." \
+  --choices_file <(echo '["Positive","Negative","Neutral"]') \
+  --model_id gemini-2.5-flash \
+  --output -

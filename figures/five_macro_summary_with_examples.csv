@@ -1,0 +1,6 @@
+macro_group,EA_count,SEA_count,IND_count,example_1,example_2
+Identity & Demographics,48,52,45,EA:QAGE - QAGE. How old are you?,SEA:qethmys - QETHMYS. What is your ethnicity?
+Religion (Beliefs & Identity),18,30,67,IND:Q43a - Q43a. Do you believe in God?,"SEA:QCHREL - QCHREL. Thinking about when you were a child, in what religion were you raised, if any?"
+Religious Practice & Rituals,31,22,20,"EA:Q28 - Q28. How often do you pray, if at all?","SEA:QATTEND - QATTEND. [Aside from weddings and funerals,] how often, if at all, do you [go to temple, pagoda or dhamma hall/go to temple/attend mosque/go to church]?"
+Society & Private Life,42,53,172,"IND:Q22b - Q22. In a family, who should be primarily responsible for …? b. taking care of children","SEA:Q78a - Q78a. Would you be willing to accept each of the following people as neighbors, or not? a. Buddhists"
+Politics & Public Sphere,12,17,4,EA:Q37 - Q37. Do you think people who disagree with our government's actions should or should not be able to publicly criticize the government?,SEA:QGOVrec - QGOVrec. Some feel that we should rely on a democatic form of government to solve [COUNTRY]'s problems. Others feel that we should rely on a leader with a strong hand to solve [COUNTRY]'s problems. Which comes closer to your opinion?
