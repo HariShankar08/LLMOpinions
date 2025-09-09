@@ -328,7 +328,7 @@ if __name__ == "__main__":
     # Save all distributions to cache
     all_distributions = {**cached_distributions, **new_distributions}
     save_cached_distributions(cache_file, all_distributions)
-
+    scores = [s for s in scores if s != 1]
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
 

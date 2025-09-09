@@ -91,7 +91,7 @@ def log_message(message, color=Colors.NC):
     with open(MAIN_LOG_PATH, 'a') as f:
         f.write(message + '\n')
 
-def run_evaluation(region, script_name, log_suffix=""):
+def run_evaluation(region, script_name, log_suffix="", model_override=None):
     """
     Finds all JSON files in a region's directory and runs the specified
     evaluation script for each, capturing logs.
@@ -177,6 +177,8 @@ def run_evaluation(region, script_name, log_suffix=""):
                     f.write(f"Language: {language}\n")
                     f.write(f"Script: {script_name}\n")
                     f.write(f"Suffix: {log_suffix or 'N/A'}\n")
+                    if model_override:
+                        f.write(f"Model override: {model_override}\n")
                     f.write(f"Secondary filter var: {var}\n")
                     f.write(f"Secondary filter value: {code_int}\n")
                     f.write("==================================================\n\n")
@@ -194,6 +196,8 @@ def run_evaluation(region, script_name, log_suffix=""):
                         "--secondary-filter-var", var,
                         "--secondary-filter-value", str(code_int)
                     ]
+                    if model_override:
+                        command.extend(["--model", model_override])
                     
                     # Execute the command and capture output in real-time
                     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
@@ -276,6 +280,11 @@ def main():
     log_message("Starting evaluation runs for all available country-language combinations...", Colors.BLUE)
     log_message(f"Main log file: {MAIN_LOG_PATH}\n", Colors.BLUE)
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model', type=str, default=None, help='Override model name passed to evaluation scripts')
+    args = parser.parse_args()
+    model_override = args.model
+
     # # --- Run Standard Evaluations ---
     # log_message("=== Running Standard Evaluations ===", Colors.BLUE)
     # run_evaluation("SEA", "evaluate_model.py")
@@ -284,9 +293,9 @@ def main():
 
     # --- Run noCoT Evaluations ---
     log_message("=== Running noCoT Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model_noCoT.py", log_suffix="_noCoT")
-    run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT")
-    run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT")
+    run_evaluation("SEA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
+    run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
+    run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
 
     # # --- Run Gemini Evaluations ---
     # log_message("=== Running Gemini Evaluations ===", Colors.BLUE)

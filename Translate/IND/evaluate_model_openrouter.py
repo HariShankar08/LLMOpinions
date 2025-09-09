@@ -228,7 +228,7 @@ if __name__ == "__main__":
             count += 1
             if count % 10 == 0:
                 sleep(12)
-
+    scores = [s for s in scores if s != 1]
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
 

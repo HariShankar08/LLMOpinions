@@ -323,7 +323,7 @@ if __name__ == "__main__":
             qd2 = get_model_distribution(responses, question, questions, cot=COT)
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
-
+    scores = [s for s in scores if s != 1]
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
 

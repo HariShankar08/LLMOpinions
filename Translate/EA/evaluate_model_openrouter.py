@@ -398,7 +398,7 @@ def main():
             score = evaluator.compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
             print(f"Question {question}: Score = {score:.4f}")
-    
+    scores = [s for s in scores if s != 1]
     print('=' * 20)
     average_score = sum(scores) / len(scores) if scores else 0
     print(f'Average Representativeness: {average_score:.4f}')
