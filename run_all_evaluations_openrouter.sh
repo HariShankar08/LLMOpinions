@@ -13,6 +13,19 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Pick a Python interpreter (allow override via $PYTHON_BIN)
+: "${PYTHON_BIN:=}"
+if [ -z "$PYTHON_BIN" ]; then
+    if command -v python3 >/dev/null 2>&1; then
+        PYTHON_BIN="python3"
+    elif command -v python >/dev/null 2>&1; then
+        PYTHON_BIN="python"
+    else
+        echo -e "${RED}Python is not installed or not in PATH. Install Python 3 and retry.${NC}"
+        exit 1
+    fi
+fi
+
 LOGS_DIR="$ORIGINAL_DIR/evaluation_logs_openrouter"
 mkdir -p "$LOGS_DIR"
 
@@ -31,6 +44,8 @@ run_region_evaluations_openrouter() {
     local model_name=$2
     local cot_flag=$3
     local model_short=$4
+    shift 4
+    local extra_args="$@"
 
     if [ ! -d "$base_dir" ]; then
         log_message "${YELLOW}Warning: Directory $base_dir not found, skipping...${NC}"
@@ -67,7 +82,7 @@ run_region_evaluations_openrouter() {
         echo "========================================" >> "$eval_log"
         echo "" >> "$eval_log"
 
-    if python "evaluate_model_openrouter.py" --country "$country" --language "$language" --model "$model_name" $cot_flag 2>&1 | tee -a "$eval_log"; then
+    if "$PYTHON_BIN" "evaluate_model_openrouter.py" --country "$country" --language "$language" --model "$model_name" $cot_flag $extra_args 2>&1 | tee -a "$eval_log"; then
             local end_time=$(date +"%Y-%m-%d %H:%M:%S")
             echo "" >> "$eval_log"
             echo "=== OpenRouter Evaluation completed successfully at $end_time ===" >> "$eval_log"
@@ -94,10 +109,12 @@ default_model_short="gpt35"
 model_name="${1:-$default_model}"
 model_short="${2:-$default_model_short}"
 cot_flag="${3:-}" # pass --cot if you want CoT
+shift 3 || true
+extra_args="$@"
 
-run_region_evaluations_openrouter "SEA" "$model_name" "$cot_flag" "$model_short"
-run_region_evaluations_openrouter "EA" "$model_name" "$cot_flag" "$model_short"
-run_region_evaluations_openrouter "IND" "$model_name" "$cot_flag" "$model_short"
+run_region_evaluations_openrouter "SEA" "$model_name" "$cot_flag" "$model_short" $extra_args
+run_region_evaluations_openrouter "EA" "$model_name" "$cot_flag" "$model_short" $extra_args
+run_region_evaluations_openrouter "IND" "$model_name" "$cot_flag" "$model_short" $extra_args
 
 log_message "${GREEN}All OpenRouter evaluations completed!${NC}"
 

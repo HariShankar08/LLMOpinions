@@ -13,10 +13,15 @@ import os
 import pickle
 
 # Configure Gemini API
-API_KEY = ''  # Set your Google API key here
+API_KEY = os.environ.get('GOOGLE_API_KEY') or os.environ.get('GEMINI_API_KEY') or ''
+if not API_KEY:
+    raise RuntimeError("Missing Google API key. Set GOOGLE_API_KEY or GEMINI_API_KEY in environment or .env")
 genai.configure(api_key=API_KEY)
 
 NUM_REASONING_TOKENS = 100
+TEMPERATURE = 0.0
+TOP_P = None
+REPEATS = 1
 LANGUAGE = 'en'
 COUNTRY = 'hk'
 
@@ -178,7 +183,7 @@ def get_model_distribution(df, question, questions, cot=True, cached_distributio
         full_prompt = f"{system_prompt}\n\n{prompt}\n\n{reasoning_start_prompt}"
         
         try:
-            reasoning_response = model.generate_content(full_prompt)
+            reasoning_response = model.generate_content(full_prompt, generation_config={"temperature": TEMPERATURE, **({"top_p": TOP_P} if TOP_P is not None else {})})
             reasoning = reasoning_response.text.strip()
             
             # Now ask for the final answer
@@ -193,7 +198,7 @@ def get_model_distribution(df, question, questions, cot=True, cached_distributio
 
     try:
         # Get the model's response
-        response = model.generate_content(answer_prompt)
+        response = model.generate_content(answer_prompt, generation_config={"temperature": TEMPERATURE, **({"top_p": TOP_P} if TOP_P is not None else {})})
         answer_text = response.text.strip()
         
         # Extract the option from the response
@@ -255,6 +260,10 @@ if __name__ == "__main__":
     parser.add_argument('--cot', action='store_true', help='Enable chain-of-thought reasoning')
     parser.add_argument('--model', type=str, default=DEFAULT_MODEL, 
                        help='Gemini model to use for evaluation (e.g., "gemini-1.5-pro")')
+    parser.add_argument('--temperature', type=float, default=TEMPERATURE)
+    parser.add_argument('--top_p', type=float, default=None)
+    parser.add_argument('--num_reasoning_tokens', type=int, default=NUM_REASONING_TOKENS)
+    parser.add_argument('--repeats', type=int, default=1)
     
     args = parser.parse_args()
     
@@ -262,6 +271,10 @@ if __name__ == "__main__":
     LANGUAGE = args.language
     COT = args.cot
     MODEL_NAME = args.model
+    TEMPERATURE = float(args.temperature)
+    TOP_P = args.top_p
+    NUM_REASONING_TOKENS = int(args.num_reasoning_tokens)
+    REPEATS = max(1, int(args.repeats))
 
     # Setup caching
     cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
@@ -283,8 +296,13 @@ if __name__ == "__main__":
             continue
         if 'question' in questions[question] and 'options' in questions[question]:
             qd1 = get_question_distribution(responses, question)
-            qd2 = get_model_distribution(responses, question, questions, cot=COT, 
+            # Average over repeats for robustness
+            agg = None
+            for _ in range(REPEATS):
+                dist = get_model_distribution(responses, question, questions, cot=COT, 
                                        cached_distributions=cached_distributions, model_name=MODEL_NAME)
+                agg = dist if agg is None else (agg + dist)
+            qd2 = agg / float(REPEATS)
             
             # Save the distribution for future use
             new_distributions[question] = qd2

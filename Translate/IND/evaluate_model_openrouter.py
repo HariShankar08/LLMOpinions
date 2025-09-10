@@ -10,19 +10,34 @@ import argparse
 from openai import OpenAI
 import math
 from time import sleep
+import os
 
 
+# Initialize client using OPENAI_API_KEY if available; otherwise fall back to OPENROUTER_API_KEY
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+OPENROUTER_API_KEY = os.environ.get('OPENROUTER_API_KEY')
 
+if OPENAI_API_KEY:
+    client = OpenAI(
+        api_key=OPENAI_API_KEY,
+    )
+elif OPENROUTER_API_KEY:
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=OPENROUTER_API_KEY,
+    )
+else:
+    raise RuntimeError("Missing API key. Set OPENAI_API_KEY for OpenAI or OPENROUTER_API_KEY for OpenRouter.")
 
-API_KEY = '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'  # Set your OpenRouter API key here
-
-client = OpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    api_key=API_KEY,
-)
+# Determine which token limit parameter to use based on provider
+USE_MAX_COMPLETION_TOKENS = bool(OPENAI_API_KEY)
 
 
 NUM_REASONING_TOKENS = 100
+TEMPERATURE = 0.0
+TOP_P = None
+TOP_LOGPROBS = None
+REPEATS = 1
 LANGUAGE = 'en'
 COUNTRY = 'ind'
 MODEL='meta-llama/Llama-3.2-1B-Instruct'
@@ -108,31 +123,35 @@ def get_model_distribution(df, question, questions, cot=True):
             {"role": "user", "content": prompt},
             {"role": "assistant", "content": reasoning_start_prompt}
         ]
+        token_kwargs_reasoning = {"max_completion_tokens": NUM_REASONING_TOKENS} if USE_MAX_COMPLETION_TOKENS else {"max_tokens": NUM_REASONING_TOKENS}
         reasoning_response = client.chat.completions.create(
             model=MODEL,
             messages=messages,
-            max_tokens=NUM_REASONING_TOKENS,
-            temperature=0.0
+            temperature=TEMPERATURE,
+            **({"top_p": TOP_P} if TOP_P is not None else {}),
+            **token_kwargs_reasoning
         )
         reasoning = reasoning_response.choices[0].message.content.strip()
         messages.append({"role": "assistant", "content": reasoning})
-        messages.append({"role": "user", "content": "Selected Option:"})
+        messages.append({"role": "user", "content": "Selected Option (reply with only the option key, e.g., 1):"})
     else:
         # No CoT: directly ask for the answer
         messages = [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt + "\nSelected Option:"}
+            {"role": "user", "content": prompt + "\nSelected Option (reply with only the option key, e.g., 1):"}
         ]
 
     try:
         # Try to get logprobs
+        token_kwargs_answer = {"max_completion_tokens": 1} if USE_MAX_COMPLETION_TOKENS else {"max_tokens": 1}
         answer_response = client.chat.completions.create(
             model=MODEL,
             messages=messages,
-            max_tokens=1,
-            temperature=0.0,
+            temperature=TEMPERATURE,
             logprobs=True,
-            top_logprobs=100
+            top_logprobs=(TOP_LOGPROBS if TOP_LOGPROBS is not None else (5 if USE_MAX_COMPLETION_TOKENS else 100)),
+            **({"top_p": TOP_P} if TOP_P is not None else {}),
+            **token_kwargs_answer
         )
         
         # Check if logprobs are available
@@ -203,11 +222,21 @@ if __name__ == "__main__":
     parser.add_argument('--language', type=str, default=LANGUAGE)
     parser.add_argument('--cot', action='store_true', help='Enable chain-of-thought reasoning')
     parser.add_argument('--model', type=str, default=MODEL)
+    parser.add_argument('--temperature', type=float, default=TEMPERATURE)
+    parser.add_argument('--top_p', type=float, default=None)
+    parser.add_argument('--top_logprobs', type=int, default=None)
+    parser.add_argument('--num_reasoning_tokens', type=int, default=NUM_REASONING_TOKENS)
+    parser.add_argument('--repeats', type=int, default=1)
     args = parser.parse_args()
     COUNTRY = args.country
     LANGUAGE = args.language
     COT = args.cot
     MODEL = args.model
+    TEMPERATURE = float(args.temperature)
+    TOP_P = args.top_p
+    TOP_LOGPROBS = args.top_logprobs
+    NUM_REASONING_TOKENS = int(args.num_reasoning_tokens)
+    REPEATS = max(1, int(args.repeats))
 
     responses = pd.read_csv('responses.csv')
     with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
@@ -221,7 +250,12 @@ if __name__ == "__main__":
             continue
         if 'question' in questions[question] and 'options' in questions[question]:
             qd1 = get_question_distribution(responses, question)
-            qd2 = get_model_distribution(responses, question, questions, cot=COT)
+            # Average over repeats for robustness
+            agg = None
+            for _ in range(REPEATS):
+                dist = get_model_distribution(responses, question, questions, cot=COT)
+                agg = dist if agg is None else (agg + dist)
+            qd2 = agg / float(REPEATS)
             score = compare_distributions(qd1, qd2, num_options=len(responses[question].unique()))
             scores.append(score)
             sleep(5)

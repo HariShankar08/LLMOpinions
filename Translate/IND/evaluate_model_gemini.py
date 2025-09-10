@@ -13,7 +13,9 @@ import os
 import pickle
 
 # Configure Gemini API
-API_KEY = ''  # Set your Google API key here
+API_KEY = os.environ.get('GOOGLE_API_KEY') or os.environ.get('GEMINI_API_KEY') or ''
+if not API_KEY:
+    raise RuntimeError("Missing Google API key. Set GOOGLE_API_KEY or GEMINI_API_KEY in environment or .env")
 genai.configure(api_key=API_KEY)
 
 NUM_REASONING_TOKENS = 100

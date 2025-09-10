@@ -11,10 +11,22 @@ from tqdm import tqdm
 import argparse
 import os
 import sys
+from openai import OpenAI
+import math
 
-# Add parent directory to path to import OpenRouter client
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from Translate.SEA.openrouter_client import OpenRouterClient, OPENROUTER_MODELS
+# Initialize client using OPENAI_API_KEY if available; otherwise fall back to OPENROUTER_API_KEY
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+OPENROUTER_API_KEY = os.environ.get('OPENROUTER_API_KEY')
+
+if OPENAI_API_KEY:
+    OPENROUTER_CLIENT = OpenAI(api_key=OPENAI_API_KEY)
+elif OPENROUTER_API_KEY:
+    OPENROUTER_CLIENT = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=OPENROUTER_API_KEY)
+else:
+    OPENROUTER_CLIENT = None
+
+# Determine which token limit parameter to use based on provider
+USE_MAX_COMPLETION_TOKENS = bool(OPENAI_API_KEY)
 
 # Try to import HuggingFace components
 try:
@@ -37,7 +49,9 @@ class TranslateModelEvaluator:
     """Model evaluator for the Translate directory approach with multilingual support."""
     
     def __init__(self, model_name: str = None, use_openrouter: bool = False, 
-                 openrouter_api_key: str = None, language: str = 'en', country: str = 'ca'):
+                 openrouter_api_key: str = None, language: str = 'en', country: str = 'ca',
+                 temperature: float = 0.0, top_p: float = None, top_logprobs: int = None,
+                 num_reasoning_tokens: int = 100, seed: int = None, repeats: int = 1):
         """
         Initialize the model evaluator.
         
@@ -51,7 +65,12 @@ class TranslateModelEvaluator:
         self.use_openrouter = use_openrouter
         self.language = language
         self.country = country
-        self.num_reasoning_tokens = 100
+        self.num_reasoning_tokens = int(num_reasoning_tokens)
+        self.temperature = float(temperature) if temperature is not None else 0.0
+        self.top_p = None if top_p is None else float(top_p)
+        self.top_logprobs = None if top_logprobs is None else int(top_logprobs)
+        self.seed = None if seed is None else int(seed)
+        self.repeats = max(1, int(repeats))
         
         if use_openrouter:
             self._setup_openrouter_model(model_name, openrouter_api_key)
@@ -59,27 +78,29 @@ class TranslateModelEvaluator:
             self._setup_huggingface_model(model_name)
     
     def _setup_openrouter_model(self, model_name: str, api_key: str = None):
-        """Setup OpenRouter model."""
-        # Convert short name to full OpenRouter model name if needed
-        if model_name in OPENROUTER_MODELS:
-            openrouter_model_name = OPENROUTER_MODELS[model_name]
-        else:
-            openrouter_model_name = model_name
+        """Setup OpenRouter/OpenAI client model."""
+        # Check for API keys at runtime (not import time)
+        runtime_openai_key = os.environ.get('OPENAI_API_KEY')
+        runtime_openrouter_key = os.environ.get('OPENROUTER_API_KEY')
         
-        self.client = OpenRouterClient(api_key)
-        self.model_name = openrouter_model_name
-        
-        # Set up tokenizer for compatibility
-        if HF_AVAILABLE:
-            self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
-            if self.tokenizer.pad_token is None:
-                self.tokenizer.pad_token = self.tokenizer.eos_token
-                self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+        if runtime_openai_key:
+            self.client = OpenAI(api_key=runtime_openai_key)
+            print(f"Using OpenAI API with model: {model_name}")
+        elif runtime_openrouter_key:
+            self.client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=runtime_openrouter_key)
+            print(f"Using OpenRouter API with model: {model_name}")
+        elif api_key:
+            self.client = OpenAI(api_key=api_key)
+            print(f"Using provided API key with model: {model_name}")
         else:
-            self.tokenizer = None
+            raise RuntimeError("No API key found. Set OPENAI_API_KEY or OPENROUTER_API_KEY")
+            
+        self.model_name = model_name
+        
+        # Skip tokenizer for API-based models - not needed for OpenAI/OpenRouter
+        self.tokenizer = None
         
         self.device = torch.device("cpu")  # API models don't use local device
-        print(f"Initialized OpenRouter model: {openrouter_model_name}")
     
     def _setup_huggingface_model(self, model_name: str):
         """Setup HuggingFace model."""
@@ -103,6 +124,14 @@ class TranslateModelEvaluator:
         
         self.model = self.model.to(self.device)
         print(f"Initialized HuggingFace model: {model_name} on {self.device}")
+        
+        # Optionally reseed if provided (affects only local HF models)
+        # Note: This does not control remote API sampling.
+        try:
+            if hasattr(self, 'seed') and self.seed is not None and HF_AVAILABLE:
+                set_seed(self.seed)
+        except Exception:
+            pass
     
     def get_question_distribution(self, df: pd.DataFrame, question: str) -> pd.Series:
         """Get weighted, cleaned distribution of answers for a specific question."""
@@ -227,40 +256,81 @@ class TranslateModelEvaluator:
         return 'Let\'s think step by step.'
     
     def make_model_distribution_openrouter(self, question: str, questions_dict: dict) -> pd.Series:
-        """Make model distribution using OpenRouter API."""
+        """Make model distribution using OpenAI/OpenRouter Chat Completions with logprobs."""
         prompt = self.get_prompt(question, questions_dict)
         system_prompt = self.get_system_prompt(steering=False)
         reasoning_start_prompt = self.get_reasoning_start_prompt()
-        
-        # Create messages for chat completion
+
         messages = [
             {'role': "system", 'content': system_prompt},
             {"role": "user", "content": prompt},
             {"role": "assistant", "content": reasoning_start_prompt}
         ]
-        
+
         try:
-            # First, generate reasoning tokens
-            reasoning_response = self.client.get_text_response(
-                messages, 
-                self.model_name,
-                max_tokens=self.num_reasoning_tokens,
-                temperature=0.1
+            token_kwargs_reasoning = {"max_completion_tokens": self.num_reasoning_tokens} if USE_MAX_COMPLETION_TOKENS else {"max_tokens": self.num_reasoning_tokens}
+            reasoning_extra = {}
+            if self.top_p is not None:
+                reasoning_extra["top_p"] = self.top_p
+            reasoning_response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=messages,
+                temperature=self.temperature,
+                **token_kwargs_reasoning,
+                **reasoning_extra
             )
-            
-            # Add reasoning to messages and ask for final answer
-            messages.append({"role": "assistant", "content": reasoning_start_prompt + " " + reasoning_response})
-            messages.append({"role": "user", "content": "Answer:"})
-            
-            # Get probabilities for each option
-            options = list(questions_dict[question]['options'].keys())
-            option_probs = self.client.get_logits_for_options(messages, self.model_name, options)
-            
-            return pd.Series(option_probs)
-            
+            reasoning = reasoning_response.choices[0].message.content.strip()
+            messages.append({"role": "assistant", "content": reasoning})
+            messages.append({"role": "user", "content": "Selected Option (reply with only the option key, e.g., 1):"})
+
+            token_kwargs_answer = {"max_completion_tokens": 1} if USE_MAX_COMPLETION_TOKENS else {"max_tokens": 1}
+            answer_extra = {}
+            if self.top_p is not None:
+                answer_extra["top_p"] = self.top_p
+            tlp = self.top_logprobs if self.top_logprobs is not None else (5 if USE_MAX_COMPLETION_TOKENS else 10)
+            answer_response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=messages,
+                temperature=self.temperature,
+                logprobs=True,
+                top_logprobs=tlp,
+                **token_kwargs_answer,
+                **answer_extra
+            )
+
+            # Parse top_logprobs
+            if (answer_response.choices[0].logprobs is None or
+                not answer_response.choices[0].logprobs.content or
+                not answer_response.choices[0].logprobs.content[0].top_logprobs):
+                # Uniform fallback
+                options = list(questions_dict[question]['options'].keys())
+                uniform_prob = 1.0 / len(options)
+                return pd.Series({opt: uniform_prob for opt in options})
+
+            logprobs = answer_response.choices[0].logprobs.content[0].top_logprobs
+
+            model_distribution = {}
+            for option in questions_dict[question]['options']:
+                prob = 0.0
+                for item in logprobs:
+                    if item.token.strip().lower() == option.strip().lower():
+                        prob = float(math.exp(item.logprob))
+                        break
+                model_distribution[option] = prob
+
+            total = sum(model_distribution.values())
+            if total > 0:
+                for k in model_distribution:
+                    model_distribution[k] /= total
+            else:
+                options = list(questions_dict[question]['options'].keys())
+                uniform_prob = 1.0 / len(options)
+                return pd.Series({opt: uniform_prob for opt in options})
+
+            return pd.Series(model_distribution)
+
         except Exception as e:
             print(f"Error getting OpenRouter distribution: {e}")
-            # Fallback to uniform distribution
             options = list(questions_dict[question]['options'].keys())
             uniform_prob = 1.0 / len(options)
             return pd.Series({opt: uniform_prob for opt in options})
@@ -315,7 +385,12 @@ class TranslateModelEvaluator:
     def get_model_distribution(self, df: pd.DataFrame, question: str, questions: dict, chat_model: bool = True) -> pd.Series:
         """Get model distribution for a question."""
         if self.use_openrouter:
-            return self.make_model_distribution_openrouter(question, questions)
+            # Average over repeated generations for stochastic settings
+            agg = None
+            for _ in range(self.repeats):
+                dist = self.make_model_distribution_openrouter(question, questions)
+                agg = dist if agg is None else (agg + dist)
+            return agg / float(self.repeats)
         else:
             return self.make_model_distribution_huggingface(question, questions, chat_model)
     
@@ -340,6 +415,13 @@ def main():
     parser.add_argument('--responses-file', type=str, default='responses.csv', help='Responses CSV file')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=str, default=None)
+    # Generation/rigor controls
+    parser.add_argument('--temperature', type=float, default=0.0)
+    parser.add_argument('--top_p', type=float, default=None)
+    parser.add_argument('--top_logprobs', type=int, default=None)
+    parser.add_argument('--num_reasoning_tokens', type=int, default=100)
+    parser.add_argument('--seed', type=int, default=None)
+    parser.add_argument('--repeats', type=int, default=1, help='Repeats to average per question')
     args = parser.parse_args()
     SECONDARY_FILTER_VAR = args.secondary_filter_var
     SECONDARY_FILTER_VALUE = args.secondary_filter_value
@@ -349,7 +431,9 @@ def main():
         # SEA region
         'ca': 1, 'id': 2, 'ms': 3, 'sg': 5, 'sl': 6, 'th': 7,
         # India region
-        'ind': None  # India doesn't use country filtering
+        'ind': None,  # India doesn't use country filtering
+        # EA region - using SurveyPublic column
+        'hk': 1, 'jp': 2, 'ko': 4, 'tw': 5, 'vi': 6
     }
     
     # Load questions file
@@ -367,22 +451,36 @@ def main():
     # Filter by country if needed
     if args.country in country_ids and country_ids[args.country] is not None:
         country_id = country_ids[args.country]
-        responses = responses[responses['COUNTRY'] == country_id]
+        # EA region uses SurveyPublic column, others use COUNTRY column
+        if args.country in ['hk', 'jp', 'ko', 'tw', 'vi']:
+            responses = responses[responses['SurveyPublic'] == country_id]
+        else:
+            responses = responses[responses['COUNTRY'] == country_id]
     
     if SECONDARY_FILTER_VAR is not None and SECONDARY_FILTER_VALUE is not None:
         responses = responses[responses[SECONDARY_FILTER_VAR] == SECONDARY_FILTER_VALUE]
     
     # Initialize evaluator
+    # Auto-enable OpenAI/OpenRouter if API key is present (prioritize over HuggingFace)
+    env_api_key = os.environ.get('OPENAI_API_KEY') or os.environ.get('OPENROUTER_API_KEY')
+    use_or = bool(env_api_key) or args.use_openrouter  # Default to API if key exists
+
     evaluator = TranslateModelEvaluator(
         model_name=args.model,
-        use_openrouter=args.use_openrouter,
-        openrouter_api_key=args.openrouter_api_key,
+        use_openrouter=use_or,
+        openrouter_api_key=(args.openrouter_api_key or env_api_key),
         language=args.language,
-        country=args.country
+        country=args.country,
+        temperature=args.temperature,
+        top_p=args.top_p,
+        top_logprobs=args.top_logprobs,
+        num_reasoning_tokens=args.num_reasoning_tokens,
+        seed=args.seed,
+        repeats=args.repeats
     )
     
     scores = []
-    print(f"Evaluating {args.country}_{args.language} with {'OpenRouter' if args.use_openrouter else 'HuggingFace'} model...")
+    print(f"Evaluating {args.country}_{args.language} with {'OpenRouter' if use_or else 'HuggingFace'} model...")
     
     for question in tqdm(questions):
         if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
@@ -410,7 +508,15 @@ def main():
         'model': args.model if args.model else 'default',
         'use_openrouter': args.use_openrouter,
         'average_representativeness': average_score,
-        'individual_scores': scores
+        'individual_scores': scores,
+        'generation_params': {
+            'temperature': args.temperature,
+            'top_p': args.top_p,
+            'top_logprobs': args.top_logprobs,
+            'num_reasoning_tokens': args.num_reasoning_tokens,
+            'seed': args.seed,
+            'repeats': args.repeats
+        }
     }
     
     output_prefix = "openrouter" if args.use_openrouter else "huggingface"
