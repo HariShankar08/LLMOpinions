@@ -479,6 +479,9 @@ if __name__ == "__main__":
     # Write per-question scores to CSV with full precision
     MODEL_SHORT_NAME = MODEL_NAME.split('/')[-1].lower().replace('-', '_')
     csv_path = f"{MODEL_SHORT_NAME}_{COUNTRY}_{LANGUAGE}.csv"
+    
+    if SECONDARY_FILTER_VAR is not None and SECONDARY_FILTER_VALUE is not None:
+        csv_path = f"{MODEL_SHORT_NAME}_{COUNTRY}_{LANGUAGE}_{SECONDARY_FILTER_VAR}_{SECONDARY_FILTER_VALUE}.csv"
     with open(csv_path, "w", encoding="utf-8", newline="") as f_csv:
         writer = csv.writer(f_csv)
         writer.writerow(["question", "wd", "jsd", "hell"])
