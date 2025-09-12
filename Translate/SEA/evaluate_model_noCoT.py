@@ -316,7 +316,6 @@ def compare_distributions(d1, d2, num_options):
     return 1 - (wd / (num_options - 1))
 
 
-if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--country', type=str, default=COUNTRY)
     parser.add_argument('--language', type=str, default=LANGUAGE)
@@ -378,4 +377,116 @@ if __name__ == "__main__":
     scores = [s for s in scores if s != 1]
     print('=' * 20)
     print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
+
+
+import math
+import csv
+import pandas as pd
+
+def _series_to_probs(series, order):
+    arr = [float(series.get(k, 0.0)) for k in order]
+    total = sum(arr)
+    if total <= 0:
+        n = float(len(order))
+        return [1.0 / n for _ in order]
+    return [v / total for v in arr]
+
+def jensen_shannon_divergence(p_series, q_series, order):
+    p = _series_to_probs(p_series, order)
+    q = _series_to_probs(q_series, order)
+    m = [(pi + qi) / 2.0 for pi, qi in zip(p, q)]
+    def _kl(a, b):
+        s = 0.0
+        for ai, bi in zip(a, b):
+            if ai > 0.0 and bi > 0.0:
+                s += ai * (math.log(ai / bi, 2))
+        return s
+    jsd = 0.5 * _kl(p, m) + 0.5 * _kl(q, m)
+    return float(jsd)
+
+def hellinger_distance(p_series, q_series, order):
+    p = _series_to_probs(p_series, order)
+    q = _series_to_probs(q_series, order)
+    s = 0.0
+    for pi, qi in zip(p, q):
+        s += (math.sqrt(pi) - math.sqrt(qi)) ** 2
+    return math.sqrt(s) / math.sqrt(2.0)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--country', type=str, default=COUNTRY)
+    parser.add_argument('--language', type=str, default=LANGUAGE)
+    parser.add_argument('--model', type=str, default=DEFAULT_MODEL_NAME, 
+                       help='Model name to use for evaluation (e.g., "meta-llama/Llama-3.2-1B-Instruct")')
+    parser.add_argument('--secondary-filter-var', type=str, default=None)
+    parser.add_argument('--secondary-filter-value', type=int, default=None)
+    args = parser.parse_args()
+    
+    COUNTRY = args.country
+    LANGUAGE = args.language
+    MODEL_NAME = args.model
+    SECONDARY_FILTER_VAR = args.secondary_filter_var
+    SECONDARY_FILTER_VALUE = args.secondary_filter_value
+
+    # Initialize model after parsing arguments
+    initialize_model(MODEL_NAME)
+
+    # Enable caching
+    cache_file = get_cache_filename(COUNTRY, LANGUAGE, MODEL_NAME)
+    cached_distributions = load_cached_distributions(cache_file)
+    new_distributions = {}
+
+    responses = pd.read_csv('responses.csv')
+    with open(f'{COUNTRY}_{LANGUAGE}.json') as f:
+        questions = json.load(f)
+
+    country = country_ids[COUNTRY]
+    responses = responses[responses['COUNTRY'] == country]
+    if SECONDARY_FILTER_VAR is not None and SECONDARY_FILTER_VALUE is not None:
+        responses = responses[responses[SECONDARY_FILTER_VAR] == SECONDARY_FILTER_VALUE]
+
+    scores = []
+    jsd_scores = []
+    hell_scores = []
+    results_rows = []
+    for question in tqdm(questions):
+        if question in ['COUNTRY', 'QRID', 'weight', 'QMLangRec']:
+            continue
+        if 'question' in questions[question] and 'options' in questions[question]:
+            qd1 = get_question_distribution(responses, question)
+            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions)
+            new_distributions[question] = qd2
+
+            if qd1.sum() == 0 or qd2.sum() == 0:
+                print(f"Skipping question {question}: zero-sum distribution detected")
+                continue
+            option_codes = sorted(questions[question]['options'].keys(), key=lambda x: int(x))
+            qd1_aligned = qd1.reindex(option_codes, fill_value=0.0)
+            qd2_aligned = qd2.reindex(option_codes, fill_value=0.0)
+            score = compare_distributions(qd1_aligned, qd2_aligned, num_options=len(option_codes))
+            jsd = jensen_shannon_divergence(qd1_aligned, qd2_aligned, option_codes)
+            hell = hellinger_distance(qd1_aligned, qd2_aligned, option_codes)
+            print(f"Question {question} WD: {score} JSD: {jsd} HELL: {hell}")
+            scores.append(score)
+            jsd_scores.append(jsd)
+            hell_scores.append(hell)
+            results_rows.append((question, score, jsd, hell))
+
+    # Save all distributions to cache
+    all_distributions = {**cached_distributions, **new_distributions}
+    save_cached_distributions(cache_file, all_distributions)
+    
+    # Write per-question scores to CSV with full precision
+    MODEL_SHORT_NAME = MODEL_NAME.split('/')[-1].lower().replace('-', '_')
+    csv_path = f"{MODEL_SHORT_NAME}_{COUNTRY}_{LANGUAGE}.csv"
+    with open(csv_path, "w", encoding="utf-8", newline="") as f_csv:
+        writer = csv.writer(f_csv)
+        writer.writerow(["question", "wd", "jsd", "hell"])
+        for q, wd_v, jsd_v, hell_v in results_rows:
+            writer.writerow([q, f"{wd_v}", f"{jsd_v}", f"{hell_v}"])
+
+    print('=' * 20)
+    print('Average Representativeness:', sum(scores) / len(scores) if scores else 0)
+    print('Average JSD:', sum(jsd_scores) / len(jsd_scores) if jsd_scores else 0)
+    print('Average Hellinger:', sum(hell_scores) / len(hell_scores) if hell_scores else 0)
 
