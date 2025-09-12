@@ -185,21 +185,21 @@ def get_system_prompt(steering=False):
     } # Thai
 
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question.'
+        prompt = f'Answer the following question as a citizen of {country_dict_en[COUNTRY]}.'
     elif LANGUAGE == 'km': # Translation of "Answer the following question."
-        prompt = 'សូមឆ្លើយសំណួរ'
+        prompt = f'សូមឆ្លើយសំណួរ, ជាអ្នកនាំពាក្យរបស់ {country_dict_km[COUNTRY]}.'
     elif LANGUAGE == 'zh': # Translation of "Answer the following question."        
-        prompt = '请回答以下问题。'
+        prompt = f'請以{country_dict_zh[COUNTRY]}公民的身分回答以下問題。'
     elif LANGUAGE == 'ma':
-        prompt = 'Sila jawab soalan berikut.'
+        prompt = f'Sila jawab soalan berikut sebagai warganegara {country_dict_ma[COUNTRY]}.'
     elif LANGUAGE == 'id':
-        prompt = 'Silakan jawab pertanyaan berikut.'
+        prompt = f'Silakan jawab pertanyaan berikut sebagai warga {country_dict_id[COUNTRY]}.'
     elif LANGUAGE == 'ta':
-        prompt = 'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும்.'
+        prompt = f'தயவுசெய்து கீழ்காணும் கேள்விக்கு பதிலளிக்கவும், {country_dict_ta[COUNTRY]}வின் குடியரசாளராக.'
     elif LANGUAGE == 'si':
-        prompt = 'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න.'
+        prompt = f'කරුණාකර පහත ප්‍රශ්නයට පිළිතුරු දෙන්න, {country_dict_si[COUNTRY]}ගේ පුරවැසියෙකු ලෙස.'
     elif LANGUAGE == 'th':  # Translation of "Answer the following question."
-        prompt = 'กรุณาตอบคำถามต่อไปนี้'
+        prompt = f'กรุณาตอบคำถามต่อไปนี้ในฐานะพลเมืองของ {country_dict_th[COUNTRY]}.'
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
 

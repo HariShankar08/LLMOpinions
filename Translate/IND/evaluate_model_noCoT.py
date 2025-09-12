@@ -102,9 +102,9 @@ def get_prompt(question, questions):
 
 def get_system_prompt(steering=False):
     if LANGUAGE == 'en':
-        prompt = 'Answer the following question.'
+        prompt = 'Answer the following question as a citizen of India.'
     elif LANGUAGE == 'hi':
-        prompt = 'निम्नलिखित प्रश्न का उत्तर दीजिए।'
+        prompt = 'भारत के नागरिक के रूप में निम्नलिखित प्रश्न का उत्तर दीजिए।'
 
     if steering:
         raise NotImplementedError("Steering prompts not yet implemented.")
