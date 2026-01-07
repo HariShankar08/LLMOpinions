@@ -51,7 +51,7 @@ def log_message(message, color=Colors.NC):
     with open(MAIN_LOG_PATH, 'a') as f:
         f.write(message + '\n')
 
-def run_evaluation(region, script_name, log_suffix="", model_override=None):
+def run_evaluation(region, script_name, log_suffix="", model_override=None, steering_override=False):
     """
     Finds all JSON files in a region's directory and runs the specified
     evaluation script for each, capturing logs.
@@ -60,6 +60,7 @@ def run_evaluation(region, script_name, log_suffix="", model_override=None):
         region (str): The region to process (e.g., "SEA", "EA", "IND").
         script_name (str): The name of the Python evaluation script to run.
         log_suffix (str): An optional suffix for the individual log file names.
+        steering_override (bool): If True, add the '--steering' flag to the evaluation command.
     """
     log_message(f"Processing region: {region}", Colors.GREEN)
 
@@ -122,6 +123,9 @@ def run_evaluation(region, script_name, log_suffix="", model_override=None):
             # If a model override is provided, pass it through to the evaluation script
             if model_override:
                 command.extend(["--model", model_override])
+            # If steering override is enabled, add the flag
+            if steering_override:
+                command.append("--steering")
             
             # Execute the command and capture output in real-time
             process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
@@ -276,27 +280,29 @@ def main():
     # Parse optional CLI arguments for this runner
     parser = argparse.ArgumentParser(description="Run all evaluations across regions")
     parser.add_argument('--model', type=str, default=None, help='Override model for all evaluations')
+    parser.add_argument('--steering', action='store_true', help='Enable steering flag for all evaluations')
     args = parser.parse_args()
 
     model_override = args.model
+    steering_override = args.steering
 
     # --- Run Standard Evaluations ---
     log_message("=== Running Standard Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model.py", model_override=model_override)
-    run_evaluation("EA", "evaluate_model.py", model_override=model_override)
-    run_evaluation("IND", "evaluate_model.py", model_override=model_override)
+    run_evaluation("SEA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
+    run_evaluation("EA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
+    run_evaluation("IND", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
 
     # --- Run noCoT Evaluations ---
     log_message("=== Running noCoT Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
-    run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
-    run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override)
+    run_evaluation("SEA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override, steering_override=steering_override)
+    run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override, steering_override=steering_override)
+    run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override, steering_override=steering_override)
 
     # --- Run Gemini Evaluations ---
     log_message("=== Running Gemini Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
-    run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
-    run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override)
+    run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
+    run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
+    run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
 
     # --- Run Gemini Logprobs Demo (optional, minimal integration) ---
     log_message("=== Running Gemini Logprobs (Full) ===", Colors.BLUE)

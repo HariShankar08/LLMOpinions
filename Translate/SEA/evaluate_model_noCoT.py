@@ -46,7 +46,6 @@ def initialize_model(model_name):
     global MODEL, TOKENIZER, DEVICE
     
     print(f"Loading model: {model_name}")
-    MODEL = AutoModelForCausalLM.from_pretrained(model_name)
     TOKENIZER = AutoTokenizer.from_pretrained(model_name)
     TOKENIZER.pad_token = TOKENIZER.eos_token
     TOKENIZER.pad_token_id = TOKENIZER.eos_token_id
@@ -54,6 +53,7 @@ def initialize_model(model_name):
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if torch.backends.mps.is_available():
         DEVICE = torch.device("mps")
+    MODEL = AutoModelForCausalLM.from_pretrained(model_name, dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32)
     
     print(f"Model loaded on device: {DEVICE}")
 
@@ -250,7 +250,7 @@ def make_model_distribution(logits, question, questions_dict):
     return series
 
 
-def get_model_distribution(df, question, questions, chat_model=True, cached_distributions=None):
+def get_model_distribution(df, question, questions, chat_model=True, cached_distributions=None, steering=False):
     # Check if we have a cached distribution for this question
     if cached_distributions is not None and question in cached_distributions:
         print(f"Using cached distribution for question: {question}")
@@ -420,6 +420,7 @@ if __name__ == "__main__":
                        help='Model name to use for evaluation (e.g., "meta-llama/Llama-3.2-1B-Instruct")')
     parser.add_argument('--secondary-filter-var', type=str, default=None)
     parser.add_argument('--secondary-filter-value', type=int, default=None)
+    parser.add_argument('--steering', action='store_true', help='Use steering prompts if set')
     args = parser.parse_args()
     
     COUNTRY = args.country
@@ -427,6 +428,8 @@ if __name__ == "__main__":
     MODEL_NAME = args.model
     SECONDARY_FILTER_VAR = args.secondary_filter_var
     SECONDARY_FILTER_VALUE = args.secondary_filter_value
+
+    STEERING = args.steering
 
     # Initialize model after parsing arguments
     initialize_model(MODEL_NAME)
@@ -454,7 +457,7 @@ if __name__ == "__main__":
             continue
         if 'question' in questions[question] and 'options' in questions[question]:
             qd1 = get_question_distribution(responses, question)
-            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions)
+            qd2 = get_model_distribution(responses, question, questions, cached_distributions=cached_distributions, steering=STEERING)
             new_distributions[question] = qd2
 
             if qd1.sum() == 0 or qd2.sum() == 0:
