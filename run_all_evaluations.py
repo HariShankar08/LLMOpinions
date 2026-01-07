@@ -287,10 +287,10 @@ def main():
     steering_override = args.steering
 
     # --- Run Standard Evaluations ---
-    log_message("=== Running Standard Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
-    run_evaluation("EA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
-    run_evaluation("IND", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
+    # log_message("=== Running Standard Evaluations ===", Colors.BLUE)
+    # run_evaluation("SEA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
+    # run_evaluation("EA", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
+    # run_evaluation("IND", "evaluate_model.py", model_override=model_override, steering_override=steering_override)
 
     # --- Run noCoT Evaluations ---
     log_message("=== Running noCoT Evaluations ===", Colors.BLUE)
@@ -298,17 +298,17 @@ def main():
     run_evaluation("EA", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override, steering_override=steering_override)
     run_evaluation("IND", "evaluate_model_noCoT.py", log_suffix="_noCoT", model_override=model_override, steering_override=steering_override)
 
-    # --- Run Gemini Evaluations ---
-    log_message("=== Running Gemini Evaluations ===", Colors.BLUE)
-    run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
-    run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
-    run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
+    # # --- Run Gemini Evaluations ---
+    # log_message("=== Running Gemini Evaluations ===", Colors.BLUE)
+    # run_evaluation("SEA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
+    # run_evaluation("EA", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
+    # run_evaluation("IND", "evaluate_model_gemini.py", log_suffix="_gemini", model_override=model_override, steering_override=steering_override)
 
-    # --- Run Gemini Logprobs Demo (optional, minimal integration) ---
-    log_message("=== Running Gemini Logprobs (Full) ===", Colors.BLUE)
-    run_logprobs_full("SEA")
-    run_logprobs_full("EA")
-    run_logprobs_full("IND")
+    # # --- Run Gemini Logprobs Demo (optional, minimal integration) ---
+    # log_message("=== Running Gemini Logprobs (Full) ===", Colors.BLUE)
+    # run_logprobs_full("SEA")
+    # run_logprobs_full("EA")
+    # run_logprobs_full("IND")
 
     log_message("All evaluations completed!", Colors.GREEN)
     
