@@ -28,1345 +28,1345 @@
         }
     },
     "Q1": {
-        "question": "Q1. Memikirkan situasi ekonomi pribadi Anda saat ini, bagaimana Anda menggambarkannya?",
+        "question": "Memikirkan situasi ekonomi pribadi Anda saat ini, bagaimana Anda menggambarkannya?",
         "options": {
             "1": "Sangat baik",
             "2": "Cukup baik",
-            "3": "Cukup buruk atau",
+            "3": "Cukup buruk",
             "4": "Sangat buruk",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QSPKrec": {
-        "question": "QSPKrec. Manakah dari dua pernyataan ini yang paling mendekati pendapat Anda meskipun keduanya tidak ada yang sepenuhnya benar?",
+        "question": "Manakah dari dua pernyataan berikut yang paling mendekati pendapat Anda meskipun keduanya mungkin tidak sepenuhnya tepat?",
         "options": {
-            "1": "Setiap orang harus diizinkan untuk menyampaikan pendapatnya di depan umum meskipun hal itu membuat orang lain tidak senang",
-            "2": "Keharmonisan dengan orang lain lebih penting daripada hak untuk menyuarakan pendapat",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "1": "Orang harus diizinkan untuk menyampaikan pendapat mereka secara publik meskipun hal itu dapat membuat orang lain tersinggung",
+            "2": "Keharmonisan dengan orang lain lebih penting daripada hak untuk menyampaikan pendapat",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QCRITrec": {
-        "question": "QCRITrec. Menurut Anda, apakah orang yang tidak setuju dengan tindakan pemerintah kita seharusnya boleh atau tidak boleh mengkritik pemerintah secara terbuka?",
+        "question": "Menurut Anda, apakah orang yang tidak setuju dengan tindakan pemerintah kita seharusnya boleh atau tidak boleh mengkritik pemerintah secara publik?",
         "options": {
-            "1": "Ya, seharusnya boleh mengkritik pemerintah secara terbuka",
-            "2": "Tidak, seharusnya tidak boleh mengkritik pemerintah secara terbuka",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "1": "Ya, seharusnya boleh mengkritik pemerintah secara publik",
+            "2": "Tidak, tidak seharusnya boleh mengkritik pemerintah secara publik",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QGOVrec": {
-        "question": "QGOVrec. Beberapa orang merasa bahwa kita harus mengandalkan bentuk pemerintahan yang demokratis untuk menyelesaikan masalah-masalah di Indonesia. Yang lain merasa bahwa kita harus mengandalkan seorang pemimpin dengan tangan besi untuk menyelesaikan masalah-masalah di Indonesia. Mana yang lebih mendekati pendapat Anda?",
+        "question": "Beberapa orang merasa bahwa kita harus mengandalkan bentuk pemerintahan demokratis untuk menyelesaikan masalah Indonesia. Yang lain merasa bahwa kita harus mengandalkan seorang pemimpin dengan tangan kuat untuk menyelesaikan masalah Indonesia. Manakah yang lebih mendekati pendapat Anda?",
         "options": {
-            "1": "Bentuk pemerintahan yang demokratis",
-            "2": "Pemimpin dengan tangan besi",
+            "1": "Bentuk pemerintahan demokratis",
+            "2": "Pemimpin dengan tangan kuat",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QCURREL": {
-        "question": "QCURREL. Terlepas dari bagaimana pemerintah mencatat agama Anda, apa agama Anda, jika ada?",
+        "question": "Terlepas dari bagaimana pemerintah mencatat agama Anda, apa agama Anda, jika ada?",
         "options": {
             "1": "Buddha",
-            "2": "Islam",
+            "2": "Muslim",
             "3": "Kristen",
             "4": "Hindu",
-            "5": "Agama tradisional Tionghoa, seperti Tao, Konghucu, atau agama lokal Tionghoa [JANGAN DIBACA DI SRI LANKA [COUNTRY\u22606]",
-            "6": "Kepercayaan lokal atau agama Adat [JANGAN DIBACA DI SRI LANKA]",
-            "8": "Agama lainnya [SEBUTKAN DI QCURRELb]",
+            "5": "Agama tradisional Tionghoa, seperti Dao, Konfusianisme atau agama lokal Tionghoa [JANGAN DIBACA DI SRI LANKA [NEGARA ≠ 6]]",
+            "6": "Kepercayaan lokal atau agama adat [JANGAN DIBACA DI SRI LANKA]",
+            "8": "Agama lain [SEBUTKAN DI QCURRELb]",
             "9": "Tidak beragama",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q15a": {
-        "question": "Q15a. Berdasarkan apa yang Anda ketahui, menurut Anda apakah setiap deskripsi berikut ini sesuai dengan [RELSYS], atau tidak? a. tradisi keluarga yang harus diikuti",
+        "question": "Hanya berdasarkan apa yang Anda ketahui, apakah Anda pikir deskripsi berikut cocok dengan [SISTEM AGAMA], atau tidak? a. sebuah tradisi keluarga yang harus diikuti",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q15b": {
-        "question": "Q15b. Berdasarkan apa yang Anda ketahui, menurut Anda apakah setiap deskripsi berikut ini sesuai dengan [RELSYS], atau tidak? b. etnis/suku bangsa sejak lahir",
+        "question": "Hanya berdasarkan apa yang Anda ketahui, apakah Anda pikir deskripsi berikut cocok dengan [SISTEM AGAMA], atau tidak? b. sebuah etnisitas yang dimiliki sejak lahir",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q15c": {
-        "question": "Q15c. Berdasarkan apa yang Anda ketahui, menurut Anda apakah setiap deskripsi berikut ini sesuai dengan [RELSYS], atau tidak? c. bagian dari suatu budaya",
+        "question": "Hanya berdasarkan apa yang Anda ketahui, apakah Anda pikir deskripsi berikut cocok dengan [SISTEM AGAMA] atau tidak? c. suatu budaya yang seseorang menjadi bagiannya",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q15d": {
-        "question": "Q15d. Berdasarkan apa yang Anda ketahui, menurut Anda apakah setiap deskripsi berikut ini sesuai dengan [RELSYS], atau tidak? d. agama yang dipilih untuk diikuti",
+        "question": "Hanya berdasarkan apa yang Anda ketahui, apakah Anda pikir deskripsi berikut cocok dengan [SISTEM AGAMA] atau tidak? d. suatu agama yang dipilih seseorang untuk diikuti",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25a": {
-        "question": "Q25a. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? a. tidak menghormati orang yang lebih tua",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? a. tidak menghormati orang yang lebih tua",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25b": {
-        "question": "Q25b. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? b. tidak menghormati Indonesia",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? b. tidak menghormati Indonesia",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25c": {
-        "question": "Q25c. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? c. tidak percaya pada Tuhan",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? c. tidak percaya kepada Tuhan",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25d": {
-        "question": "Q25d. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? d. tidak menghormati dewa atau roh",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? d. tidak menghormati dewa-dewa atau roh-roh",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25e": {
-        "question": "Q25e. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? e. tidak pernah pergi ke [vihara, pagoda atau balai dhamma/pura/kuil/masjid/gereja\u201d]",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? e. tidak pernah pergi ke [kuil, pagoda atau aula dhamma/kuil/kuil/masjid/gereja]",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25f": {
-        "question": "Q25f. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? f. tidak berdoa",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? f. tidak berdoa",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25g": {
-        "question": "Q25g. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? g. minum alkohol",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? g. minum alkohol",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25h": {
-        "question": "Q25h. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? h. merayakan hari raya umat Buddha [Waisak/Pchum ben]",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? h. merayakan festival Buddha [Waisak/Pchum Ben]",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25i": {
-        "question": "Q25i. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? i. merayakan hari raya umat Kristiani Natal",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? i. merayakan festival Kristen Natal",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25j": {
-        "question": "Q25j. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? j. merayakan hari raya umat Islam Idul Fitri",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? j. merayakan festival Muslim Idulfitri",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q25k": {
-        "question": "Q25k. Menurut pendapat Anda, dapatkah seseorang benar-benar menjadi [RELSING] jika ia melakukan setiap hal berikut? k. memberikan persembahan kepada arwah kerabat yang telah meninggal",
+        "question": "Menurut Anda, apakah seseorang dapat benar-benar menjadi [PENGANUT AGAMA] jika mereka melakukan hal berikut? k. memberikan persembahan kepada roh kerabat yang telah meninggal",
         "options": {
             "1": "Ya, bisa",
             "2": "Tidak, tidak bisa",
             "97": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QATTEND": {
-        "question": "QATTEND. [Selain pernikahan dan pemakaman,] seberapa sering, jika pernah, Anda [pergi ke vihara, pagoda, atau balai dhamma/pergi ke pura/datang ke masjid/pergi ke gereja]?",
+        "question": "[Selain dari pernikahan dan pemakaman,] seberapa sering, jika memang pernah, Anda [pergi ke kuil, pagoda atau aula dhamma/pergi ke kuil/menghadiri masjid/pergi ke gereja]?",
         "options": {
             "1": "Setiap hari",
             "2": "Lebih dari sekali seminggu",
-            "3": "Seminggu sekali",
+            "3": "Sekali seminggu",
             "4": "Sekali atau dua kali sebulan",
-            "5": "Beberapa kali setahun",
+            "5": "Beberapa kali dalam setahun",
             "6": "Lebih jarang dari itu atau",
             "7": "Tidak pernah",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26a": {
-        "question": "Q26a. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? a. Cara hidup umat Buddha",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? a. Cara hidup Buddha",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ya, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26b": {
-        "question": "Q26b. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? b. Cara hidup umat Islam",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? b. Cara hidup Muslim",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ya, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26c": {
-        "question": "Q26c. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? c. Cara hidup umat Kristen",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? c. Cara hidup Kristen",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ya, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26d": {
-        "question": "Q26d. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? d. Cara hidup umat Hindu",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? d. Cara hidup Hindu",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ya, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26e": {
-        "question": "Q26e. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? e. Cara hidup tradisional Tionghoa",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? e. Cara hidup tradisional Tionghoa",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ya, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q26f": {
-        "question": "Q26f. Apakah Anda merasakan hubungan pribadi dengan setiap cara hidup berikut ini, atau tidak? f. Cara hidup agama lokal/agama adat",
+        "question": "Apakah Anda merasa memiliki hubungan pribadi dengan masing-masing cara hidup berikut, atau tidak? f. Cara hidup agama lokal/agama adat",
         "options": {
-            "1": "Ya",
-            "2": "Tidak",
+            "1": "Ja, saya merasa",
+            "2": "Tidak, saya tidak merasa",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q28": {
-        "question": "Q28. Seberapa pentingkah agama dalam hidup Anda, jika memang penting?",
+        "question": "Seberapa penting agama dalam hidup Anda, jika memang penting?",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QGODa": {
-        "question": "QGODa. Apakah Anda percaya pada Tuhan, atau tidak?",
+        "question": "Apakah Anda percaya kepada Tuhan atau tidak?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QGODb": {
-        "question": "QGODb. Seberapa yakinkah Anda tentang keyakinan ini, jika ada?",
+        "question": "Seberapa yakin Anda tentang keyakinan ini, jika memang yakin?",
         "options": {
             "1": "Sangat yakin",
             "2": "Cukup yakin",
             "3": "Tidak terlalu yakin atau",
-            "4": "Sama sekali tidak yakin",
+            "4": "Tidak yakin sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QGODc": {
-        "question": "QGODc. Apakah Anda berpikir bahwa ada makhluk gaib di dunia, seperti dewa atau roh?",
+        "question": "Apakah Anda berpikir bahwa ada makhluk tak terlihat di dunia, seperti dewa atau roh?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QGODd": {
-        "question": "QGODd. Seberapa yakinkah Anda, jika ada, tentang keberadaan makhluk gaib di dunia?",
+        "question": "Seberapa yakin Anda, jika memang yakin, tentang keberadaan makhluk tak terlihat di dunia?",
         "options": {
             "1": "Sangat yakin",
             "2": "Cukup yakin",
             "3": "Tidak terlalu yakin atau",
-            "4": "Sama sekali tidak yakin",
+            "4": "Tidak yakin sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q34": {
-        "question": "Q34. Pernyataan mana yang lebih mendekati pandangan Anda meskipun keduanya tidak ada yang sepenuhnya benar?",
+        "question": "Pernyataan mana yang lebih mendekati pandangan Anda meskipun keduanya mungkin tidak sepenuhnya tepat?",
         "options": {
             "1": "Agama saya adalah satu-satunya agama yang benar",
-            "2": "Banyak agama bisa jadi benar",
-            "3": "[JANGAN DIBACA] Lainnya/Tidak Keduanya/Tergantung situasi",
+            "2": "Banyak agama dapat menjadi benar",
+            "3": "[JANGAN DIBACA] Lainnya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QCHREL": {
-        "question": "QCHREL. Mengingat masa kecil Anda, dalam agama apa Anda dibesarkan, jika ada?",
+        "question": "Memikirkan masa ketika Anda masih anak-anak, dalam agama apa Anda dibesarkan, jika ada?",
         "options": {
             "1": "Buddha",
-            "2": "Islam",
+            "2": "Muslim",
             "3": "Kristen",
             "4": "Hindu",
-            "5": "Agama tradisional Tionghoa, seperti Tao, Konghucu, atau agama lokal Tionghoa [JANGAN DIBACA DI SRI LANKA [COUNTRY\u22606]",
-            "6": "Kepercayaan lokal atau agama Adat [JANGAN DIBACA DI SRI LANKA]",
-            "8": "Agama lainnya [SEBUTKAN DI QCHRELB]",
+            "5": "Agama tradisional Tionghoa, seperti Dao, Konfusianisme atau agama lokal Tionghoa [JANGAN DIBACA DI SRI LANKA [NEGARA ≠ 6]]",
+            "6": "Kepercayaan lokal atau agama adat [JANGAN DIBACA DI SRI LANKA]",
+            "8": "Agama lain [SEBUTKAN DI QCHRELB]",
             "9": "Tidak beragama",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESa": {
-        "question": "QFIGURESa. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? a. Ganesha",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? a. Ganesh",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESb": {
-        "question": "QFIGURESb. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? b. Buddha",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? b. Buddha",
         "options": {
-            "1": "Ya",
+            "1": "Ja",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESc": {
-        "question": "QFIGURESc. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? c. Siwa",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? c. Shiva",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESd": {
-        "question": "QFIGURESd. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? d. Bunda Maria",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? d. Bunda Maria",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESe": {
-        "question": "QFIGURESe. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? e. Roh pelindung/dewa penjaga di daerah tempat Anda tinggal",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? e. Roh pelindung/dewa penjaga wilayah tempat Anda tinggal",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESh": {
-        "question": "QFIGURESh. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? h. Yesus Kristus",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? h. Yesus Kristus",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESi": {
-        "question": "QFIGURESi. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? i. Guanyin, atau Bodhisattva Guanyin",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? i. Guanyin, atau Bodhisattva Guanyin",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFIGURESj": {
-        "question": "QFIGURESj. Apakah saat ini Anda berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? j. Allah",
+        "question": "Apakah Anda saat ini berdoa atau memberikan penghormatan kepada setiap tokoh berikut, atau tidak? j. Allah",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q38a": {
-        "question": "Q38a. Jika Anda merencanakan pemakaman untuk anggota keluarga/orang yang dicintai, seberapa penting untuk...? a. Mengundang [seorang biksu atau orang terpelajar/seorang imam atau syekh/seorang pendeta atau pastur/seorang pandita atau orang terpelajar] untuk membacakan kitab suci atau berkhotbah",
+        "question": "Jika Anda sedang merencanakan pemakaman untuk anggota keluarga/orang yang Anda cintai, seberapa pentingkah bagi Anda untuk…? a. Mengundang [seorang biksu atau orang alim/seorang imam atau syekh/seorang pastor atau pendeta/seorang pandit atau orang alim] untuk membacakan teks-teks suci atau berkhotbah",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q38b": {
-        "question": "Q38b. Jika Anda merencanakan pemakaman untuk anggota keluarga/orang yang dicintai, seberapa penting untuk...? b. Memberikan sumbangan atas nama kerabat yang telah meninggal",
+        "question": "Jika Anda sedang merencanakan pemakaman untuk anggota keluarga/orang yang Anda cintai, seberapa pentingkah bagi Anda untuk…? b. Memberikan donasi atas nama kerabat yang telah meninggal",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q38c": {
-        "question": "Q38c. Jika Anda merencanakan pemakaman untuk anggota keluarga/orang yang dicintai, seberapa penting untuk...? c. Mendirikan [tempat suci/ altar] untuk kerabat yang telah meninggal",
+        "question": "Jika Anda sedang merencanakan pemakaman untuk anggota keluarga/orang yang Anda cintai, seberapa pentingkah bagi Anda untuk…? c. Mendirikan [sebuah tempat pemujaan/sebuah altar] untuk kerabat yang telah meninggal",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q38g": {
-        "question": "Q38g. Jika Anda merencanakan pemakaman untuk anggota keluarga/orang yang dicintai, seberapa penting untuk...? g. Melakukan ritual di [vihara, pagoda atau balai dhamma/masjid/gereja] untuk arwah kerabat yang telah meninggal",
+        "question": "Jika Anda sedang merencanakan pemakaman untuk anggota keluarga/orang yang Anda cintai, seberapa pentingkah bagi Anda untuk…? g. Melakukan ritual di [kuil, pagoda atau aula dhamma/masjid/gereja] untuk arwah kerabat yang telah meninggal",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q39a": {
-        "question": "Q39a. Apakah Anda atau seseorang di rumah Anda melakukan ritual pada setiap kesempatan berikut, atau tidak? a. Pada peringatan hari kematian orang yang dicintai yang telah meninggal",
+        "question": "Apakah Anda atau seseorang di rumah Anda melakukan ritual pada setiap kesempatan berikut, atau tidak? a. Pada hari peringatan kematian orang yang dicintai",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q39b": {
-        "question": "Q39b. Apakah Anda atau seseorang di rumah Anda melakukan ritual pada setiap kesempatan berikut, atau tidak? b. Pada hari-hari istimewa lainnya",
+        "question": "Apakah Anda atau seseorang di rumah Anda melakukan ritual pada setiap kesempatan berikut, atau tidak? b. Pada hari-hari khusus lainnya",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q40a": {
-        "question": "Q40a. Apakah Anda memiliki area pemakaman keluarga tempat jenazah anggota keluarga yang telah meninggal berada, atau tidak?",
+        "question": "Apakah Anda memiliki makam keluarga tempat jenazah anggota keluarga yang telah meninggal disemayamkan, atau tidak?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q40b": {
-        "question": "Q40b. Apakah Anda atau seseorang di rumah Anda membayar uang untuk merawat area pemakaman keluarga, atau tidak?",
+        "question": "Apakah Anda atau seseorang di rumah Anda membayar untuk merawat makam keluarga tersebut, atau tidak?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q40c": {
-        "question": "Q40c. Apakah Anda atau seseorang di rumah Anda merawat area pemakaman keluarga dengan menyapu atau membersihkannya?",
+        "question": "Apakah Anda atau seseorang di rumah Anda merawat makam keluarga dengan menyapu atau membersihkannya?",
         "options": {
-            "1": "Ya",
+            "1": "Ja",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q41b": {
-        "question": "Q41b. Menurut Anda, apakah setiap pernyataan berikut benar, atau tidak? b. Seseorang dapat mengetahui tujuan akhirat atau tujuan kelahiran kembali untuk anggota keluarga yang telah meninggal",
+        "question": "Apakah Anda pikir pernyataan berikut benar atau tidak? b. Seseorang dapat mengetahui tujuan kehidupan setelah mati atau tujuan kelahiran kembali bagi anggota keluarga yang telah meninggal",
         "options": {
             "1": "Ya, benar",
             "2": "Tidak, tidak benar",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q41d": {
-        "question": "Q41d. Menurut Anda, apakah setiap pernyataan berikut benar, atau tidak? d. Seseorang dapat merasakan kehadiran anggota keluarga yang telah meninggal",
+        "question": "Apakah Anda pikir pernyataan berikut benar atau tidak? d. Seseorang dapat merasakan kehadiran anggota keluarga yang telah meninggal",
         "options": {
             "1": "Ya, benar",
             "2": "Tidak, tidak benar",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46a": {
-        "question": "Q46a. Menurut Anda, apakah setiap hal berikut ada, atau tidak? a. 'ain (mata jahat)",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? a. mata jahat",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46b": {
-        "question": "Q46b. Menurut Anda, apakah setiap hal berikut ada, atau tidak? b. kelahiran kembali (reinkarnasi)",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? b. kelahiran kembali",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46c": {
-        "question": "Q46c. Menurut Anda, apakah setiap hal berikut ada, atau tidak? c. takdir",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? c. takdir",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46d": {
-        "question": "Q46d. Menurut Anda, apakah setiap hal berikut ada, atau tidak? d. mantra, kutukan, atau sihir lain yang memengaruhi kehidupan orang",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? d. mantra, kutukan, atau sihir lain yang memengaruhi kehidupan orang",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46e": {
-        "question": "Q46e. Menurut Anda, apakah setiap hal berikut ada, atau tidak? e. surga",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? e. surga",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46f": {
-        "question": "Q46f. Menurut Anda, apakah setiap hal berikut ada, atau tidak? f. neraka",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? f. neraka",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46g": {
-        "question": "Q46g. Menurut Anda, apakah setiap hal berikut ada, atau tidak? g. Hari Penghakiman (Kiamat)",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? g. Hari Penghakiman",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46h": {
-        "question": "Q46h. Menurut Anda, apakah setiap hal berikut ada, atau tidak? h. Nirwana",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? h. Nirwana",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46i": {
-        "question": "Q46i. Menurut Anda, apakah setiap hal berikut ada, atau tidak? i. Moksa",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? i. Moksha",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46j": {
-        "question": "Q46j. Menurut Anda, apakah setiap hal berikut ada, atau tidak? j. Karma",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? j. karma",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46k": {
-        "question": "Q46k. Menurut Anda, apakah setiap hal berikut ada, atau tidak? k. malaikat atau dewa yang menolong",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? k. malaikat atau dewa penolong",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q46l": {
-        "question": "Q46l. Menurut Anda, apakah setiap hal berikut ada, atau tidak? l. setan atau dewa jahat",
+        "question": "Apakah Anda pikir hal-hal berikut ada atau tidak? l. iblis atau dewa jahat",
         "options": {
             "1": "Ya, ada",
             "2": "Tidak, tidak ada",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q48d": {
-        "question": "Q48d. Apakah Anda pernah mengalami hal-hal berikut, atau tidak? d. Mengubah takdir Anda dengan melakukan ritual",
+        "question": "Apakah Anda pernah mengalami hal berikut atau tidak? d. Mengubah takdir Anda dengan melakukan ritual",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q48e": {
-        "question": "Q48e. Apakah Anda pernah mengalami hal-hal berikut, atau tidak? e. Mengunjungi seorang medium (perantara) untuk berkomunikasi dengan roh",
+        "question": "Apakah Anda pernah mengalami hal berikut atau tidak? e. Mengunjungi seorang medium untuk berkomunikasi dengan roh",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q49a": {
-        "question": "Q49a. Seberapa sering, jika pernah, Anda mengalami hal-hal berikut? a. perasaan dilindungi oleh kekuatan gaib",
+        "question": "Seberapa sering, jika memang pernah, Anda mengalami hal berikut? a. perasaan dilindungi oleh kekuatan tak terlihat",
         "options": {
             "1": "Setiap hari",
             "2": "Lebih dari sekali seminggu",
-            "3": "Seminggu sekali",
+            "3": "Sekali seminggu",
             "4": "Sekali atau dua kali sebulan",
-            "5": "Beberapa kali setahun",
+            "5": "Beberapa kali dalam setahun",
             "6": "Lebih jarang dari itu atau",
             "7": "Tidak pernah",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q49b": {
-        "question": "Q49b. Seberapa sering, jika pernah, Anda mengalami hal-hal berikut? b. perasaan diserang oleh kekuatan gaib",
+        "question": "Seberapa sering, jika memang pernah, Anda mengalami hal berikut? b. perasaan diserang oleh kekuatan tak terlihat",
         "options": {
             "1": "Setiap hari",
             "2": "Lebih dari sekali seminggu",
-            "3": "Seminggu sekali",
+            "3": "Sekali seminggu",
             "4": "Sekali atau dua kali sebulan",
-            "5": "Beberapa kali setahun",
+            "5": "Beberapa kali dalam setahun",
             "6": "Lebih jarang dari itu atau",
             "7": "Tidak pernah",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q50": {
-        "question": "Q50. Seberapa sering Anda berdoa, jika pernah?",
+        "question": "Seberapa sering Anda berdoa, jika memang pernah?",
         "options": {
             "1": "Beberapa kali sehari",
             "2": "Sekali sehari",
             "3": "Beberapa kali seminggu",
-            "4": "Seminggu sekali",
-            "5": "Beberapa kali sebulan",
+            "4": "Sekali seminggu",
+            "5": "Beberapa kali dalam sebulan",
             "6": "Lebih jarang dari itu atau",
             "7": "Tidak pernah",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q51": {
-        "question": "Q51. Apakah Anda salat lima waktu setiap hari, atau tidak?",
+        "question": "Apakah Anda berdoa lima salat setiap hari atau tidak?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q54": {
-        "question": "Q54. Apakah ada altar atau tempat suci di rumah Anda, atau tidak?",
+        "question": "Apakah ada altar atau tempat pemujaan di rumah Anda, atau tidak?",
         "options": {
-            "1": "Ya",
+            "1": "Ja",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q57": {
-        "question": "Q57. Seberapa pentingkah bagi Anda untuk berbuat jasa (mengumpulkan pahala) dalam hidup Anda, jika memang penting?",
+        "question": "Seberapa penting bagi Anda untuk membuat kebajikan (berbuat jasa) dalam hidup Anda, jika memang penting?",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q58b": {
-        "question": "Q58b. Apakah Anda pernah melakukan setiap praktik berikut, atau tidak? b. Berlatih meditasi",
+        "question": "Apakah Anda pernah melakukan praktik berikut atau tidak? b. Berlatih meditasi",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q58c": {
-        "question": "Q58c. Apakah Anda pernah melakukan setiap praktik berikut, atau tidak? c. Membakar dupa",
+        "question": "Apakah Anda pernah melakukan praktik berikut atau tidak? c. Membakar dupa",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q58d": {
-        "question": "Q58d. Apakah Anda pernah melakukan setiap praktik berikut, atau tidak? d. Melakukan Tai Chi",
+        "question": "Apakah Anda pernah melakukan praktik berikut atau tidak? d. Melakukan Tai Chi",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q58f": {
-        "question": "Q58f. Apakah Anda pernah melakukan setiap praktik berikut, atau tidak? f. Menggunakan benda-benda khusus untuk berkah atau perlindungan",
+        "question": "Apakah Anda pernah melakukan praktik berikut atau tidak? f. Menggunakan benda-benda khusus untuk berkah atau perlindungan",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q70a": {
-        "question": "Q70a. Menurut Anda, apakah dapat diterima atau tidak dapat diterima bagi seseorang untuk melakukan setiap hal berikut? a. Mencoba membujuk orang lain untuk bergabung dengan agamanya",
+        "question": "Apakah Anda pikir wajar atau tidak wajar jika seseorang melakukan hal berikut? a. Mencoba meyakinkan orang lain untuk masuk ke agamanya",
         "options": {
-            "1": "Dapat diterima",
-            "2": "Tidak dapat diterima",
+            "1": "Wajar",
+            "2": "Tidak wajar",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q70c": {
-        "question": "Q70c. Menurut Anda, apakah dapat diterima atau tidak dapat diterima bagi seseorang untuk melakukan setiap hal berikut? c. Meninggalkan [RELSYS] untuk pindah ke agama lain",
+        "question": "Apakah Anda pikir wajar atau tidak wajar jika seseorang melakukan hal berikut? c. Meninggalkan [SISTEM AGAMA] untuk pindah ke agama lain",
         "options": {
-            "1": "Dapat diterima",
-            "2": "Tidak dapat diterima",
+            "1": "Wajar",
+            "2": "Tidak wajar",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QLEGAL": {
-        "question": "QLEGAL. Apakah Anda sangat mendukung, cukup mendukung, cukup menentang, atau sangat menentang izin bagi kaum gay dan lesbian untuk menikah secara sah?",
+        "question": "Apakah Anda sangat mendukung, agak mendukung, agak menentang, atau sangat menentang mengizinkan gay dan lesbian untuk menikah secara legal?",
         "options": {
             "1": "Sangat mendukung",
-            "2": "Cukup mendukung",
-            "3": "Cukup menentang",
+            "2": "Agak mendukung",
+            "3": "Agak menentang",
             "4": "Sangat menentang",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q74": {
-        "question": "Q74. Secara keseluruhan, menurut Anda apakah keberadaan orang-orang dari berbagai agama, kelompok etnis, dan budaya yang berbeda membuat negara ini menjadi tempat yang lebih baik untuk ditinggali, tempat yang lebih buruk untuk ditinggali, atau tidak jauh berbeda?",
+        "question": "Secara keseluruhan, apakah Anda berpikir bahwa memiliki orang dari berbagai agama, kelompok etnis, dan budaya membuat negara ini menjadi tempat yang lebih baik untuk ditinggali, tempat yang lebih buruk untuk ditinggali, atau tidak membuat banyak perbedaan?",
         "options": {
-            "1": "Menjadi tempat yang lebih baik untuk ditinggali",
-            "2": "Menjadi tempat yang lebih buruk untuk ditinggali",
-            "3": "Tidak jauh berbeda",
-            "4": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "1": "Tempat yang lebih baik untuk ditinggali",
+            "2": "Tempat yang lebih buruk untuk ditinggali",
+            "3": "Tidak membuat banyak perbedaan",
+            "4": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q75a": {
-        "question": "Q75a. Secara keseluruhan, menurut Anda apakah setiap agama berikut ini sangat damai, cukup damai, tidak terlalu damai, atau sama sekali tidak damai? a. Buddha",
+        "question": "Secara keseluruhan, apakah Anda berpikir bahwa setiap agama berikut sangat damai, agak damai, tidak terlalu damai, atau sama sekali tidak damai? a. Agama Buddha",
         "options": {
             "1": "Sangat damai",
-            "2": "Cukup damai",
+            "2": "Agak damai",
             "3": "Tidak terlalu damai",
             "4": "Sama sekali tidak damai",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q75b": {
-        "question": "Q75b. Secara keseluruhan, menurut Anda apakah setiap agama berikut ini sangat damai, cukup damai, tidak terlalu damai, atau sama sekali tidak damai? b. Islam",
+        "question": "Secara keseluruhan, apakah Anda berpikir bahwa setiap agama berikut sangat damai, agak damai, tidak terlalu damai, atau sama sekali tidak damai? b. Islam",
         "options": {
             "1": "Sangat damai",
-            "2": "Cukup damai",
+            "2": "Agak damai",
             "3": "Tidak terlalu damai",
             "4": "Sama sekali tidak damai",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q75c": {
-        "question": "Q75c. Secara keseluruhan, menurut Anda apakah setiap agama berikut ini sangat damai, cukup damai, tidak terlalu damai, atau sama sekali tidak damai? c. Kristen",
+        "question": "Secara keseluruhan, apakah Anda berpikir bahwa setiap agama berikut sangat damai, agak damai, tidak terlalu damai, atau sama sekali tidak damai? c. Kristen",
         "options": {
             "1": "Sangat damai",
-            "2": "Cukup damai",
+            "2": "Agak damai",
             "3": "Tidak terlalu damai",
             "4": "Sama sekali tidak damai",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q75d": {
-        "question": "Q75d. Secara keseluruhan, menurut Anda apakah setiap agama berikut ini sangat damai, cukup damai, tidak terlalu damai, atau sama sekali tidak damai? d. Hindu",
+        "question": "Secara keseluruhan, apakah Anda berpikir bahwa setiap agama berikut sangat damai, agak damai, tidak terlalu damai, atau sama sekali tidak damai? d. Hinduisme",
         "options": {
             "1": "Sangat damai",
-            "2": "Cukup damai",
+            "2": "Agak damai",
             "3": "Tidak terlalu damai",
             "4": "Sama sekali tidak damai",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78a": {
-        "question": "Q78a. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? a. Umat Buddha",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? a. Penganut Buddha",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78b": {
-        "question": "Q78b. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? b. Umat Islam",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? b. Muslim",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78c": {
-        "question": "Q78c. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? c. Umat Kristen",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? c. Kristen",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78d": {
-        "question": "Q78d. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? d. Umat Hindu",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? d. Hindu",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78e": {
-        "question": "Q78e. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? e. Orang yang mempraktikkan agama tradisional Tionghoa",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? e. Penganut agama tradisional Tionghoa",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q78f": {
-        "question": "Q78f. Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? f. Orang yang mempraktikkan kepercayaan lokal/agama adat",
+        "question": "Apakah Anda bersedia menerima setiap orang berikut sebagai tetangga, atau tidak? f. Penganut kepercayaan lokal/agama adat",
         "options": {
             "1": "Ya",
             "2": "Tidak",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80a": {
-        "question": "Q80a. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? a. Buddha",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? a. Agama Buddha",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80b": {
-        "question": "Q80b. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? b. Islam",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? b. Islam",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80c": {
-        "question": "Q80c. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? c. Kristen",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? c. Kristen",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80d": {
-        "question": "Q80d. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? d. Hindu",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? d. Hinduisme",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80e": {
-        "question": "Q80e. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? e. Agama tradisional Tionghoa",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? e. Agama tradisional Tionghoa",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q80f": {
-        "question": "Q80f. Menurut Anda, apakah setiap agama berikut ini sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONYM]? f. Kepercayaan lokal/agama adat",
+        "question": "Apakah Anda berpikir bahwa setiap agama berikut sesuai atau tidak sesuai dengan budaya dan nilai-nilai [DEMONIM]? f. Kepercayaan lokal/agama adat",
         "options": {
             "1": "Sesuai",
             "2": "Tidak sesuai",
-            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak keduanya/Tergantung situasi",
+            "3": "[JANGAN DIBACA] Lainnya/Keduanya/Tidak ada/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81a": {
-        "question": "Q81a. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? a. Mampu berbahasa [Khmer/Bahasa Indonesia/Bahasa Malaysia/Mandarin/Sinhala/Thai]",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? a. Mampu berbicara [Khmer/Bahasa Indonesia/Bahasa Malaysia/Mandarin Chinese/Sinhala/Thai]",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81b": {
-        "question": "Q81b. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? b. Mampu berbahasa Tamil",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? b. Mampu berbicara bahasa Tamil",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81c": {
-        "question": "Q81c. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? c. Mampu berbahasa Singlish",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? c. Mampu berbicara Singlish",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81d": {
-        "question": "Q81d. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? d. Menjadi [penganut Buddha/Muslim]",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? d. Menjadi [Buddhis/Muslim]",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81e": {
-        "question": "Q81e. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? e. Menghormati institusi dan hukum Indonesia",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? e. Menghormati lembaga dan hukum Indonesia",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81f": {
-        "question": "Q81f. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? f. Menjadi [etnis Khmer/pribumi/bumiputera/keturunan Tionghoa/Sinhala/etnis Thai]",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? f. Menjadi [etnis Khmer/pribumi/bumiputera/keturunan Tionghoa/etnis Sinhala/etnis Thai]",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81g": {
-        "question": "Q81g. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? g. Lahir di Indonesia",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? g. Lahir di Indonesia",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81h": {
-        "question": "Q81h. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? h. Bersikap sopan dan ramah",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? h. Bersikap sopan dan ramah",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q81i": {
-        "question": "Q81i. Seberapa penting, jika memang penting, menurut Anda masing-masing hal berikut untuk menjadi [DEMONYM] sejati? i. Bersedia mendukung Indonesia ketika pihak lain mengkritiknya",
+        "question": "Seberapa penting, jika memang penting, setiap hal berikut untuk menjadi benar-benar [DEMONIM]? i. Bersedia mendukung Indonesia ketika orang lain mengkritiknya",
         "options": {
             "1": "Sangat penting",
             "2": "Cukup penting",
             "3": "Tidak terlalu penting atau",
-            "4": "Sama sekali tidak penting",
+            "4": "Tidak penting sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q82": {
-        "question": "Q82. Mohon beri tahu saya jika Anda sangat setuju, cukup setuju, cukup tidak setuju, atau sangat tidak setuju dengan pernyataan berikut: Orang [DENOMNYM] tidak sempurna, tetapi budaya [DENOMNYM] lebih unggul dari yang lain",
+        "question": "Tolong beritahu saya apakah Anda sangat setuju, agak setuju, agak tidak setuju, atau sangat tidak setuju dengan pernyataan berikut: [DEMONIM] tidaklah sempurna, tetapi budaya [DEMONIM] lebih unggul daripada budaya lain",
         "options": {
             "1": "Sangat setuju",
-            "2": "Cukup setuju",
-            "3": "Cukup tidak setuju",
+            "2": "Agak setuju",
+            "3": "Agak tidak setuju",
             "4": "Sangat tidak setuju",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q86a": {
-        "question": "Q86a. Haruskah para pemimpin agama melakukan setiap hal berikut, atau tidak? a. berbicara di depan umum tentang politisi atau partai politik mana yang mereka dukung",
+        "question": "Haruskah para pemimpin agama melakukan hal berikut atau tidak? a. berbicara secara publik tentang politisi atau partai politik yang mereka dukung",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q86b": {
-        "question": "Q86b. Haruskah para pemimpin agama melakukan setiap hal berikut, atau tidak? b. menjadi politisi",
+        "question": "Haruskah para pemimpin agama melakukan hal berikut atau tidak? b. menjadi politisi",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q86c": {
-        "question": "Q86c. Haruskah para pemimpin agama melakukan setiap hal berikut, atau tidak? c. berpartisipasi dalam protes politik",
+        "question": "Haruskah para pemimpin agama melakukan hal berikut atau tidak? c. berpartisipasi dalam protes politik",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q86d": {
-        "question": "Q86d. Haruskah para pemimpin agama melakukan setiap hal berikut, atau tidak? d. memberikan suara dalam pemilihan politik",
+        "question": "Haruskah para pemimpin agama melakukan hal berikut atau tidak? d. memberikan suara dalam pemilihan politik",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q87": {
-        "question": "Q87. Apakah Anda secara pribadi merasa bahwa penggunaan kekerasan terhadap orang-orang karena keyakinan politik atau agama mereka dapat sering dibenarkan, kadang-kadang dibenarkan, jarang dibenarkan, atau tidak pernah dapat dibenarkan?",
+        "question": "Apakah Anda secara pribadi merasa bahwa menggunakan kekerasan terhadap orang lain karena keyakinan politik atau agama mereka sering dapat dibenarkan, kadang dapat dibenarkan, jarang dapat dibenarkan, atau tidak pernah dapat dibenarkan?",
         "options": {
             "1": "Sering dapat dibenarkan",
-            "2": "Kadang-kadang dapat dibenarkan",
+            "2": "Kadang dapat dibenarkan",
             "3": "Jarang dapat dibenarkan",
             "4": "Tidak pernah dapat dibenarkan",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q88a": {
-        "question": "Q88a. Apakah Anda mendukung atau menentang penetapan hukum berdasarkan dharma Buddha di [DI INDONESIA ATAU MALAYSIA: \u201cdaerah-daerah di mana umat Buddha adalah mayoritas\u201d/ DI NEGARA LAIN: Indonesia]?",
+        "question": "Apakah Anda mendukung atau menentang menjadikan hukum berdasarkan dharma Buddha di [DI INDONESIA ATAU MALAYSIA: “wilayah-wilayah di mana umat Buddha merupakan mayoritas”/ DI NEGARA LAIN: Indonesia]?",
         "options": {
             "1": "Mendukung",
             "2": "Menentang",
             "3": "[JANGAN DIBACA] Lainnya/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q88b": {
-        "question": "Q88b. Apakah Anda mendukung atau menentang pemberlakuan syariah sebagai hukum resmi negara di [DI SINGAPURA, SRI LANKA DAN THAILAND: \u201cdaerah-daerah di mana umat Islam adalah mayoritas\u201d; DI INDONESIA DAN MALAYSIA: Indonesia]?",
+        "question": "Apakah Anda mendukung atau menentang menjadikan syariah sebagai hukum resmi negara di [DI SINGAPURA, SRI LANKA, DAN THAILAND: “wilayah-wilayah di mana umat Muslim merupakan mayoritas”; DI INDONESIA DAN MALAYSIA: Indonesia]?",
         "options": {
             "1": "Mendukung",
             "2": "Menentang",
             "3": "[JANGAN DIBACA] Lainnya/Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96a": {
-        "question": "Q96a. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? a. Wisatawan dari negara lain",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? a. Turis dari negara lain",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96b": {
-        "question": "Q96b. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? b. Pengaruh Tiongkok",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? b. Pengaruh Tiongkok",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96c": {
-        "question": "Q96c. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? c. Pengaruh Amerika Serikat",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? c. Pengaruh Amerika Serikat",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96d": {
-        "question": "Q96d. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? d. Jumlah umat Islam yang terus bertambah",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? d. Bertambahnya jumlah umat Muslim",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96e": {
-        "question": "Q96e. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? e. Jumlah umat Kristen yang terus bertambah",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? e. Bertambahnya jumlah umat Kristen",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q96f": {
-        "question": "Q96f. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Buddha di Indonesia, atau tidak? f. Ekstremis Buddha",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Buddha di Indonesia atau tidak? f. Ekstremis Buddha",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q97a": {
-        "question": "Q97a. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? a. Wisatawan dari negara lain",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? a. Turis dari negara lain",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q97b": {
-        "question": "Q97b. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? b. Pengaruh Tiongkok",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? b. Pengaruh Tiongkok",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q97c": {
-        "question": "Q97c. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? c. Pengaruh Amerika Serikat",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? c. Pengaruh Amerika Serikat",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q97d": {
-        "question": "Q97d. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? d. Jumlah umat Kristen yang terus bertambah",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? d. Bertambahnya jumlah umat Kristen",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q97e": {
-        "question": "Q97e. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? e. Jumlah umat Buddha yang terus bertambah",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? e. Bertambahnya jumlah umat Buddha",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q97f": {
-        "question": "Q97f. Menurut Anda, apakah masing-masing hal berikut merupakan ancaman bagi agama Islam di Indonesia, atau tidak? f. Ekstremis Islam",
+        "question": "Apakah Anda berpikir bahwa hal berikut merupakan ancaman bagi agama Islam di Indonesia atau tidak? f. Ekstremis Muslim",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "3": "[JANGAN DIBACA] Tidak tahu",
-            "4": "[JANGAN DIBACA] Menolak",
+            "4": "[JANGAN DIBACA] Menolak menjawab",
             "98": "[JANGAN DIBACA] Tidak tahu",
             "99": "[JANGAN DIBACA] Menolak"
         }
     },
     "Q98a": {
-        "question": "Q98a. Menurut Anda, apakah pantas atau tidak pantas bagi orang non-Buddha dari negara lain untuk melakukan hal-hal berikut? a. Mengenakan gambar Buddha atau simbol-simbol Buddha lainnya",
+        "question": "Apakah Anda pikir pantas atau tidak pantas bagi orang non-Buddhis dari negara lain untuk melakukan hal berikut? a. Memakai gambar Buddha atau simbol-simbol Buddhis lainnya",
         "options": {
             "1": "Pantas",
             "2": "Tidak pantas",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q98b": {
-        "question": "Q98b. Menurut Anda, apakah pantas atau tidak pantas bagi orang non-Buddha dari negara lain untuk melakukan hal-hal berikut? b. Memiliki tato simbol atau gambar Buddha di tubuh mereka di mana pun mereka suka",
+        "question": "Apakah Anda pikir pantas atau tidak pantas bagi orang non-Buddhis dari negara lain untuk melakukan hal berikut? b. Membuat tato simbol atau gambar Buddhis di tubuh mereka di mana pun mereka mau",
         "options": {
             "1": "Pantas",
             "2": "Tidak pantas",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q98c": {
-        "question": "Q98c. Menurut Anda, apakah pantas atau tidak pantas bagi orang non-Buddha dari negara lain untuk melakukan hal-hal berikut? c. Mengunjungi vihara, pagoda, atau balai dhamma Buddha untuk tujuan wisata",
+        "question": "Apakah Anda pikir pantas atau tidak pantas bagi orang non-Buddhis dari negara lain untuk melakukan hal berikut? c. Mengunjungi kuil Buddha, pagoda, atau aula dhamma untuk tujuan wisata",
         "options": {
             "1": "Pantas",
             "2": "Tidak pantas",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q98d": {
-        "question": "Q98d. Menurut Anda, apakah pantas atau tidak pantas bagi orang non-Buddha dari negara lain untuk melakukan hal-hal berikut? d. Berpartisipasi dalam praktik-praktik Buddhis seperti meditasi dan pelantunan doa",
+        "question": "Apakah Anda pikir pantas atau tidak pantas bagi orang non-Buddhis dari negara lain untuk melakukan hal berikut? d. Berpartisipasi dalam praktik Buddhis seperti meditasi dan melafalkan mantra",
         "options": {
             "1": "Pantas",
             "2": "Tidak pantas",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q98e": {
-        "question": "Q98e. Menurut Anda, apakah pantas atau tidak pantas bagi orang non-Buddha dari negara lain untuk melakukan hal-hal berikut? e. Menikahi umat Buddha dari Indonesia",
+        "question": "Apakah Anda pikir pantas atau tidak pantas bagi orang non-Buddhis dari negara lain untuk melakukan hal berikut? e. Menikahi penganut Buddha dari Indonesia",
         "options": {
             "1": "Pantas",
             "2": "Tidak pantas",
             "3": "[JANGAN DIBACA] Tergantung situasi",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "GenderRec": {
         "question": "GenderRec",
         "options": {
-            "1": "Pria",
-            "2": "Wanita",
-            "999": "Lainnya/TT/Menolak"
+            "1": "Laki-laki",
+            "2": "Perempuan",
+            "999": "Lainnya/Tidak tahu/Menolak menjawab"
         }
     },
     "QAGE": {
-        "question": "QAGE. Berapa usia Anda?",
+        "question": "Berapa usia Anda?",
         "options": {
-            "97": "97 atau lebih tua",
+            "97": "97 atau lebih",
             "998": "[JANGAN DIBACA] Tidak tahu",
-            "999": "[JANGAN DIBACA] Menolak"
+            "999": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qethkhm": {
-        "question": "QETHKHM. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Khmer",
             "2": "Cham",
             "3": "Vietnam",
             "96": "Tionghoa atau",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qethidn": {
-        "question": "QETHIDN. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Jawa",
             "2": "Sunda",
@@ -1389,36 +1389,36 @@
             "19": "(JANGAN DIBACA) Nias",
             "20": "(JANGAN DIBACA) Maluku",
             "96": "Tionghoa",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qethmys": {
-        "question": "QETHMYS. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Melayu",
             "2": "India",
-            "3": "Aborigin",
+            "3": "Pribumi",
             "96": "Tionghoa",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qethsgp": {
-        "question": "QETHSGP. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Melayu",
             "2": "India",
             "96": "Tionghoa",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qethlka": {
-        "question": "QETHLKA. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Sinhala",
             "2": "Tamil Sri Lanka",
@@ -1428,61 +1428,61 @@
             "6": "Melayu",
             "7": "Chetty Sri Lanka",
             "96": "Tionghoa",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qeththa": {
-        "question": "QETHTHA. Apa suku/etnis Anda?",
+        "question": "Apa etnis Anda?",
         "options": {
             "1": "Thai (JANGAN DIBACA: Siam, Isan, Yuan, Thai Pak Tai)",
-            "2": "Melayu (JANGAN DIBACA: Melayu, Nayu, Yawi)",
+            "2": "Melayu (JANGAN DIBACA: Malayu, Nayu, Yawi)",
             "3": "Khmer",
             "4": "Karen",
             "5": "Mon",
             "6": "India",
             "7": "Lao",
             "96": "Tionghoa (JANGAN DIBACA: Teochew, Hakka, Luk Chin)",
-            "97": "Suku/etnis lainnya",
+            "97": "Etnis lainnya",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "Q102": {
-        "question": "Q102. Seberapa terikat secara emosional, jika ada, yang Anda rasakan terhadap Tiongkok?",
+        "question": "Seberapa terikat secara emosional, jika memang terikat, Anda merasa terhadap Tiongkok?",
         "options": {
             "1": "Sangat terikat secara emosional",
             "2": "Cukup terikat secara emosional",
             "3": "Tidak terlalu terikat secara emosional",
-            "4": "Sama sekali tidak terikat secara emosional",
+            "4": "Tidak terikat secara emosional sama sekali",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QFERT": {
-        "question": "QFERT. Berapa banyak anak yang Anda miliki, jika ada? Harap hitung semua anak yang lahir kapan saja dalam hidup Anda",
+        "question": "Berapa banyak anak yang pernah Anda miliki, jika ada? Harap hitung semua anak yang lahir kapan pun dalam hidup Anda",
         "options": {
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QHH1": {
-        "question": "QHH1. Berapa banyak orang, termasuk Anda sendiri, yang tinggal di rumah Anda?",
+        "question": "Berapa banyak orang, termasuk Anda sendiri, yang tinggal di rumah tangga Anda?",
         "options": {
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QHH2": {
-        "question": "QHH2. Dan berapa banyak, termasuk Anda sendiri, yang merupakan orang dewasa, berusia 18 tahun ke atas?",
+        "question": "Dan berapa banyak, termasuk Anda, yang merupakan orang dewasa berusia 18 tahun atau lebih?",
         "options": {
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QMARRIED": {
-        "question": "QMARRIED. Apa status perkawinan Anda saat ini?",
+        "question": "Apa status perkawinan Anda saat ini?",
         "options": {
             "1": "Menikah",
             "2": "Bercerai",
@@ -1491,90 +1491,90 @@
             "5": "Janda/Duda",
             "6": "[JANGAN DIBACA] Tinggal bersama pasangan",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QHHCH": {
-        "question": "QHHCH. Apakah Anda orang tua atau wali sah dari anak-anak di bawah usia 18 tahun yang saat ini tinggal di rumah Anda, atau tidak?",
+        "question": "Apakah Anda orang tua atau wali sah dari anak-anak di bawah usia 18 tahun yang saat ini tinggal di rumah Anda, atau tidak?",
         "options": {
             "1": "Ya",
             "2": "Tidak",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "QCHILD_1": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 1. Buddha",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 1. Agama Buddha",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_2": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 2. Islam",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 2. Muslim",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_3": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 3. Kristen",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 3. Kristen",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_4": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 4. Hindu",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 4. Hindu",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_5": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 5. Agama tradisional Tionghoa",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 5. Agama tradisional Tionghoa",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_6": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 6. Kepercayaan lokal/agama adat",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 6. Kepercayaan lokal/agama adat",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_8": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 8. Agama lainnya",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 8. Agama lain",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_9": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 9. Tidak beragama",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 9. Tidak beragama",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_98": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 98. Tidak tahu",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 98. Tidak tahu",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "QCHILD_99": {
-        "question": "QCHILD. Dalam agama apa, jika ada, Anda membesarkan anak/anak-anak Anda? 99. Menolak",
+        "question": "Dalam agama apa, jika ada, Anda membesarkan anak-anak Anda? 99. Menolak menjawab",
         "options": {
             "1": "Dipilih",
             "2": "Tidak dipilih"
         }
     },
     "KhmProvince": {
-        "question": "KhmProvince. Di provinsi mana Anda tinggal?",
+        "question": "Di provinsi mana Anda tinggal?",
         "options": {
             "1": "Banteay Meanchey",
             "2": "Battambang",
@@ -1595,7 +1595,7 @@
             "18": "Prey Veng",
             "19": "Pursat",
             "20": "Ratanak Kiri",
-            "21": "Siemreap",
+            "21": "Siem Reap",
             "22": "Stung Treng",
             "23": "Svay Rieng",
             "24": "Takeo",
@@ -1604,7 +1604,7 @@
         }
     },
     "IdnRegion": {
-        "question": "IdnRegion. Di wilayah mana Anda tinggal?",
+        "question": "Di wilayah mana Anda tinggal?",
         "options": {
             "1": "Jawa",
             "2": "Kalimantan",
@@ -1616,7 +1616,7 @@
         }
     },
     "ZIPMALrec": {
-        "question": "ZIPMALrec. Di negara bagian mana Anda tinggal?",
+        "question": "Di negara bagian mana Anda tinggal?",
         "options": {
             "1": "Johor",
             "2": "Kedah",
@@ -1634,11 +1634,11 @@
             "14": "Wilayah Persekutuan Kuala Lumpur",
             "97": "Lainnya",
             "98": "(JANGAN DIBACA) Tidak tahu",
-            "99": "(JANGAN DIBACA) Menolak"
+            "99": "(JANGAN DIBACA) Menolak menjawab"
         }
     },
     "ZipSinRec": {
-        "question": "ZIPSINrec. Bisakah Anda memberi tahu saya di mana dari lima wilayah berikut Anda tinggal?",
+        "question": "Bisakah Anda memberi tahu saya Anda tinggal di wilayah mana dari lima wilayah berikut?",
         "options": {
             "1": "Tengah",
             "2": "Timur",
@@ -1646,16 +1646,16 @@
             "4": "Timur Laut",
             "5": "Barat",
             "98": "Tidak tahu wilayah",
-            "99": "Menolak",
+            "99": "Menolak menjawab",
             "999": "Tidak memberikan wilayah atau area perencanaan"
         }
     },
     "LkaProvince": {
-        "question": "LkaProvince. Di provinsi mana Anda tinggal?",
+        "question": "Di provinsi mana Anda tinggal?",
         "options": {
             "1": "Tengah",
             "2": "Timur",
-            "3": "Tengah Utara",
+            "3": "Utara Tengah",
             "4": "Barat Laut",
             "5": "Utara",
             "6": "Sabaragamuwa",
@@ -1665,7 +1665,7 @@
         }
     },
     "ThaRegion": {
-        "question": "ThaRegion. Di wilayah mana Anda tinggal?",
+        "question": "Di wilayah mana Anda tinggal?",
         "options": {
             "1": "Bangkok",
             "2": "Utara",
@@ -1677,141 +1677,141 @@
     "URBANrec": {
         "question": "URBAN",
         "options": {
-            "1": "Perkotaan (termasuk pinggir kota di Malaysia)",
+            "1": "Perkotaan (termasuk pinggiran kota di Malaysia)",
             "2": "Pedesaan",
-            "98": "TT",
-            "99": "Menolak"
+            "98": "Tidak tahu",
+            "99": "Menolak menjawab"
         }
     },
     "qedukhm": {
-        "question": "QEDUKHM. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Pra-sekolah dasar",
-            "2": "Sekolah dasar tidak tamat [Kelas 1-5 selesai, Kelas 6 tidak tamat]",
-            "3": "Sekolah dasar [Kelas 6 selesai, Kelas 7 tidak tamat]",
-            "4": "Sekolah menengah [Kelas 7-9 selesai dan menerima ijazah pendidikan menengah pertama, Kelas 10 tidak tamat]",
-            "5": "Sekolah menengah atas [Kelas 10-12 selesai dan menerima ijazah pendidikan menengah atas]",
-            "6": "Pelatihan teknis atau kejuruan tingkat menengah atau pasca-sekolah menengah [Sertifikat Teknis/Kejuruan 1, 2, atau 3; teac",
+            "1": "Pra-sekolah",
+            "2": "Sekolah dasar tidak lengkap [Kelas 1–5 selesai, Kelas 6 tidak selesai]",
+            "3": "Sekolah dasar [Kelas 6 selesai, Kelas 7 tidak selesai]",
+            "4": "Sekolah menengah pertama [Kelas 7–9 selesai dan menerima ijazah pendidikan menengah pertama, Kelas 10 tidak selesai]",
+            "5": "Sekolah menengah atas [Kelas 10–12 selesai dan menerima ijazah pendidikan menengah atas]",
+            "6": "Pendidikan teknis atau vokasional tingkat menengah atau pasca-menengah[Sertifikat teknis/vokasional 1, 2, atau 3; pelatihan guru]",
             "7": "Gelar associate",
             "8": "Gelar sarjana [termasuk Sarjana Teknologi atau Sarjana Teknik]",
-            "9": "Gelar master [Termasuk Sarjana Kedokteran]",
-            "10": "Doktor [PhD]",
+            "9": "Gelar master [termasuk Sarjana Kedokteran]",
+            "10": "Gelar doktor [PhD]",
             "98": "[JANGAN DIBACA] Tidak tahu",
-            "99": "[JANGAN DIBACA] Menolak"
+            "99": "[JANGAN DIBACA] Menolak menjawab"
         }
     },
     "qeduidn": {
-        "question": "QEDUIDN. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Tidak ada sekolah formal (PAUD atau TK)",
-            "2": "Tidak tamat Sekolah Dasar (kelas 1-5 SD) atau Madrasah Ibtidaiyah",
-            "3": "Tamat Sekolah Dasar (tamat kelas 6 SD) atau Madrasah Ibtidaiyah",
-            "4": "Tidak tamat SMP (kelas 7-8, SMP); SLTP tidak tamat (menyelesaikan kelas 7-8), Madrasah Tsanawiyah atau SMP...",
-            "5": "Tamat SMP (kelas 9), Madrasah Tsanawiyah atau SMP Kejuruan",
-            "6": "Tidak tamat SMA (kelas 10-11, SMA); SLTA tidak tamat (menyelesaikan kelas 10-11), Tidak tamat Madrasah Aliyah atau",
-            "7": "Tamat SMA (kelas 12, SMA), Madrasah Aliyah atau Sekolah Menengah Kejuruan",
-            "8": "Program diploma (DI sampai DIII)",
-            "9": "Program diploma (DIV) atau Program Sarjana (S1)",
-            "10": "Program Spesialis 1 (Ijazah pascasarjana) dan Profesi Dokter",
-            "11": "Program Magister S2",
-            "12": "Program Doktor; program Spesialis S3",
+            "1": "Tidak bersekolah formal (Prasekolah atau Taman Kanak-kanak)",
+            "2": "Tidak menyelesaikan sekolah dasar (kelas 1–5 SD) atau Madrasah Ibtidaiyah",
+            "3": "Menyelesaikan sekolah dasar (menyelesaikan kelas 6 SD) atau Madrasah Ibtidaiyah",
+            "4": "Tidak menyelesaikan sekolah menengah pertama (kelas 7–8 SMP);SMP tidak lengkap (menyelesaikan kelas 7–8);Madrasah Tsanawiyah atau SMP…",
+            "5": "Menyelesaikan sekolah menengah pertama (SMP kelas 9), Madrasah Tsanawiyah atau SMP Kejuruan",
+            "6": "Tidak menyelesaikan sekolah menengah atas (kelas 10–11 SMA);SMA tidak lengkap (kelas 10–11 selesai);Tidak menyelesaikan Madrasah Aliyah atau…",
+            "7": "Menyelesaikan sekolah menengah atas (kelas 12 SMA), Madrasah Aliyah atau Sekolah Menengah Kejuruan",
+            "8": "Program diploma (D1 sampai D3)",
+            "9": "Program diploma (D4) atau Program Sarjana (S1)",
+            "10": "Program Spesialis 1 (Diploma Pascasarjana) dan Profesi Dokter",
+            "11": "Program Magister S2 (Gelar Master)",
+            "12": "Program Doktor; Program Spesialis S3",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "qedumys": {
-        "question": "QEDUMYS. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Tidak ada pendidikan formal",
-            "2": "Sekolah dasar (Standar 1 hingga Standar 6/UPSR)",
-            "3": "Sekolah menengah pertama (Formulir 1 hingga Formulir 3, fondasi pra-sekolah menengah untuk sekolah agama/PMR/SRP/LCE)",
-            "4": "Kejuruan/teknik (sertifikat sekolah kejuruan/teknik, mis., SPVM/MCVE)",
-            "5": "Sekolah menengah atas (Formulir 4 hingga Formulir 5/SPM/MCE/SC/GCE 'O' level)",
-            "6": "Institusi keterampilan dagang dan teknis (studi di institusi keterampilan dagang dan teknis untuk mendapatkan diploma, mis., di...",
-            "7": "Pra-universitas (studi pasca-sekolah menengah, mis., STPM/STP/STA/4THANAWI/HSC/GCE 'A' Level, diploma)",
-            "8": "Studi tersier (mis., pasca-diploma/perguruan tinggi/politeknik/pendidikan universitas)",
-            "9": "Magister Pascasarjana/Diploma Pascasarjana",
-            "10": "PhD Pascasarjana.",
+            "1": "Tidak memiliki pendidikan formal",
+            "2": "Sekolah dasar (Darjah 1 sampai Darjah 6/UPSR)",
+            "3": "Sekolah menengah rendah (Form 1 sampai Form 3, dasar pra-menengah untuk sekolah agama/PMR/SRP/LCE)",
+            "4": "Pendidikan vokasional/teknikal (sertifikat sekolah vokasi/teknik, misalnya SPVM/MCVE)",
+            "5": "Sekolah menengah atas (Form 4 sampai Form 5/SPM/MCE/SC/GCE 'O' level)",
+            "6": "Lembaga keterampilan dagang dan teknis (belajar di lembaga keterampilan dagang dan teknis untuk memperoleh diploma, misalnya di…)",
+            "7": "Pra-universitas (studi pasca-sekolah menengah, misalnya STPM/STP/STA/4THANAWI/HSC/GCE 'A' Level, diploma)",
+            "8": "Studi tingkat tinggi (misalnya pasca-diploma/kolej/politeknik/universitas)",
+            "9": "Pascasarjana Master/Pascasarjana Diploma",
+            "10": "Pascasarjana PhD",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "qedusgp": {
-        "question": "QEDUSGP. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Tidak ada pendidikan formal (Taman kanak-kanak, TK)",
+            "1": "Tidak memiliki pendidikan formal (Nursery, Kindergarten)",
             "2": "Sekolah dasar (PSLE)",
-            "3": "Sekolah menengah pertama (WISE 1-3, sertifikat kejuruan dasar)",
-            "4": "Sekolah menengah atas (GCE 'N'/'O' level, sertifikat ITE Nasional (Menengah), Sertifikat Keterampilan ITE (ISC))",
-            "5": "Junior college/Program Foundation Politeknik (PFP)/Institut Pendidikan Teknik (Sertifikat ITE Nasional, Higher..",
-            "6": "Politeknik (Tahun 2 dan 3)/Diploma Lanjutan di Politeknik",
+            "3": "Sekolah menengah rendah (WISE 1–3, sertifikat vokasional dasar)",
+            "4": "Sekolah menengah atas (GCE 'N'/'O' level, National ITE Certificate (Intermediate), ITE Skills Certificate (ISC))",
+            "5": "Junior college/Polytechnic Foundation Program (PFP)/Institute of Technical Education (National ITE Certificate, Higher…)",
+            "6": "Politeknik (Tahun 2 dan 3)/Diploma Lanjutan Politeknik",
             "7": "Gelar sarjana/Universitas (gelar pertama atau diploma pascasarjana)",
             "8": "Gelar master/MBBS",
-            "9": "Doktor",
+            "9": "Gelar doktor",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "qedulka": {
-        "question": "QEDULKA. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Tidak ada pendidikan formal (Tidak bersekolah)",
-            "2": "Sekolah Dasar (Kelas 1 sampai 5)",
-            "3": "Sekolah Menengah Pertama (Kelas 6 sampai 9)",
-            "4": "Sekolah Menengah Atas (GCE O-Level/Kelas 10 dan 11)",
-            "5": "Tingkat perguruan tinggi (GCE A-Level/Kelas 12 dan 13)",
-            "6": "Otoritas pelatihan kejuruan; perguruan tinggi teknik (Sertifikat NVQ Level 3 dan 4)",
-            "7": "Perguruan Tinggi Teknologi; perguruan tinggi universitas; VTA (Diploma NVQ Level 5/Diploma Non-NVQ)",
-            "8": "Diploma Nasional dalam Teknologi; Diploma Nasional dalam Ilmu Teknik (NDT/NDES NVQ Level 6/Dtech/HNDE/HNDA)",
+            "1": "Tidak memiliki pendidikan formal (Tidak bersekolah)",
+            "2": "Sekolah dasar (Kelas 1 sampai 5)",
+            "3": "Sekolah menengah pertama (Kelas 6 sampai 9)",
+            "4": "Sekolah menengah atas (GCE O-Level/Kelas 10 dan 11)",
+            "5": "Tingkat perguruan (GCE A-Level/Kelas 12 dan 13)",
+            "6": "Otoritas pelatihan vokasional; perguruan teknis (Sertifikat NVQ Level 3 dan 4)",
+            "7": "Perguruan teknologi; perguruan tinggi; VTA (Diploma NVQ Level 5/Diploma Non-NVQ)",
+            "8": "Diploma Nasional Teknologi; Diploma Nasional Ilmu Teknik (NDT/NDES NVQ Level 6/Dtech/HNDE/HNDA)",
             "9": "Gelar sarjana (NVQ Level 7/MBBS)",
             "10": "Gelar master",
-            "11": "Doktor (PhD/MD)",
+            "11": "Gelar doktor (PhD/MD)",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "qedutha": {
-        "question": "QEDUTHA. Apa tingkat sekolah tertinggi yang telah Anda selesaikan atau gelar tertinggi yang telah Anda terima, jika ada?",
+        "question": "Apa tingkat pendidikan tertinggi yang telah Anda selesaikan atau gelar tertinggi yang pernah Anda terima, jika ada?",
         "options": {
-            "1": "Tidak ada pendidikan",
-            "2": "Pra-sekolah dasar",
-            "3": "Sekolah dasar tidak tamat",
+            "1": "Tidak berpendidikan",
+            "2": "Pra-sekolah",
+            "3": "Sekolah dasar tidak lengkap",
             "4": "Sekolah dasar (Sertifikat Kelas 6)",
-            "5": "Pendidikan menengah pertama (Sertifikat Kelas 9)",
-            "6": "Menengah atas, kejuruan (Sertifikat pendidikan kejuruan)",
-            "7": "Menengah atas, umum (Sertifikat Kelas 12)",
-            "8": "Pasca-sekolah menengah non-tersier (Gelar associate/Sertifikat teknis)",
-            "9": "Diploma pendidikan kejuruan (Sertifikat kejuruan yang lebih tinggi)",
+            "5": "Pendidikan menengah rendah (Sertifikat Kelas 9)",
+            "6": "Pendidikan menengah atas, vokasional (Sertifikat pendidikan vokasional)",
+            "7": "Pendidikan menengah atas, umum (Sertifikat Kelas 12)",
+            "8": "Pascamenengah non-tertiary (Gelar associate/Sertifikat teknis)",
+            "9": "Diploma dalam pendidikan vokasional (Sertifikat vokasional tingkat tinggi)",
             "10": "Gelar sarjana",
             "11": "Gelar master, diploma pascasarjana, gelar lisensi",
-            "12": "Gelar doktor (Ph.D./Doktor)",
+            "12": "Gelar doktor (Ph.D./Doktoral)",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "ISCED": {
-        "question": "ISCED. ISCED recode",
+        "question": "Kode ulang ISCED",
         "options": {
-            "1": "ISCED Level satu atau kurang",
-            "2": "ISCED Level dua",
-            "3": "ISCED Level tiga",
-            "4": "ISCED Level empat",
-            "5": "ISCED Level lima atau lebih",
+            "1": "Tingkat ISCED satu atau kurang",
+            "2": "Tingkat ISCED dua",
+            "3": "Tingkat ISCED tiga",
+            "4": "Tingkat ISCED empat",
+            "5": "Tingkat ISCED lima atau lebih",
             "98": "Tidak tahu",
-            "99": "Menolak"
+            "99": "Menolak menjawab"
         }
     },
     "Language": {
         "question": "Bahasa yang digunakan dalam wawancara",
         "options": {
-            "1": "Bahasa Khmer",
+            "1": "Khmer",
             "2": "Bahasa Indonesia",
-            "3": "Bahasa Melayu",
-            "4": "Bahasa Mandarin",
-            "5": "Bahasa Inggris",
-            "6": "Bahasa Sinhala",
-            "7": "Bahasa Tamil",
-            "8": "Bahasa Thai"
+            "3": "Melayu",
+            "4": "Mandarin",
+            "5": "Inggris",
+            "6": "Sinhala",
+            "7": "Tamil",
+            "8": "Thai"
         }
     }
 }
