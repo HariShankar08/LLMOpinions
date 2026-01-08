@@ -31,14 +31,10 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 
 # Get a unique timestamp for this entire run
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
-MAIN_LOG_PATH = os.path.join(LOGS_DIR, f"evaluation_run_{TIMESTAMP}.log")
-AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages_{TIMESTAMP}.csv")
-
-# Initialize CSV with header
-if not os.path.exists(AVERAGES_CSV_PATH):
-    with open(AVERAGES_CSV_PATH, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["timestamp", "region", "country", "language", "script", "suffix", "average_representativeness"]) 
+MAIN_LOG_PATH = None
+AVERAGES_CSV_PATH = None
+# When a steering flag is present we append this tag into filenames
+STEERING_TAG = ""
 
 def log_message(message, color=Colors.NC):
     """
@@ -89,7 +85,7 @@ def run_evaluation(region, script_name, log_suffix="", model_override=None, stee
             continue
 
         # Create a unique log file for this specific evaluation
-        eval_log_name = f"{region}_{country}_{language}{log_suffix}_{TIMESTAMP}.log"
+        eval_log_name = f"{region}_{country}_{language}{log_suffix}{STEERING_TAG}_{TIMESTAMP}.log"
         eval_log_path = os.path.join(LOGS_DIR, eval_log_name)
 
         log_message(f"Running evaluation for {country} ({language}) in {region}...", Colors.BLUE)
@@ -204,7 +200,7 @@ def run_logprobs_full(region):
             continue
 
         # Prepare log
-        eval_log_name = f"{region}_{country}_{language}_gemini_logprobs_{TIMESTAMP}.log"
+        eval_log_name = f"{region}_{country}_{language}_gemini_logprobs{STEERING_TAG}_{TIMESTAMP}.log"
         eval_log_path = os.path.join(LOGS_DIR, eval_log_name)
         log_message(f"Running Gemini logprobs (full) for {country} ({language}) in {region}...", Colors.BLUE)
         log_message(f"Individual log: {eval_log_path}")
@@ -274,10 +270,7 @@ def create_summary():
 
 def main():
     """Main execution function."""
-    log_message("Starting evaluation runs for all available country-language combinations...", Colors.BLUE)
-    log_message(f"Main log file: {MAIN_LOG_PATH}\n", Colors.BLUE)
-
-    # Parse optional CLI arguments for this runner
+    # Parse optional CLI arguments for this runner early so filenames can reflect flags
     parser = argparse.ArgumentParser(description="Run all evaluations across regions")
     parser.add_argument('--model', type=str, default=None, help='Override model for all evaluations')
     parser.add_argument('--steering', action='store_true', help='Enable steering flag for all evaluations')
@@ -285,6 +278,21 @@ def main():
 
     model_override = args.model
     steering_override = args.steering
+
+    # Set global paths/names that depend on the steering flag
+    global MAIN_LOG_PATH, AVERAGES_CSV_PATH, STEERING_TAG
+    STEERING_TAG = "_steering" if steering_override else ""
+    MAIN_LOG_PATH = os.path.join(LOGS_DIR, f"evaluation_run{STEERING_TAG}_{TIMESTAMP}.log")
+    AVERAGES_CSV_PATH = os.path.join(LOGS_DIR, f"averages{STEERING_TAG}_{TIMESTAMP}.csv")
+
+    # Initialize CSV with header (now that filename reflects steering)
+    if not os.path.exists(AVERAGES_CSV_PATH):
+        with open(AVERAGES_CSV_PATH, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["timestamp", "region", "country", "language", "script", "suffix", "average_representativeness"]) 
+
+    log_message("Starting evaluation runs for all available country-language combinations...", Colors.BLUE)
+    log_message(f"Main log file: {MAIN_LOG_PATH}\n", Colors.BLUE)
 
     # --- Run Standard Evaluations ---
     # log_message("=== Running Standard Evaluations ===", Colors.BLUE)
