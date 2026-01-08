@@ -1,0 +1,14 @@
+=== Evaluation started at 2026-01-08 03:10:05 ===
+Region: IND
+Country: ind
+Language: en
+Script: evaluate_model_noCoT.py
+Suffix: _noCoT
+==================================================
+
+Traceback (most recent call last):
+  File "/root/LLMOpinions/Translate/IND/evaluate_model_noCoT.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+=== Evaluation FAILED at 2026-01-08 03:10:05 ===

@@ -1,0 +1,127 @@
+Starting evaluation runs for all available country-language combinations...
+Main log file: /root/LLMOpinions/evaluation_logs/evaluation_run_steering_20260108_035111.log
+
+=== Running noCoT Evaluations ===
+Processing region: SEA
+Running evaluation for sg (ta) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sg_ta_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sg (ta) in SEA
+
+Running evaluation for th (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_th_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for th (en) in SEA
+
+Running evaluation for sl (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sl_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sl (en) in SEA
+
+Running evaluation for sg (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sg_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sg (en) in SEA
+
+Running evaluation for sl (si) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sl_si_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sl (si) in SEA
+
+Running evaluation for sg (ma) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sg_ma_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sg (ma) in SEA
+
+Running evaluation for sl (ta) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sl_ta_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sl (ta) in SEA
+
+Running evaluation for ca (km) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_ca_km_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ca (km) in SEA
+
+Running evaluation for ca (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_ca_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ca (en) in SEA
+
+Running evaluation for id (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_id_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for id (en) in SEA
+
+Running evaluation for ms (zh) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_ms_zh_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ms (zh) in SEA
+
+Running evaluation for ms (en) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_ms_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ms (en) in SEA
+
+Running evaluation for ms (ma) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_ms_ma_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ms (ma) in SEA
+
+Running evaluation for sg (zh) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_sg_zh_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for sg (zh) in SEA
+
+Running evaluation for th (th) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_th_th_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for th (th) in SEA
+
+Running evaluation for id (id) in SEA...
+Individual log: /root/LLMOpinions/evaluation_logs/SEA_id_id_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for id (id) in SEA
+
+Processing region: EA
+Running evaluation for ko (ko) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_ko_ko_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ko (ko) in EA
+
+Running evaluation for vi (vi) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_vi_vi_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for vi (vi) in EA
+
+Running evaluation for hk (en) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_hk_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for hk (en) in EA
+
+Running evaluation for tw (zh) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_tw_zh_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for tw (zh) in EA
+
+Running evaluation for tw (en) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_tw_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for tw (en) in EA
+
+Running evaluation for hk (zh) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_hk_zh_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for hk (zh) in EA
+
+Running evaluation for jp (en) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_jp_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for jp (en) in EA
+
+Running evaluation for jp (ja) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_jp_ja_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for jp (ja) in EA
+
+Running evaluation for vi (en) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_vi_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for vi (en) in EA
+
+Running evaluation for ko (en) in EA...
+Individual log: /root/LLMOpinions/evaluation_logs/EA_ko_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ko (en) in EA
+
+Processing region: IND
+Running evaluation for ind (en) in IND...
+Individual log: /root/LLMOpinions/evaluation_logs/IND_ind_en_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ind (en) in IND
+
+Running evaluation for ind (hi) in IND...
+Individual log: /root/LLMOpinions/evaluation_logs/IND_ind_hi_noCoT_steering_20260108_035111.log
+✓ Successfully completed evaluation for ind (hi) in IND
+
+All evaluations completed!
+
+=== Summary ===
+Check the output above for any errors or warnings.
+Results should be available in the respective directories.
+Individual log files are saved in: /root/LLMOpinions/evaluation_logs
+Main log file: /root/LLMOpinions/evaluation_logs/evaluation_run_steering_20260108_035111.log
+Summary file created: /root/LLMOpinions/evaluation_logs/summary_20260108_035111.txt

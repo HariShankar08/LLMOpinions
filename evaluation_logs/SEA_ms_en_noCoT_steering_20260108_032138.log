@@ -1,0 +1,393 @@
+=== Evaluation started at 2026-01-08 03:23:09 ===
+Region: SEA
+Country: ms
+Language: en
+Script: evaluate_model_noCoT.py
+Suffix: _noCoT
+==================================================
+
+/root/LLMOpinions/Translate/SEA/evaluate_model_noCoT.py:442: DtypeWarning: Columns (6,7,29,30,36,44,82,92,93,94,96,99,100,130,131,132,133,134,142,164,171) have mixed types. Specify dtype option on import or set low_memory=False.
+  responses = pd.read_csv('responses.csv')
+Loading model: meta-llama/Llama-3.2-1B-Instruct
+Model loaded on device: cuda
+
+  0%|          | 0/174 [00:00<?, ?it/s]
+  2%|▏         | 4/174 [00:00<00:37,  4.55it/s]
+  5%|▌         | 9/174 [00:00<00:15, 10.65it/s]
+  9%|▊         | 15/174 [00:01<00:08, 18.17it/s]
+ 12%|█▏        | 21/174 [00:01<00:06, 25.02it/s]
+ 15%|█▍        | 26/174 [00:01<00:04, 30.05it/s]
+ 18%|█▊        | 31/174 [00:01<00:04, 34.40it/s]
+ 21%|██▏       | 37/174 [00:01<00:03, 38.78it/s]
+ 25%|██▍       | 43/174 [00:01<00:03, 41.97it/s]
+ 28%|██▊       | 49/174 [00:01<00:02, 44.41it/s]
+ 32%|███▏      | 55/174 [00:01<00:02, 46.21it/s]
+ 35%|███▌      | 61/174 [00:02<00:02, 47.51it/s]Computing distribution for question: DEMONYM
+Question DEMONYM WD: 0.9547814207650274 JSD: 0.8101289078551352 HELL: 0.8556819804080295
+Computing distribution for question: Q1
+Question Q1 WD: 0.9676453112134416 JSD: 0.9899041714035282 HELL: 0.9727442225918204
+Computing distribution for question: QSPKrec
+Question QSPKrec WD: 0.9569347929664999 JSD: 0.9932585846851996 HELL: 0.9794124549640205
+Computing distribution for question: QCRITrec
+Question QCRITrec WD: 0.9655825272667443 JSD: 0.9827901014311441 HELL: 0.9658198856405237
+Computing distribution for question: QGOVrec
+Question QGOVrec WD: 0.9346919606819566 JSD: 0.9754387055934861 HELL: 0.954307550575675
+Computing distribution for question: QCURREL
+Question QCURREL WD: 0.9955959595508826 JSD: 0.9771630887752707 HELL: 0.9646988094725257
+Computing distribution for question: Q15a
+Question Q15a WD: 0.959153950012943 JSD: 0.9584428136782552 HELL: 0.9439435587055909
+Computing distribution for question: Q15b
+Question Q15b WD: 0.9613418512995796 JSD: 0.9318282162991373 HELL: 0.9230303016235668
+Computing distribution for question: Q15c
+Question Q15c WD: 0.9631316837360165 JSD: 0.9396551713421453 HELL: 0.9284956295883772
+Computing distribution for question: Q15d
+Question Q15d WD: 0.9720636866433818 JSD: 0.9214083047860198 HELL: 0.9142559359611022
+Computing distribution for question: Q25a
+Question Q25a WD: 0.9599083529022631 JSD: 0.9829256613017531 HELL: 0.9695599236905682
+Computing distribution for question: Q25b
+Question Q25b WD: 0.9662667753961359 JSD: 0.9658804056713325 HELL: 0.9492463341059907
+Computing distribution for question: Q25c
+Question Q25c WD: 0.962431969603245 JSD: 0.9662123955602528 HELL: 0.9537942050425812
+Computing distribution for question: Q25d
+Question Q25d WD: 0.9870746038594985 JSD: 0.8942311644305332 HELL: 0.90052278323374
+Computing distribution for question: Q25e
+Question Q25e WD: 0.9799226564476303 JSD: 0.9240936069895516 HELL: 0.9246060342289749
+Computing distribution for question: Q25f
+Question Q25f WD: 0.9709249950285322 JSD: 0.9717974033994583 HELL: 0.9561021936627105
+Computing distribution for question: Q25g
+Question Q25g WD: 0.9678973206944135 JSD: 0.9624179772585781 HELL: 0.9506480930421137
+Computing distribution for question: Q25h
+Question Q25h WD: 0.9852869626285337 JSD: 0.9289106570647125 HELL: 0.9229920090900388
+Computing distribution for question: Q25i
+Question Q25i WD: 0.9890671764740965 JSD: 0.9519729723939114 HELL: 0.9420115486106461
+Computing distribution for question: Q25j
+Question Q25j WD: 0.993202646931544 JSD: 0.9219578174772487 HELL: 0.917820448843814
+Computing distribution for question: Q25k
+Question Q25k WD: 0.9936443712352738 JSD: 0.9483935621683564 HELL: 0.9344056052626495
+Computing distribution for question: QATTEND
+Question QATTEND WD: 0.9791496081022802 JSD: 0.9612375777894391 HELL: 0.9379962291403193
+Computing distribution for question: Q26a
+Question Q26a WD: 0.9715624041904622 JSD: 0.9584416073694229 HELL: 0.943995724235088
+Computing distribution for question: Q26b
+Question Q26b WD: 0.9659448880315585 JSD: 0.9737111685695977 HELL: 0.9554802676828978
+Computing distribution for question: Q26c
+Question Q26c WD: 0.9661092568282997 JSD: 0.9564716393540162 HELL: 0.9416191740210414
+Computing distribution for question: Q26d
+Question Q26d WD: 0.9733136848781077 JSD: 0.9447104403832304 HELL: 0.9331571116866318
+Computing distribution for question: Q26e
+Question Q26e WD: 0.9623169636967873 JSD: 0.9496756976058667 HELL: 0.9372532701469929
+Computing distribution for question: Q26f
+Question Q26f WD: 0.938169159338877 JSD: 0.9125347462001712 HELL: 0.9086759758176216
+Computing distribution for question: Q28
+Question Q28 WD: 0.9913683920997838 JSD: 0.9920167973502825 HELL: 0.9776097383420636
+Computing distribution for question: QGODa
+Question QGODa WD: 0.9998869587474272 JSD: 0.9905139539593923 HELL: 0.9728789146879266
+Computing distribution for question: QGODb
+Question QGODb WD: 0.9943866974663935 JSD: 0.9986643896856797 HELL: 0.9958785030972853
+Computing distribution for question: QGODc
+Question QGODc WD: 0.941825854934502 JSD: 0.9361360173169155 HELL: 0.9243805974578605
+Computing distribution for question: QGODd
+Question QGODd WD: 0.9698364880338375 JSD: 0.9773737122945028 HELL: 0.9583718847041451
+Computing distribution for question: Q34
+Question Q34 WD: 0.9761558441991409 JSD: 0.9748678573132202 HELL: 0.9565223819179163
+Computing distribution for question: QCHREL
+Question QCHREL WD: 0.9950894189627707 JSD: 0.9789410234791476 HELL: 0.9679289772271871
+Computing distribution for question: QFIGURESa
+Question QFIGURESa WD: 0.9932168743051764 JSD: 0.9724974309337612 HELL: 0.9547825293992275
+Computing distribution for question: QFIGURESb
+Question QFIGURESb WD: 0.9870054091104197 JSD: 0.9630943709073256 HELL: 0.9459133958318876
+Computing distribution for question: QFIGURESc
+Question QFIGURESc WD: 0.9914061578733667 JSD: 0.9533037331526835 HELL: 0.939077984106712
+Computing distribution for question: QFIGURESd
+Question QFIGURESd WD: 0.9874512707178197 JSD: 0.9734126295861423 HELL: 0.9552024750027105
+Computing distribution for question: QFIGURESe
+Question QFIGURESe WD: 0.9838195637451097 JSD: 0.9885054896742426 HELL: 0.972515457152927
+Computing distribution for question: QFIGURESh
+Question QFIGURESh WD: 0.972557650008326 JSD: 0.9757241689293402 HELL: 0.9571357666459894
+Computing distribution for question: QFIGURESi
+Question QFIGURESi WD: 0.9858427320229162 JSD: 0.9530790587795108 HELL: 0.9383989675732894
+Computing distribution for question: QFIGURESj
+Question QFIGURESj WD: 0.9745221117803969 JSD: 0.9865924184745949 HELL: 0.9678739676683957
+Computing distribution for question: Q38a
+Question Q38a WD: 0.9756749683088626 JSD: 0.9797524947719987 HELL: 0.9603541517992581
+Computing distribution for question: Q38b
+Question Q38b WD: 0.974220460784189 JSD: 0.9717154395516898 HELL: 0.9517819235258859
+Computing distribution for question: Q38c
+Question Q38c WD: 0.9605726745062781 JSD: 0.9091075135548354 HELL: 0.8970900924966022
+Computing distribution for question: Q38g
+Question Q38g WD: 0.9654235945436018 JSD: 0.9345318796198239 HELL: 0.9215721440957492
+Computing distribution for question: Q39a
+Question Q39a WD: 0.9351097811248559 JSD: 0.976127632853158 HELL: 0.9586727723259608
+Computing distribution for question: Q39b
+Question Q39b WD: 0.9466759720598659 JSD: 0.9713760368455835 HELL: 0.9539174159536533
+Computing distribution for question: Q40a
+Question Q40a WD: 0.9296706951497343 JSD: 0.9926211450761934 HELL: 0.9766021851249389
+Computing distribution for question: Q40b
+Question Q40b WD: 0.9248408410883473 JSD: 0.9450188865639622 HELL: 0.9273762835253657
+Computing distribution for question: Q40c
+Question Q40c WD: 0.9662350914588274 JSD: 0.9959020710456297 HELL: 0.9868268832058058
+Computing distribution for question: Q41b
+Question Q41b WD: 0.9451672419726446 JSD: 0.872881575539399 HELL: 0.8823992741815183
+Computing distribution for question: Q41d
+Question Q41d WD: 0.9205824407029319 JSD: 0.9035797538326853 HELL: 0.9019077943816709
+Computing distribution for question: Q46a
+Question Q46a WD: 0.9772445859798107 JSD: 0.9477912979577643 HELL: 0.935396512573861
+Computing distribution for question: Q46b
+Question Q46b WD: 0.9364968089879258 JSD: 0.8726014897881504 HELL: 0.885833511051236
+Computing distribution for question: Q46c
+Question Q46c WD: 0.9580341599532035 JSD: 0.9111251384869545 HELL: 0.909934233766944
+Computing distribution for question: Q46d
+Question Q46d WD: 0.9516618247752888 JSD: 0.9238503043476756 HELL: 0.9183873750735801
+Computing distribution for question: Q46e
+Question Q46e WD: 0.9926889660134387 JSD: 0.9683989980172898 HELL: 0.9515097675984926
+Computing distribution for question: Q46f
+Question Q46f WD: 0.9896686604624471 JSD: 0.9675078586903705 HELL: 0.9511435281593714
+Computing distribution for question: Q46g
+Question Q46g WD: 0.9939167477793669 JSD: 0.9486663009038474 HELL: 0.934063508300893
+Computing distribution for question: Q46h
+Question Q46h WD: 0.9090492251143432 JSD: 0.7113338232029386 HELL: 0.7922599101238137
+Computing distribution for question: Q46i
+Question Q46i WD: 0.9008270491924355 JSD: 0.5692801815146173 HELL: 0.712820237761555
+
+ 39%|███▊      | 67/174 [00:02<00:02, 48.38it/s]
+ 42%|████▏     | 73/174 [00:02<00:02, 48.89it/s]
+ 45%|████▌     | 79/174 [00:02<00:01, 49.33it/s]
+ 49%|████▉     | 85/174 [00:02<00:01, 49.49it/s]
+ 52%|█████▏    | 91/174 [00:02<00:01, 49.67it/s]
+ 56%|█████▌    | 97/174 [00:02<00:01, 49.95it/s]
+ 59%|█████▉    | 103/174 [00:02<00:01, 50.13it/s]
+ 63%|██████▎   | 109/174 [00:02<00:01, 50.09it/s]
+ 66%|██████▌   | 115/174 [00:03<00:01, 50.12it/s]
+ 70%|██████▉   | 121/174 [00:03<00:01, 50.19it/s]
+ 73%|███████▎  | 127/174 [00:03<00:00, 50.41it/s]Computing distribution for question: Q46j
+Question Q46j WD: 0.9593210385913745 JSD: 0.8857322043486611 HELL: 0.8924932568085285
+Computing distribution for question: Q46k
+Question Q46k WD: 0.9875329848713085 JSD: 0.9599072816611424 HELL: 0.9436349747840438
+Computing distribution for question: Q46l
+Question Q46l WD: 0.9764511151605113 JSD: 0.9756778012028728 HELL: 0.957526979421821
+Computing distribution for question: Q48d
+Question Q48d WD: 0.985877871709813 JSD: 0.9701371354220925 HELL: 0.9520384199493833
+Computing distribution for question: Q48e
+Question Q48e WD: 0.9898640412229004 JSD: 0.9880827388128008 HELL: 0.9712257542077541
+Computing distribution for question: Q49a
+Question Q49a WD: 0.9901325961883619 JSD: 0.9409721825070159 HELL: 0.9256912472447898
+Computing distribution for question: Q49b
+Question Q49b WD: 0.9933589883613857 JSD: 0.9775688899411069 HELL: 0.9569070385258864
+Computing distribution for question: Q50
+Question Q50 WD: 0.9928334907495887 JSD: 0.9818661453632141 HELL: 0.9765513590380481
+Computing distribution for question: Q51
+Question Q51 WD: 0.9825261135835001 JSD: 0.9903688335171394 HELL: 0.9741544967685366
+Computing distribution for question: Q54
+Question Q54 WD: 0.9842465658225245 JSD: 0.971255744726769 HELL: 0.9545603183640646
+Computing distribution for question: Q57
+Question Q57 WD: 0.9776628572651752 JSD: 0.9883059433042884 HELL: 0.9712730848489073
+Computing distribution for question: Q58b
+Question Q58b WD: 0.9755191057979598 JSD: 0.8867705599175855 HELL: 0.893002188593568
+Computing distribution for question: Q58c
+Question Q58c WD: 0.9837112356662554 JSD: 0.9869187823023722 HELL: 0.9694608518170995
+Computing distribution for question: Q58d
+Question Q58d WD: 0.9945825676133082 JSD: 0.9542102256652472 HELL: 0.9402477344797957
+Computing distribution for question: Q58f
+Question Q58f WD: 0.985278889039534 JSD: 0.9792249007493128 HELL: 0.96148426215604
+Computing distribution for question: Q70a
+Question Q70a WD: 0.9759059656590254 JSD: 0.966811049273951 HELL: 0.9496892993284736
+Computing distribution for question: Q70c
+Question Q70c WD: 0.993618589563652 JSD: 0.9864657902012826 HELL: 0.9694319797716896
+Computing distribution for question: QLEGAL
+Question QLEGAL WD: 0.9849043401938863 JSD: 0.9517488403575614 HELL: 0.9294514786832622
+Computing distribution for question: Q74
+Question Q74 WD: 0.9770108879948038 JSD: 0.9672275028852859 HELL: 0.9497839373199032
+Computing distribution for question: Q75a
+Question Q75a WD: 0.958191238975021 JSD: 0.8274487985686528 HELL: 0.8553466095600015
+Computing distribution for question: Q75b
+Question Q75b WD: 0.9880416820835345 JSD: 0.9760951212232601 HELL: 0.957675858944928
+Computing distribution for question: Q75c
+Question Q75c WD: 0.9592178509896122 JSD: 0.8436416494616373 HELL: 0.8648172508711827
+Computing distribution for question: Q75d
+Question Q75d WD: 0.957564307886994 JSD: 0.8273812764029851 HELL: 0.8545426395795883
+Computing distribution for question: Q78a
+Question Q78a WD: 0.9771154986504459 JSD: 0.9816713619437051 HELL: 0.9650156083089492
+Computing distribution for question: Q78b
+Question Q78b WD: 0.9890273840425049 JSD: 0.9990410472560279 HELL: 0.9949727617950265
+Computing distribution for question: Q78c
+Question Q78c WD: 0.9788931396381337 JSD: 0.9848410230641275 HELL: 0.9674425473080106
+Computing distribution for question: Q78d
+Question Q78d WD: 0.9779070826523231 JSD: 0.9884769102092834 HELL: 0.9718811191399064
+Computing distribution for question: Q78e
+Question Q78e WD: 0.9831206621703446 JSD: 0.990440069912492 HELL: 0.9759816517611208
+Computing distribution for question: Q78f
+Question Q78f WD: 0.983164227231714 JSD: 0.9372200921347207 HELL: 0.9272840407201196
+Computing distribution for question: Q80a
+Question Q80a WD: 0.9706476268516241 JSD: 0.8925764484426217 HELL: 0.8999841213582314
+Computing distribution for question: Q80b
+Skipping question Q80b: zero-sum distribution detected
+Computing distribution for question: Q80c
+Question Q80c WD: 0.9697534810323495 JSD: 0.8894850290997511 HELL: 0.8971256179082739
+Computing distribution for question: Q80d
+Question Q80d WD: 0.9688147042637836 JSD: 0.8682063636863682 HELL: 0.8850043946370333
+Computing distribution for question: Q80e
+Question Q80e WD: 0.9711374880124007 JSD: 0.8965637486650786 HELL: 0.9030139531149131
+Computing distribution for question: Q80f
+Question Q80f WD: 0.9712696855773735 JSD: 0.8598753174742757 HELL: 0.8802387405528116
+Computing distribution for question: Q81a
+Question Q81a WD: 0.9911858966461301 JSD: 0.9950399100689391 HELL: 0.9827786645290186
+Computing distribution for question: Q81b
+Skipping question Q81b: zero-sum distribution detected
+Computing distribution for question: Q81c
+Skipping question Q81c: zero-sum distribution detected
+Computing distribution for question: Q81d
+Question Q81d WD: 0.9797756309035055 JSD: 0.9511818622485295 HELL: 0.9347255265814062
+Computing distribution for question: Q81e
+Question Q81e WD: 0.9948938683597326 JSD: 0.994206868454655 HELL: 0.98130260610719
+Computing distribution for question: Q81f
+Question Q81f WD: 0.9812981568909304 JSD: 0.9635306780848268 HELL: 0.9451529665299301
+Computing distribution for question: Q81g
+Question Q81g WD: 0.9855293127773442 JSD: 0.9513177169414417 HELL: 0.9329387865536662
+Computing distribution for question: Q81h
+Question Q81h WD: 0.9941094221248549 JSD: 0.9881167240019615 HELL: 0.9715096626489301
+Computing distribution for question: Q81i
+Question Q81i WD: 0.9876348837970207 JSD: 0.9706135314156029 HELL: 0.9498594903137421
+Computing distribution for question: Q82
+Question Q82 WD: 0.9762116316907348 JSD: 0.9577866350230645 HELL: 0.9401512291772264
+Computing distribution for question: Q86a
+Question Q86a WD: 0.9496253418990819 JSD: 0.9568549464201137 HELL: 0.9387868898613884
+Computing distribution for question: Q86b
+Question Q86b WD: 0.9284357505349858 JSD: 0.9388617015964892 HELL: 0.9251737632599377
+Computing distribution for question: Q86c
+Question Q86c WD: 0.9261468521557225 JSD: 0.9386371008181145 HELL: 0.925983107435235
+Computing distribution for question: Q86d
+Question Q86d WD: 0.978164923045607 JSD: 0.9742574913339588 HELL: 0.9544164560244858
+Computing distribution for question: Q87
+Question Q87 WD: 0.9762310905717138 JSD: 0.9350035404782884 HELL: 0.9130163428789116
+Computing distribution for question: Q88a
+Question Q88a WD: 0.9528788957518879 JSD: 0.8835998671135408 HELL: 0.8926932460764674
+Computing distribution for question: Q88b
+Question Q88b WD: 0.9867813559121421 JSD: 0.9466796509292763 HELL: 0.9333824752514629
+Computing distribution for question: Q96a
+Question Q96a WD: 0.9457067242060528 JSD: 0.9217773779119984 HELL: 0.9126867418952386
+Computing distribution for question: Q96b
+Question Q96b WD: 0.9426142803295164 JSD: 0.9071080630098793 HELL: 0.9047311336169869
+Computing distribution for question: Q96c
+Question Q96c WD: 0.9428563974748747 JSD: 0.9256551908714279 HELL: 0.9163106447521674
+Computing distribution for question: Q96d
+Question Q96d WD: 0.9337355676810655 JSD: 0.9526378966389105 HELL: 0.9354095060010617
+Computing distribution for question: Q96e
+Question Q96e WD: 0.9410684912959113 JSD: 0.9223520752552289 HELL: 0.9151718820760615
+Computing distribution for question: Q96f
+Question Q96f WD: 0.9312625172668604 JSD: 0.8833168986776729 HELL: 0.8875632385738434
+Computing distribution for question: Q97a
+Question Q97a WD: 0.9791391748033171 JSD: 0.9423673152915688 HELL: 0.9294704519690868
+Computing distribution for question: Q97b
+Question Q97b WD: 0.9684847395609638 JSD: 0.9252393396476224 HELL: 0.917060654127675
+Computing distribution for question: Q97c
+Question Q97c WD: 0.9731863716965496 JSD: 0.9322644151193453 HELL: 0.9222583882860631
+Computing distribution for question: Q97d
+Question Q97d WD: 0.9693221489777751 JSD: 0.9213103009366729 HELL: 0.9150940077999865
+Computing distribution for question: Q97e
+Question Q97e WD: 0.9687367182172836 JSD: 0.932641142321738 HELL: 0.9223602429443191
+Computing distribution for question: Q97f
+Question Q97f WD: 0.9740885186863498 JSD: 0.8434920487374862 HELL: 0.8633813661104532
+Computing distribution for question: Q98a
+
+ 76%|███████▋  | 133/174 [00:03<00:00, 49.97it/s]
+ 80%|███████▉  | 139/174 [00:03<00:00, 50.17it/s]
+ 83%|████████▎ | 145/174 [00:03<00:00, 50.27it/s]
+ 87%|████████▋ | 151/174 [00:03<00:00, 50.44it/s]
+ 90%|█████████ | 157/174 [00:03<00:00, 50.82it/s]
+ 94%|█████████▎| 163/174 [00:04<00:00, 50.54it/s]
+ 97%|█████████▋| 169/174 [00:04<00:00, 50.49it/s]
+100%|██████████| 174/174 [00:04<00:00, 40.69it/s]
+Question Q98a WD: 0.9538162161034426 JSD: 0.92949252907287 HELL: 0.9221592112155002
+Computing distribution for question: Q98b
+Question Q98b WD: 0.9633109072693932 JSD: 0.9271896994693112 HELL: 0.9209856461593806
+Computing distribution for question: Q98c
+Question Q98c WD: 0.9738374991310722 JSD: 0.9657763061876374 HELL: 0.9481717518976126
+Computing distribution for question: Q98d
+Question Q98d WD: 0.9532080109604807 JSD: 0.9327753817548796 HELL: 0.9236488302085236
+Computing distribution for question: Q98e
+Question Q98e WD: 0.97411075016105 JSD: 0.9326414839645131 HELL: 0.9227993086766653
+Computing distribution for question: GenderRec
+Question GenderRec WD: 0.8426445629075376 JSD: 0.9751670230024787 HELL: 0.9620279227367667
+Computing distribution for question: QAGE
+Question QAGE WD: 0.8340189860921304 JSD: 0.939372255496914 HELL: 0.9337240892383638
+Computing distribution for question: qethkhm
+Skipping question qethkhm: zero-sum distribution detected
+Computing distribution for question: qethidn
+Skipping question qethidn: zero-sum distribution detected
+Computing distribution for question: qethmys
+Question qethmys WD: 0.9869956497489151 JSD: 0.6951004493703612 HELL: 0.8111352889606701
+Computing distribution for question: qethsgp
+Skipping question qethsgp: zero-sum distribution detected
+Computing distribution for question: qethlka
+Skipping question qethlka: zero-sum distribution detected
+Computing distribution for question: qeththa
+Skipping question qeththa: zero-sum distribution detected
+Computing distribution for question: Q102
+Question Q102 WD: 0.9600560796873072 JSD: 0.9187597057414852 HELL: 0.9104322570853222
+Computing distribution for question: QFERT
+Question QFERT WD: 0.5007647800133169 JSD: 0.5565012480711244 HELL: 0.6587257809729598
+Computing distribution for question: QHH1
+Question QHH1 WD: 0.5014944866778859 JSD: 0.625451297203396 HELL: 0.704199247166129
+Computing distribution for question: QHH2
+Question QHH2 WD: 0.5013854703715919 JSD: 0.556209949763012 HELL: 0.6551512225827468
+Computing distribution for question: QMARRIED
+Question QMARRIED WD: 0.9843821670721777 JSD: 0.9855489934206672 HELL: 0.9824742643397812
+Computing distribution for question: QHHCH
+Question QHHCH WD: 0.9257196858293171 JSD: 0.9859285166397149 HELL: 0.9677908035272023
+Computing distribution for question: QCHILD_1
+Question QCHILD_1 WD: 0.6368201738552323 JSD: 0.15241390316407735 HELL: 0.33642503822791114
+Computing distribution for question: QCHILD_2
+Question QCHILD_2 WD: 0.7664213502152832 JSD: 0.045952009920327413 HELL: 0.17926492220404788
+Computing distribution for question: QCHILD_3
+Question QCHILD_3 WD: 0.6290358780228149 JSD: 0.1302766074927012 HELL: 0.30588183816412273
+Computing distribution for question: QCHILD_4
+Question QCHILD_4 WD: 0.5888727649912241 JSD: 0.17911573591588878 HELL: 0.36442756178472957
+Computing distribution for question: QCHILD_5
+Question QCHILD_5 WD: 0.5149899264417741 JSD: 0.27903159732965643 HELL: 0.4783090287721357
+Computing distribution for question: QCHILD_6
+Question QCHILD_6 WD: 0.5383177570093458 JSD: 0.34237540485646584 HELL: 0.5661518943444853
+Computing distribution for question: QCHILD_8
+Question QCHILD_8 WD: 0.5488149743345683 JSD: 0.338438726427771 HELL: 0.5391862474036841
+Computing distribution for question: QCHILD_9
+Question QCHILD_9 WD: 0.525427159701048 JSD: 0.2661012131465339 HELL: 0.46360519510197656
+Computing distribution for question: QCHILD_98
+Question QCHILD_98 WD: 0.5158730158730159 JSD: 0.2988185398929009 HELL: 0.5308078690611332
+Computing distribution for question: QCHILD_99
+Question QCHILD_99 WD: 0.5466101694915254 JSD: 0.2753439766396203 HELL: 0.5105576430730916
+Computing distribution for question: KhmProvince
+Skipping question KhmProvince: zero-sum distribution detected
+Computing distribution for question: IdnRegion
+Skipping question IdnRegion: zero-sum distribution detected
+Computing distribution for question: ZIPMALrec
+Question ZIPMALrec WD: 0.9953812939760202 JSD: 0.9039495871929542 HELL: 0.9114074937840083
+Computing distribution for question: ZipSinRec
+Skipping question ZipSinRec: zero-sum distribution detected
+Computing distribution for question: LkaProvince
+Skipping question LkaProvince: zero-sum distribution detected
+Computing distribution for question: ThaRegion
+Skipping question ThaRegion: zero-sum distribution detected
+Computing distribution for question: URBANrec
+Question URBANrec WD: 0.9510397978819229 JSD: 0.9598702336933733 HELL: 0.9450422858018593
+Computing distribution for question: qedukhm
+Skipping question qedukhm: zero-sum distribution detected
+Computing distribution for question: qeduidn
+Skipping question qeduidn: zero-sum distribution detected
+Computing distribution for question: qedumys
+Question qedumys WD: 0.9895184082111027 JSD: 0.9720251083462654 HELL: 0.9522122833200765
+Computing distribution for question: qedusgp
+Skipping question qedusgp: zero-sum distribution detected
+Computing distribution for question: qedulka
+Skipping question qedulka: zero-sum distribution detected
+Computing distribution for question: qedutha
+Skipping question qedutha: zero-sum distribution detected
+Computing distribution for question: ISCED
+Question ISCED WD: 0.9755014825571335 JSD: 0.9832641739754203 HELL: 0.9685303118930428
+Computing distribution for question: Language
+Question Language WD: 0.9797030329765981 JSD: 0.759379377700096 HELL: 0.8270405164044868
+Saved cached distributions to cache_ms_en_meta_llama_Llama_3.2_1B_Instruct.pkl
+====================
+Average Representativeness: 0.9336773369954574
+Average JSD: 0.8868223893774085
+Average Hellinger: 0.8953018242488846
+
+=== Evaluation completed successfully at 2026-01-08 03:23:17 ===

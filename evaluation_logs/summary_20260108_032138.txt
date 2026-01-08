@@ -1,0 +1,35 @@
+Evaluation Run Summary - 20260108_032138
+=====================================
+Main log: /root/LLMOpinions/evaluation_logs/evaluation_run_steering_20260108_032138.log
+
+Individual log files:
+  - /root/LLMOpinions/evaluation_logs/EA_hk_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_hk_zh_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_jp_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_jp_ja_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_ko_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_ko_ko_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_tw_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_tw_zh_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_vi_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/EA_vi_vi_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/IND_ind_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/IND_ind_hi_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_ca_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_ca_km_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_id_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_id_id_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_ms_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_ms_ma_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_ms_zh_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sg_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sg_ma_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sg_ta_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sg_zh_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sl_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sl_si_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_sl_ta_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_th_en_noCoT_steering_20260108_032138.log
+  - /root/LLMOpinions/evaluation_logs/SEA_th_th_noCoT_steering_20260108_032138.log
+
+Total evaluations run: 28
